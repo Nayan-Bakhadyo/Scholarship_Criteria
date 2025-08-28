@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 118272,
+    "scholarship_name": "The Aràmbula Family Endowed Scholarship for Education",
+    "scholarship_code": "S10514",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - The Aràmbula Family Endowed Scholarship",
+    "candidate_count": 95
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who are student teaching in the upcoming academic year. Eligibility Requirements Must complete an application and provide official transcript Must be admitted to the Teacher Education or Secondary Education program at UCO Minimum 2.8 GPA required In a short essay please demonstrate financial need Preference will be given to a student who is involved with campus or outside community organizations - please include a letter of recommendation from the organization Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall or spring semester to receive award All funds from this scholarship will be distributed during student teaching Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.80",
+        "raw_text": "SIS_CumGPA >= 2.80"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"GEN_LOR_Off_Campus\"",
+        "raw_text": "1 letters of recommendation: \"GEN_LOR_Off_Campus\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.846140",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

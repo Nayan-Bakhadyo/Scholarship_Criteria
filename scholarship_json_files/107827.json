@@ -1,0 +1,99 @@
+{
+  "basic_information": {
+    "scholarship_id": 107827,
+    "scholarship_name": "Josephine Plunkett Mathematics Scholarship",
+    "scholarship_code": "S10106",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Mathematics and Statistics Scholarship Commi",
+    "candidate_count": 1
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science pursuing a degree in the Department of Mathematics and Statistics with a focus in Mathematics Education. Eligibility Requirements College of Mathematics and Science student Mathematics Education major Undergraduate student Female Junior or Senior status only Preparing to teach math in the public school system 3.0 GPA or above Demonstrate adequate progress towards completion of degree Two faculty letters of recommendation",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Mathematics Education   or SIS_Major is Mathematics Education",
+        "raw_text": "SIS_Major_2 is Mathematics Education   or SIS_Major is Mathematics Education"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "SIS_Gender is Female",
+        "raw_text": "SIS_Gender is Female"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CMS_Plunkett_Teaching = Yes",
+        "raw_text": "CMS_Plunkett_Teaching = Yes",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 2
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.790038",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

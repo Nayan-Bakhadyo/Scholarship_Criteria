@@ -1,0 +1,196 @@
+{
+  "basic_information": {
+    "scholarship_id": 107696,
+    "scholarship_name": "Merit Scholarship for Illustration Minors",
+    "scholarship_code": "S20171",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CFAD - School of Design",
+    "candidate_count": 2
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established in 2005 by Mr. Keith Webb, program director of the UCO Illustration Minor, to provide scholarship assistance to students with an emphasis in illustration. Eligibility Graphic design major with minor in illustration OR graduate student pursuing MFA in design Major GPA 3.0+ and cumulative GPA 3.0+ Sophomore, junior, senior or graduate student Enrolled in 9+ hours of design courses (undergraduate) OR 6+ hours of design courses (graduates) Requirements 5-10 images of your artwork Additional essay (250 words for undergraduates, 500 words for graduates) answering the questions: What is the most fulfilling aspect of your life as an artist? What influenced you to pursue art and what are your career objectives? One faculty letter of recommendation Personal artist statement (250 words) Official transcript",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 15,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Merit_Essay\"",
+        "raw_text": "Complete Essay \"CFAD_Merit_Essay\""
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CFAD_Design_Coursework = Yes",
+        "raw_text": "CFAD_Design_Coursework = Yes"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample1\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample1\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample2\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample2\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample3\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample3\""
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample4\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample4\""
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample5\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample5\""
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes"
+      },
+      {
+        "id": 10,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
+      },
+      {
+        "id": 11,
+        "type": "major",
+        "description": "SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design",
+        "raw_text": "SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design"
+      },
+      {
+        "id": 12,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 13,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 14,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\""
+      },
+      {
+        "id": 15,
+        "type": "unknown",
+        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 6.00",
+        "raw_text": "SIS_Enrolled HRS >= 6.00",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 9.00",
+        "raw_text": "SIS_Enrolled HRS >= 9.00",
+        "points": 1
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_MajorGPA >= 3.00",
+        "raw_text": "SIS_MajorGPA >= 3.00",
+        "points": 1
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Minor is Design-Illustration",
+        "raw_text": "SIS_Minor is Design-Illustration",
+        "points": 1
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample6\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample6\"",
+        "points": 1
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample10\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample10\"",
+        "points": 1
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample9\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample9\"",
+        "points": 1
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample8\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample8\"",
+        "points": 1
+      },
+      {
+        "id": 9,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample7\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample7\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 9
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.804941",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "basic_information": {
+    "scholarship_id": 137896,
+    "scholarship_name": "John Tipsword II CPT, USA (Ret.) Endowed Scholarship in Political Science",
+    "scholarship_code": "S10541",
+    "scholarship_notes": "will get the fund balance from Erin",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established by UCO Alumnus John Tipsword whose education was paid for by the United States Army while attending UCO. As the only college graduate in his family, he feels grateful for having the opportunity to attend and would like to pay it forward. This scholarship recognizes a Political Science student who demonstrates strong academic performance and financial need. Eligibility Requirements Must be a Political Science major Full-time student Minimum 2.5 GPA Preference is given to a student serving in the Army National Guard Faculty recommendation letter",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major_2 is Political Science   or SIS_Major_2 is Political Science-Intnl Affair   or SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public & Nonprofit Management   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Political Science-General   or SIS_Major_2 is Political Science-Pre-Law   or SIS_Major_2 is Political Science-Urban Affair   or SIS_Major_2 is Political Sci-Intnl Relations   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major_2 is Political Sci-Public Affairs   or SIS_Major is Political Science   or SIS_Major is Political Science-Intnl Affair   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public & Nonprofit Management   or SIS_Major is Public Administration   or SIS_Major is Political Science-General   or SIS_Major is Political Science-Pre-Law   or SIS_Major is Political Science-Urban Affair   or SIS_Major is Political Sci-Intnl Relations   or SIS_Major is Political Sci-Public Administr   or SIS_Major is Political Sci-Public Affairs   or SIS_Major_1_2 is Political Science   or SIS_Major_1_2 is Political Science-Intnl Affair   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public & Nonprofit Management   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Political Science-General   or SIS_Major_1_2 is Political Science-Pre-Law   or SIS_Major_1_2 is Political Science-Urban Affair   or SIS_Major_1_2 is Political Sci-Intnl Relations   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_1_2 is Political Sci-Public Affairs   or SIS_Major_2_2 is Political Science   or SIS_Major_2_2 is Political Science-Intnl Affair   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public & Nonprofit Management   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Political Science-General   or SIS_Major_2_2 is Political Science-Pre-Law   or SIS_Major_2_2 is Political Science-Urban Affair   or SIS_Major_2_2 is Political Sci-Intnl Relations   or SIS_Major_2_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Sci-Public Affairs",
+        "raw_text": "SIS_Major_2 is Political Science   or SIS_Major_2 is Political Science-Intnl Affair   or SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public & Nonprofit Management   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Political Science-General   or SIS_Major_2 is Political Science-Pre-Law   or SIS_Major_2 is Political Science-Urban Affair   or SIS_Major_2 is Political Sci-Intnl Relations   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major_2 is Political Sci-Public Affairs   or SIS_Major is Political Science   or SIS_Major is Political Science-Intnl Affair   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public & Nonprofit Management   or SIS_Major is Public Administration   or SIS_Major is Political Science-General   or SIS_Major is Political Science-Pre-Law   or SIS_Major is Political Science-Urban Affair   or SIS_Major is Political Sci-Intnl Relations   or SIS_Major is Political Sci-Public Administr   or SIS_Major is Political Sci-Public Affairs   or SIS_Major_1_2 is Political Science   or SIS_Major_1_2 is Political Science-Intnl Affair   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public & Nonprofit Management   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Political Science-General   or SIS_Major_1_2 is Political Science-Pre-Law   or SIS_Major_1_2 is Political Science-Urban Affair   or SIS_Major_1_2 is Political Sci-Intnl Relations   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_1_2 is Political Sci-Public Affairs   or SIS_Major_2_2 is Political Science   or SIS_Major_2_2 is Political Science-Intnl Affair   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public & Nonprofit Management   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Political Science-General   or SIS_Major_2_2 is Political Science-Pre-Law   or SIS_Major_2_2 is Political Science-Urban Affair   or SIS_Major_2_2 is Political Sci-Intnl Relations   or SIS_Major_2_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Sci-Public Affairs"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "military",
+        "description": "ADV_EWy_Military_Experience = Yes",
+        "raw_text": "ADV_EWy_Military_Experience = Yes",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.788924",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

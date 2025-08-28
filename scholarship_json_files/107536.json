@@ -1,0 +1,66 @@
+{
+  "basic_information": {
+    "scholarship_id": 107536,
+    "scholarship_name": "Ober & Bessie Mann Haug Scholarship",
+    "scholarship_code": "S10183",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Advancement Committee 6",
+    "candidate_count": 93
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarships to UCO students who are Land Run descendants and meet the following criteria: Eligibility Requirements Must be enrolled in 6 hours or more in the upcoming fall semester Must have completed at least 12 hours at UCO Must have a GPA of 2.5 or above Must be a Land Run descendant This scholarship is available to apply for during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 2,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 12.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 12.00"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "ADV_Mann_LandRun = Yes",
+        "raw_text": "ADV_Mann_LandRun = Yes"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.813688",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

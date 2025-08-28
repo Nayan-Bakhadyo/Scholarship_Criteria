@@ -1,0 +1,68 @@
+{
+  "basic_information": {
+    "scholarship_id": 107822,
+    "scholarship_name": "Rishi & Srikanth PA Endowed Scholarship in Nursing",
+    "scholarship_code": "S10361",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Nursing Scholarship Committee",
+    "candidate_count": 88
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science pursuing a degree in the Department of Nursing. Eligibility Requirements College of Mathematics and Science student Nursing major Two faculty recommendations",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing",
+        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.831567",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

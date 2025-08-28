@@ -1,0 +1,114 @@
+{
+  "basic_information": {
+    "scholarship_id": 107828,
+    "scholarship_name": "PET Holdings and Hollister-Boeing Pre-Vet Scholarship",
+    "scholarship_code": "S10402, S20048",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Pre-Health Professions Scholarship Committee",
+    "candidate_count": 3
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science pursuing a degree in Pre-Veterinary Medicine. Eligibility Requirements College of Mathematics and Science student Undergraduate Chemistry or Biology major 3.5 GPA or above Minimum one year experience at an emergency veterinary hospital Must have volunteer experience at an animal rescue group or shelter Must have no arrest record Two faculty recommendations",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Biology   or SIS_Major_2 is Biology-Biomedical Sciences   or SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major_2 is Biology-Pre-Veterinary Med   or SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Biology-Pre-Veterinary Med   or SIS_Major_1_2 is Biology   or SIS_Major_1_2 is Biology-Biomedical Sciences   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Biology-Pre-Veterinary Med   or SIS_Major_2_2 is Biology   or SIS_Major_2_2 is Biology-Biomedical Sciences   or SIS_Major_2_2 is Chemistry   or SIS_Major_2_2 is Chemistry-ACS Certificate   or SIS_Major_2_2 is Chemistry-Health Sciences   or SIS_Major_2_2 is Biology-Pre-Veterinary Med",
+        "raw_text": "SIS_Major_2 is Biology   or SIS_Major_2 is Biology-Biomedical Sciences   or SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major_2 is Biology-Pre-Veterinary Med   or SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Biology-Pre-Veterinary Med   or SIS_Major_1_2 is Biology   or SIS_Major_1_2 is Biology-Biomedical Sciences   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Biology-Pre-Veterinary Med   or SIS_Major_2_2 is Biology   or SIS_Major_2_2 is Biology-Biomedical Sciences   or SIS_Major_2_2 is Chemistry   or SIS_Major_2_2 is Chemistry-ACS Certificate   or SIS_Major_2_2 is Chemistry-Health Sciences   or SIS_Major_2_2 is Biology-Pre-Veterinary Med"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior   or SIS_Classification is Second Bachelors",
+        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior   or SIS_Classification is Second Bachelors"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "CMS_PET_VET = Yes",
+        "raw_text": "CMS_PET_VET = Yes"
+      },
+      {
+        "id": 6,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CMS_PET_Emergency = Yes",
+        "raw_text": "CMS_PET_Emergency = Yes",
+        "points": 1
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CMS_PET_Volunteer = Yes",
+        "raw_text": "CMS_PET_Volunteer = Yes",
+        "points": 1
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"CMS_Pet_OtherExp\"",
+        "raw_text": "Complete Essay \"CMS_Pet_OtherExp\"",
+        "points": 1
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "CMS_Record = No",
+        "raw_text": "CMS_Record = No",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 5
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.823093",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

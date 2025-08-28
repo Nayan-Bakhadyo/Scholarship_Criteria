@@ -1,0 +1,86 @@
+{
+  "basic_information": {
+    "scholarship_id": 126926,
+    "scholarship_name": "The Marissa Murrow Legacy Scholarship for Teacher Education",
+    "scholarship_code": "S10526",
+    "scholarship_notes": "Eligible for full disbursement if graduating in December",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Marissa Murrow",
+    "candidate_count": 24
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to Juniors or Seniors within the College of Education & Professional Studies who are pursuing a career in teaching. This scholarship was established to honor the legacy of former UCO student and special education major, Marissa Murrow. Eligibility Requirements Complete application and provide official transcript Must be admitted to the Teacher Education program at UCO Preference will be given to a Special Education student major Must be a Junior or Senior level at time scholarship funds are distributed Must be involved with at least one on campus or community organization Complete a short essay describing which organization you are involved with at UCO, what you have learned from this organization and how you plan to impact your community Preference may be given to student(s) demonstrating academic excellence Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Murrow Essay\"",
+        "raw_text": "Complete Essay \"CEPS_Murrow Essay\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major is Spec Ed-Mild/Mod Disabilities   and SIS_Major is Spec Ed-SP/Mult Disabilities   and SIS_Major is Special Education",
+        "raw_text": "SIS_Major is Spec Ed-Mild/Mod Disabilities   and SIS_Major is Spec Ed-SP/Mult Disabilities   and SIS_Major is Special Education",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.854880",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

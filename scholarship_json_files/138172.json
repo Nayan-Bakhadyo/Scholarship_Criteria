@@ -1,0 +1,78 @@
+{
+  "basic_information": {
+    "scholarship_id": 138172,
+    "scholarship_name": "Cheryl Lyn Paige Endowed Scholarship",
+    "scholarship_code": "S10547",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Advancement Committee 4",
+    "candidate_count": 96
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established to support students from small Oklahoma towns who meet the following criteria: Eligibility Requirements Student must have been raised in an Oklahoma town with a High School graduating class of 100 or fewer Minimum 3.0 GPA US citizen 250-word essay describing the town and the impact the scholarship will make This scholarship is available to apply for during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_High School State is OKLAHOMA",
+        "raw_text": "SIS_High School State is OKLAHOMA"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"ADV_PaigeEssay\"",
+        "raw_text": "Complete Essay \"ADV_PaigeEssay\""
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "ADV_GraduatingClass = Yes",
+        "raw_text": "ADV_GraduatingClass = Yes"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.699924",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "basic_information": {
+    "scholarship_id": 153518,
+    "scholarship_name": "UCO Non-Traditional Student Scholarship",
+    "scholarship_code": "S20548",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarships for non-traditional students attending UCO who meet the following criteria: Eligibility Requirements Must have a minimum of 3.0 GPA. Must be over 25 years old Must reside off-campus Must be entering Junior year in the upcoming fall semester Must upload transcript This scholarship is available to apply for during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "GEN_Residence = Yes",
+        "raw_text": "GEN_Residence = Yes"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "GEN_Age_Requirement = Yes",
+        "raw_text": "GEN_Age_Requirement = Yes"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore",
+        "raw_text": "SIS_Classification is Sophomore"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.863340",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

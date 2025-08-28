@@ -1,0 +1,78 @@
+{
+  "basic_information": {
+    "scholarship_id": 150950,
+    "scholarship_name": "Green-Moseley Family Endowed Scholarship",
+    "scholarship_code": "S10590",
+    "scholarship_notes": "Eligible for full disbursement if graduating in December",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Green Moseley",
+    "candidate_count": 23
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who are pursuing a degree in Education, School Counseling, or School Psychology. *Preference will be given to graduate student applicants who intend to or currently serve in rural public school districts of Oklahoma. Eligibility Requirements Preference will be given to graduate student applicants who intend to or currently serve in rural public-school districts of Oklahoma Student pursuing a degree in Education, School Counseling, or School Psychology GPA of 2.75 or higher In a short essay, please share your goal and plan of working in rural Oklahoma school districts after graduation Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate   or SIS_Level is Post-Baccalaureate",
+        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate   or SIS_Level is Post-Baccalaureate"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major is Early Childhood Education   or SIS_Major is Educational Leadership   or SIS_Major is Elementary Education   or SIS_Major is Library Media Education   or SIS_Major is Physical Education/Health   or SIS_Major is Psychology-School Psychology   or SIS_Major is School Counseling   or SIS_Major is Secondary Education   or SIS_Major is Education-Bilingual Ed/TESL   or SIS_Major is Education-General Education   or SIS_Major is Education-Secondary Education   or SIS_Major is Sch Coun-School&Prof Counselin   or SIS_Major is Psych-School Psychology   or SIS_Major is Curr&Instr-Teach & Learn PK-6   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Educational Leadership   or SIS_Major_1_2 is Elementary Education   or SIS_Major_1_2 is Library Media Education   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_1_2 is School Counseling   or SIS_Major_1_2 is Secondary Education   or SIS_Major_1_2 is Education-Bilingual Ed/TESL   or SIS_Major_1_2 is Education-General Education   or SIS_Major_1_2 is Education-Secondary Education   or SIS_Major_1_2 is Sch Coun-School&Prof Counselin   or SIS_Major_1_2 is Psych-School Psychology   or SIS_Major_1_2 is Curr&Instr-Teach & Learn PK-6",
+        "raw_text": "SIS_Major is Early Childhood Education   or SIS_Major is Educational Leadership   or SIS_Major is Elementary Education   or SIS_Major is Library Media Education   or SIS_Major is Physical Education/Health   or SIS_Major is Psychology-School Psychology   or SIS_Major is School Counseling   or SIS_Major is Secondary Education   or SIS_Major is Education-Bilingual Ed/TESL   or SIS_Major is Education-General Education   or SIS_Major is Education-Secondary Education   or SIS_Major is Sch Coun-School&Prof Counselin   or SIS_Major is Psych-School Psychology   or SIS_Major is Curr&Instr-Teach & Learn PK-6   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Educational Leadership   or SIS_Major_1_2 is Elementary Education   or SIS_Major_1_2 is Library Media Education   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_1_2 is School Counseling   or SIS_Major_1_2 is Secondary Education   or SIS_Major_1_2 is Education-Bilingual Ed/TESL   or SIS_Major_1_2 is Education-General Education   or SIS_Major_1_2 is Education-Secondary Education   or SIS_Major_1_2 is Sch Coun-School&Prof Counselin   or SIS_Major_1_2 is Psych-School Psychology   or SIS_Major_1_2 is Curr&Instr-Teach & Learn PK-6"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.75",
+        "raw_text": "SIS_CumGPA >= 2.75"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"Green-Moseley Essay\"",
+        "raw_text": "Complete Essay \"Green-Moseley Essay\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.770668",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

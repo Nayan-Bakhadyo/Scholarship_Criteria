@@ -1,0 +1,84 @@
+{
+  "basic_information": {
+    "scholarship_id": 107884,
+    "scholarship_name": "RSM Scholarship",
+    "scholarship_code": "S20291",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - ACCT Department Scholarship Committee",
+    "candidate_count": 5
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The RSM Scholarship is open to a declared Accounting major with a minimum 3.5 cumulative GPA and at least 75 hours completed at the time of application. Two faculty recommendations required (please indicate the two College of Business faculty members on your application that you wish to have supply a recommendation). Eligibility Requirements Declared Accounting major Minimum cumulative GPA of 3.5 or higher Completed at least 75 hours Two faculty recommendation letters required (please indicate the two College of Business faculty members on your application that you wish to have supply a recommendation)",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 3,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 75.00",
+        "raw_text": "SIS_Overall_Hours >= 75.00"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2 is Accounting   or SIS_Major is Accounting   or SIS_Major_1_2 is Accounting   or SIS_Major_2_2 is Accounting",
+        "raw_text": "SIS_Major_2 is Accounting   or SIS_Major is Accounting   or SIS_Major_1_2 is Accounting   or SIS_Major_2_2 is Accounting"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\""
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.835167",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

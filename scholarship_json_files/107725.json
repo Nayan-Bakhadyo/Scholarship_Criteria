@@ -1,0 +1,74 @@
+{
+  "basic_information": {
+    "scholarship_id": 107725,
+    "scholarship_name": "The Arete Award in Philosophy - For Excellence in Scholarship & Work/Life Balance",
+    "scholarship_code": "S10476",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - Humanities and Philosophy",
+    "candidate_count": 2
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship recognizes a Philosophy student who demonstrates academic excellence and has mastered the balance of work and school life. Eligibility Requirements Philosophy Major 3.5 minimum GPA No more than 250 word essay demonstrating need and work/life balance Preference given to a student who provides a letter from employer or faculty member that speaks to their character as an employee and human being",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"CLA_work_life_balance\"",
+        "raw_text": "Complete Essay \"CLA_work_life_balance\""
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Philosophy   or SIS_Major_2 is Philosophy-Class Studies Greek   or SIS_Major_2 is Philosophy-Class Studies Latin   or SIS_Major is Philosophy   or SIS_Major is Philosophy-Class Studies Greek   or SIS_Major is Philosophy-Class Studies Latin   or SIS_Major_1_2 is Philosophy   or SIS_Major_1_2 is Philosophy-Class Studies Greek   or SIS_Major_1_2 is Philosophy-Class Studies Latin   or SIS_Major_2_2 is Philosophy   or SIS_Major_2_2 is Philosophy-Class Studies Greek   or SIS_Major_2_2 is Philosophy-Class Studies Latin",
+        "raw_text": "SIS_Major_2 is Philosophy   or SIS_Major_2 is Philosophy-Class Studies Greek   or SIS_Major_2 is Philosophy-Class Studies Latin   or SIS_Major is Philosophy   or SIS_Major is Philosophy-Class Studies Greek   or SIS_Major is Philosophy-Class Studies Latin   or SIS_Major_1_2 is Philosophy   or SIS_Major_1_2 is Philosophy-Class Studies Greek   or SIS_Major_1_2 is Philosophy-Class Studies Latin   or SIS_Major_2_2 is Philosophy   or SIS_Major_2_2 is Philosophy-Class Studies Greek   or SIS_Major_2_2 is Philosophy-Class Studies Latin"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.846364",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

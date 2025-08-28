@@ -1,0 +1,99 @@
+{
+  "basic_information": {
+    "scholarship_id": 107603,
+    "scholarship_name": "Morgan Family Scholarship",
+    "scholarship_code": "S10437",
+    "scholarship_notes": "full amount can be awarded during student teaching or last semester.",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Morgan Family Scholarship",
+    "candidate_count": 1
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarship assistance to a student who is pursuing a degree in Teacher Education. Eligibility Requirements One scholarship awarded to student admitted to student teaching One scholarship awarded to a student pursuing a degree in family science Minimum 3.0 GPA Involvement in campus organizations Submit personal essay describing how your education at UCO prepares you for your career and your career goal Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_1_2 is Family Life Ed-Child Develop   or SIS_Major_1_2 is Family Life Ed-Gerontology   or SIS_Major_1_2 is Family Life Ed-Marriage & Fam   or SIS_Major_1_2 is Fam&Child Stud-Family Science",
+        "raw_text": "SIS_Major_1_2 is Family Life Ed-Child Develop   or SIS_Major_1_2 is Family Life Ed-Gerontology   or SIS_Major_1_2 is Family Life Ed-Marriage & Fam   or SIS_Major_1_2 is Fam&Child Stud-Family Science"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Campus_Organizations\"",
+        "raw_text": "Complete Essay \"CEPS_Campus_Organizations\""
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Career_Goals_Essay\"",
+        "raw_text": "Complete Essay \"CEPS_Career_Goals_Essay\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CEPS_Student_Teaching = Yes",
+        "raw_text": "CEPS_Student_Teaching = Yes",
+        "points": 0
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.808526",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

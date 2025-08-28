@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 126354,
+    "scholarship_name": "The Fred and Catherine Turpin Scholarship for Speech-Language Pathology",
+    "scholarship_code": "S20741",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - The Fred and Catherine Turpin Scholarship f",
+    "candidate_count": 9
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "?Scholarship Mission: To provide scholarship assistance to graduate students within the College of Education & Professional Studies who are pursuing a degree in Speech Language Pathology. Eligibility Requirements Must be enrolled in the graduate program in Speech-Language Pathology at UCO In a short essay, please demonstrate how you show professionalism on a daily basis, how you plan to impact your community after graduation, and the financial need for this scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major_2 is Speech-Language Pathology   or SIS_Major is Speech-Language Pathology",
+        "raw_text": "SIS_Major_2 is Speech-Language Pathology   or SIS_Major is Speech-Language Pathology"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Turpin SLP Essay\"",
+        "raw_text": "Complete Essay \"CEPS_Turpin SLP Essay\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.850626",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

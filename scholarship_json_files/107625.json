@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 107625,
+    "scholarship_name": "Emma W. Plunkett Physical Education Graduate Fellowship",
+    "scholarship_code": "S10107",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide financial aid to female students within the College of Education & Professional Studies who are pursuing a masters degree in physical education.The Emma W. Plunkett Physical Education Graduate Fellowship will award (1) student $10,000 per year for (2) years, plus waiver of (6) hours of tuition per semester for (4) semesters. Eligibility Requirements The fellowship is open to female students who are pursuing their masters degree Major coursework in physical education Obtained an undergraduate teaching degree in physical education from accredited institution Minimum overall undergraduate GPA of 3.0 & minimum undergraduate major GPA of 3.0 Demonstrated activities compatible with an aspiring professional, including professional memberships & participation in professional meetings. In the second year, the recipient must meet the following criteria: A minimum GPA of 3.5 in all classes taken Successful fulfillment of assigned responsibilities Continued professional involvement The recipient of this fellowship must work (20) hours per week in the Dept. of Kinesiology & Health Studies and assist the dept. faculty with such things as: research preparation of professional presentations, advisement/mentoring of undergraduate students, fitness testing, computer lab supervision, and undergraduate activity classes. Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Gender is Female",
+        "raw_text": "SIS_Gender is Female"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_2_2 is Physical Education/Health",
+        "raw_text": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_2_2 is Physical Education/Health"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.755419",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

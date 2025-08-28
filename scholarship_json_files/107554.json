@@ -1,0 +1,84 @@
+{
+  "basic_information": {
+    "scholarship_id": 107554,
+    "scholarship_name": "Robert Aldridge Armed Forces Scholarship",
+    "scholarship_code": "S20443",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Veterans/Military Scholarships",
+    "candidate_count": 9
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship is available to those that are active in the military, a veteran who is honorably or medically discharged, and/or a member of the National Guard (required to show proof of current enlistment or discharge). Eligibility Requirements Must have a cumulative GPA of 2.5 Must be enrolled in at least 9 hours or more This scholarship is available to apply for during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Aldridge_Financial Need\"",
+        "raw_text": "Complete Essay \"ADV_Aldridge_Financial Need\""
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Attachment:  \"ADV_Military_Documentation\"",
+        "raw_text": "Complete Attachment:  \"ADV_Military_Documentation\""
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 9.00",
+        "raw_text": "SIS_Enrolled HRS >= 9.00"
+      },
+      {
+        "id": 6,
+        "type": "military",
+        "description": "GEN_Military_Experience = Yes",
+        "raw_text": "GEN_Military_Experience = Yes"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.831798",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

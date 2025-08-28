@@ -1,0 +1,95 @@
+{
+  "basic_information": {
+    "scholarship_id": 138917,
+    "scholarship_name": "Barry Cladinos Memorial Perseverance Scholarship",
+    "scholarship_code": "S20761",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Foundation Continuing",
+    "candidate_count": 45
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide a scholarship to a current UCO student who meets the following criteria: Eligibility Complete the UCO Qualifying Application Must be enrolled full-time Must be an Edmond North High School graduate Undergraduate student- sophomore or above Preference is given to a Journalism major Recipient Requirements Write a thank you note for the scholarship donor Attend a meeting at Paycom and tour facilities The scholarship is available during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_High_School_Name is Edmond North High School",
+        "raw_text": "SIS_High_School_Name is Edmond North High School"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_1_2 is Journalism-Advertising   and SIS_Major_1_2 is Journalism-General   and SIS_Major_1_2 is Journalism-Photographic Arts   and SIS_Major_1_2 is Journalism-Public Relations",
+        "raw_text": "SIS_Major_1_2 is Journalism-Advertising   and SIS_Major_1_2 is Journalism-General   and SIS_Major_1_2 is Journalism-Photographic Arts   and SIS_Major_1_2 is Journalism-Public Relations",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major_2 is Journalism-Advertising   and SIS_Major_2 is Journalism-General   and SIS_Major_2 is Journalism-Photographic Arts   and SIS_Major_2 is Journalism-Public Relations",
+        "raw_text": "SIS_Major_2 is Journalism-Advertising   and SIS_Major_2 is Journalism-General   and SIS_Major_2 is Journalism-Photographic Arts   and SIS_Major_2 is Journalism-Public Relations",
+        "points": 1
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2_2 is Journalism-Advertising   and SIS_Major_2_2 is Journalism-General   and SIS_Major_2_2 is Journalism-Photographic Arts   and SIS_Major_2_2 is Journalism-Public Relations",
+        "raw_text": "SIS_Major_2_2 is Journalism-Advertising   and SIS_Major_2_2 is Journalism-General   and SIS_Major_2_2 is Journalism-Photographic Arts   and SIS_Major_2_2 is Journalism-Public Relations",
+        "points": 1
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major is Journalism-Advertising   and SIS_Major is Journalism-General   and SIS_Major is Journalism-Photographic Arts   and SIS_Major is Journalism-Public Relations",
+        "raw_text": "SIS_Major is Journalism-Advertising   and SIS_Major is Journalism-General   and SIS_Major is Journalism-Photographic Arts   and SIS_Major is Journalism-Public Relations",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 3
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.656507",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

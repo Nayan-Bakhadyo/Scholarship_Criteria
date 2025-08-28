@@ -1,0 +1,84 @@
+{
+  "basic_information": {
+    "scholarship_id": 107641,
+    "scholarship_name": "Dr. Janet Jordan White Endowed Scholarship in Teacher Education",
+    "scholarship_code": "S10490",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Dr. Janet Jordan White Scholarship Committe",
+    "candidate_count": 31
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarship assistance to students within the College of Education & Professional Studies who are a declared teacher education major at UCO. Eligibility Requirements Student majoring in any teacher education program Minimum 2.5 GPA Provide a short essay demonstrating financial need including all sources of funding available to student (grants, loans, scholarships, etc.) Selection Process Recipients of the scholarship will be selected by a departmental committee Preference given to prior year recipient as long as they are eligible Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.730864",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "basic_information": {
+    "scholarship_id": 107578,
+    "scholarship_name": "The Risley Family Endowed Scholarship for Non-Traditional Students",
+    "scholarship_code": "S10486",
+    "scholarship_notes": "Eligible for full disbursement if graduating in December",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Risley Family Endowed Scholarship",
+    "candidate_count": 3
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship is available to any student within the AESS department who have a minimum GPA of 3.0. Eligibility Requirements Must have received high school diploma or equivalent no less than 5 years prior to this award Minimum GPA of 3.0 Undergraduate or graduate student for the upcoming fall semester Attach a document that expresses how winning this award will improve your life Upload a copy of your UCO transcript Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major is Adult & Higher Ed-Adult & HE   or SIS_Major is Adult & Higher Ed-Interdiscipl   or SIS_Major is Adult & Higher Ed-StdPersonnel   or SIS_Major is Adult & Higher Ed-Training   or SIS_Major is AHE-Lifelong and E-Learning   or SIS_Major is AHE-Talent Development   or SIS_Major is General Studies   or SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major is Organizational Leadership   or SIS_Major is Fam&Consumer Sci-Education   or SIS_Major is Adult Ed-Training",
+        "raw_text": "SIS_Major is Adult & Higher Ed-Adult & HE   or SIS_Major is Adult & Higher Ed-Interdiscipl   or SIS_Major is Adult & Higher Ed-StdPersonnel   or SIS_Major is Adult & Higher Ed-Training   or SIS_Major is AHE-Lifelong and E-Learning   or SIS_Major is AHE-Talent Development   or SIS_Major is General Studies   or SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major is Organizational Leadership   or SIS_Major is Fam&Consumer Sci-Education   or SIS_Major is Adult Ed-Training"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_NonTraditional_Essay\"",
+        "raw_text": "Complete Essay \"CEPS_NonTraditional_Essay\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Attachment:  \"CEPS_Non_Traditional_Student_HS_Proof\"",
+        "raw_text": "Complete Attachment:  \"CEPS_Non_Traditional_Student_HS_Proof\""
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.856321",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

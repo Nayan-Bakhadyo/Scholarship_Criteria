@@ -1,0 +1,80 @@
+{
+  "basic_information": {
+    "scholarship_id": 107751,
+    "scholarship_name": "Judy Leitner Endowed Scholarship in Gerontology",
+    "scholarship_code": "S10363",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established by alumna Patricia Bolt in honor of Mrs. Leitner and awards a graduate student enrolled in the Master of Arts in Gerontology program. Eligibility Requirements Admitted into Master of Arts in Gerontology program Enrolled minimum 3 credit hours Minimum 3.0 GPA and in good standing Oklahoma resident Continuing student for fall semester that the scholarship is awarded The applicant must provide a written statement of 750 words that describes the applicant's rationale for scholarship merit and intent to work in the field of Gerontology",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_OKResidency = Yes",
+        "raw_text": "SIS_OKResidency = Yes"
+      },
+      {
+        "id": 2,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Gerontology   or SIS_Major is Gerontology   or SIS_Major_1_2 is Gerontology   or SIS_Major_2_2 is Gerontology",
+        "raw_text": "SIS_Major_2 is Gerontology   or SIS_Major is Gerontology   or SIS_Major_1_2 is Gerontology   or SIS_Major_2_2 is Gerontology"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 3.00",
+        "raw_text": "SIS_Enrolled HRS >= 3.00"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.790793",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

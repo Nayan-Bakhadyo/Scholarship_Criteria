@@ -1,0 +1,86 @@
+{
+  "basic_information": {
+    "scholarship_id": 109865,
+    "scholarship_name": "The Jo Bazhaw Future Teacher Endowed Scholarship",
+    "scholarship_code": "S10480",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - The Jo Bazhaw Future Teacher Endowed Schola",
+    "candidate_count": 185
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who are preparing for a teaching career. Eligibility Requirements Student preparing for a teaching career Must be admitted to Teacher Education Undergraduate or Graduate Minimum 2.5 GPA Preference given to students demonstrating financial need Successful recipients are eligible to reapply Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Seniors graduating in December are eligible to receive full scholarship in their last semester Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major is Bilingual Education/TESL   or SIS_Major is Early Childhood Education   or SIS_Major is Educational Leadership   or SIS_Major is Elementary Education   or SIS_Major is Library Media Education   or SIS_Major is Physical Education/Health   or SIS_Major is Reading   or SIS_Major is School Counseling   or SIS_Major is Secondary Education   or SIS_Major is Special Education   or SIS_Major is Education-Bilingual Ed/TESL   or SIS_Major is Education-Secondary Education   or SIS_Major is Sch Coun-School&Prof Counselin   or SIS_Major is Curr&Instr-Teach & Learn PK-6   or SIS_Major is Curr&Instr-Early Child Educ",
+        "raw_text": "SIS_Major is Bilingual Education/TESL   or SIS_Major is Early Childhood Education   or SIS_Major is Educational Leadership   or SIS_Major is Elementary Education   or SIS_Major is Library Media Education   or SIS_Major is Physical Education/Health   or SIS_Major is Reading   or SIS_Major is School Counseling   or SIS_Major is Secondary Education   or SIS_Major is Special Education   or SIS_Major is Education-Bilingual Ed/TESL   or SIS_Major is Education-Secondary Education   or SIS_Major is Sch Coun-School&Prof Counselin   or SIS_Major is Curr&Instr-Teach & Learn PK-6   or SIS_Major is Curr&Instr-Early Child Educ"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.852799",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

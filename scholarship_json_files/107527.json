@@ -1,0 +1,111 @@
+{
+  "basic_information": {
+    "scholarship_id": 107527,
+    "scholarship_name": "Rothbaum Scholarship",
+    "scholarship_code": "S10111",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Presidential Partners",
+    "candidate_count": 67
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship is available to help those who are a resident of Oklahoma and are an undergraduate student. Eligibility Requirements Must be enrolled in 12 or more credit hours during the current spring semester Must have a minimum GPA of 3.0 Must have completed 30 credit hours at UCO Must have completed 12 credit hours in your academic major This scholarship is available to apply for during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Rothbaum_UCO_Experience\"",
+        "raw_text": "Complete Essay \"ADV_Rothbaum_UCO_Experience\""
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Rothbaum_CareerGaols\"",
+        "raw_text": "Complete Essay \"ADV_Rothbaum_CareerGaols\""
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "ADV_Rothbaum_CompletedHRS_Major = Yes",
+        "raw_text": "ADV_Rothbaum_CompletedHRS_Major = Yes"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Rothbaum_Essay\"",
+        "raw_text": "Complete Essay \"ADV_Rothbaum_Essay\""
+      },
+      {
+        "id": 5,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00"
+      },
+      {
+        "id": 7,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 8,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 30.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 30.00"
+      },
+      {
+        "id": 9,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_STLR Snapshot\"",
+        "raw_text": "Complete Attachment:  \"GEN_STLR Snapshot\"",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 2
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.834326",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

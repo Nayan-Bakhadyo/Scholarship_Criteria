@@ -1,0 +1,96 @@
+{
+  "basic_information": {
+    "scholarship_id": 107695,
+    "scholarship_name": "Mildred Lorene Davis Scholarship for Dance",
+    "scholarship_code": "S10440",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CFAD - Department of Dance",
+    "candidate_count": 6
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established in 2017 by Debra Sue Pense in honor of her mother, the late Mildred Lorene Davis. Mildred was hard-working, industrious and active her entire life and enjoyed many recreational activities including dance. Eligibility Dance major Cumulative GPA 2.5+ Sophomore, junior or senior Enrolled full time (12+ hours) Requirements 1 1/2 to 2 page statement about the role of dance in a healthy and active lifestyle Personal artist statement (250 words) Official transcript",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Davis_Role_of_Dance\"",
+        "raw_text": "Complete Essay \"CFAD_Davis_Role_of_Dance\""
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major_2 is Dance   or SIS_Major_2 is Dance Education   or SIS_Major is Dance   or SIS_Major is Dance Education   or SIS_Major_1_2 is Dance   or SIS_Major_1_2 is Dance Education   or SIS_Major_2_2 is Dance   or SIS_Major_2_2 is Dance Education",
+        "raw_text": "SIS_Major_2 is Dance   or SIS_Major_2 is Dance Education   or SIS_Major is Dance   or SIS_Major is Dance Education   or SIS_Major_1_2 is Dance   or SIS_Major_1_2 is Dance Education   or SIS_Major_2_2 is Dance   or SIS_Major_2_2 is Dance Education"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "CFAD_So_Jr_Sr = Yes",
+        "raw_text": "CFAD_So_Jr_Sr = Yes"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.806886",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

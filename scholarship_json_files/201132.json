@@ -1,0 +1,41 @@
+{
+  "basic_information": {
+    "scholarship_id": 201132,
+    "scholarship_name": "Brian Jay Walke Ethics in Journalism Scholarship",
+    "scholarship_code": "S10309",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - Mass Comm Walke",
+    "candidate_count": 3
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The recipient(s) of the Brian Jay Walke Ethics in Journalism Endowed Scholarship will be selected by the annual selection committee for the Oklahoma Journalism Hall of Fame. The recipient(s) will be selected in the spring for distribution the following fall semester. Criteria will be: Complete application and transcript Full-time undergraduate student Minimum 3.0 GPA Major in Journalism 500 word essay on the importance of ethics in journalism",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.659847",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

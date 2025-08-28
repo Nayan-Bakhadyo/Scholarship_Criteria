@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 107722,
+    "scholarship_name": "The Tyler Henry Memorial Endowed Scholarship for Debate",
+    "scholarship_code": "S10258",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 7
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Established in memory and honor of a UCO debater, Tyler Henry, this scholarship assists a student who has completed 12 hours at UCO and has been accepted to the Debate Team. Eligibility Requirements Accepted onto the Debate team Completed a minimum of 12 hours at UCO Provide letter describing influences in declared major, financial need, and special circumstances",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CLA_Debate_Team = Yes",
+        "raw_text": "CLA_Debate_Team = Yes"
+      },
+      {
+        "id": 2,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 12.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 12.00"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.857187",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

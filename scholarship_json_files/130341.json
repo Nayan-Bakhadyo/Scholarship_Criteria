@@ -1,0 +1,60 @@
+{
+  "basic_information": {
+    "scholarship_id": 130341,
+    "scholarship_name": "Incoming UCO Student Scholarship",
+    "scholarship_code": "VARIOUS",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Incoming Student",
+    "candidate_count": 705
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarships to incoming UCO students who are enrolled in the upcoming semester: Eligibility Requirements First time UCO Student Must be admitted for the Fall semester Must demonstrate financial need This scholarship is available to apply for during the Incoming Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"ADV_WhyUCO\"",
+        "raw_text": "Complete Essay \"ADV_WhyUCO\""
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.775468",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

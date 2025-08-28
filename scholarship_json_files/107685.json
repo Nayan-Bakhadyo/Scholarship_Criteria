@@ -1,0 +1,110 @@
+{
+  "basic_information": {
+    "scholarship_id": 107685,
+    "scholarship_name": "Tinker Federal Credit Union Design Scholarship",
+    "scholarship_code": "S10222",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CFAD - School of Design",
+    "candidate_count": 13
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established in 2007 to provide scholarship assistance to students within the UCO Department of Design. Eligibility Design major Sophomore, junior, senior, or graduate student Major GPA 3.25+ and cumulative GPA 3.0+ Enrolled full time (12+ hours undergraduate, 9+ hours graduate) Demonstrate financial need Requirements Personal artist statement (250 words) Official transcript",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 10,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CFAD_Full_Time = Yes",
+        "raw_text": "CFAD_Full_Time = Yes"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes"
+      },
+      {
+        "id": 10,
+        "type": "major",
+        "description": "SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major_2 is Design-Interior Design   or SIS_Major_2 is Design History   or SIS_Major_2 is Design-Illustration   or SIS_Major_2 is Interior Design   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major is Design-Interior Design   or SIS_Major is Interior Design   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_1_2 is Design-Interior Design   or SIS_Major_1_2 is Interior Design   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design   or SIS_Major_2_2 is Design-Interior Design   or SIS_Major_2_2 is Interior Design",
+        "raw_text": "SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major_2 is Design-Interior Design   or SIS_Major_2 is Design History   or SIS_Major_2 is Design-Illustration   or SIS_Major_2 is Interior Design   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major is Design-Interior Design   or SIS_Major is Interior Design   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_1_2 is Design-Interior Design   or SIS_Major_1_2 is Interior Design   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design   or SIS_Major_2_2 is Design-Interior Design   or SIS_Major_2_2 is Interior Design"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_MajorGPA >= 3.25",
+        "raw_text": "SIS_MajorGPA >= 3.25",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.859553",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

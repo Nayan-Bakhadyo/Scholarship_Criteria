@@ -1,0 +1,84 @@
+{
+  "basic_information": {
+    "scholarship_id": 107747,
+    "scholarship_name": "Lorraine K. Bell Scholarship",
+    "scholarship_code": "S10011",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - English",
+    "candidate_count": 3
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship, established in honor of former UCO English and Humanities instructor Lorraine King Bell, recognizes a student who has demonstrated outstanding scholarly ability and has played an active role in university activities. Eligibility Requirements Enrolled in Bachelor of Arts in English, English- Creative Writing, English Education, or Master of Arts in English Junior, senior, or graduate standing Demonstrates scholarly excellence Active participation in department and University activities",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "GEN_Activities = Yes",
+        "raw_text": "GEN_Activities = Yes"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"GEN_UCO\"",
+        "raw_text": "Complete Essay \"GEN_UCO\""
+      },
+      {
+        "id": 3,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"CLA_Scholarly_Creative\"",
+        "raw_text": "Complete Essay \"CLA_Scholarly_Creative\""
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Creative Writing   or SIS_Major_2 is English   or SIS_Major_2 is English Education   or SIS_Major_2 is English-Creative Writing   or SIS_Major_2 is Literature   or SIS_Major_2 is English-20th & 21st Century St   or SIS_Major_2 is English-Composition & Rhetoric   or SIS_Major_2 is English-Composition Skills   or SIS_Major_2 is English-Contemporary Lit   or SIS_Major_2 is English-Creative Studies   or SIS_Major_2 is English-Teaching ESL   or SIS_Major_2 is English-Traditional Studies   or SIS_Major is Creative Writing   or SIS_Major is English   or SIS_Major is English Education   or SIS_Major is English-Creative Writing   or SIS_Major is Literature   or SIS_Major is English-20th & 21st Century St   or SIS_Major is English-Composition & Rhetoric   or SIS_Major is English-Composition Skills   or SIS_Major is English-Contemporary Lit   or SIS_Major is English-Creative Studies   or SIS_Major is English-Teaching ESL   or SIS_Major is English-Traditional Studies   or SIS_Major_1_2 is Creative Writing   or SIS_Major_1_2 is English   or SIS_Major_1_2 is English Education   or SIS_Major_1_2 is English-Creative Writing   or SIS_Major_1_2 is Literature   or SIS_Major_1_2 is English-20th & 21st Century St   or SIS_Major_1_2 is English-Composition & Rhetoric   or SIS_Major_1_2 is English-Composition Skills   or SIS_Major_1_2 is English-Contemporary Lit   or SIS_Major_1_2 is English-Creative Studies   or SIS_Major_1_2 is English-Teaching ESL   or SIS_Major_1_2 is English-Traditional Studies   or SIS_Major_2_2 is Creative Writing   or SIS_Major_2_2 is English   or SIS_Major_2_2 is English Education   or SIS_Major_2_2 is English-Creative Writing   or SIS_Major_2_2 is Literature   or SIS_Major_2_2 is English-20th & 21st Century St   or SIS_Major_2_2 is English-Composition & Rhetoric   or SIS_Major_2_2 is English-Composition Skills   or SIS_Major_2_2 is English-Contemporary Lit   or SIS_Major_2_2 is English-Creative Studies   or SIS_Major_2_2 is English-Teaching ESL   or SIS_Major_2_2 is English-Traditional Studies",
+        "raw_text": "SIS_Major_2 is Creative Writing   or SIS_Major_2 is English   or SIS_Major_2 is English Education   or SIS_Major_2 is English-Creative Writing   or SIS_Major_2 is Literature   or SIS_Major_2 is English-20th & 21st Century St   or SIS_Major_2 is English-Composition & Rhetoric   or SIS_Major_2 is English-Composition Skills   or SIS_Major_2 is English-Contemporary Lit   or SIS_Major_2 is English-Creative Studies   or SIS_Major_2 is English-Teaching ESL   or SIS_Major_2 is English-Traditional Studies   or SIS_Major is Creative Writing   or SIS_Major is English   or SIS_Major is English Education   or SIS_Major is English-Creative Writing   or SIS_Major is Literature   or SIS_Major is English-20th & 21st Century St   or SIS_Major is English-Composition & Rhetoric   or SIS_Major is English-Composition Skills   or SIS_Major is English-Contemporary Lit   or SIS_Major is English-Creative Studies   or SIS_Major is English-Teaching ESL   or SIS_Major is English-Traditional Studies   or SIS_Major_1_2 is Creative Writing   or SIS_Major_1_2 is English   or SIS_Major_1_2 is English Education   or SIS_Major_1_2 is English-Creative Writing   or SIS_Major_1_2 is Literature   or SIS_Major_1_2 is English-20th & 21st Century St   or SIS_Major_1_2 is English-Composition & Rhetoric   or SIS_Major_1_2 is English-Composition Skills   or SIS_Major_1_2 is English-Contemporary Lit   or SIS_Major_1_2 is English-Creative Studies   or SIS_Major_1_2 is English-Teaching ESL   or SIS_Major_1_2 is English-Traditional Studies   or SIS_Major_2_2 is Creative Writing   or SIS_Major_2_2 is English   or SIS_Major_2_2 is English Education   or SIS_Major_2_2 is English-Creative Writing   or SIS_Major_2_2 is Literature   or SIS_Major_2_2 is English-20th & 21st Century St   or SIS_Major_2_2 is English-Composition & Rhetoric   or SIS_Major_2_2 is English-Composition Skills   or SIS_Major_2_2 is English-Contemporary Lit   or SIS_Major_2_2 is English-Creative Studies   or SIS_Major_2_2 is English-Teaching ESL   or SIS_Major_2_2 is English-Traditional Studies"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior   or SIS_Classification is Second Bachelors   or SIS_Classification is 1st Year Graduate   or SIS_Classification is 2nd Year Graduate   or SIS_Classification is Second Masters",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior   or SIS_Classification is Second Bachelors   or SIS_Classification is 1st Year Graduate   or SIS_Classification is 2nd Year Graduate   or SIS_Classification is Second Masters"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.798363",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

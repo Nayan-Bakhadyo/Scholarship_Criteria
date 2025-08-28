@@ -1,0 +1,49 @@
+{
+  "basic_information": {
+    "scholarship_id": 182802,
+    "scholarship_name": "Foster Hope Scholarship",
+    "scholarship_code": "S20280",
+    "scholarship_notes": "",
+    "donor_name": "",
+    "committee_name": "Foster Hope",
+    "candidate_count": 1
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Awards previous wards of the state through Institute of Hope.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time   and SIS_Enrolled_Status is Part Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time   and SIS_Enrolled_Status is Part Time",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.766236",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

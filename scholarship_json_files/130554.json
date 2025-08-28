@@ -1,0 +1,74 @@
+{
+  "basic_information": {
+    "scholarship_id": 130554,
+    "scholarship_name": "Austin Richardson Endowed Scholarship",
+    "scholarship_code": "S10533",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Austin Richardson",
+    "candidate_count": 33
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarship assistance to students within the College of Education Professional Studies with a major in the Department of Kinesiology and Health Studies. Eligibility Requirements Students with a major in the KHS Department Preference given to a student athlete In a short essay, please describe your academic and/or career goals and how receiving this scholarship will help achieve your goals. Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major is Athletic Training   or SIS_Major is Kinesiology-Ex/Fitness Mngt   or SIS_Major is Kinesiology-Outdoor & Comm Rec   or SIS_Major is Physical Education/Health   or SIS_Major is Wellness Mgmt-Exercise Science   or SIS_Major is Wellness Mgmt-Health Promotion   or SIS_Major is Wellness Mgmt-Health Studies   or SIS_Major is Kinesiology-Recreation Mngt",
+        "raw_text": "SIS_Major is Athletic Training   or SIS_Major is Kinesiology-Ex/Fitness Mngt   or SIS_Major is Kinesiology-Outdoor & Comm Rec   or SIS_Major is Physical Education/Health   or SIS_Major is Wellness Mgmt-Exercise Science   or SIS_Major is Wellness Mgmt-Health Promotion   or SIS_Major is Wellness Mgmt-Health Studies   or SIS_Major is Kinesiology-Recreation Mngt"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"CEPS Austin Richardson Essay\"",
+        "raw_text": "Complete Essay \"CEPS Austin Richardson Essay\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Athlete = Yes",
+        "raw_text": "SIS_Athlete = Yes",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.653081",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

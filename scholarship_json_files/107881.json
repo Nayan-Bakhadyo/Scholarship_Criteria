@@ -1,0 +1,111 @@
+{
+  "basic_information": {
+    "scholarship_id": 107881,
+    "scholarship_name": "Susan Titus Endowed Memorial Scholarship or The Independent Insurance Agents of Oklahoma Susan Titus Endowed Memorial Scholarship",
+    "scholarship_code": "S10448",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - Finance Department Scholarship Committee",
+    "candidate_count": 40
+  },
+  "renewable_information": {
+    "is_renewable": true,
+    "renewable_years": 3
+  },
+  "description": "The Independent Insurance Agents of Oklahoma Susan Titus Endowed Memorial Scholarship is open to U.S citizens with a declared finance or finance and risk management major or minor. Students must have completed at least 12 hours of credit at the time of application and have a minimum 3.0 GPA. Students must be enrolled for the semester the scholarship is disbursed. Eligibility Requirements US Citizen Declared Finance or Finance and Risk Management major or minor Completed a minimum of 12 hours Minimum cumulative GPA of 3.0 or higher Selection Process Preference given to incoming sophomores and juniors Preference given to insurance and risk management majors Award Requirements Once the recipient receives the scholarship, he/she will continue to hold the scholarship for maximum of 3 years or until graduation, whichever comes first, provided a minimum 3.0 GPA They continue to make progress towards a degree in finance (minor in insurance and risk management)",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 5,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 12.00",
+        "raw_text": "SIS_Overall_Hours >= 12.00"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Minor_2 is Finance   or SIS_Minor_2 is Finance-Risk Management   or SIS_Minor is Finance   or SIS_Minor is Finance-Risk Management   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance   or SIS_Major is Finance-Risk Management   or SIS_Minor_1_2 is Finance   or SIS_Minor_1_2 is Finance-Risk Management   or SIS_Minor_2_2 is Finance   or SIS_Minor_2_2 is Finance-Risk Management   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt",
+        "raw_text": "SIS_Minor_2 is Finance   or SIS_Minor_2 is Finance-Risk Management   or SIS_Minor is Finance   or SIS_Minor is Finance-Risk Management   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance   or SIS_Major is Finance-Risk Management   or SIS_Minor_1_2 is Finance   or SIS_Minor_1_2 is Finance-Risk Management   or SIS_Minor_2_2 is Finance   or SIS_Minor_2_2 is Finance-Risk Management   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Classification is Freshman   and SIS_Classification is Sophomore   and SIS_Classification is Junior",
+        "raw_text": "SIS_Classification is Freshman   and SIS_Classification is Sophomore   and SIS_Classification is Junior",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 3,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 12.00",
+        "raw_text": "SIS_Overall_Hours >= 12.00"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Minor_2 is Finance   or SIS_Minor_2 is Finance-Risk Management   or SIS_Minor is Finance   or SIS_Minor is Finance-Risk Management   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance   or SIS_Major is Finance-Risk Management   or SIS_Minor_1_2 is Finance   or SIS_Minor_1_2 is Finance-Risk Management   or SIS_Minor_2_2 is Finance   or SIS_Minor_2_2 is Finance-Risk Management   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt",
+        "raw_text": "SIS_Minor_2 is Finance   or SIS_Minor_2 is Finance-Risk Management   or SIS_Minor is Finance   or SIS_Minor is Finance-Risk Management   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance   or SIS_Major is Finance-Risk Management   or SIS_Minor_1_2 is Finance   or SIS_Minor_1_2 is Finance-Risk Management   or SIS_Minor_2_2 is Finance   or SIS_Minor_2_2 is Finance-Risk Management   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt"
+      }
+    ]
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.842621",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

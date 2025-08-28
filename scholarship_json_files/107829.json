@@ -1,0 +1,87 @@
+{
+  "basic_information": {
+    "scholarship_id": 107829,
+    "scholarship_name": "Darci Oplotnik Endowed Scholarship",
+    "scholarship_code": "S10457",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Dean's Office Scholarship Committee",
+    "candidate_count": 16
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students who have been verified through FAFSA as a former ward of the court Eligibility Requirements Undergraduate student Student must have completed or be currently enrolled in a core math course Student must be verified through FAFSA as a former ward of the court Preference will be given to previous recipients Two faculty recommendations",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CMS_Oplotnik_MathCourse = Yes",
+        "raw_text": "CMS_Oplotnik_MathCourse = Yes"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CMS_Oplotnik_Ward = Yes",
+        "raw_text": "CMS_Oplotnik_Ward = Yes"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CMS_Oplotnik_Previous_Recipient = Yes",
+        "raw_text": "CMS_Oplotnik_Previous_Recipient = Yes",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 2
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.713774",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "basic_information": {
+    "scholarship_id": 107553,
+    "scholarship_name": "Foundation Continuing Student Scholarship Application",
+    "scholarship_code": "VARIOUS",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Foundation Continuing",
+    "candidate_count": 490
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarships for students continuing their education at UCO who meet the following criteria: Eligibility Requirements Must have completed 12 credit hours at UCO Must be enrolled in 6 hours or more in the upcoming fall semester Must have a minimum of 2.5 GPA This scholarship is available to apply for during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 2,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 12.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 12.00"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 6.00",
+        "raw_text": "SIS_Enrolled HRS >= 6.00"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Continuing_Student_Essay\"",
+        "raw_text": "Complete Essay \"ADV_Continuing_Student_Essay\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"ADV_WhyUCO\"",
+        "raw_text": "Complete Essay \"ADV_WhyUCO\""
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.766444",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "basic_information": {
+    "scholarship_id": 107907,
+    "scholarship_name": "ISM-OKC David Henry Memorial Endowed Scholarship",
+    "scholarship_code": "S10061",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - ISOM Department Scholarship Committee",
+    "candidate_count": 1
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The ISM-OKC David Henry Memorial Endowed Scholarship is open to a declared Operations & Supply Chain Management major, with emphasis in Purchasing & Materials Management / Supply Chain Management. Students must have a minimum 3.25 cumulative GPA and have completed 45 hours at the time of application. Two faculty recommendations required (please indicate the College of Business faculty members on your application that you wish to have supply a recommendation). Eligibility Requirements Declared Operations & Supply Chain Management major Minimum cumulative GPA of 3.25 or higher Completed at least 45 hours Two faculty recommendations required (please indicate the College of Business faculty members on your application that you wish to have supply a recommendation) Selection Process Emphasis in Purchasing & Materials Management / Supply Chain Management",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.25",
+        "raw_text": "SIS_CumGPA >= 3.25"
+      },
+      {
+        "id": 3,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 45.00",
+        "raw_text": "SIS_Overall_Hours >= 45.00"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Info & Op Mngt-Op&Sup Chain Mg   or SIS_Major_2 is InfoSys&OpMgmt-Op&Sup Chain Mg   or SIS_Major is Info & Op Mngt-Op&Sup Chain Mg   or SIS_Major is InfoSys&OpMgmt-Op&Sup Chain Mg   or SIS_Major_1_2 is Info & Op Mngt-Op&Sup Chain Mg   or SIS_Major_1_2 is InfoSys&OpMgmt-Op&Sup Chain Mg   or SIS_Major_2_2 is Info & Op Mngt-Op&Sup Chain Mg   or SIS_Major_2_2 is InfoSys&OpMgmt-Op&Sup Chain Mg",
+        "raw_text": "SIS_Major_2 is Info & Op Mngt-Op&Sup Chain Mg   or SIS_Major_2 is InfoSys&OpMgmt-Op&Sup Chain Mg   or SIS_Major is Info & Op Mngt-Op&Sup Chain Mg   or SIS_Major is InfoSys&OpMgmt-Op&Sup Chain Mg   or SIS_Major_1_2 is Info & Op Mngt-Op&Sup Chain Mg   or SIS_Major_1_2 is InfoSys&OpMgmt-Op&Sup Chain Mg   or SIS_Major_2_2 is Info & Op Mngt-Op&Sup Chain Mg   or SIS_Major_2_2 is InfoSys&OpMgmt-Op&Sup Chain Mg"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.776988",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

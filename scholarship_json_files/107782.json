@@ -1,0 +1,48 @@
+{
+  "basic_information": {
+    "scholarship_id": 107782,
+    "scholarship_name": "Dr. Claude Arnold Scholarship",
+    "scholarship_code": "OCCF",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 5
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The Dr. Claude Arnold Scholarship Award is made possible by Dr. Mark Allen Everett; this scholarship honors a student who achieves in the classroom and who shows excellent research ability and potential in their field. The Everett Family Fund was established at the Oklahoma City Community Foundation by Dr. Everett, father of Howard Dean Everett. Must apply through the OCCF website. Eligibility Requirements Must be enrolled at the University of Central Oklahoma Must be a Classical Literature and/or English Major; preference may be given to those studying with an emphasis in Old English, Medieval, or Renaissance literature Applicants must have a minimum GPA equal to or greater than 3.5 in their English courses, and an overall GPA greater than or equal to 3.0",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.724094",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "basic_information": {
+    "scholarship_id": 107772,
+    "scholarship_name": "Dr. Stan Hoig Endowed Memorial Scholarship in History",
+    "scholarship_code": "S10291",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - History and Geography",
+    "candidate_count": 2
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship is awarded to honor the memory of Dr. Stan Hoig and recognizes a student who produces a paper worthy of submission to a scholarly journal on a topic pertaining to the history of the American West. Dr. Hoig authored 25 books and a variety of articles about U.S. Western history and American Indian relations. He was a professor at UCO for 23 years. Eligibility Requirements Major in History, History Education, History Museum Studies, or Geography Submit a paper on the American West, including Oklahoma, American Indians, or any other aspect of the region. (Recipient must be submitting the paper for publication in The Chronicles of Oklahoma or other scholarly journal) Minimum 3.5 GPA in grad program or 3.0 in undergraduate program Continuing student for the fall semester that the scholarship is awarded",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"CLA_Hoig_AmericanWest\"",
+        "raw_text": "Complete Essay \"CLA_Hoig_AmericanWest\""
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CLA_Hoig_Journal = Yes",
+        "raw_text": "CLA_Hoig_Journal = Yes"
+      },
+      {
+        "id": 3,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2 is Geography   or SIS_Major_2 is History   or SIS_Major_2 is History Education   or SIS_Major_2 is History-General   or SIS_Major_2 is History-History   or SIS_Major_2 is History-Museum Studies   or SIS_Major is Geography   or SIS_Major is History   or SIS_Major is History Education   or SIS_Major is History-General   or SIS_Major is History-History   or SIS_Major is History-Museum Studies   or SIS_Major_1_2 is Geography   or SIS_Major_1_2 is History   or SIS_Major_1_2 is History Education   or SIS_Major_1_2 is History-General   or SIS_Major_1_2 is History-History   or SIS_Major_1_2 is History-Museum Studies   or SIS_Major_2_2 is Geography   or SIS_Major_2_2 is History   or SIS_Major_2_2 is History Education   or SIS_Major_2_2 is History-General   or SIS_Major_2_2 is History-History   or SIS_Major_2_2 is History-Museum Studies",
+        "raw_text": "SIS_Major_2 is Geography   or SIS_Major_2 is History   or SIS_Major_2 is History Education   or SIS_Major_2 is History-General   or SIS_Major_2 is History-History   or SIS_Major_2 is History-Museum Studies   or SIS_Major is Geography   or SIS_Major is History   or SIS_Major is History Education   or SIS_Major is History-General   or SIS_Major is History-History   or SIS_Major is History-Museum Studies   or SIS_Major_1_2 is Geography   or SIS_Major_1_2 is History   or SIS_Major_1_2 is History Education   or SIS_Major_1_2 is History-General   or SIS_Major_1_2 is History-History   or SIS_Major_1_2 is History-Museum Studies   or SIS_Major_2_2 is Geography   or SIS_Major_2_2 is History   or SIS_Major_2_2 is History Education   or SIS_Major_2_2 is History-General   or SIS_Major_2_2 is History-History   or SIS_Major_2_2 is History-Museum Studies"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 6,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Personal_Statement \"",
+        "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.743941",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

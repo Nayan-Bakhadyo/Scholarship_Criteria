@@ -1,0 +1,66 @@
+{
+  "basic_information": {
+    "scholarship_id": 107574,
+    "scholarship_name": "College of Education and Professional Studies Emergency Scholarship",
+    "scholarship_code": "",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 1
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "These funds are awarded to students facing financial hardship or extenuating circumstances as they try to reach their educational goals. CEPS students may apply for emergency aid for textbooks, tuition and fees, and other related expenses not funded by traditional student support. Eligibility Requirements Must be a student majoring in any degree seeking program within the College of Education and Professional Studies Student must provide a 1-2 page personal statement detailing special financial need, amount of aid requested, how this funding will be used and how this scholarship will help further your educational goals Student must demonstrate that all or part of their financial need cannot be covered through regular financial aid or why these funding streams are insufficient. Student must be enrolled in a minimum of 6 hours in the semester for which they are applying for funds. While a specific GPA is not required to obtain funding, the scholarship committee would like to see evidence of a student's commitment to his/her education through GPA or ability to show progress from past semesters to the present.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 6.00",
+        "raw_text": "SIS_Enrolled HRS >= 6.00"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.707946",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

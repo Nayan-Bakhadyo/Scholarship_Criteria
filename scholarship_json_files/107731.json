@@ -1,0 +1,90 @@
+{
+  "basic_information": {
+    "scholarship_id": 107731,
+    "scholarship_name": "Reba Collins Endowed Scholarship",
+    "scholarship_code": "S10198",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - Mass Comm Reba Collins Scholarship",
+    "candidate_count": 5
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established to honor the late Reba Collins, considered the world's foremost scholar on Will Rogers. She taught at UCO as a journalism professor and worked as the Director of the University of Central Oklahoma's Public Relations. This scholarship is awarded to a student who shows outstanding achievement and promise in print journalism. Eligibility Requirements Mass Communication, Strategic Communications majors Junior or Senior status in fall semester that scholarship is awarded Minimum 3.0 GPA Enrolled in at least 12 hours Active in Mass Communication Studies",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 4,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"CLA_MCOMM_Activities\"",
+        "raw_text": "Complete Essay \"CLA_MCOMM_Activities\""
+      },
+      {
+        "id": 7,
+        "type": "major",
+        "description": "SIS_Major_2 is Mass Comm-Professional Media   or SIS_Major_2 is Strat Comm-Organizational Comm   or SIS_Major_2 is Strategic Communications   or SIS_Major_2 is Strategic Comm-Org Comm   or SIS_Major_2 is Strategic Comm-Public Relation   or SIS_Major_2 is Strategic Comm-Strategic Comm   or SIS_Major_2 is Mass Comm-Advertising   or SIS_Major_2 is Mass Comm-Brand Comm/Advertisi   or SIS_Major_2 is Mass Comm-Broadcasting   or SIS_Major_2 is Mass Comm-Communication   or SIS_Major_2 is Mass Comm-Documentary   or SIS_Major_2 is Mass Comm-Interpersonal Comm   or SIS_Major_2 is Mass Comm-Journalism   or SIS_Major_2 is Mass Comm-Mass Communication   or SIS_Major_2 is Mass Comm-Media Studies   or SIS_Major_2 is Mass Comm-Organizational Comm   or SIS_Major_2 is Mass Comm-Photographic Arts   or SIS_Major_2 is Mass Comm-Public Discourse   or SIS_Major_2 is Mass Comm-Public Relations   or SIS_Major_2 is Mass Comm-Strat Communications   or SIS_Major_2 is Mass Comm-Strategic Comminicat   or SIS_Major is Mass Comm-Professional Media   or SIS_Major is Strat Comm-Organizational Comm   or SIS_Major is Strategic Communications   or SIS_Major is Strategic Comm-Org Comm   or SIS_Major is Strategic Comm-Public Relation   or SIS_Major is Strategic Comm-Strategic Comm   or SIS_Major is Mass Comm-Advertising   or SIS_Major is Mass Comm-Brand Comm/Advertisi   or SIS_Major is Mass Comm-Broadcasting   or SIS_Major is Mass Comm-Communication   or SIS_Major is Mass Comm-Documentary   or SIS_Major is Mass Comm-Interpersonal Comm   or SIS_Major is Mass Comm-Journalism   or SIS_Major is Mass Comm-Mass Communication   or SIS_Major is Mass Comm-Media Studies   or SIS_Major is Mass Comm-Organizational Comm   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Mass Comm-Public Discourse   or SIS_Major is Mass Comm-Public Relations   or SIS_Major is Mass Comm-Strat Communications   or SIS_Major is Mass Comm-Strategic Comminicat   or SIS_Major_1_2 is Mass Comm-Professional Media   or SIS_Major_1_2 is Strat Comm-Organizational Comm   or SIS_Major_1_2 is Strategic Communications   or SIS_Major_1_2 is Strategic Comm-Org Comm   or SIS_Major_1_2 is Strategic Comm-Public Relation   or SIS_Major_1_2 is Strategic Comm-Strategic Comm   or SIS_Major_1_2 is Mass Comm-Advertising   or SIS_Major_1_2 is Mass Comm-Brand Comm/Advertisi   or SIS_Major_1_2 is Mass Comm-Broadcasting   or SIS_Major_1_2 is Mass Comm-Communication   or SIS_Major_1_2 is Mass Comm-Documentary   or SIS_Major_1_2 is Mass Comm-Interpersonal Comm   or SIS_Major_1_2 is Mass Comm-Journalism   or SIS_Major_1_2 is Mass Comm-Mass Communication   or SIS_Major_1_2 is Mass Comm-Media Studies   or SIS_Major_1_2 is Mass Comm-Organizational Comm   or SIS_Major_1_2 is Mass Comm-Photographic Arts   or SIS_Major_1_2 is Mass Comm-Public Discourse   or SIS_Major_1_2 is Mass Comm-Public Relations   or SIS_Major_1_2 is Mass Comm-Strat Communications   or SIS_Major_1_2 is Mass Comm-Strategic Comminicat   or SIS_Major_2_2 is Mass Comm-Professional Media   or SIS_Major_2_2 is Strat Comm-Organizational Comm   or SIS_Major_2_2 is Strategic Communications   or SIS_Major_2_2 is Strategic Comm-Org Comm   or SIS_Major_2_2 is Strategic Comm-Public Relation   or SIS_Major_2_2 is Strategic Comm-Strategic Comm   or SIS_Major_2_2 is Mass Comm-Advertising   or SIS_Major_2_2 is Mass Comm-Brand Comm/Advertisi   or SIS_Major_2_2 is Mass Comm-Broadcasting   or SIS_Major_2_2 is Mass Comm-Communication   or SIS_Major_2_2 is Mass Comm-Documentary   or SIS_Major_2_2 is Mass Comm-Interpersonal Comm   or SIS_Major_2_2 is Mass Comm-Journalism   or SIS_Major_2_2 is Mass Comm-Mass Communication   or SIS_Major_2_2 is Mass Comm-Media Studies   or SIS_Major_2_2 is Mass Comm-Organizational Comm   or SIS_Major_2_2 is Mass Comm-Photographic Arts   or SIS_Major_2_2 is Mass Comm-Public Discourse   or SIS_Major_2_2 is Mass Comm-Public Relations   or SIS_Major_2_2 is Mass Comm-Strat Communications   or SIS_Major_2_2 is Mass Comm-Strategic Comminicat",
+        "raw_text": "SIS_Major_2 is Mass Comm-Professional Media   or SIS_Major_2 is Strat Comm-Organizational Comm   or SIS_Major_2 is Strategic Communications   or SIS_Major_2 is Strategic Comm-Org Comm   or SIS_Major_2 is Strategic Comm-Public Relation   or SIS_Major_2 is Strategic Comm-Strategic Comm   or SIS_Major_2 is Mass Comm-Advertising   or SIS_Major_2 is Mass Comm-Brand Comm/Advertisi   or SIS_Major_2 is Mass Comm-Broadcasting   or SIS_Major_2 is Mass Comm-Communication   or SIS_Major_2 is Mass Comm-Documentary   or SIS_Major_2 is Mass Comm-Interpersonal Comm   or SIS_Major_2 is Mass Comm-Journalism   or SIS_Major_2 is Mass Comm-Mass Communication   or SIS_Major_2 is Mass Comm-Media Studies   or SIS_Major_2 is Mass Comm-Organizational Comm   or SIS_Major_2 is Mass Comm-Photographic Arts   or SIS_Major_2 is Mass Comm-Public Discourse   or SIS_Major_2 is Mass Comm-Public Relations   or SIS_Major_2 is Mass Comm-Strat Communications   or SIS_Major_2 is Mass Comm-Strategic Comminicat   or SIS_Major is Mass Comm-Professional Media   or SIS_Major is Strat Comm-Organizational Comm   or SIS_Major is Strategic Communications   or SIS_Major is Strategic Comm-Org Comm   or SIS_Major is Strategic Comm-Public Relation   or SIS_Major is Strategic Comm-Strategic Comm   or SIS_Major is Mass Comm-Advertising   or SIS_Major is Mass Comm-Brand Comm/Advertisi   or SIS_Major is Mass Comm-Broadcasting   or SIS_Major is Mass Comm-Communication   or SIS_Major is Mass Comm-Documentary   or SIS_Major is Mass Comm-Interpersonal Comm   or SIS_Major is Mass Comm-Journalism   or SIS_Major is Mass Comm-Mass Communication   or SIS_Major is Mass Comm-Media Studies   or SIS_Major is Mass Comm-Organizational Comm   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Mass Comm-Public Discourse   or SIS_Major is Mass Comm-Public Relations   or SIS_Major is Mass Comm-Strat Communications   or SIS_Major is Mass Comm-Strategic Comminicat   or SIS_Major_1_2 is Mass Comm-Professional Media   or SIS_Major_1_2 is Strat Comm-Organizational Comm   or SIS_Major_1_2 is Strategic Communications   or SIS_Major_1_2 is Strategic Comm-Org Comm   or SIS_Major_1_2 is Strategic Comm-Public Relation   or SIS_Major_1_2 is Strategic Comm-Strategic Comm   or SIS_Major_1_2 is Mass Comm-Advertising   or SIS_Major_1_2 is Mass Comm-Brand Comm/Advertisi   or SIS_Major_1_2 is Mass Comm-Broadcasting   or SIS_Major_1_2 is Mass Comm-Communication   or SIS_Major_1_2 is Mass Comm-Documentary   or SIS_Major_1_2 is Mass Comm-Interpersonal Comm   or SIS_Major_1_2 is Mass Comm-Journalism   or SIS_Major_1_2 is Mass Comm-Mass Communication   or SIS_Major_1_2 is Mass Comm-Media Studies   or SIS_Major_1_2 is Mass Comm-Organizational Comm   or SIS_Major_1_2 is Mass Comm-Photographic Arts   or SIS_Major_1_2 is Mass Comm-Public Discourse   or SIS_Major_1_2 is Mass Comm-Public Relations   or SIS_Major_1_2 is Mass Comm-Strat Communications   or SIS_Major_1_2 is Mass Comm-Strategic Comminicat   or SIS_Major_2_2 is Mass Comm-Professional Media   or SIS_Major_2_2 is Strat Comm-Organizational Comm   or SIS_Major_2_2 is Strategic Communications   or SIS_Major_2_2 is Strategic Comm-Org Comm   or SIS_Major_2_2 is Strategic Comm-Public Relation   or SIS_Major_2_2 is Strategic Comm-Strategic Comm   or SIS_Major_2_2 is Mass Comm-Advertising   or SIS_Major_2_2 is Mass Comm-Brand Comm/Advertisi   or SIS_Major_2_2 is Mass Comm-Broadcasting   or SIS_Major_2_2 is Mass Comm-Communication   or SIS_Major_2_2 is Mass Comm-Documentary   or SIS_Major_2_2 is Mass Comm-Interpersonal Comm   or SIS_Major_2_2 is Mass Comm-Journalism   or SIS_Major_2_2 is Mass Comm-Mass Communication   or SIS_Major_2_2 is Mass Comm-Media Studies   or SIS_Major_2_2 is Mass Comm-Organizational Comm   or SIS_Major_2_2 is Mass Comm-Photographic Arts   or SIS_Major_2_2 is Mass Comm-Public Discourse   or SIS_Major_2_2 is Mass Comm-Public Relations   or SIS_Major_2_2 is Mass Comm-Strat Communications   or SIS_Major_2_2 is Mass Comm-Strategic Comminicat"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.828723",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

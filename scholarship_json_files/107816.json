@@ -1,0 +1,86 @@
+{
+  "basic_information": {
+    "scholarship_id": 107816,
+    "scholarship_name": "E.M. Temple Always Central Forever Central Endowed Scholarship",
+    "scholarship_code": "S10307",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Funeral Service Scholarship Committee",
+    "candidate_count": 6
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science majoring in Funeral Service. Eligibility Requirements College of Mathematics and Science student Funeral Service major Undergraduate student 3.0 GPA or above Must be Junior or Senior status Enrolled full-time for both fall and spring semesters Personal statement should outline career goals Two faculty recommendation letters",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major_2 is Funeral Service   or SIS_Major is Funeral Service   or SIS_Major_1_2 is Funeral Service   or SIS_Major_2_2 is Funeral Service",
+        "raw_text": "SIS_Major_2 is Funeral Service   or SIS_Major is Funeral Service   or SIS_Major_1_2 is Funeral Service   or SIS_Major_2_2 is Funeral Service"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.750004",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

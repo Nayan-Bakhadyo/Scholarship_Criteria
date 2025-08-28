@@ -1,0 +1,82 @@
+{
+  "basic_information": {
+    "scholarship_id": 107752,
+    "scholarship_name": "Judge William S. Myers Award for Academic Excellence and Service in Sociology",
+    "scholarship_code": "S20075",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 3
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship recognizes William S. Myers, Jr., a judge for over 25 years in the District Court of the State of Oklahoma, and his wife, Lucille, who taught English at UCO in the late 1960s. It is given to a junior or senior student selected by the faculty for high scholastic attainment and who exhibits strong writing skills. Eligibility Requirements Declared Sociology or Human Services major Minimum 3.5 GPA Participation in volunteer events in community or service in armed forces Preference given to Veterans with a minimum of 3.0 GPA",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Leadership\"",
+        "raw_text": "Complete Essay \"GEN_Leadership\""
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major_2 is Sociology   or SIS_Major_2 is Sociology-Human Services   or SIS_Major_2 is Socio-Substance Abuse Studies   or SIS_Major is Sociology   or SIS_Major is Sociology-Human Services   or SIS_Major is Socio-Substance Abuse Studies   or SIS_Major_1_2 is Sociology   or SIS_Major_1_2 is Sociology-Human Services   or SIS_Major_1_2 is Substance Abuse Studies   or SIS_Major_2_2 is Sociology   or SIS_Major_2_2 is Sociology-Human Services   or SIS_Major_2_2 is Substance Abuse Studies",
+        "raw_text": "SIS_Major_2 is Sociology   or SIS_Major_2 is Sociology-Human Services   or SIS_Major_2 is Socio-Substance Abuse Studies   or SIS_Major is Sociology   or SIS_Major is Sociology-Human Services   or SIS_Major is Socio-Substance Abuse Studies   or SIS_Major_1_2 is Sociology   or SIS_Major_1_2 is Sociology-Human Services   or SIS_Major_1_2 is Substance Abuse Studies   or SIS_Major_2_2 is Sociology   or SIS_Major_2_2 is Sociology-Human Services   or SIS_Major_2_2 is Substance Abuse Studies"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "military",
+        "description": "GEN_Military_Experience = Yes",
+        "raw_text": "GEN_Military_Experience = Yes",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50",
+        "points": 0
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.790547",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

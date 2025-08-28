@@ -1,0 +1,93 @@
+{
+  "basic_information": {
+    "scholarship_id": 138337,
+    "scholarship_name": "McBride Foundation Scholarship in Nursing",
+    "scholarship_code": "S20265",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 86
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science pursuing a degree in the Department of Nursing. Eligibility Requirements Complete the application and attach a transcript Personal letter discussing career choice and objectives One letter of recommendation US Citizen Resident of the State of Oklahoma Officially admitted to or eligible for admission to Nursing Program 3.2 GPA Enrolled in a minimum of 12 hours for semesters of award",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.20",
+        "raw_text": "SIS_CumGPA >= 3.20"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_STATE_OF_RESIDENCE is OKLAHOMA",
+        "raw_text": "SIS_STATE_OF_RESIDENCE is OKLAHOMA"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_CITZ_CODE is United States",
+        "raw_text": "SIS_CITZ_CODE is United States"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
+        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"CMS_LOR_1\"",
+        "raw_text": "1 letters of recommendation: \"CMS_LOR_1\"",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"GEN_CAREER_GOALS\"",
+        "raw_text": "Complete Essay \"GEN_CAREER_GOALS\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 2
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.804361",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

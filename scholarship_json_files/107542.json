@@ -1,0 +1,80 @@
+{
+  "basic_information": {
+    "scholarship_id": 107542,
+    "scholarship_name": "Alumni Master's Legacy Scholarship",
+    "scholarship_code": "S20450",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Alumni Legacy",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship is available to UCO students who have received their undergraduate degree from UCO and are entering the Masters program to continue their education. Eligibility Requirements Must be enrolled in at least 6 hours; Must have a GPA of at least 3.0; Must be a graduate student or a graduating senior entering the graduate program in the upcoming fall semester at UCO.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Classification is Senior   or SIS_Level is Graduate",
+        "raw_text": "SIS_Classification is Senior   or SIS_Level is Graduate"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\""
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Legacy_Essay_Community\"",
+        "raw_text": "Complete Essay \"ADV_Legacy_Essay_Community\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"ADV_AlumLegacy\"",
+        "raw_text": "Complete Essay \"ADV_AlumLegacy\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "ADV_UCOGraduate = Yes",
+        "raw_text": "ADV_UCOGraduate = Yes",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.649788",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

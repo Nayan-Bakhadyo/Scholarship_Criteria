@@ -1,0 +1,84 @@
+{
+  "basic_information": {
+    "scholarship_id": 107631,
+    "scholarship_name": "Dr. Robin Lacy Endowed Scholarship in Industrial Safety",
+    "scholarship_code": "S10416",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Dr. Robin Lacy Endowed Scholarship in Indus",
+    "candidate_count": 1
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarship assistance to students majoring in Industrial or Occupational Safety. Eligibility Requirements Major in Industrial or Occupational Safety Minimum GPA of 3.0 Student member of the American Society of Safety Engineers, National/Oklahoma Safety Council and /or Mid-Continent Exploration & Production Safety Network Personal statement demonstrating how the student will pay it forward as part of the professional safety community Demonstrate financial need Preference to non-traditional students Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Pay_It_Forward_Essay\"",
+        "raw_text": "Complete Essay \"CEPS_Pay_It_Forward_Essay\""
+      },
+      {
+        "id": 5,
+        "type": "activities",
+        "description": "CEPS_Safety_Organizations = Yes",
+        "raw_text": "CEPS_Safety_Organizations = Yes"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 7,
+        "type": "major",
+        "description": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety",
+        "raw_text": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.742329",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

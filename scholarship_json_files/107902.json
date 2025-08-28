@@ -1,0 +1,80 @@
+{
+  "basic_information": {
+    "scholarship_id": 107902,
+    "scholarship_name": "Louis D. Nagi Endowed Memorial Scholarship",
+    "scholarship_code": "S10094",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - Graduate Scholarship Committee",
+    "candidate_count": 8
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The Louis D. Nagi Endowed Memorial Scholarship is open to a graduate student in the MBA Program. The student must be a U.S. citizen with a minimum 3.5 cumulative GPA. Preference to be given to U.S. student in the MBA Program who plans to go into the teaching field. Eligibility Requirements Graduate student in the MBA Program Minimum cumulative GPA of 3.5 or higher U.S. Citizen Selection Process Preference to be given to U.S. student in the MBA Program who plans to go into the teaching field",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Business Admin-Healthcare   or SIS_Major_2 is Business Administration   or SIS_Major_2 is Bus Admin-Professional MBA   or SIS_Major is Business Admin-Healthcare   or SIS_Major is Business Administration   or SIS_Major is Bus Admin-Professional MBA   or SIS_Major_1_2 is Business Admin-Healthcare   or SIS_Major_1_2 is Business Administration   or SIS_Major_1_2 is Bus Admin-Professional MBA   or SIS_Major_2_2 is Business Admin-Healthcare   or SIS_Major_2_2 is Business Administration   or SIS_Major_2_2 is Bus Admin-Professional MBA",
+        "raw_text": "SIS_Major_2 is Business Admin-Healthcare   or SIS_Major_2 is Business Administration   or SIS_Major_2 is Bus Admin-Professional MBA   or SIS_Major is Business Admin-Healthcare   or SIS_Major is Business Administration   or SIS_Major is Bus Admin-Professional MBA   or SIS_Major_1_2 is Business Admin-Healthcare   or SIS_Major_1_2 is Business Administration   or SIS_Major_1_2 is Bus Admin-Professional MBA   or SIS_Major_2_2 is Business Admin-Healthcare   or SIS_Major_2_2 is Business Administration   or SIS_Major_2_2 is Bus Admin-Professional MBA"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "GEN_Teaching = Yes",
+        "raw_text": "GEN_Teaching = Yes",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.798952",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

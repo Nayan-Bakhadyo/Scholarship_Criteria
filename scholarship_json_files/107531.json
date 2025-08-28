@@ -1,0 +1,104 @@
+{
+  "basic_information": {
+    "scholarship_id": 107531,
+    "scholarship_name": "Zachary T. Johnson Memorial Scholarship",
+    "scholarship_code": "S20669",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Zachary T. Johnson Memorial Scholarship",
+    "candidate_count": 30
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship is to help provide for UCO students who meet the following criteria. Financial need will be considered in the event of multiple close candidates. Eligibility Requirements Must have completed at least one semester at UCO Must have a cumulative GPA of 2.60-3.20 Must have attended freshman FORGE as an incoming student Preferred A successful track record of community service for at least two years Candidates who participate in the SAFE student organization This scholarship is available to apply for during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "ADV_SuccessCentral = Yes",
+        "raw_text": "ADV_SuccessCentral = Yes"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "ADV_Forge = Yes",
+        "raw_text": "ADV_Forge = Yes"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Johnson_Community_Service\"",
+        "raw_text": "Complete Essay \"ADV_Johnson_Community_Service\""
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"ADV_JohnsonTravel\"",
+        "raw_text": "Complete Essay \"ADV_JohnsonTravel\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"ADV_JohnsonVolunteer\"",
+        "raw_text": "Complete Essay \"ADV_JohnsonVolunteer\""
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 8,
+        "type": "gpa",
+        "description": "SIS_CumGPA < 3.20   or SIS_CumGPA >= 2.60",
+        "raw_text": "SIS_CumGPA < 3.20   or SIS_CumGPA >= 2.60"
+      },
+      {
+        "id": 9,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "ADV_Johnson_Safe = Yes",
+        "raw_text": "ADV_Johnson_Safe = Yes",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.870322",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

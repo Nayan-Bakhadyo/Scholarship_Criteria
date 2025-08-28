@@ -1,0 +1,81 @@
+{
+  "basic_information": {
+    "scholarship_id": 177428,
+    "scholarship_name": "PGM Diversity Scholarship",
+    "scholarship_code": "S20259",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship is to assist with the cost of education for minorities within the PGA program. Eligibility Requirements Must be a PGM major Must be a U.S. citizen Must be from a diverse background Preference for female. This scholarship is available to apply for during the current student application period.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Professional Golf Mngt",
+        "raw_text": "SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Professional Golf Mngt"
+      },
+      {
+        "id": 3,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Ethnicity is Black or African American   or SIS_Ethnicity is Asian   or SIS_Ethnicity is Pacific Islander/Native Hawaii   or SIS_Ethnicity is Hispanic or Latino   or SIS_Ethnicity is Amer Indian or Alaskan Native",
+        "raw_text": "SIS_Ethnicity is Black or African American   or SIS_Ethnicity is Asian   or SIS_Ethnicity is Pacific Islander/Native Hawaii   or SIS_Ethnicity is Hispanic or Latino   or SIS_Ethnicity is Amer Indian or Alaskan Native"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Gender is Female",
+        "raw_text": "SIS_Gender is Female",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "COB_PGM_Internship = Yes",
+        "raw_text": "COB_PGM_Internship = Yes",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.823575",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

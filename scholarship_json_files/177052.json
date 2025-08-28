@@ -1,0 +1,60 @@
+{
+  "basic_information": {
+    "scholarship_id": 177052,
+    "scholarship_name": "Dr. Joe Ahmadifar Endowed Scholarship in Occupational Safety",
+    "scholarship_code": "",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "The Dr. Joe Ahmadifar Endowed Scholarship in Occup",
+    "candidate_count": 18
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarship assistance to students majoring in Industrial or Occupational Safety. Eligibility Requirements Must be an Occupational Safety major at UCO Must be in good academic standing with the department Must demonstrate financial need Preference will be given to international student applicants Preference will also be given to student applicants with English as a second language Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety",
+        "raw_text": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.732551",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

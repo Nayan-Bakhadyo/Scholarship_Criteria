@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 107613,
+    "scholarship_name": "J.W. Weatherford Scholarship",
+    "scholarship_code": "S10156",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - J.W. Weatherford Scholarship",
+    "candidate_count": 2
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education and Professional Studies who are majoring in Adult and Higher Education Eligibility Requirements Open to any student majoring in Adult and Higher Education Demonstrates financial need Demonstrates high academic achievements Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major is Adult & Higher Ed-Adult & HE   or SIS_Major is Adult & Higher Ed-Interdiscipl   or SIS_Major is Adult & Higher Ed-StdPersonnel   or SIS_Major is Adult & Higher Ed-Training   or SIS_Major is AHE-Lifelong and E-Learning   or SIS_Major is AHE-Talent Development   or SIS_Major is Adult Ed-Training",
+        "raw_text": "SIS_Major is Adult & Higher Ed-Adult & HE   or SIS_Major is Adult & Higher Ed-Interdiscipl   or SIS_Major is Adult & Higher Ed-StdPersonnel   or SIS_Major is Adult & Higher Ed-Training   or SIS_Major is AHE-Lifelong and E-Learning   or SIS_Major is AHE-Talent Development   or SIS_Major is Adult Ed-Training"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.777584",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

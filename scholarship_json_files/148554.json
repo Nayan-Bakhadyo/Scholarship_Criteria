@@ -1,0 +1,41 @@
+{
+  "basic_information": {
+    "scholarship_id": 148554,
+    "scholarship_name": "2BLeaders & Business Honors Scholarship",
+    "scholarship_code": "20629; 20538; 10471; 20614",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - College of Business Scholarship Committee",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "College of Business 2BLeaders & Business Honors Scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.643103",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "basic_information": {
+    "scholarship_id": 151247,
+    "scholarship_name": "Oklahoma Farm Bureau Insurance Risk Management Endowed Scholarship",
+    "scholarship_code": "E10589",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - Finance Department Scholarship Committee",
+    "candidate_count": 1
+  },
+  "renewable_information": {
+    "is_renewable": true,
+    "renewable_years": 3
+  },
+  "description": "Eligibility Requirements Complete application and official transcript Minimum 3.0 GPA Insurance and Risk Management Major or Minor At least 12 hours of credit completed U.S. Citizen Preference given to Freshman students having a Finance Major with a Minor in Insurance and Risk Management.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_MajorGPA >= 3.00",
+        "raw_text": "SIS_MajorGPA >= 3.00"
+      },
+      {
+        "id": 3,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 12.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 12.00"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt",
+        "raw_text": "SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Minor_1_2 is Finance-Insurance & Risk Mgmt",
+        "raw_text": "SIS_Minor_1_2 is Finance-Insurance & Risk Mgmt",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Minor_2 is Finance-Insurance & Risk Mgmt",
+        "raw_text": "SIS_Minor_2 is Finance-Insurance & Risk Mgmt",
+        "points": 1
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Minor_2_2 is Finance-Insurance & Risk Mgmt",
+        "raw_text": "SIS_Minor_2_2 is Finance-Insurance & Risk Mgmt",
+        "points": 1
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Minor is Finance-Insurance & Risk Mgmt",
+        "raw_text": "SIS_Minor is Finance-Insurance & Risk Mgmt",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 3
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.815673",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

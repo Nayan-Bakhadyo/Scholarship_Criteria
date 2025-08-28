@@ -1,0 +1,80 @@
+{
+  "basic_information": {
+    "scholarship_id": 153466,
+    "scholarship_name": "Dr. A. DeWade Langley Endowed Law Enforcement Scholarship",
+    "scholarship_code": "S10460",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - Criminal Justice",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The recipient(s) of the DeWade Langley Endowed Law Enforcement Scholarship will meet the following criteria: Complete application Declared Criminal Justice Major Minimum 2.5 combined retention GPA Current or former law enforcement officer Demonstrated financial need as shown through FAFSA completion U.S. Citizen The recipient(s) will be selected in the spring for distribution in the following fall and spring semesters.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major_2 is Criminal Justice-Corrections   or SIS_Major_2 is Criminal Justice   or SIS_Major_2 is Criminal Justice Mngt & Admin   or SIS_Major_2 is Criminal Justice-General CJ   or SIS_Major_2 is Criminal Justice-Police   or SIS_Major_2 is Criminal Just-Juvenile Justice   or SIS_Major is Criminal Justice-Corrections   or SIS_Major is Criminal Justice   or SIS_Major is Criminal Justice Mngt & Admin   or SIS_Major is Criminal Justice-General CJ   or SIS_Major is Criminal Justice-Police   or SIS_Major is Criminal Just-Juvenile Justice   or SIS_Major_1_2 is Criminal Justice-Corrections   or SIS_Major_1_2 is Criminal Justice   or SIS_Major_1_2 is Criminal Justice Mngt & Admin   or SIS_Major_1_2 is Criminal Justice-General CJ   or SIS_Major_1_2 is Criminal Justice-Police   or SIS_Major_1_2 is Criminal Just-Juvenile Justice   or SIS_Major_2_2 is Criminal Justice-Corrections   or SIS_Major_2_2 is Criminal Justice   or SIS_Major_2_2 is Criminal Justice Mngt & Admin   or SIS_Major_2_2 is Criminal Justice-General CJ   or SIS_Major_2_2 is Criminal Justice-Police   or SIS_Major_2_2 is Criminal Just-Juvenile Justice",
+        "raw_text": "SIS_Major_2 is Criminal Justice-Corrections   or SIS_Major_2 is Criminal Justice   or SIS_Major_2 is Criminal Justice Mngt & Admin   or SIS_Major_2 is Criminal Justice-General CJ   or SIS_Major_2 is Criminal Justice-Police   or SIS_Major_2 is Criminal Just-Juvenile Justice   or SIS_Major is Criminal Justice-Corrections   or SIS_Major is Criminal Justice   or SIS_Major is Criminal Justice Mngt & Admin   or SIS_Major is Criminal Justice-General CJ   or SIS_Major is Criminal Justice-Police   or SIS_Major is Criminal Just-Juvenile Justice   or SIS_Major_1_2 is Criminal Justice-Corrections   or SIS_Major_1_2 is Criminal Justice   or SIS_Major_1_2 is Criminal Justice Mngt & Admin   or SIS_Major_1_2 is Criminal Justice-General CJ   or SIS_Major_1_2 is Criminal Justice-Police   or SIS_Major_1_2 is Criminal Just-Juvenile Justice   or SIS_Major_2_2 is Criminal Justice-Corrections   or SIS_Major_2_2 is Criminal Justice   or SIS_Major_2_2 is Criminal Justice Mngt & Admin   or SIS_Major_2_2 is Criminal Justice-General CJ   or SIS_Major_2_2 is Criminal Justice-Police   or SIS_Major_2_2 is Criminal Just-Juvenile Justice"
+      },
+      {
+        "id": 3,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA > 2.50",
+        "raw_text": "SIS_CumGPA > 2.50"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CLA_Employment_Law_Enforcement = Yes",
+        "raw_text": "CLA_Employment_Law_Enforcement = Yes",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.720620",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

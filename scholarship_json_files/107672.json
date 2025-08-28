@@ -1,0 +1,54 @@
+{
+  "basic_information": {
+    "scholarship_id": 107672,
+    "scholarship_name": "Dr. John Clinton Orchestra Endowed Scholarship-NOMINATION",
+    "scholarship_code": "S10356",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CFAD - Strings Division",
+    "candidate_count": 10
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established by Dr. Ted Honea in 2013 in honor of former UCO College of Fine Arts and Design dean, Dr. John Clinton. It is awarded to an outstanding strings student who will be a sophomore or higher and who will play in the orchestra during the coming academic year. The recipients are chosen by unanimous decision of the string faculty. Eligibility An outstanding strings student Sophomore or higher Will play in the orchestra during the coming academic year Requirements AWARDED BY COMMITTEE NOMINATION. Nominated student(s) will be invited to apply by the college's scholarship coordinator.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CFAD_Nomination_Required = Yes",
+        "raw_text": "CFAD_Nomination_Required = Yes"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.732965",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

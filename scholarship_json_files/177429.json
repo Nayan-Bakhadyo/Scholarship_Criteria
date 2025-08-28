@@ -1,0 +1,98 @@
+{
+  "basic_information": {
+    "scholarship_id": 177429,
+    "scholarship_name": "The Janet Rogers Memorial Scholarship",
+    "scholarship_code": "S20735",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - Finance Department Scholarship Committee",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The purpose of this scholarship is to provide financial support for junior or senior Insurance majors. Eligibility Requirements Complete application and upload transcript Enrolled full-time Must be enrolled as a junior or senior for the following year Minimum 3.0 GPA Must provide a written statement demonstrating financial need Must be a declared Insurance major Must be in the Insurance and Risk Management club This scholarship is available to apply for during the current student application period.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time"
+      },
+      {
+        "id": 4,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 7,
+        "type": "major",
+        "description": "SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Insurance",
+        "raw_text": "SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Insurance"
+      },
+      {
+        "id": 8,
+        "type": "unknown",
+        "description": "COB_Actuary_Activities = Yes",
+        "raw_text": "COB_Actuary_Activities = Yes"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.852033",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

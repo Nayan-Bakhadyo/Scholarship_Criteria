@@ -1,0 +1,96 @@
+{
+  "basic_information": {
+    "scholarship_id": 107702,
+    "scholarship_name": "Frank Nelson Scholarship for Collaborative Piano",
+    "scholarship_code": "S10350",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established in 2013 by UCO alumnus and supporter Pat Bolt, a loyal contributor to multiple colleges and causes throughout our University. The scholarship was established to honor Dr. Frank Nelson. A member of the Central family for more than 25 years, Dr. Nelson personifies UCOs commitment to community by actively serving Edmonds seniors through volunteerism and leading worship music. Eligibility Any student in the Collaborative Piano program Enrolled Full-Time (12+ Hours Undergraduate, 9+ Hours Graduate) Sophomore, Junior, Senior or Graduate Student Requirements Personal Artist Statement (250 Words) Official Transcript",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CFAD_Nelson = Yes",
+        "raw_text": "CFAD_Nelson = Yes"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major is Music-Collaborative Piano   or SIS_Major_1_2 is Music-Collaborative Piano   or SIS_Major_2_2 is Music-Collaborative Piano",
+        "raw_text": "SIS_Major is Music-Collaborative Piano   or SIS_Major_1_2 is Music-Collaborative Piano   or SIS_Major_2_2 is Music-Collaborative Piano"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.766703",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

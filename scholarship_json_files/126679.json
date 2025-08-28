@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 126679,
+    "scholarship_name": "Laura Bell Dyer Scholarship",
+    "scholarship_code": "S10076",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Laura Bell Dyer Scholarship",
+    "candidate_count": 10
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to Juniors or Seniors within the College of Education & Professional Studies who are majoring in Special Education. Eligibility Requirements Must be a Special Education major Must be a junior or senior for the academic year in which the scholarship is awarded Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Spec Ed-SP/Mult Disabilities   or SIS_Major is Special Education   or SIS_Major_1_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_1_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_1_2 is Special Education   or SIS_Major_2_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_2_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_2_2 is Special Education",
+        "raw_text": "SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Spec Ed-SP/Mult Disabilities   or SIS_Major is Special Education   or SIS_Major_1_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_1_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_1_2 is Special Education   or SIS_Major_2_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_2_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_2_2 is Special Education"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior   or SIS_Classification is 1st Year Graduate   or SIS_Classification is 2nd Year Graduate",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior   or SIS_Classification is 1st Year Graduate   or SIS_Classification is 2nd Year Graduate"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.794430",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

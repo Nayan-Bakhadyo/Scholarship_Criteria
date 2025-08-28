@@ -1,0 +1,86 @@
+{
+  "basic_information": {
+    "scholarship_id": 162100,
+    "scholarship_name": "Cotton Family Endowed Scholarship",
+    "scholarship_code": "S10596",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Incoming Student",
+    "candidate_count": 86
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship mission: To provide scholarships to Incoming Freshmen & Transfer students who plan to major in majors that support Oklahoma's Workforce Development needs. Eligibility Requirements Complete the Incoming Student Qualifying Application Must be an Incoming Freshman or transfer student Must have graduated from an Oklahoma high school Minimum 2.5 GPA Must be enrolled full-time Must be working either part-time or full-time during college Must be majoring in OK Workforce Development needs with preference given to Engineering, Nursing, and Teacher Education Students Must write a 250-word essay describing work plans while attending college, along with degree pursuing and why This scholarship is available to apply for during the Incoming Student scholarship period.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "GEN_Working = Yes",
+        "raw_text": "GEN_Working = Yes"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "ADV_Cotton_OKHS = Yes",
+        "raw_text": "ADV_Cotton_OKHS = Yes"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Cotton_Essay\"",
+        "raw_text": "Complete Essay \"ADV_Cotton_Essay\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major is Applied Math Science-Teaching   and SIS_Major is Art Education   and SIS_Major is Biomedical Engineering   and SIS_Major is Dance Education   and SIS_Major is Early Childhood Education   and SIS_Major is Electrical Engineering   and SIS_Major is Elementary Education   and SIS_Major is Engineering Physics   and SIS_Major is Engineering Physics-Physics   and SIS_Major is English Education   and SIS_Major is History Education   and SIS_Major is Library Media Education   and SIS_Major is Mathematics Education   and SIS_Major is Mechanical Engineering   and SIS_Major is Music Education-Instrumental   and SIS_Major is Music Education-Vocal   and SIS_Major is Music-Music Education   and SIS_Major is Nursing   and SIS_Major is Secondary Education   and SIS_Major is Software Engineering   and SIS_Major is Teacher Certification   and SIS_Major is Teaching English as 2nd Lang   and SIS_Major is Social Studies Education   and SIS_Major is History-Social Studies Teach   and SIS_Major is Fam&Consumer Sci-Education   and SIS_Major is Education-General Education   and SIS_Major is Education-Secondary Education   and SIS_Major is Eng Phy-Pre-Engineering   and SIS_Major is Engineering Physics-Electr Sys   and SIS_Major is Engineering Physics-Mechan Sys   and SIS_Major is Engineering Physics-Sciences   and SIS_Major is Engineering Physics-Technology   and SIS_Major is English-Teaching ESL   and SIS_Major is Music Education-Music Educ   and SIS_Major is Computer Engineering   and SIS_Major is BilEd/Teach Eng Speak Oth Lang   and SIS_Major is Computer Engineering    and SIS_Major is Curr&Instr-Teach & Learn PK-6   and SIS_Major is Cert Teaching/Learning PreK-6",
+        "raw_text": "SIS_Major is Applied Math Science-Teaching   and SIS_Major is Art Education   and SIS_Major is Biomedical Engineering   and SIS_Major is Dance Education   and SIS_Major is Early Childhood Education   and SIS_Major is Electrical Engineering   and SIS_Major is Elementary Education   and SIS_Major is Engineering Physics   and SIS_Major is Engineering Physics-Physics   and SIS_Major is English Education   and SIS_Major is History Education   and SIS_Major is Library Media Education   and SIS_Major is Mathematics Education   and SIS_Major is Mechanical Engineering   and SIS_Major is Music Education-Instrumental   and SIS_Major is Music Education-Vocal   and SIS_Major is Music-Music Education   and SIS_Major is Nursing   and SIS_Major is Secondary Education   and SIS_Major is Software Engineering   and SIS_Major is Teacher Certification   and SIS_Major is Teaching English as 2nd Lang   and SIS_Major is Social Studies Education   and SIS_Major is History-Social Studies Teach   and SIS_Major is Fam&Consumer Sci-Education   and SIS_Major is Education-General Education   and SIS_Major is Education-Secondary Education   and SIS_Major is Eng Phy-Pre-Engineering   and SIS_Major is Engineering Physics-Electr Sys   and SIS_Major is Engineering Physics-Mechan Sys   and SIS_Major is Engineering Physics-Sciences   and SIS_Major is Engineering Physics-Technology   and SIS_Major is English-Teaching ESL   and SIS_Major is Music Education-Music Educ   and SIS_Major is Computer Engineering   and SIS_Major is BilEd/Teach Eng Speak Oth Lang   and SIS_Major is Computer Engineering    and SIS_Major is Curr&Instr-Teach & Learn PK-6   and SIS_Major is Cert Teaching/Learning PreK-6",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.710370",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

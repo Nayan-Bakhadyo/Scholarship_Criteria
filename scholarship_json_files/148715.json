@@ -1,0 +1,41 @@
+{
+  "basic_information": {
+    "scholarship_id": 148715,
+    "scholarship_name": "UCO ROTC - Nonresident Contracted Waiver",
+    "scholarship_code": "",
+    "scholarship_notes": "To be maintained by ROTC",
+    "donor_name": "UCO Institutional Waivers - ESS",
+    "committee_name": "",
+    "candidate_count": 2
+  },
+  "renewable_information": {
+    "is_renewable": true,
+    "renewable_years": 5
+  },
+  "description": "This waiver waives all nonresident tuition charges for students contracted with UCO ROTC. Eligibility Requirements: Student must have a contract with UCO ROTC Must be a nonresident of Oklahoma Continuing eligibility: (to be filled out) 2.0 GPA Continuous full-time enrollment - Fall/Spring Must be enrolled part-time to be eligible for the Summer award.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.863621",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

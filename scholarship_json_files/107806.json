@@ -1,0 +1,98 @@
+{
+  "basic_information": {
+    "scholarship_id": 107806,
+    "scholarship_name": "Ted and Dorothy Thrasher Scholarship",
+    "scholarship_code": "S20571",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Dean's Office Scholarship Committee",
+    "candidate_count": 50
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science. Eligibility Requirements College of Mathematics and Science student Student must be an Oklahoma Resident Enrolled in at least 12 hours 3.0 GPA or higher Pursuing STEM Degree Student must demonstrate financial need and is not receiving Pell Grant funding Two faculty letters of recommendation",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Mathematics and Science",
+        "raw_text": "SIS_College is Mathematics and Science"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_OKResidency = Yes",
+        "raw_text": "SIS_OKResidency = Yes"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "CMS_Pell_Grant = No",
+        "raw_text": "CMS_Pell_Grant = No"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.843456",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

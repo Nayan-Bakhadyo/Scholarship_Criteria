@@ -1,0 +1,60 @@
+{
+  "basic_information": {
+    "scholarship_id": 140212,
+    "scholarship_name": "The GIS Beta Epsilon Leadership Scholarship",
+    "scholarship_code": "S20732",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - Finance Department Scholarship Committee",
+    "candidate_count": 2
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Eligibility Requirements The President of The GIS Beta Epsilon A.K.A. The Actuary, Insurance and Risk Management Club President must be in good standing - if the President is not in good standing then the VP/President-Elect will be awarded 3.0 GPA",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "COB_GIS_Beta_Epsilon_Leadership_Scholarship = Yes",
+        "raw_text": "COB_GIS_Beta_Epsilon_Leadership_Scholarship = Yes"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.850835",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

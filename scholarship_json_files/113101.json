@@ -1,0 +1,86 @@
+{
+  "basic_information": {
+    "scholarship_id": 113101,
+    "scholarship_name": "Dr. Peggy Guthrie Endowed Scholarship for Pre-Med",
+    "scholarship_code": "S10475",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Pre-Health Professions Scholarship Committee",
+    "candidate_count": 39
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science who are pursuing a degree in the Department of Biology. Eligibility Requirements? College of Mathematics and Science student Major in Biology Minimum GPA of 3.0 Must have completed 60 hours of credit towards degree Demonstrate financial need Two faculty recommendations",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Biology   or SIS_Major_2 is Biology-Biomedical Sciences   or SIS_Major_2 is Biology-Pre-Medical   or SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Biology-Pre-Medical",
+        "raw_text": "SIS_Major_2 is Biology   or SIS_Major_2 is Biology-Biomedical Sciences   or SIS_Major_2 is Biology-Pre-Medical   or SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Biology-Pre-Medical"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 3,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 60.00",
+        "raw_text": "SIS_Overall_Hours >= 60.00"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.738888",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

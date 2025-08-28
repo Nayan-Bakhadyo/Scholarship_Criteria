@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 136009,
+    "scholarship_name": "The Haulman Cunliff Endowed Scholarship in Bilingual Education/TESOL",
+    "scholarship_code": "S10552",
+    "scholarship_notes": "Eligible for full disbursement if graduating in December",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Haulman Cunliff Scholarship in TESOL",
+    "candidate_count": 2
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to graduate students within the College of Education & Professional Studies who are pursuing a Masters of Education  Bilingual Education/TESOL. Eligibility Requirements Must be a graduate student in the Bilingual Education/ TESOL program at UCO to apply Preference will be given to classroom teachers that serve English learners in the metropolitan area In a short essay, please share your plan to work for Oklahoma Public Schools after graduation and how this scholarship will help achieve your goal In the same essay, please demonstrate financial need Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major is Bilingual Education/TESL   or SIS_Major is Education-Bilingual Ed/TESL   or SIS_Major is BilEd/Teach Eng Speak Oth Lang",
+        "raw_text": "SIS_Major is Bilingual Education/TESL   or SIS_Major is Education-Bilingual Ed/TESL   or SIS_Major is BilEd/Teach Eng Speak Oth Lang"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Haulman Cunliff TESOL\"",
+        "raw_text": "Complete Essay \"CEPS_Haulman Cunliff TESOL\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.851375",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

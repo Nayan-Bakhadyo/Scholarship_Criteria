@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 129647,
+    "scholarship_name": "Stephen Holt Gragg Memorial Scholarship",
+    "scholarship_code": "S10054",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Advancement Committee 4",
+    "candidate_count": 4
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarships for UCO students who meet the following criteria: Eligibility Requirements 2.5 cumulative GPA Preference is given to a student majoring in Political Science, Public Administration, or other majors leading to a career in government service Demonstrated leadership in student government Demonstrated commitment to public or campus services Letters of recommendation from 2 faculty members This scholarship is available to apply for during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Relevant_Activities\"",
+        "raw_text": "Complete Essay \"GEN_Relevant_Activities\""
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2 is Political Science   or SIS_Major_2 is Political Science-Intnl Affair   or SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public & Nonprofit Management   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Political Science-General   or SIS_Major_2 is Political Science-Pre-Law   or SIS_Major_2 is Political Science-Urban Affair   or SIS_Major_2 is Political Sci-Intnl Relations   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major_2 is Political Sci-Public Affairs   or SIS_Major is Political Science   or SIS_Major is Political Science-Intnl Affair   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public & Nonprofit Management   or SIS_Major is Public Administration   or SIS_Major is Political Science-General   or SIS_Major is Political Science-Pre-Law   or SIS_Major is Political Science-Urban Affair   or SIS_Major is Political Sci-Intnl Relations   or SIS_Major is Political Sci-Public Administr   or SIS_Major is Political Sci-Public Affairs   or SIS_Major_1_2 is Political Science   or SIS_Major_1_2 is Political Science-Intnl Affair   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public & Nonprofit Management   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Political Science-General   or SIS_Major_1_2 is Political Science-Pre-Law   or SIS_Major_1_2 is Political Science-Urban Affair   or SIS_Major_1_2 is Political Sci-Intnl Relations   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_1_2 is Political Sci-Public Affairs   or SIS_Major_2_2 is Political Science   or SIS_Major_2_2 is Political Science-Intnl Affair   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public & Nonprofit Management   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Political Science-General   or SIS_Major_2_2 is Political Science-Pre-Law   or SIS_Major_2_2 is Political Science-Urban Affair   or SIS_Major_2_2 is Political Sci-Intnl Relations   or SIS_Major_2_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Sci-Public Affairs",
+        "raw_text": "SIS_Major_2 is Political Science   or SIS_Major_2 is Political Science-Intnl Affair   or SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public & Nonprofit Management   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Political Science-General   or SIS_Major_2 is Political Science-Pre-Law   or SIS_Major_2 is Political Science-Urban Affair   or SIS_Major_2 is Political Sci-Intnl Relations   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major_2 is Political Sci-Public Affairs   or SIS_Major is Political Science   or SIS_Major is Political Science-Intnl Affair   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public & Nonprofit Management   or SIS_Major is Public Administration   or SIS_Major is Political Science-General   or SIS_Major is Political Science-Pre-Law   or SIS_Major is Political Science-Urban Affair   or SIS_Major is Political Sci-Intnl Relations   or SIS_Major is Political Sci-Public Administr   or SIS_Major is Political Sci-Public Affairs   or SIS_Major_1_2 is Political Science   or SIS_Major_1_2 is Political Science-Intnl Affair   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public & Nonprofit Management   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Political Science-General   or SIS_Major_1_2 is Political Science-Pre-Law   or SIS_Major_1_2 is Political Science-Urban Affair   or SIS_Major_1_2 is Political Sci-Intnl Relations   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_1_2 is Political Sci-Public Affairs   or SIS_Major_2_2 is Political Science   or SIS_Major_2_2 is Political Science-Intnl Affair   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public & Nonprofit Management   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Political Science-General   or SIS_Major_2_2 is Political Science-Pre-Law   or SIS_Major_2_2 is Political Science-Urban Affair   or SIS_Major_2_2 is Political Sci-Intnl Relations   or SIS_Major_2_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Sci-Public Affairs"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.839348",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "basic_information": {
+    "scholarship_id": 107652,
+    "scholarship_name": "Presser Award-NOMINATION",
+    "scholarship_code": "S20505",
+    "scholarship_notes": "The recipient will be required to write a thank-you letter, provide a bio and fill out a certificate from the Presser Foundation. A copy of the press release is provided to the foundation as well. Awarded via paper submission, all in the current spring semester.",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 10
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This esteemed scholarship is funded by the Presser Foundation and is our most prestigious music scholarship. The Presser Foundation was established in 1939 to promote musical education and musical philanthropy. The scholarship is awarded through faculty selection to a student, referred to as the \"Presser Scholar,\" identified by excellence of merit and deemed outstanding in all areas of study and performance. Eligibility Music major Junior during the application period Disbursement The value of this scholarship will be determined by the amount available and will be presented and paid in full at the end of the recipient's junior year ?Requirements AWARDED BY COMMITTEE NOMINATION. Nominated student(s) will be invited to apply by the college's scholarship coordinator",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CFAD_Nomination_Required = Yes",
+        "raw_text": "CFAD_Nomination_Required = Yes"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.826094",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

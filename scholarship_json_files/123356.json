@@ -1,0 +1,107 @@
+{
+  "basic_information": {
+    "scholarship_id": 123356,
+    "scholarship_name": "Bank of Oklahoma Scholarship",
+    "scholarship_code": "S20579",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - Finance Department Scholarship Committee",
+    "candidate_count": 58
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Eligibility Requirements Full-time undergraduate student (enrolled in 12 hours or more) U.S. citizen Declared Accounting OR Finance major Must have completed 45+ hours at the time of application Not graduating prior to Fall 2023 Minimum 3.0 cumulative GPA Preference to be given to students who are active in campus academic activities, the Accounting Club and the Finance Club Preference to be given to students who work during the calendar year or who are active in extracurricular activities on campus Financial need to be considered Applicants who have family members who work at BOK are eligible to apply, but preference not given.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 2,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Finance-Real Estate   or SIS_Major_2 is Accounting   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2 is Finance-Banking   or SIS_Major_2 is Finance-Business Law   or SIS_Major_2 is Finance-Financial Planning   or SIS_Major_2 is Finance-Insurance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Business Law   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major_1_2 is Finance-Real Estate   or SIS_Major_1_2 is Accounting   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Banking   or SIS_Major_1_2 is Finance-Business Law   or SIS_Major_1_2 is Finance-Financial Planning   or SIS_Major_1_2 is Finance-Insurance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance-Real Estate   or SIS_Major_2_2 is Accounting   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Banking   or SIS_Major_2_2 is Finance-Business Law   or SIS_Major_2_2 is Finance-Financial Planning   or SIS_Major_2_2 is Finance-Insurance   or SIS_Major_2_2 is Finance-Risk Management",
+        "raw_text": "SIS_Major_2 is Finance-Real Estate   or SIS_Major_2 is Accounting   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2 is Finance-Banking   or SIS_Major_2 is Finance-Business Law   or SIS_Major_2 is Finance-Financial Planning   or SIS_Major_2 is Finance-Insurance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Business Law   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major_1_2 is Finance-Real Estate   or SIS_Major_1_2 is Accounting   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Banking   or SIS_Major_1_2 is Finance-Business Law   or SIS_Major_1_2 is Finance-Financial Planning   or SIS_Major_1_2 is Finance-Insurance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance-Real Estate   or SIS_Major_2_2 is Accounting   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Banking   or SIS_Major_2_2 is Finance-Business Law   or SIS_Major_2_2 is Finance-Financial Planning   or SIS_Major_2_2 is Finance-Insurance   or SIS_Major_2_2 is Finance-Risk Management"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time"
+      },
+      {
+        "id": 6,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 45.00   or SIS_Transfer_Hours >= 45.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 45.00   or SIS_Transfer_Hours >= 45.00"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "GEN_Activities = Yes",
+        "raw_text": "GEN_Activities = Yes",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "GEN_Working = Yes",
+        "raw_text": "GEN_Working = Yes",
+        "points": 1
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Work_History\"",
+        "raw_text": "Complete Essay \"GEN_Work_History\"",
+        "points": 1
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"COB_Financial_Need\"",
+        "raw_text": "Complete Essay \"COB_Financial_Need\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 4
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.653803",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

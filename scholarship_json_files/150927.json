@@ -1,0 +1,80 @@
+{
+  "basic_information": {
+    "scholarship_id": 150927,
+    "scholarship_name": "Muzny Family Endowed Scholarship in Engineering",
+    "scholarship_code": "S10585",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Engineering and Physics Scholarship Committe",
+    "candidate_count": 19
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was created to honor the memory of Donnal \"Don\" F. Muzny and will provide scholarship assistance to students within the College of Mathematics and Science who are pursuing a degree in the School of Engineering. The recipient(s) of the Muzny Family Endowed Scholarship in Engineering will be selected by a committee appointed by the Dean of the College of Mathematics and Science and will include representatives from the School of Engineering. The recipient(s) will be selected in the spring for distribution the following fall and/or spring semesters. Eligibility Requirements Major in a degree within the School of Engineering Minimum 3.0 GPA Junior or Senior status Provide a personal statement outlining career goals Financial need may be considered Previous recipients of the scholarship award are eligible for consideration",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major is Biomedical Engineering   or SIS_Major is Electrical Engineering   or SIS_Major is Engineering Physics   or SIS_Major is Engr Physics-Biomedical Engr   or SIS_Major is Engr Physics-Electrical Engr   or SIS_Major is Engr Physics-Mechanical Engr   or SIS_Major is Mechanical Engineering   or SIS_Major is Computer Engineering   or SIS_Major is Computer Engineering    or SIS_Major_1_2 is Biomedical Engineering   or SIS_Major_1_2 is Electrical Engineering   or SIS_Major_1_2 is Engineering Physics   or SIS_Major_1_2 is Engr Physics-Biomedical Engr   or SIS_Major_1_2 is Engr Physics-Electrical Engr   or SIS_Major_1_2 is Engr Physics-Mechanical Engr   or SIS_Major_1_2 is Mechanical Engineering   or SIS_Major_1_2 is Computer Engineering   or SIS_Major_1_2 is Computer Engineering    or SIS_Major_2_2 is Biomedical Engineering   or SIS_Major_2_2 is Electrical Engineering   or SIS_Major_2_2 is Engineering Physics   or SIS_Major_2_2 is Engr Physics-Biomedical Engr   or SIS_Major_2_2 is Engr Physics-Electrical Engr   or SIS_Major_2_2 is Engr Physics-Mechanical Engr   or SIS_Major_2_2 is Mechanical Engineering   or SIS_Major_2_2 is Computer Engineering   or SIS_Major_2_2 is Computer Engineering",
+        "raw_text": "SIS_Major is Biomedical Engineering   or SIS_Major is Electrical Engineering   or SIS_Major is Engineering Physics   or SIS_Major is Engr Physics-Biomedical Engr   or SIS_Major is Engr Physics-Electrical Engr   or SIS_Major is Engr Physics-Mechanical Engr   or SIS_Major is Mechanical Engineering   or SIS_Major is Computer Engineering   or SIS_Major is Computer Engineering    or SIS_Major_1_2 is Biomedical Engineering   or SIS_Major_1_2 is Electrical Engineering   or SIS_Major_1_2 is Engineering Physics   or SIS_Major_1_2 is Engr Physics-Biomedical Engr   or SIS_Major_1_2 is Engr Physics-Electrical Engr   or SIS_Major_1_2 is Engr Physics-Mechanical Engr   or SIS_Major_1_2 is Mechanical Engineering   or SIS_Major_1_2 is Computer Engineering   or SIS_Major_1_2 is Computer Engineering    or SIS_Major_2_2 is Biomedical Engineering   or SIS_Major_2_2 is Electrical Engineering   or SIS_Major_2_2 is Engineering Physics   or SIS_Major_2_2 is Engr Physics-Biomedical Engr   or SIS_Major_2_2 is Engr Physics-Electrical Engr   or SIS_Major_2_2 is Engr Physics-Mechanical Engr   or SIS_Major_2_2 is Mechanical Engineering   or SIS_Major_2_2 is Computer Engineering   or SIS_Major_2_2 is Computer Engineering"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.809686",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

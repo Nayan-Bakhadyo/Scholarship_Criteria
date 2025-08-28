@@ -1,0 +1,74 @@
+{
+  "basic_information": {
+    "scholarship_id": 107805,
+    "scholarship_name": "Chemistry Department Endowed Scholarship",
+    "scholarship_code": "S10022",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Chemistry Scholarship Committee",
+    "candidate_count": 23
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science majoring in Chemistry. Eligibility Requirements College of Mathematics and Science student Chemistry student Criteria Varies Two faculty recommendation letters",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2 is Science Ed-Chemistry   or SIS_Major_2 is Chemistry-Environmental Chem   or SIS_Major_2 is Environmental Chemistry   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Chemistry-Pre-Pharmacy   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Chemistry-Environmental Chem   or SIS_Major is Environmental Chemistry   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Chemistry-Pre-Pharmacy   or SIS_Major_1_2 is Science Ed-Chemistry   or SIS_Major_1_2 is Chemistry-Environmental Chem   or SIS_Major_1_2 is Environmental Chemistry   or SIS_Major_2_2 is Chemistry   or SIS_Major_2_2 is Chemistry-ACS Certificate   or SIS_Major_2_2 is Chemistry-Health Sciences   or SIS_Major_2_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2_2 is Science Ed-Chemistry   or SIS_Major_2_2 is Chemistry-Environmental Chem   or SIS_Major_2_2 is Environmental Chemistry",
+        "raw_text": "SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2 is Science Ed-Chemistry   or SIS_Major_2 is Chemistry-Environmental Chem   or SIS_Major_2 is Environmental Chemistry   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Chemistry-Pre-Pharmacy   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Chemistry-Environmental Chem   or SIS_Major is Environmental Chemistry   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Chemistry-Pre-Pharmacy   or SIS_Major_1_2 is Science Ed-Chemistry   or SIS_Major_1_2 is Chemistry-Environmental Chem   or SIS_Major_1_2 is Environmental Chemistry   or SIS_Major_2_2 is Chemistry   or SIS_Major_2_2 is Chemistry-ACS Certificate   or SIS_Major_2_2 is Chemistry-Health Sciences   or SIS_Major_2_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2_2 is Science Ed-Chemistry   or SIS_Major_2_2 is Chemistry-Environmental Chem   or SIS_Major_2_2 is Environmental Chemistry"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.699694",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

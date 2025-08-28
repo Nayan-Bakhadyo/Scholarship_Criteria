@@ -1,0 +1,74 @@
+{
+  "basic_information": {
+    "scholarship_id": 107924,
+    "scholarship_name": "Dr. Stephen Black Finance Scholarship",
+    "scholarship_code": "S10464",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - Finance Department Scholarship Committee",
+    "candidate_count": 41
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Must be a declared Finance major, must be enrolled full time, must provide statement of need, Preference given to a student with high GPA and achievement at UCO and must have a recommendation from the Finance Department chair. Eligibility Requirements Declared Finance major Enrolled full-time Provide a statement of need Recommendation from the Finance Department chair High GPA Selection Process Preference given to a student with high GPA and achievement at UCO",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Finance-Real Estate   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2 is Finance-Banking   or SIS_Major_2 is Finance-Business Law   or SIS_Major_2 is Finance-Financial Planning   or SIS_Major_2 is Finance-Insurance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance-Real Estate   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Business Law   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major_1_2 is Finance-Real Estate   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Banking   or SIS_Major_1_2 is Finance-Business Law   or SIS_Major_1_2 is Finance-Financial Planning   or SIS_Major_1_2 is Finance-Insurance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance-Real Estate   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Banking   or SIS_Major_2_2 is Finance-Business Law   or SIS_Major_2_2 is Finance-Financial Planning   or SIS_Major_2_2 is Finance-Insurance   or SIS_Major_2_2 is Finance-Risk Management",
+        "raw_text": "SIS_Major_2 is Finance-Real Estate   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2 is Finance-Banking   or SIS_Major_2 is Finance-Business Law   or SIS_Major_2 is Finance-Financial Planning   or SIS_Major_2 is Finance-Insurance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance-Real Estate   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Business Law   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major_1_2 is Finance-Real Estate   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Banking   or SIS_Major_1_2 is Finance-Business Law   or SIS_Major_1_2 is Finance-Financial Planning   or SIS_Major_1_2 is Finance-Insurance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance-Real Estate   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Banking   or SIS_Major_2_2 is Finance-Business Law   or SIS_Major_2_2 is Finance-Financial Planning   or SIS_Major_2_2 is Finance-Insurance   or SIS_Major_2_2 is Finance-Risk Management"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"COB_LOR_Finance\"",
+        "raw_text": "1 letters of recommendation: \"COB_LOR_Finance\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.744770",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

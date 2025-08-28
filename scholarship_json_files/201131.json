@@ -1,0 +1,41 @@
+{
+  "basic_information": {
+    "scholarship_id": 201131,
+    "scholarship_name": "Paul B. Southerland Outstanding Promise in Visual Arts Endowed Scholarship",
+    "scholarship_code": "S10643",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - Mass Comm Southerland",
+    "candidate_count": 2
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The recipient(s) of the Paul B. Southerland Outstanding Promise in Visual Arts Endowed Scholarship will be selected by a committee appointed by members of the Oklahoma Journalism Hall of Fame and administered by the director and/or the executive committee. The recipient(s) will be selected in the spring for distribution the following fall and spring semesters. Criteria shall be: Undergraduate student Must be enrolled full-time Must be a Junior or Senior Must be a Professional Media or Photographic Arts major Preference will be given to students who wish to pursue a career as a news photographer or reporter",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.821756",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

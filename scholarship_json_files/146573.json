@@ -1,0 +1,41 @@
+{
+  "basic_information": {
+    "scholarship_id": 146573,
+    "scholarship_name": "Student Ambassador Waiver",
+    "scholarship_code": "",
+    "scholarship_notes": "These awards are often to assist due to errors on accounts or communication errors for awards. Scholarship cloned on Aug 15 2022 2:04PM",
+    "donor_name": "",
+    "committee_name": "ESS Freshman Committee",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The award is available to student ambassadors from the UCO Tours office. Awards can be offered during the fall, spring, or summer semester. The spring and summer awards will be added as a modified award, which means you will need to re-accept your award.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.841392",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "basic_information": {
+    "scholarship_id": 192398,
+    "scholarship_name": "The Benjamin Odom and Teresa Craig Endowed Scholarship in Political Science",
+    "scholarship_code": "S10619",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - Political Science",
+    "candidate_count": 6
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The purpose of this scholarship is to provide scholarships for students majoring in Political Science. Eligibility Requirements Must be a Political Science major Must submit a one to two-paragraph bio that demonstrates a commitment to leadership and service Must demonstrate financial need Preference will be given to incoming students.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major_2 is Political Science   or SIS_Major_2 is Political Science-Intnl Affair   or SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Political Science-General   or SIS_Major_2 is Political Science-Pre-Law   or SIS_Major_2 is Political Science-Urban Affair   or SIS_Major_2 is Political Sci-Intnl Relations   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major_2 is Political Sci-Public Affairs   or SIS_Major_2 is Political Sci-Public Service   or SIS_Major is Political Science   or SIS_Major is Political Science-Intnl Affair   or SIS_Major is Political Science-Public Admin   or SIS_Major is Political Science-General   or SIS_Major is Political Science-Pre-Law   or SIS_Major is Political Science-Urban Affair   or SIS_Major is Political Sci-Intnl Relations   or SIS_Major is Political Sci-Public Administr   or SIS_Major is Political Sci-Public Affairs   or SIS_Major is Political Sci-Public Service   or SIS_Major_1_2 is Political Science   or SIS_Major_1_2 is Political Science-Intnl Affair   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Political Science-General   or SIS_Major_1_2 is Political Science-Pre-Law   or SIS_Major_1_2 is Political Science-Urban Affair   or SIS_Major_1_2 is Political Sci-Intnl Relations   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_1_2 is Political Sci-Public Affairs   or SIS_Major_1_2 is Political Sci-Public Service   or SIS_Major_2_2 is Political Science   or SIS_Major_2_2 is Political Science-Intnl Affair   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Political Science-General   or SIS_Major_2_2 is Political Science-Pre-Law   or SIS_Major_2_2 is Political Science-Urban Affair   or SIS_Major_2_2 is Political Sci-Intnl Relations   or SIS_Major_2_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Sci-Public Affairs   or SIS_Major_2_2 is Political Sci-Public Service",
+        "raw_text": "SIS_Major_2 is Political Science   or SIS_Major_2 is Political Science-Intnl Affair   or SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Political Science-General   or SIS_Major_2 is Political Science-Pre-Law   or SIS_Major_2 is Political Science-Urban Affair   or SIS_Major_2 is Political Sci-Intnl Relations   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major_2 is Political Sci-Public Affairs   or SIS_Major_2 is Political Sci-Public Service   or SIS_Major is Political Science   or SIS_Major is Political Science-Intnl Affair   or SIS_Major is Political Science-Public Admin   or SIS_Major is Political Science-General   or SIS_Major is Political Science-Pre-Law   or SIS_Major is Political Science-Urban Affair   or SIS_Major is Political Sci-Intnl Relations   or SIS_Major is Political Sci-Public Administr   or SIS_Major is Political Sci-Public Affairs   or SIS_Major is Political Sci-Public Service   or SIS_Major_1_2 is Political Science   or SIS_Major_1_2 is Political Science-Intnl Affair   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Political Science-General   or SIS_Major_1_2 is Political Science-Pre-Law   or SIS_Major_1_2 is Political Science-Urban Affair   or SIS_Major_1_2 is Political Sci-Intnl Relations   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_1_2 is Political Sci-Public Affairs   or SIS_Major_1_2 is Political Sci-Public Service   or SIS_Major_2_2 is Political Science   or SIS_Major_2_2 is Political Science-Intnl Affair   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Political Science-General   or SIS_Major_2_2 is Political Science-Pre-Law   or SIS_Major_2_2 is Political Science-Urban Affair   or SIS_Major_2_2 is Political Sci-Intnl Relations   or SIS_Major_2_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Sci-Public Affairs   or SIS_Major_2_2 is Political Sci-Public Service"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CLA_OdomCraig_PoliSci\"",
+        "raw_text": "Complete Essay \"CLA_OdomCraig_PoliSci\""
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.846818",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

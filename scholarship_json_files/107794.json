@@ -1,0 +1,90 @@
+{
+  "basic_information": {
+    "scholarship_id": 107794,
+    "scholarship_name": "Bob Burke Endowed Scholarship in Creative Writing Program",
+    "scholarship_code": "S10320",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - English",
+    "candidate_count": 1
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The Bob Burke Endowed Scholarship was established by historian, author, and attorney Bob Burke, to provide financial assistance to students applying to or enrolled in the Master of Arts program in Creative Writing. Eligibility Requirements Enrolled in the Master of Arts program in Creative Writing Minimum GPA of 2.75 A letter explaining why the applicant is qualified to pursue this degree program and discuss ways in which pursuing the MFA in Creative Writing will facilitate their career plans Attach a writing sample of approximately 25 pages of a single project Attach a 1 to 2 page statement describing the applicant's reading habits, naming a selection of significant texts that he/she has read recently, and explaining how those texts have influenced his/her understanding of literary art and goals as a writer Must receive three letters of recommendation from faculty",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"CLA_Burke_PesonallStatement \"",
+        "raw_text": "Complete Essay \"CLA_Burke_PesonallStatement \""
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Attachment:  \"CLA_Burke_WritingSample\"",
+        "raw_text": "Complete Attachment:  \"CLA_Burke_WritingSample\""
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Attachment:  \"CLA-Burke-Qualification-Letter\"",
+        "raw_text": "Complete Attachment:  \"CLA-Burke-Qualification-Letter\""
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Creative Writing   or SIS_Major_2 is English-Creative Writing   or SIS_Major is Creative Writing   or SIS_Major is English-Creative Writing   or SIS_Major_1_2 is Creative Writing   or SIS_Major_1_2 is English-Creative Writing   or SIS_Major_2_2 is Creative Writing   or SIS_Major_2_2 is English-Creative Writing",
+        "raw_text": "SIS_Major_2 is Creative Writing   or SIS_Major_2 is English-Creative Writing   or SIS_Major is Creative Writing   or SIS_Major is English-Creative Writing   or SIS_Major_1_2 is Creative Writing   or SIS_Major_1_2 is English-Creative Writing   or SIS_Major_2_2 is Creative Writing   or SIS_Major_2_2 is English-Creative Writing"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "3 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "3 letters of recommendation: \"GEN_LOR_Faculty (2)\""
+      },
+      {
+        "id": 8,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.75",
+        "raw_text": "SIS_CumGPA >= 2.75"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.659085",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

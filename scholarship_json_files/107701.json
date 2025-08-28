@@ -1,0 +1,84 @@
+{
+  "basic_information": {
+    "scholarship_id": 107701,
+    "scholarship_name": "Hannah McCarty Performing Arts Scholarship for Theatre and Dance",
+    "scholarship_code": "S10210",
+    "scholarship_notes": "Email or mail copies of the Hannah McCarty recipient's essay's to the Pam and Jack McCarty. Get current address from Development office.",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CFAD - Dance / Theatre Arts",
+    "candidate_count": 11
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was lovingly established in 2006 by Jack and Pam McCarty in memory of their late daughter, Hannah. Hannah Denise McCarty of Oklahoma City entered Heaven on July 22, 2003. Hannahs extraordinary life began August 14, 1986. She was an actress, dancer, best friend to many, beloved daughter of Jack and Pamela McCarty and a precious child of God. Hannah was a dance and theater major at Classen School of Advanced Studies, having completed her sophomore year in May 2003. She was a faithful member of Church of the Harvest, where she volunteered as a preschool worker and a church greeter, and where she enjoyed bringing friends to Youth America services. She loved Jesus from the time she invited Him into her heart as a young child, and her faith continued to grow. She took dance lessons from the age of four, attended many dance and theater classes at various fine arts schools and became skilled at tap (her favorite), ballet, jazz, modern and Irish dancing. She was inspired by Fred Astaire, Ginger Rogers and other stars of the 1930s whose movies she collected and studied. She dreamed of being a professional actress and also having her own daycare business. Hannah enjoyed school and especially being with her friends there. She attended kindergarten through 5th grade at Good Shepherd Lutheran School in Midwest City, and 6th grade at Mid-Del Christian School. She earned many awards, always stayed on the honor roll and always made sure to have fun. She attended Classen School of Advanced Studies, where she was a dance major 7th through 9th grades and a theater major in 10th grade. She worked very hard to remain in the National Honor Society, yet always had time for her friends. Though her health was threatened by a condition that often weakened her physical stamina and her immunity, she was determined to do her best in all her endeavors and to pursue her dreams until her final days on earth. Through Classen, Hannah learned about the University of Central Oklahomas dance workshops, and she loved and attended every one for four years. Even though her health was failing, she refused to miss the June 2003 one-week workshop. She asked God for strength and miraculously danced with enthusiasm and a smile throughout the week, concluding with the Summer Dance Informal Showcase in Mitchell Hall on June 6, 2003. That was the last time Hannah danced on stage on earth. Just weeks later, she danced into Heaven. The UCO Dance Program now graciously honors Hannah and her love for dance by offering a dance workshop scholarship in her memory to a most deserving Classen student. Hannahs parents have also established a performing arts endowed scholarship fund in Hannahs honor to benefit future UCO dance and theater majors and to continue Hannahs love for the arts for years to come. While Hannah fought a courageous battle with a physical challenge that began at the age of five, she did not allow that to define her life. She stood on her faith and lived life to the fullest, no matter how hard the battles she faced. Her goals included not only being successful in her careers and maintaining her treasured friendships, but also, as she once wrote, to reach at least one person for Jesus Christ. Hannah wanted everyone to join her in Heaven someday. She continued to serve as a church greeter even when she had little strength to stand. She attended and invited friends to every Youth America service the week before she went to Heaven. She never complained, she never gave up, she never stopped dancing and she never will. A wonderful celebration of Hannahs life was held at Church of the Harvest July 26, 2003. At the end of the service, Pastor Kirk Pankratz gave an invitation and at least 17 lives were changed that day. A brief graveside service followed at Rose Hill Burial Park in Oklahoma City. In October 2003, a memorial service for Hannah, arranged by some of her closest friends, was held at Classen School of Advanced Studies, where Principal Dr. Ron Maxfield said Hannah was our miracle. In May 2004, Classens musical theater production was dedicated to Hannah, as she had successfully auditioned to be in that program. In April & May 2005, Hannahs amazing friends paid her many special tributes. The Dance Extravaganza was dedicated to her and was opened by a breath-taking dance choreographed and named For Hannah by her senior dance classmates, who danced as vocal major friends sang an a cappella arrangement of Amazing Grace. The 2005 Baccalaureate featured Hannahs drama buddies uniquely presenting her original oratory (for which she won a trophy as a sophomore) entitled Laughter, which it truly produced at the service. For graduation, a video in memory of Hannah was created by her friends, a poem was written by her principal and a chair was reserved for her with a rose. These wonderful tributes will never be forgotten. Her parents arranged for a graduation tribute to Hannah and the Class of 2005 to be posted on several city buses that carried throughout Oklahoma City Hannahs picture and a message that defines her life well, When you follow Jesus, the dance never ends... On October 6, 2006, UCO presented an evening in memory of Hannah McCarty. The unforgettable ceremony was held in front of Mitchell Hall, where the life-size sculpture of dancers, Kinetic Air, was unveiled, followed by the UCO Kaleidoscope Dancers concert. The sculpture and the performance were dedicated to Hannah. UCO is greatly appreciated for honoring Hannah in this way. Thank you for reading Hannahs story. You are welcome to share your thoughts or memories in her online guest book at www.legacy.com. Eligibility Dance or theatre major Sophomore, junior, senior or graduate student Requirements Read the biography of Hannah McCarty above and answer these questions in essay form: What would it mean to you to receive the Hannah McCarty Performing Arts Scholarship? How have you dealt with obstacles in your life? What inspired you to be a dance or theatre major? Personal artist statement (250 words) Official transcript",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_McCarty_Essay\"",
+        "raw_text": "Complete Essay \"CFAD_McCarty_Essay\""
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2 is Dance   or SIS_Major_2 is Dance Education   or SIS_Major_2 is Theatre Arts-Design & Tech   or SIS_Major_2 is Theatre Arts-Performance   or SIS_Major_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2 is Theatre/Communication Educatio   or SIS_Major_2 is Theatre Arts-Theatre Ed Study   or SIS_Major_2 is Theatre Arts   or SIS_Major is Dance   or SIS_Major is Dance Education   or SIS_Major is Theatre Arts-Design & Tech   or SIS_Major is Theatre Arts-Performance   or SIS_Major is Theatre Arts-Theatre/Comm Ed   or SIS_Major is Theatre/Communication Educatio   or SIS_Major is Theatre Arts-Theatre Ed Study   or SIS_Major is Theatre Arts   or SIS_Major_1_2 is Dance   or SIS_Major_1_2 is Dance Education   or SIS_Major_1_2 is Theatre Arts-Design & Tech   or SIS_Major_1_2 is Theatre Arts-Performance   or SIS_Major_1_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_1_2 is Theatre/Communication Educatio   or SIS_Major_1_2 is Theatre Arts-Theatre Ed Study   or SIS_Major_1_2 is Theatre Arts   or SIS_Major_2_2 is Dance   or SIS_Major_2_2 is Dance Education   or SIS_Major_2_2 is Theatre Arts-Design & Tech   or SIS_Major_2_2 is Theatre Arts-Performance   or SIS_Major_2_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2_2 is Theatre/Communication Educatio   or SIS_Major_2_2 is Theatre Arts-Theatre Ed Study   or SIS_Major_2_2 is Theatre Arts",
+        "raw_text": "SIS_Major_2 is Dance   or SIS_Major_2 is Dance Education   or SIS_Major_2 is Theatre Arts-Design & Tech   or SIS_Major_2 is Theatre Arts-Performance   or SIS_Major_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2 is Theatre/Communication Educatio   or SIS_Major_2 is Theatre Arts-Theatre Ed Study   or SIS_Major_2 is Theatre Arts   or SIS_Major is Dance   or SIS_Major is Dance Education   or SIS_Major is Theatre Arts-Design & Tech   or SIS_Major is Theatre Arts-Performance   or SIS_Major is Theatre Arts-Theatre/Comm Ed   or SIS_Major is Theatre/Communication Educatio   or SIS_Major is Theatre Arts-Theatre Ed Study   or SIS_Major is Theatre Arts   or SIS_Major_1_2 is Dance   or SIS_Major_1_2 is Dance Education   or SIS_Major_1_2 is Theatre Arts-Design & Tech   or SIS_Major_1_2 is Theatre Arts-Performance   or SIS_Major_1_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_1_2 is Theatre/Communication Educatio   or SIS_Major_1_2 is Theatre Arts-Theatre Ed Study   or SIS_Major_1_2 is Theatre Arts   or SIS_Major_2_2 is Dance   or SIS_Major_2_2 is Dance Education   or SIS_Major_2_2 is Theatre Arts-Design & Tech   or SIS_Major_2_2 is Theatre Arts-Performance   or SIS_Major_2_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2_2 is Theatre/Communication Educatio   or SIS_Major_2_2 is Theatre Arts-Theatre Ed Study   or SIS_Major_2_2 is Theatre Arts"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.772166",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "basic_information": {
+    "scholarship_id": 107671,
+    "scholarship_name": "Dr. Melvin Lee Endowed Scholarship for Instrumental Music Education-NOMINATION",
+    "scholarship_code": "S10223",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CFAD - Melvin Lee Music Educator Scholarship",
+    "candidate_count": 10
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established in 2007 by Dr. Ted Honea and is awarded to a full-time sophomore, junior, senior or graduate student who has declared music education as their major in the UCO School of Music. The recipient must maintain high academic standing and be actively involved in the UCO School of Music through events, programs and performances. In addition, the recipient must make a contribution to the university community by participating in campus activities such as clubs, student organizations, service activities, etc. Eligibility Music education major Sophomore, junior, senior, or graduate student Enrolled full-time Requirements AWARDED BY COMMITTEE NOMINATION. Nominated student(s) will be invited to apply by the college's scholarship coordinator. Responsibilities Maintain high academic standing. Be actively involved in the UCO School of Music through events, program and performances. Participate in campus activities such as clubs, student organizations, service activities, etc.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CFAD_Nomination_Required = Yes",
+        "raw_text": "CFAD_Nomination_Required = Yes"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.736775",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

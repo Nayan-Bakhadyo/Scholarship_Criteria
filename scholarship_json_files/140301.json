@@ -1,0 +1,54 @@
+{
+  "basic_information": {
+    "scholarship_id": 140301,
+    "scholarship_name": "Dr. Randy Reed Memorial Endowed Scholarship in Accounting",
+    "scholarship_code": "S10373",
+    "scholarship_notes": "There are two fund numbers for this year.",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 51
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Eligibility Requirement Accounting Major",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major_2 is Accounting   or SIS_Major is Accounting   or GEN_Major is Accounting   or SIS_Major_1_2 is Accounting   or SIS_Major_2_2 is Accounting",
+        "raw_text": "SIS_Major_2 is Accounting   or SIS_Major is Accounting   or GEN_Major is Accounting   or SIS_Major_1_2 is Accounting   or SIS_Major_2_2 is Accounting"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.740800",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

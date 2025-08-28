@@ -1,0 +1,102 @@
+{
+  "basic_information": {
+    "scholarship_id": 151367,
+    "scholarship_name": "First Enterprise Bank Scholarship",
+    "scholarship_code": "S20766",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 1103
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Eligibility Requirements Undergraduate student Minimum GPA of 3.00 Must be enrolled full-time Preference given to an Accounting or Finance Major Preference to a student who works a minimum of 10 hours per week Preference will be given to a student who plans to pursue a career in Banking",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major is Finance-Real Estate   and SIS_Major is Accounting   and SIS_Major is Finance   and SIS_Major is Finance-Insurance & Risk Mgmt   and SIS_Major is Finance-Banking   and SIS_Major is Finance-Business Law   and SIS_Major is Finance-Financial Planning   and SIS_Major is Finance-Insurance   and SIS_Major is Finance-Risk Management",
+        "raw_text": "SIS_Major is Finance-Real Estate   and SIS_Major is Accounting   and SIS_Major is Finance   and SIS_Major is Finance-Insurance & Risk Mgmt   and SIS_Major is Finance-Banking   and SIS_Major is Finance-Business Law   and SIS_Major is Finance-Financial Planning   and SIS_Major is Finance-Insurance   and SIS_Major is Finance-Risk Management",
+        "points": 0
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major_1_2 is Finance-Real Estate   and SIS_Major_1_2 is Accounting   and SIS_Major_1_2 is Finance   and SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   and SIS_Major_1_2 is Finance-Banking   and SIS_Major_1_2 is Finance-Business Law   and SIS_Major_1_2 is Finance-Financial Planning   and SIS_Major_1_2 is Finance-Insurance   and SIS_Major_1_2 is Finance-Risk Management",
+        "raw_text": "SIS_Major_1_2 is Finance-Real Estate   and SIS_Major_1_2 is Accounting   and SIS_Major_1_2 is Finance   and SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   and SIS_Major_1_2 is Finance-Banking   and SIS_Major_1_2 is Finance-Business Law   and SIS_Major_1_2 is Finance-Financial Planning   and SIS_Major_1_2 is Finance-Insurance   and SIS_Major_1_2 is Finance-Risk Management",
+        "points": 1
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Finance-Real Estate   and SIS_Major_2 is Accounting   and SIS_Major_2 is Finance   and SIS_Major_2 is Finance-Insurance & Risk Mgmt   and SIS_Major_2 is Finance-Banking   and SIS_Major_2 is Finance-Business Law   and SIS_Major_2 is Finance-Financial Planning   and SIS_Major_2 is Finance-Insurance   and SIS_Major_2 is Finance-Risk Management",
+        "raw_text": "SIS_Major_2 is Finance-Real Estate   and SIS_Major_2 is Accounting   and SIS_Major_2 is Finance   and SIS_Major_2 is Finance-Insurance & Risk Mgmt   and SIS_Major_2 is Finance-Banking   and SIS_Major_2 is Finance-Business Law   and SIS_Major_2 is Finance-Financial Planning   and SIS_Major_2 is Finance-Insurance   and SIS_Major_2 is Finance-Risk Management",
+        "points": 1
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2_2 is Finance-Real Estate   and SIS_Major_2_2 is Accounting   and SIS_Major_2_2 is Finance   and SIS_Major_2_2 is Finance-Insurance & Risk Mgmt   and SIS_Major_2_2 is Finance-Banking   and SIS_Major_2_2 is Finance-Business Law   and SIS_Major_2_2 is Finance-Financial Planning   and SIS_Major_2_2 is Finance-Insurance   and SIS_Major_2_2 is Finance-Risk Management",
+        "raw_text": "SIS_Major_2_2 is Finance-Real Estate   and SIS_Major_2_2 is Accounting   and SIS_Major_2_2 is Finance   and SIS_Major_2_2 is Finance-Insurance & Risk Mgmt   and SIS_Major_2_2 is Finance-Banking   and SIS_Major_2_2 is Finance-Business Law   and SIS_Major_2_2 is Finance-Financial Planning   and SIS_Major_2_2 is Finance-Insurance   and SIS_Major_2_2 is Finance-Risk Management",
+        "points": 1
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Work_History\"",
+        "raw_text": "Complete Essay \"GEN_Work_History\"",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 3
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.763748",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "basic_information": {
+    "scholarship_id": 138290,
+    "scholarship_name": "The Warner Family Scholarship",
+    "scholarship_code": "S10557",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Mathematics and Statistics Scholarship Commi",
+    "candidate_count": 25
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science pursuing a degree in the Department of Chemistry in honor of Gabi Rodriguez-Warner. Eligibility Requirements Undergraduate student Must be enrolled full-time Minimum of 2.5 GPA Must be a Chemistry or Mathematics major, preference to a Junior or Senior",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major is Actuarial Science   or SIS_Major is Applied Math & Compt Science   or SIS_Major is Applied Math Science-Teaching   or SIS_Major is Applied Math Sci-Math   or SIS_Major is Applied Math Sci-Statistics   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Chemistry-Pre-Pharmacy   or SIS_Major is Data Science   or SIS_Major is Math & Science Non-Degree GR   or SIS_Major is Math & Science Non-Degree UG   or SIS_Major is Math & Science Undecided UG   or SIS_Major is Mathematics   or SIS_Major is Mathematics Education   or SIS_Major is Mathematics-Applied Math   or SIS_Major is Mathematics-Statistics   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Statistics   or SIS_Major is Math & Science Post Masters St   or SIS_Major is Applied Math Sci-Computer Sci   or SIS_Major is Chemistry-Environmental Chem   or SIS_Major is Environmental Chemistry   or SIS_Major_1_2 is Actuarial Science   or SIS_Major_1_2 is Applied Math & Compt Science   or SIS_Major_1_2 is Applied Math Science-Teaching   or SIS_Major_1_2 is Applied Math Sci-Math   or SIS_Major_1_2 is Applied Math Sci-Statistics   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Chemistry-Pre-Pharmacy   or SIS_Major_1_2 is Data Science   or SIS_Major_1_2 is Math & Science Non-Degree GR   or SIS_Major_1_2 is Math & Science Non-Degree UG   or SIS_Major_1_2 is Math & Science Undecided UG   or SIS_Major_1_2 is Mathematics   or SIS_Major_1_2 is Mathematics Education   or SIS_Major_1_2 is Mathematics-Applied Math   or SIS_Major_1_2 is Mathematics-Statistics   or SIS_Major_1_2 is Science Ed-Chemistry   or SIS_Major_1_2 is Statistics   or SIS_Major_1_2 is Math & Science Post Masters St   or SIS_Major_1_2 is Applied Math Sci-Computer Sci   or SIS_Major_1_2 is Chemistry-Environmental Chem   or SIS_Major_1_2 is Environmental Chemistry",
+        "raw_text": "SIS_Major is Actuarial Science   or SIS_Major is Applied Math & Compt Science   or SIS_Major is Applied Math Science-Teaching   or SIS_Major is Applied Math Sci-Math   or SIS_Major is Applied Math Sci-Statistics   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Chemistry-Pre-Pharmacy   or SIS_Major is Data Science   or SIS_Major is Math & Science Non-Degree GR   or SIS_Major is Math & Science Non-Degree UG   or SIS_Major is Math & Science Undecided UG   or SIS_Major is Mathematics   or SIS_Major is Mathematics Education   or SIS_Major is Mathematics-Applied Math   or SIS_Major is Mathematics-Statistics   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Statistics   or SIS_Major is Math & Science Post Masters St   or SIS_Major is Applied Math Sci-Computer Sci   or SIS_Major is Chemistry-Environmental Chem   or SIS_Major is Environmental Chemistry   or SIS_Major_1_2 is Actuarial Science   or SIS_Major_1_2 is Applied Math & Compt Science   or SIS_Major_1_2 is Applied Math Science-Teaching   or SIS_Major_1_2 is Applied Math Sci-Math   or SIS_Major_1_2 is Applied Math Sci-Statistics   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Chemistry-Pre-Pharmacy   or SIS_Major_1_2 is Data Science   or SIS_Major_1_2 is Math & Science Non-Degree GR   or SIS_Major_1_2 is Math & Science Non-Degree UG   or SIS_Major_1_2 is Math & Science Undecided UG   or SIS_Major_1_2 is Mathematics   or SIS_Major_1_2 is Mathematics Education   or SIS_Major_1_2 is Mathematics-Applied Math   or SIS_Major_1_2 is Mathematics-Statistics   or SIS_Major_1_2 is Science Ed-Chemistry   or SIS_Major_1_2 is Statistics   or SIS_Major_1_2 is Math & Science Post Masters St   or SIS_Major_1_2 is Applied Math Sci-Computer Sci   or SIS_Major_1_2 is Chemistry-Environmental Chem   or SIS_Major_1_2 is Environmental Chemistry"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   and SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Junior   and SIS_Classification is Senior",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.858083",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

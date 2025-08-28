@@ -1,0 +1,41 @@
+{
+  "basic_information": {
+    "scholarship_id": 148642,
+    "scholarship_name": "Arthur and Eulah Mae Fraley Sociology Scholarship",
+    "scholarship_code": "S20774",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was created to support students majoring in the Department of Sociology Gerontology, Substance Abuse Studies and Addictions Counseling in the College of Liberal Arts. Eligibility Requirements Open to both undergraduate or graduate students Must be enrolled full-time Open to both majors and minors in Sociology, Gerontology, Substance Abuse Studies and Addictions Counseling Minimum 3.0 GPA",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.652297",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

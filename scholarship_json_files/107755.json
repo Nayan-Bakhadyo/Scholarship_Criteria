@@ -1,0 +1,121 @@
+{
+  "basic_information": {
+    "scholarship_id": 107755,
+    "scholarship_name": "Jeanne Marie (Jean) Barthell Endowed Memorial Scholarship",
+    "scholarship_code": "S10446",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - Modern Languages",
+    "candidate_count": 29
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship honors the memory of Jeanne Marie (Jean) Barthell, mother of John Barthell. From her obituary, Jean received a diploma from Parks School of Business in Denver, CO, and then attended the University of Colorado in Boulder, earning a BA in English Literature in 1957, with a minor in French. Literature, painting, theatre, and, above all, symphonic music fed her soul. Jean loved all things French, as a sensible person must, inspiring her to change her nom préféré to 'Jeanne Marie'.\" Eligibility Requirements Graduate or Undergraduate student in either the Department of English or the Department of Modern Languages, Literatures, and Cultural Studies Preference given to first-generation undergraduates with a French major Preference given to a student who studied abroad or participated in a study tour Minimum 2.75 GPA Continuing student in the fall semester the scholarship is awarded",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.75",
+        "raw_text": "SIS_CumGPA >= 2.75"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate"
+      },
+      {
+        "id": 3,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Personal_Statement \"",
+        "raw_text": "Complete Essay \"GEN_Personal_Statement \""
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Creative Writing   or SIS_Major_2 is English   or SIS_Major_2 is English Education   or SIS_Major_2 is English-Creative Writing   or SIS_Major_2 is Literature   or SIS_Major_2 is Modern Language Ed-French   or SIS_Major_2 is Modern Language Ed-German   or SIS_Major_2 is Modern Language Ed-Spanish   or SIS_Major_2 is Modern Language-French   or SIS_Major_2 is Modern Language-German   or SIS_Major_2 is Modern Language-Spanish   or SIS_Major_2 is Modern Language-Chinese   or SIS_Major_2 is English-20th & 21st Century St   or SIS_Major_2 is English-Composition & Rhetoric   or SIS_Major_2 is English-Composition Skills   or SIS_Major_2 is English-Contemporary Lit   or SIS_Major_2 is English-Creative Studies   or SIS_Major_2 is English-Teaching ESL   or SIS_Major_2 is English-Traditional Studies   or SIS_Major is Creative Writing   or SIS_Major is English   or SIS_Major is English Education   or SIS_Major is English-Creative Writing   or SIS_Major is Literature   or SIS_Major is Modern Language Ed-French   or SIS_Major is Modern Language Ed-German   or SIS_Major is Modern Language Ed-Spanish   or SIS_Major is Modern Language-French   or SIS_Major is Modern Language-German   or SIS_Major is Modern Language-Spanish   or SIS_Major is Modern Language-Chinese   or SIS_Major is English-20th & 21st Century St   or SIS_Major is English-Composition & Rhetoric   or SIS_Major is English-Composition Skills   or SIS_Major is English-Contemporary Lit   or SIS_Major is English-Creative Studies   or SIS_Major is English-Teaching ESL   or SIS_Major is English-Traditional Studies   or SIS_Major_1_2 is Creative Writing   or SIS_Major_1_2 is English   or SIS_Major_1_2 is English Education   or SIS_Major_1_2 is English-Creative Writing   or SIS_Major_1_2 is Literature   or SIS_Major_1_2 is Modern Language Ed-French   or SIS_Major_1_2 is Modern Language Ed-German   or SIS_Major_1_2 is Modern Language Ed-Spanish   or SIS_Major_1_2 is Modern Language-French   or SIS_Major_1_2 is Modern Language-German   or SIS_Major_1_2 is Modern Language-Spanish   or SIS_Major_1_2 is Modern Language-Chinese   or SIS_Major_1_2 is English-20th & 21st Century St   or SIS_Major_1_2 is English-Composition & Rhetoric   or SIS_Major_1_2 is English-Composition Skills   or SIS_Major_1_2 is English-Contemporary Lit   or SIS_Major_1_2 is English-Creative Studies   or SIS_Major_1_2 is English-Teaching ESL   or SIS_Major_1_2 is English-Traditional Studies   or SIS_Major_2_2 is Creative Writing   or SIS_Major_2_2 is English   or SIS_Major_2_2 is English Education   or SIS_Major_2_2 is English-Creative Writing   or SIS_Major_2_2 is Literature   or SIS_Major_2_2 is Modern Language Ed-French   or SIS_Major_2_2 is Modern Language Ed-German   or SIS_Major_2_2 is Modern Language Ed-Spanish   or SIS_Major_2_2 is Modern Language-French   or SIS_Major_2_2 is Modern Language-German   or SIS_Major_2_2 is Modern Language-Spanish   or SIS_Major_2_2 is Modern Language-Chinese   or SIS_Major_2_2 is English-20th & 21st Century St   or SIS_Major_2_2 is English-Composition & Rhetoric   or SIS_Major_2_2 is English-Composition Skills   or SIS_Major_2_2 is English-Contemporary Lit   or SIS_Major_2_2 is English-Creative Studies   or SIS_Major_2_2 is English-Teaching ESL   or SIS_Major_2_2 is English-Traditional Studies",
+        "raw_text": "SIS_Major_2 is Creative Writing   or SIS_Major_2 is English   or SIS_Major_2 is English Education   or SIS_Major_2 is English-Creative Writing   or SIS_Major_2 is Literature   or SIS_Major_2 is Modern Language Ed-French   or SIS_Major_2 is Modern Language Ed-German   or SIS_Major_2 is Modern Language Ed-Spanish   or SIS_Major_2 is Modern Language-French   or SIS_Major_2 is Modern Language-German   or SIS_Major_2 is Modern Language-Spanish   or SIS_Major_2 is Modern Language-Chinese   or SIS_Major_2 is English-20th & 21st Century St   or SIS_Major_2 is English-Composition & Rhetoric   or SIS_Major_2 is English-Composition Skills   or SIS_Major_2 is English-Contemporary Lit   or SIS_Major_2 is English-Creative Studies   or SIS_Major_2 is English-Teaching ESL   or SIS_Major_2 is English-Traditional Studies   or SIS_Major is Creative Writing   or SIS_Major is English   or SIS_Major is English Education   or SIS_Major is English-Creative Writing   or SIS_Major is Literature   or SIS_Major is Modern Language Ed-French   or SIS_Major is Modern Language Ed-German   or SIS_Major is Modern Language Ed-Spanish   or SIS_Major is Modern Language-French   or SIS_Major is Modern Language-German   or SIS_Major is Modern Language-Spanish   or SIS_Major is Modern Language-Chinese   or SIS_Major is English-20th & 21st Century St   or SIS_Major is English-Composition & Rhetoric   or SIS_Major is English-Composition Skills   or SIS_Major is English-Contemporary Lit   or SIS_Major is English-Creative Studies   or SIS_Major is English-Teaching ESL   or SIS_Major is English-Traditional Studies   or SIS_Major_1_2 is Creative Writing   or SIS_Major_1_2 is English   or SIS_Major_1_2 is English Education   or SIS_Major_1_2 is English-Creative Writing   or SIS_Major_1_2 is Literature   or SIS_Major_1_2 is Modern Language Ed-French   or SIS_Major_1_2 is Modern Language Ed-German   or SIS_Major_1_2 is Modern Language Ed-Spanish   or SIS_Major_1_2 is Modern Language-French   or SIS_Major_1_2 is Modern Language-German   or SIS_Major_1_2 is Modern Language-Spanish   or SIS_Major_1_2 is Modern Language-Chinese   or SIS_Major_1_2 is English-20th & 21st Century St   or SIS_Major_1_2 is English-Composition & Rhetoric   or SIS_Major_1_2 is English-Composition Skills   or SIS_Major_1_2 is English-Contemporary Lit   or SIS_Major_1_2 is English-Creative Studies   or SIS_Major_1_2 is English-Teaching ESL   or SIS_Major_1_2 is English-Traditional Studies   or SIS_Major_2_2 is Creative Writing   or SIS_Major_2_2 is English   or SIS_Major_2_2 is English Education   or SIS_Major_2_2 is English-Creative Writing   or SIS_Major_2_2 is Literature   or SIS_Major_2_2 is Modern Language Ed-French   or SIS_Major_2_2 is Modern Language Ed-German   or SIS_Major_2_2 is Modern Language Ed-Spanish   or SIS_Major_2_2 is Modern Language-French   or SIS_Major_2_2 is Modern Language-German   or SIS_Major_2_2 is Modern Language-Spanish   or SIS_Major_2_2 is Modern Language-Chinese   or SIS_Major_2_2 is English-20th & 21st Century St   or SIS_Major_2_2 is English-Composition & Rhetoric   or SIS_Major_2_2 is English-Composition Skills   or SIS_Major_2_2 is English-Contemporary Lit   or SIS_Major_2_2 is English-Creative Studies   or SIS_Major_2_2 is English-Teaching ESL   or SIS_Major_2_2 is English-Traditional Studies"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major is Modern Language Ed-French   and SIS_Major is Modern Language-French",
+        "raw_text": "SIS_Major is Modern Language Ed-French   and SIS_Major is Modern Language-French",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "GEN_1st_Generation = Yes",
+        "raw_text": "GEN_1st_Generation = Yes",
+        "points": 1
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Modern Language Ed-French   and SIS_Major_2 is Modern Language-French",
+        "raw_text": "SIS_Major_2 is Modern Language Ed-French   and SIS_Major_2 is Modern Language-French",
+        "points": 1
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CLA_Study_Tour_General = Yes",
+        "raw_text": "CLA_Study_Tour_General = Yes",
+        "points": 1
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2_2 is Modern Language Ed-French   and SIS_Major_2_2 is Modern Language-French",
+        "raw_text": "SIS_Major_2_2 is Modern Language Ed-French   and SIS_Major_2_2 is Modern Language-French",
+        "points": 1
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major_1_2 is Modern Language Ed-French   and SIS_Major_1_2 is Modern Language-French",
+        "raw_text": "SIS_Major_1_2 is Modern Language Ed-French   and SIS_Major_1_2 is Modern Language-French",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 6
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.781759",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

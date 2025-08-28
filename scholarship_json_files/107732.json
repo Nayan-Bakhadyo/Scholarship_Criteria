@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 107732,
+    "scholarship_name": "Pugh Family Pioneer Endowed Scholarship for Geography",
+    "scholarship_code": "S10279",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - History and Geography",
+    "candidate_count": 1
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "In memory of Dr. Edward J. Pugh, this scholarship provides funds for a student whose major is Geography and holds sophomore or junior standing at UCO. It is open to U.S. and international students. Eligibility Requirements Sophomore or Junior standing in semester awarded Geography major Continuing student in the fall semester that the scholarship is awarded Personal letter discussing background, influences, career choice, etc.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior",
+        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Geography   or SIS_Major is Geography   or SIS_Major_1_2 is Geography   or SIS_Major_2_2 is Geography",
+        "raw_text": "SIS_Major_2 is Geography   or SIS_Major is Geography   or SIS_Major_1_2 is Geography   or SIS_Major_2_2 is Geography"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Personal_Statement \"",
+        "raw_text": "Complete Essay \"GEN_Personal_Statement \""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.827809",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

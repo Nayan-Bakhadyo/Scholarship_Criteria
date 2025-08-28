@@ -1,0 +1,66 @@
+{
+  "basic_information": {
+    "scholarship_id": 191232,
+    "scholarship_name": "The Bobby Gene Roberts Business Scholarship",
+    "scholarship_code": "20808",
+    "scholarship_notes": "",
+    "donor_name": "",
+    "committee_name": "",
+    "candidate_count": 54
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The is a business scholarship in College of Business (General Business department) Criteria shall be: Business Major or Minor. Must be enrolled full-time & completed 24 hours at UCO. 2.5 or above GPA 1st Preference: UCO student currently working at Jackson Chiropractic in Edmond Oklahoma",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Business Administration   or SIS_Major is Business Non-Degree UG   or SIS_Major is Busn Admin-Business Admin   or SIS_Major is Busn Admin-Business Law   or SIS_Major is Busn Admin-Gen Business   or SIS_Major is Busn Admin-General Business   or SIS_Major is Busn Admin-International Busin   or SIS_Major is Busn Admin-International Busn   or SIS_Major is Busn Admin-Legal Studies   or SIS_Major is Economics   or SIS_Major is Economics-Energy Economics   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Info & Op Mngt-MIS   or SIS_Major is Info & Op Mngt-Op&Sup Chain Mg   or SIS_Major is Management   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Marketing   or SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mrktg-Professional Selling   or SIS_Major is Management-Small Business Mgmt   or SIS_Major is Marketing-Professional Selling   or SIS_Major is Mgmt-Entrepreneurship   or SIS_Major is Mgmt-International Business   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major is Mrktg-Integrated Mrktg Comm   or SIS_Major is Mrktg-Purch & Materials Mngt   or SIS_Major is Mrktg-Retail Management   or SIS_Major is Info&Op Mngt-MIS   or SIS_Major is Info&Op Mngt-Op Mngt&Analysis   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Business Law   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major is Economics-Applied Economics   or SIS_Major is Economics-Public Admin   or SIS_Major is Business Admin-Accounting   or SIS_Major is Busn Admin-Business Comm   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major is InfoSys&OpMgmt-MIS   or SIS_Major is InfoSys&OpMgmt-Op&Sup Chain Mg   or SIS_Major is Bus Admin-Sales Leadership   or SIS_Major is Bus Admin-HR Mgmt",
+        "raw_text": "SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Business Administration   or SIS_Major is Business Non-Degree UG   or SIS_Major is Busn Admin-Business Admin   or SIS_Major is Busn Admin-Business Law   or SIS_Major is Busn Admin-Gen Business   or SIS_Major is Busn Admin-General Business   or SIS_Major is Busn Admin-International Busin   or SIS_Major is Busn Admin-International Busn   or SIS_Major is Busn Admin-Legal Studies   or SIS_Major is Economics   or SIS_Major is Economics-Energy Economics   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Info & Op Mngt-MIS   or SIS_Major is Info & Op Mngt-Op&Sup Chain Mg   or SIS_Major is Management   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Marketing   or SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mrktg-Professional Selling   or SIS_Major is Management-Small Business Mgmt   or SIS_Major is Marketing-Professional Selling   or SIS_Major is Mgmt-Entrepreneurship   or SIS_Major is Mgmt-International Business   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major is Mrktg-Integrated Mrktg Comm   or SIS_Major is Mrktg-Purch & Materials Mngt   or SIS_Major is Mrktg-Retail Management   or SIS_Major is Info&Op Mngt-MIS   or SIS_Major is Info&Op Mngt-Op Mngt&Analysis   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Business Law   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major is Economics-Applied Economics   or SIS_Major is Economics-Public Admin   or SIS_Major is Business Admin-Accounting   or SIS_Major is Busn Admin-Business Comm   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major is InfoSys&OpMgmt-MIS   or SIS_Major is InfoSys&OpMgmt-Op&Sup Chain Mg   or SIS_Major is Bus Admin-Sales Leadership   or SIS_Major is Bus Admin-HR Mgmt"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Minor is Accounting   or SIS_Minor is Business Administration   or SIS_Minor is Economics   or SIS_Minor is Finance   or SIS_Minor is Finance-Banking   or SIS_Minor is Finance-Business Law   or SIS_Minor is Finance-Financial Planning   or SIS_Minor is Finance-Insurance   or SIS_Minor is Finance-Insurance & Risk Mgmt   or SIS_Minor is Finance-Real Estate   or SIS_Minor is Finance-Risk Management   or SIS_Minor is Info&Op Mngt-MIS   or SIS_Minor is Marketing   or SIS_Minor is Marketing-Professional Selling   or SIS_Minor is Mgmt-Entrepreneurship   or SIS_Minor is Mgmt-Human Resource Management   or SIS_Minor is Mgmt-International Business   or SIS_Minor is Business Undecided UG   or SIS_Minor is Busn Admin-General Business   or SIS_Minor is Economics-Energy Economics   or SIS_Minor is InfoSys&OpMgmt-Ops&SupplyChain",
+        "raw_text": "SIS_Minor is Accounting   or SIS_Minor is Business Administration   or SIS_Minor is Economics   or SIS_Minor is Finance   or SIS_Minor is Finance-Banking   or SIS_Minor is Finance-Business Law   or SIS_Minor is Finance-Financial Planning   or SIS_Minor is Finance-Insurance   or SIS_Minor is Finance-Insurance & Risk Mgmt   or SIS_Minor is Finance-Real Estate   or SIS_Minor is Finance-Risk Management   or SIS_Minor is Info&Op Mngt-MIS   or SIS_Minor is Marketing   or SIS_Minor is Marketing-Professional Selling   or SIS_Minor is Mgmt-Entrepreneurship   or SIS_Minor is Mgmt-Human Resource Management   or SIS_Minor is Mgmt-International Business   or SIS_Minor is Business Undecided UG   or SIS_Minor is Busn Admin-General Business   or SIS_Minor is Economics-Energy Economics   or SIS_Minor is InfoSys&OpMgmt-Ops&SupplyChain"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior",
+        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.847665",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

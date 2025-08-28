@@ -1,0 +1,60 @@
+{
+  "basic_information": {
+    "scholarship_id": 179417,
+    "scholarship_name": "The Weilert Family PGA Scholarship",
+    "scholarship_code": "S20797",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - PGM Scholarship Committee",
+    "candidate_count": 5
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The Weilert Family PGA Scholarship was created for a student pursuing a PGA Golf Management degree. Eligibility Requirements Undergraduate student Must be enrolled full-time Must be a PGA Management Student. GPA 2.75 or higher 30 hours completed at UCO. Completed 1 internship. This scholarship is available to apply for during the current UCO student application period.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major_2 is Management-PGA Golf Management   or SIS_Major_2 is Mngt-Professional Golf Mngt   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major_1_2 is Management-PGA Golf Management   or SIS_Major_1_2 is Mngt-Professional Golf Mngt   or SIS_Major_2_2 is Management-PGA Golf Management   or SIS_Major_2_2 is Mngt-Professional Golf Mngt",
+        "raw_text": "SIS_Major_2 is Management-PGA Golf Management   or SIS_Major_2 is Mngt-Professional Golf Mngt   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major_1_2 is Management-PGA Golf Management   or SIS_Major_1_2 is Mngt-Professional Golf Mngt   or SIS_Major_2_2 is Management-PGA Golf Management   or SIS_Major_2_2 is Mngt-Professional Golf Mngt"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.858738",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

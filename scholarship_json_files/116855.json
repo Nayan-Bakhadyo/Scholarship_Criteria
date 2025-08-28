@@ -1,0 +1,48 @@
+{
+  "basic_information": {
+    "scholarship_id": 116855,
+    "scholarship_name": "DeShazer and Hamm Endowed Scholarship",
+    "scholarship_code": "S10424",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- DeShazer & Hamm",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To honor the contributions of friends and family of Jordan DeShazer and Ryan Hamm, an endowed scholarship will support a student within the Peer Health Leader program each year. The Peer Health Leader program at the University of Central Oklahoma is administered and advised out of the Department of Wellness and Sport. This group of students annually programs in a variety of topics to support student growth, learning and development in health-related issues. The student leader who will be supported through the aforementioned endowed scholarship will be asked to develop programs specific to substance abuse. These programs can be delivered in a way that is suitable to the student and supported by the advisor of the Peer Health Leader program. Recognizing that delivery methods may need to change with new technology and new topics, the scholarship recipient is free to exercise creativity and innovation as they fulfill the expectations and spirit of their role. Each year, the student will receive a description of the scholarship and the story of Jordan DeShazer and Ryan Hamm, and the tragic circumstances of their death in August of 2016. This description will serve as a foundation for the student's program ideas and development. Other peer leaders will be invited to participate in the implementation of the annual program(s) that support a deeper understanding of substance abuse. Preference will be given to students who are pursuing degrees in health or criminal justice fields.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"DeShazer & Hamm Endowed Scholarship\"",
+        "raw_text": "Complete Application: \"DeShazer & Hamm Endowed Scholarship\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.717361",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

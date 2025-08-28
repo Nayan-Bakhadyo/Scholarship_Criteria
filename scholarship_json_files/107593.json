@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 107593,
+    "scholarship_name": "Roy C. Rowland Memorial Scholarship",
+    "scholarship_code": "S20108",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "Roy C. Rowland",
+    "candidate_count": 12
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Dr. Roy C. Rowland joined the Speech-Language Pathology program as faculty in 1980 and served in the program until his passing in May 2003. He loved teaching and was a master at his craft. He often expressed concern for the needs of graduate students who must complete demanding internships in their final year. These scholarships are made available to UCO Speech-Language Pathology graduate students who will be completing Public School or Medical Setting Internships during the coming academic year. Eligibility Requirements Selection of applicants will be based on academic merit, clinical ability, and financial need Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major is Speech-Language Pathology   or SIS_Major_1_2 is Speech-Language Pathology   or SIS_Major_2_2 is Speech-Language Pathology",
+        "raw_text": "SIS_Major is Speech-Language Pathology   or SIS_Major_1_2 is Speech-Language Pathology   or SIS_Major_2_2 is Speech-Language Pathology"
+      },
+      {
+        "id": 5,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.834582",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

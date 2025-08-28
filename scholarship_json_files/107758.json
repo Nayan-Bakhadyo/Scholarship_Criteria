@@ -1,0 +1,60 @@
+{
+  "basic_information": {
+    "scholarship_id": 107758,
+    "scholarship_name": "PSA Scholarship",
+    "scholarship_code": "S20661",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CLA - Mass Comm PSA",
+    "candidate_count": 12
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "The PSA Scholarship is offered by the Photographic Society of America for students majoring in photography. The society fosters personal growth and expression, creativity, excellence, and ethical conduct in all aspects of photographic endeavor. Eligibility Requirements Photographic Arts major Junior or Senior standing Minimum 2.5 GPA",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Photographic Arts   or SIS_Major_2 is Mass Comm-Photographic Arts   or SIS_Major_2 is Journalism-Photographic Arts   or SIS_Major is Photographic Arts   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Journalism-Photographic Arts   or SIS_Major_1_2 is Photographic Arts   or SIS_Major_1_2 is Mass Comm-Photographic Arts   or SIS_Major_1_2 is Journalism-Photographic Arts   or SIS_Major_2_2 is Photographic Arts   or SIS_Major_2_2 is Mass Comm-Photographic Arts   or SIS_Major_2_2 is Journalism-Photographic Arts",
+        "raw_text": "SIS_Major_2 is Photographic Arts   or SIS_Major_2 is Mass Comm-Photographic Arts   or SIS_Major_2 is Journalism-Photographic Arts   or SIS_Major is Photographic Arts   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Journalism-Photographic Arts   or SIS_Major_1_2 is Photographic Arts   or SIS_Major_1_2 is Mass Comm-Photographic Arts   or SIS_Major_1_2 is Journalism-Photographic Arts   or SIS_Major_2_2 is Photographic Arts   or SIS_Major_2_2 is Mass Comm-Photographic Arts   or SIS_Major_2_2 is Journalism-Photographic Arts"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.827339",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

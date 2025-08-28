@@ -1,0 +1,60 @@
+{
+  "basic_information": {
+    "scholarship_id": 153523,
+    "scholarship_name": "Student Success Recovery Endowed Scholarship",
+    "scholarship_code": "S10443",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarship assistance for students who were on probation after their first semester at UCO but off probation by their second semester. Eligibility Requirements Must have been on probation after first semester Must achieve a minimum 2.0 GPA after end of second semester Must demonstrate financial need as shown through FAFSA completion Scholarship will be available throughout the year for emergency purposes.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "financial_need",
+        "description": "CMS_Crossland_FAFSA = Yes",
+        "raw_text": "CMS_Crossland_FAFSA = Yes"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "ADV_Probation = Yes",
+        "raw_text": "ADV_Probation = Yes"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.00",
+        "raw_text": "SIS_CumGPA >= 2.00"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.841783",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

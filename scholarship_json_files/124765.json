@@ -1,0 +1,72 @@
+{
+  "basic_information": {
+    "scholarship_id": 124765,
+    "scholarship_name": "Jill Kelsey Scholarship in Strategic Communications",
+    "scholarship_code": "S20489",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 6
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship recognizes a Strategic Communications student who shows passion and commitment to their chosen major as evidenced by strong academic performance. Eligibility Requirements Must have a declared degree in Strategic Communications Minimum cumulative 3.3 GPA Minimum of 60 hours of coursework completed",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.30",
+        "raw_text": "SIS_CumGPA >= 3.30"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Strat Comm-Organizational Comm   or SIS_Major_2 is Strategic Communications   or SIS_Major_2 is Strategic Comm-Org Comm   or SIS_Major_2 is Strategic Comm-Public Relation   or SIS_Major_2 is Strategic Comm-Strategic Comm   or SIS_Major_2 is Mass Comm-Strat Communications   or SIS_Major_2 is Mass Comm-Strategic Comminicat   or SIS_Major is Strat Comm-Organizational Comm   or SIS_Major is Strategic Communications   or SIS_Major is Strategic Comm-Org Comm   or SIS_Major is Strategic Comm-Public Relation   or SIS_Major is Strategic Comm-Strategic Comm   or SIS_Major is Mass Comm-Strat Communications   or SIS_Major is Mass Comm-Strategic Comminicat   or SIS_Major_1_2 is Strat Comm-Organizational Comm   or SIS_Major_1_2 is Strategic Communications   or SIS_Major_1_2 is Strategic Comm-Org Comm   or SIS_Major_1_2 is Strategic Comm-Public Relation   or SIS_Major_1_2 is Strategic Comm-Strategic Comm   or SIS_Major_1_2 is Mass Comm-Strat Communications   or SIS_Major_1_2 is Mass Comm-Strategic Comminicat   or SIS_Major_2_2 is Strat Comm-Organizational Comm   or SIS_Major_2_2 is Strategic Communications   or SIS_Major_2_2 is Strategic Comm-Org Comm   or SIS_Major_2_2 is Strategic Comm-Public Relation   or SIS_Major_2_2 is Strategic Comm-Strategic Comm   or SIS_Major_2_2 is Mass Comm-Strat Communications   or SIS_Major_2_2 is Mass Comm-Strategic Comminicat",
+        "raw_text": "SIS_Major_2 is Strat Comm-Organizational Comm   or SIS_Major_2 is Strategic Communications   or SIS_Major_2 is Strategic Comm-Org Comm   or SIS_Major_2 is Strategic Comm-Public Relation   or SIS_Major_2 is Strategic Comm-Strategic Comm   or SIS_Major_2 is Mass Comm-Strat Communications   or SIS_Major_2 is Mass Comm-Strategic Comminicat   or SIS_Major is Strat Comm-Organizational Comm   or SIS_Major is Strategic Communications   or SIS_Major is Strategic Comm-Org Comm   or SIS_Major is Strategic Comm-Public Relation   or SIS_Major is Strategic Comm-Strategic Comm   or SIS_Major is Mass Comm-Strat Communications   or SIS_Major is Mass Comm-Strategic Comminicat   or SIS_Major_1_2 is Strat Comm-Organizational Comm   or SIS_Major_1_2 is Strategic Communications   or SIS_Major_1_2 is Strategic Comm-Org Comm   or SIS_Major_1_2 is Strategic Comm-Public Relation   or SIS_Major_1_2 is Strategic Comm-Strategic Comm   or SIS_Major_1_2 is Mass Comm-Strat Communications   or SIS_Major_1_2 is Mass Comm-Strategic Comminicat   or SIS_Major_2_2 is Strat Comm-Organizational Comm   or SIS_Major_2_2 is Strategic Communications   or SIS_Major_2_2 is Strategic Comm-Org Comm   or SIS_Major_2_2 is Strategic Comm-Public Relation   or SIS_Major_2_2 is Strategic Comm-Strategic Comm   or SIS_Major_2_2 is Mass Comm-Strat Communications   or SIS_Major_2_2 is Mass Comm-Strategic Comminicat"
+      },
+      {
+        "id": 4,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 60.00",
+        "raw_text": "SIS_Overall_Hours >= 60.00"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.783545",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

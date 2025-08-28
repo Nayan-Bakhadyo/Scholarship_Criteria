@@ -1,0 +1,81 @@
+{
+  "basic_information": {
+    "scholarship_id": 151181,
+    "scholarship_name": "Dr. Luis D. Montes Endowed Scholarship in Chemistry",
+    "scholarship_code": "S10453",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Chemistry Scholarship Committee",
+    "candidate_count": 22
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship honors the former Chair of the Department of Chemistry, Dr. Luis Montes. This scholarship will provide assistance to students within the College of Mathematics and Science who are pursuing a degree in the Department of Chemistry. The recipient(s) of the Dr. Luis D. Montes Endowed Scholarship in Chemistry will be selected by the Chemistry Department Awards and Scholarship committee. The recipient(s) will be selected in the spring for distribution the following fall and spring semesters. Eligibility Requirements Complete application process online and attach an up-to-date transcript Student must demonstrate service within the department of Chemistry (ex. SI, research, lab assistant, etc.) Minimum 3.0 GPA Student must have one (1) faculty recommendation",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2 is Science Ed-Chemistry   or SIS_Major_2 is Chemistry-Environmental Chem   or SIS_Major_2 is Environmental Chemistry   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Chemistry-Pre-Pharmacy   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Chemistry-Environmental Chem   or SIS_Major is Environmental Chemistry   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Chemistry-Pre-Pharmacy   or SIS_Major_1_2 is Science Ed-Chemistry   or SIS_Major_1_2 is Chemistry-Environmental Chem   or SIS_Major_1_2 is Environmental Chemistry   or SIS_Major_2_2 is Chemistry   or SIS_Major_2_2 is Chemistry-ACS Certificate   or SIS_Major_2_2 is Chemistry-Health Sciences   or SIS_Major_2_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2_2 is Science Ed-Chemistry   or SIS_Major_2_2 is Chemistry-Environmental Chem   or SIS_Major_2_2 is Environmental Chemistry",
+        "raw_text": "SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2 is Science Ed-Chemistry   or SIS_Major_2 is Chemistry-Environmental Chem   or SIS_Major_2 is Environmental Chemistry   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Chemistry-Pre-Pharmacy   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Chemistry-Environmental Chem   or SIS_Major is Environmental Chemistry   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Chemistry-Pre-Pharmacy   or SIS_Major_1_2 is Science Ed-Chemistry   or SIS_Major_1_2 is Chemistry-Environmental Chem   or SIS_Major_1_2 is Environmental Chemistry   or SIS_Major_2_2 is Chemistry   or SIS_Major_2_2 is Chemistry-ACS Certificate   or SIS_Major_2_2 is Chemistry-Health Sciences   or SIS_Major_2_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2_2 is Science Ed-Chemistry   or SIS_Major_2_2 is Chemistry-Environmental Chem   or SIS_Major_2_2 is Environmental Chemistry"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"CMS_LOR_1\"",
+        "raw_text": "1 letters of recommendation: \"CMS_LOR_1\"",
+        "points": 0
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"CMS_Chem_Service\"",
+        "raw_text": "Complete Essay \"CMS_Chem_Service\"",
+        "points": 0
+      }
+    ],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.735619",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

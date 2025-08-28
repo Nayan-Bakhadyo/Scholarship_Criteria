@@ -1,0 +1,92 @@
+{
+  "basic_information": {
+    "scholarship_id": 107540,
+    "scholarship_name": "Allen and Ruth Every Scholarship",
+    "scholarship_code": "S10037",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "",
+    "candidate_count": 0
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "To provide scholarships to UCO students. Eligibility Requirements Must be a Piedmont High School (Oklahoma) graduate. Must have a GPA of at least 2.5; Must have completed at least 12 hours at UCO; Must agree to be enrolled in 6 hours or more in the upcoming fall and spring semesters. UCO faculty member letter of recommendation. List all UCO activities and offices held in each organization, if any. Are you financially responsible for the majority of your living and school expenses and need financial assistance to help fund your college education? Provide a list of all loans, grants, or scholarship you have or will receive this academic school year. Provide a letter explaining your background and what influenced your career choice, special circumstances that would make you worthy of this scholarship. This scholarship is available to apply for during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 12.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 12.00"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Every_Career_Choice\"",
+        "raw_text": "Complete Essay \"ADV_Every_Career_Choice\""
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Gage_Financial_Details1\"",
+        "raw_text": "Complete Essay \"ADV_Gage_Financial_Details1\""
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 6.00",
+        "raw_text": "SIS_Enrolled HRS >= 6.00"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "SIS_High_School_Name is Piedmont High School",
+        "raw_text": "SIS_High_School_Name is Piedmont High School"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.648472",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

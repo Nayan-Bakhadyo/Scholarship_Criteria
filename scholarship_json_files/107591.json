@@ -1,0 +1,84 @@
+{
+  "basic_information": {
+    "scholarship_id": 107591,
+    "scholarship_name": "Dr. Stephen H. McDonald Endowed Scholarship",
+    "scholarship_code": "S10354",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Dr. Stephen H. McDonald Endowed Scholarship",
+    "candidate_count": 82
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education Professional Studies majoring in Early Childhood Education, Elementary Education or Library Media. Eligibility Requirements Must be majoring in early childhood education, elementary education, teaching and learning PK - 6, or library media Full time undergraduate or graduate student Minimum 3.0 GPA Student must plan on having employment within the State of Oklahoma Public School System Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CEPS_Public_Schools = Yes",
+        "raw_text": "CEPS_Public_Schools = Yes"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 6,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate"
+      },
+      {
+        "id": 7,
+        "type": "major",
+        "description": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major is Library Media Education   or SIS_Major is Curr&Instr-Teach & Learn PK-6   or SIS_Major is Cert Teaching/Learning PreK-6   or SIS_Major is Curr&Instr-Early Child Educ   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_1_2 is Library Media Education   or SIS_Major_1_2 is Curr&Instr-Early Child Educ   or SIS_Major_2_2 is Early Childhood Education   or SIS_Major_2_2 is Elementary Education   or SIS_Major_2_2 is Library Media Education",
+        "raw_text": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major is Library Media Education   or SIS_Major is Curr&Instr-Teach & Learn PK-6   or SIS_Major is Cert Teaching/Learning PreK-6   or SIS_Major is Curr&Instr-Early Child Educ   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_1_2 is Library Media Education   or SIS_Major_1_2 is Curr&Instr-Early Child Educ   or SIS_Major_2_2 is Early Childhood Education   or SIS_Major_2_2 is Elementary Education   or SIS_Major_2_2 is Library Media Education"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.745238",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "basic_information": {
+    "scholarship_id": 153510,
+    "scholarship_name": "Dr. John A. Maisch Endowed Memorial Scholarship for Social Impact",
+    "scholarship_code": "S10111",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Social Impact",
+    "candidate_count": 57
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was created in remembrance of Dr. John Maisch who was a Professor of Business Law at UCO. Dr. Maisch impacted countless lives and served as a mentor and inspiration to many, including his legal studies students who wrote \"He was much more than a professor - he was an advocate and a voice of encouragement to everyone he encountered.\" Eligibility Requirements Must be an undergraduate student Must have a minimum 2.75 GPA Must be a continuing student in the fall semester the scholarship is awarded Scholarship Requirements Upload official transcript Must write a personal statement describing a community service project that you have completed or are proposing, addressing a social issue with a population. Include volunteer hours involved, community needs addressed, how research or best practices were or will be integrated, and the community partner that was or will be included in the planning and implementation of the work. This scholarship is available to apply for during the Current UCO Student Application.",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "GEN_Acknowledge2 = Yes",
+        "raw_text": "GEN_Acknowledge2 = Yes"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Maisch_PersonalStatement\"",
+        "raw_text": "Complete Essay \"ADV_Maisch_PersonalStatement\""
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.75",
+        "raw_text": "SIS_CumGPA >= 2.75"
+      },
+      {
+        "id": 5,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Maisch_PersonalStatement\"",
+        "raw_text": "Complete Essay \"ADV_Maisch_PersonalStatement\""
+      }
+    ]
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.732767",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

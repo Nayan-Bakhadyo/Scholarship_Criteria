@@ -1,0 +1,88 @@
+{
+  "basic_information": {
+    "scholarship_id": 108017,
+    "scholarship_name": "Jim V. Groesbeck Memorial Endowed Scholarship in Funeral Service",
+    "scholarship_code": "S10485",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CMS - Funeral Service Scholarship Committee",
+    "candidate_count": 11
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science majoring in Funeral Service. Eligibility Requirements College of Mathematics and Science Funeral Service major Undergraduate student Preference will be given to students who enroll in online classes Applicants must complete a short essay on how they are a leader or will be a leader in their community Applicants must have two faculty recommendations",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Funeral Service   or SIS_Major is Funeral Service",
+        "raw_text": "SIS_Major_2 is Funeral Service   or SIS_Major is Funeral Service"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "points": 1
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CMS_Grosebeck_onlineclass = Yes",
+        "raw_text": "CMS_Grosebeck_onlineclass = Yes",
+        "points": 1
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CMS_Groesbeck_Leadership = Yes",
+        "raw_text": "CMS_Groesbeck_Leadership = Yes",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 3
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.784300",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "basic_information": {
+    "scholarship_id": 112976,
+    "scholarship_name": "Emma Plunkett Department Scholarships",
+    "scholarship_code": "S10107",
+    "scholarship_notes": "Number and amount will depend on funds left available from Plunkett fund. *Must be female*",
+    "donor_name": "UCO Foundation",
+    "committee_name": "ADV- Annual Funds",
+    "candidate_count": 3
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to female students within the College of Education & Professional Studies who are pursuing undergraduate teaching degrees in physical education. The amount awarded and number of recipients for this scholarship will be determined by the amount available in the fund at the time of the selection. Eligibility Requirements This scholarship is open to female students Minimum 3.0 overall GPA Pursuing a Health/Physical Education teaching degree Active membership in the UCO KHS Club & the OAHPERD Involvement in the Kinesiology & Health Studies departmental activities Demonstrate commitment to a physically active & physically fit lifestyle Financial need considered Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\""
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Gender is Female",
+        "raw_text": "SIS_Gender is Female"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_2_2 is Physical Education/Health",
+        "raw_text": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_2_2 is Physical Education/Health"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "GEN_Teaching = Yes",
+        "raw_text": "GEN_Teaching = Yes"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.754625",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

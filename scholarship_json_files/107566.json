@@ -1,0 +1,60 @@
+{
+  "basic_information": {
+    "scholarship_id": 107566,
+    "scholarship_name": "Cora Morton Loafman Scholarship for Human Environmental Sciences",
+    "scholarship_code": "S10218",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Cora Morton Loafman Scholarship for HES",
+    "candidate_count": 27
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to the students who are pursuing their degree within Human Environmental Sciences department. Eligibility Requirements Pursuing a degree within the Human Environmental Sciences Department at UCO Recipient must be enrolled in the required amount of hours in the upcoming fall and spring semesters in order to be eligible to receive this scholarship Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major is Family Life Ed-Child Develop   or SIS_Major is Family Life Ed-Gerontology   or SIS_Major is Family Life Ed-Marriage & Fam   or SIS_Major is Fashion Marketing   or SIS_Major is Nutrition,Dietetics,Food Mngt   or SIS_Major is Nutrition   or SIS_Major is Family & Child Studies   or SIS_Major_1_2 is Family Life Ed-Child Develop   or SIS_Major_1_2 is Family Life Ed-Gerontology   or SIS_Major_1_2 is Family Life Ed-Marriage & Fam   or SIS_Major_1_2 is Fashion Marketing   or SIS_Major_1_2 is Nutrition,Dietetics,Food Mngt   or SIS_Major_1_2 is Nutrition   or SIS_Major_1_2 is Family & Child Studies   or SIS_Major_2_2 is Family Life Ed-Child Develop   or SIS_Major_2_2 is Family Life Ed-Gerontology   or SIS_Major_2_2 is Family Life Ed-Marriage & Fam   or SIS_Major_2_2 is Fashion Marketing   or SIS_Major_2_2 is Nutrition,Dietetics,Food Mngt   or SIS_Major_2_2 is Nutrition   or SIS_Major_2_2 is Family & Child Studies",
+        "raw_text": "SIS_Major is Family Life Ed-Child Develop   or SIS_Major is Family Life Ed-Gerontology   or SIS_Major is Family Life Ed-Marriage & Fam   or SIS_Major is Fashion Marketing   or SIS_Major is Nutrition,Dietetics,Food Mngt   or SIS_Major is Nutrition   or SIS_Major is Family & Child Studies   or SIS_Major_1_2 is Family Life Ed-Child Develop   or SIS_Major_1_2 is Family Life Ed-Gerontology   or SIS_Major_1_2 is Family Life Ed-Marriage & Fam   or SIS_Major_1_2 is Fashion Marketing   or SIS_Major_1_2 is Nutrition,Dietetics,Food Mngt   or SIS_Major_1_2 is Nutrition   or SIS_Major_1_2 is Family & Child Studies   or SIS_Major_2_2 is Family Life Ed-Child Develop   or SIS_Major_2_2 is Family Life Ed-Gerontology   or SIS_Major_2_2 is Family Life Ed-Marriage & Fam   or SIS_Major_2_2 is Fashion Marketing   or SIS_Major_2_2 is Nutrition,Dietetics,Food Mngt   or SIS_Major_2_2 is Nutrition   or SIS_Major_2_2 is Family & Child Studies"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.709781",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

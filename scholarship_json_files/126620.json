@@ -1,0 +1,90 @@
+{
+  "basic_information": {
+    "scholarship_id": 126620,
+    "scholarship_name": "Maja Kristin Scholarship for Dance",
+    "scholarship_code": "S20740",
+    "scholarship_notes": "The initial gift will be $100,000. Equal portions will be distributed annually until the completion of the gift, awarding up to 5 individuals annually.",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CFAD - Department of Dance",
+    "candidate_count": 17
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was established in 2020 by Maja Kristin. Preference will be given to students who participate in UCO Department of Dance's performing companies which include but are not limited to, Kaleidoscope Dance Company, students involved with student groups in the Office of Diversity and Inclusion and students who are former scholarship recipients. Eligibility Dance Major Enrolled full-time Sophomore, junior, senior, or graduate student Minimum 2.8 GPA Requirements Personal artist statement (250 words) Official transcript",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Arts Administration   or SIS_Major_2 is Dance   or SIS_Major_2 is Dance Education   or SIS_Major is Arts Administration   or SIS_Major is Dance   or SIS_Major is Dance Education   or SIS_Major_1_2 is Arts Administration   or SIS_Major_1_2 is Dance   or SIS_Major_1_2 is Dance Education   or SIS_Major_2_2 is Arts Administration   or SIS_Major_2_2 is Dance   or SIS_Major_2_2 is Dance Education",
+        "raw_text": "SIS_Major_2 is Arts Administration   or SIS_Major_2 is Dance   or SIS_Major_2 is Dance Education   or SIS_Major is Arts Administration   or SIS_Major is Dance   or SIS_Major is Dance Education   or SIS_Major_1_2 is Arts Administration   or SIS_Major_1_2 is Dance   or SIS_Major_1_2 is Dance Education   or SIS_Major_2_2 is Arts Administration   or SIS_Major_2_2 is Dance   or SIS_Major_2_2 is Dance Education"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CFAD_Full_Time = Yes",
+        "raw_text": "CFAD_Full_Time = Yes"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.80",
+        "raw_text": "SIS_CumGPA >= 2.80"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.800468",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

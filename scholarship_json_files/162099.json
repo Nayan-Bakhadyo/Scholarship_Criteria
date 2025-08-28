@@ -1,0 +1,74 @@
+{
+  "basic_information": {
+    "scholarship_id": 162099,
+    "scholarship_name": "Dwight Adams Endowed Scholarship in Forensic Science",
+    "scholarship_code": "S10602",
+    "scholarship_notes": "Waiting on Endowment Agreement to put criteria in",
+    "donor_name": "UCO Foundation",
+    "committee_name": "FSI- FSI Scholarships",
+    "candidate_count": 5
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship mission: To provide scholarships for Incoming Freshman or Transfer students pursuing a degree in Forensic Science. Eligibility Requirements This scholarship will be available to apply for during the Incoming Student scholarship period. Completed Application Entering Freshman and/or Transfer Students Minimum GPA 2.5 250 word essay on career goals and why pursuing a forensics degree Must be enrolled full-time",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2 is Forensic Sci-Chemistry   or SIS_Major_2 is Forensic Science   or SIS_Major_2 is Forensic Science-Chemistry   or SIS_Major_2 is Forensic Science-Digital Foren   or SIS_Major_2 is Forensic Science-Molecular Bio   or SIS_Major_2 is Forensic Sci-Molecular Biology   or SIS_Major_2 is Psychology-Forensic Psychology   or SIS_Major_2 is Forensic Sci-Criminalistics   or SIS_Major_2 is Forensic Sci-Nursing   or SIS_Major_2 is Forensic Sci-Tech Investigat   or SIS_Major_2 is Forensic Sci-Digital Forensics   or SIS_Major_2 is Psych-Forensic Psychology   or SIS_Major_2 is Forensic Sci-Forensic Investig   or SIS_Major is Forensic Sci-Biology/Chemistry   or SIS_Major is Forensic Sci-Chemistry   or SIS_Major is Forensic Science   or SIS_Major is Forensic Science-Chemistry   or SIS_Major is Forensic Science-Digital Foren   or SIS_Major is Forensic Science-Molecular Bio   or SIS_Major is Forensic Sci-Molecular Biology   or SIS_Major is Psychology-Forensic Psychology   or SIS_Major is Forensic Sci-Criminalistics   or SIS_Major is Forensic Sci-Nursing   or SIS_Major is Forensic Sci-Tech Investigat   or SIS_Major is Forensic Sci-Digital Forensics   or SIS_Major is Psych-Forensic Psychology   or SIS_Major is Forensic Sci-Forensic Investig   or SIS_Major_1_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_1_2 is Forensic Sci-Chemistry   or SIS_Major_1_2 is Forensic Science   or SIS_Major_1_2 is Forensic Science-Chemistry   or SIS_Major_1_2 is Forensic Science-Digital Foren   or SIS_Major_1_2 is Forensic Science-Molecular Bio   or SIS_Major_1_2 is Forensic Sci-Molecular Biology   or SIS_Major_1_2 is Psychology-Forensic Psychology   or SIS_Major_1_2 is Forensic Sci-Criminalistics   or SIS_Major_1_2 is Forensic Sci-Nursing   or SIS_Major_1_2 is Forensic Sci-Tech Investigat   or SIS_Major_1_2 is Forensic Sci-Digital Forensics   or SIS_Major_1_2 is Psych-Forensic Psychology   or SIS_Major_1_2 is Forensic Sci-Forensic Investig   or SIS_Major_2_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2_2 is Forensic Sci-Chemistry   or SIS_Major_2_2 is Forensic Science   or SIS_Major_2_2 is Forensic Science-Chemistry   or SIS_Major_2_2 is Forensic Science-Digital Foren   or SIS_Major_2_2 is Forensic Science-Molecular Bio   or SIS_Major_2_2 is Forensic Sci-Molecular Biology   or SIS_Major_2_2 is Psychology-Forensic Psychology   or SIS_Major_2_2 is Forensic Sci-Criminalistics   or SIS_Major_2_2 is Forensic Sci-Nursing   or SIS_Major_2_2 is Forensic Sci-Tech Investigat   or SIS_Major_2_2 is Forensic Sci-Digital Forensics   or SIS_Major_2_2 is Psych-Forensic Psychology   or SIS_Major_2_2 is Forensic Sci-Forensic Investig",
+        "raw_text": "SIS_Major_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2 is Forensic Sci-Chemistry   or SIS_Major_2 is Forensic Science   or SIS_Major_2 is Forensic Science-Chemistry   or SIS_Major_2 is Forensic Science-Digital Foren   or SIS_Major_2 is Forensic Science-Molecular Bio   or SIS_Major_2 is Forensic Sci-Molecular Biology   or SIS_Major_2 is Psychology-Forensic Psychology   or SIS_Major_2 is Forensic Sci-Criminalistics   or SIS_Major_2 is Forensic Sci-Nursing   or SIS_Major_2 is Forensic Sci-Tech Investigat   or SIS_Major_2 is Forensic Sci-Digital Forensics   or SIS_Major_2 is Psych-Forensic Psychology   or SIS_Major_2 is Forensic Sci-Forensic Investig   or SIS_Major is Forensic Sci-Biology/Chemistry   or SIS_Major is Forensic Sci-Chemistry   or SIS_Major is Forensic Science   or SIS_Major is Forensic Science-Chemistry   or SIS_Major is Forensic Science-Digital Foren   or SIS_Major is Forensic Science-Molecular Bio   or SIS_Major is Forensic Sci-Molecular Biology   or SIS_Major is Psychology-Forensic Psychology   or SIS_Major is Forensic Sci-Criminalistics   or SIS_Major is Forensic Sci-Nursing   or SIS_Major is Forensic Sci-Tech Investigat   or SIS_Major is Forensic Sci-Digital Forensics   or SIS_Major is Psych-Forensic Psychology   or SIS_Major is Forensic Sci-Forensic Investig   or SIS_Major_1_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_1_2 is Forensic Sci-Chemistry   or SIS_Major_1_2 is Forensic Science   or SIS_Major_1_2 is Forensic Science-Chemistry   or SIS_Major_1_2 is Forensic Science-Digital Foren   or SIS_Major_1_2 is Forensic Science-Molecular Bio   or SIS_Major_1_2 is Forensic Sci-Molecular Biology   or SIS_Major_1_2 is Psychology-Forensic Psychology   or SIS_Major_1_2 is Forensic Sci-Criminalistics   or SIS_Major_1_2 is Forensic Sci-Nursing   or SIS_Major_1_2 is Forensic Sci-Tech Investigat   or SIS_Major_1_2 is Forensic Sci-Digital Forensics   or SIS_Major_1_2 is Psych-Forensic Psychology   or SIS_Major_1_2 is Forensic Sci-Forensic Investig   or SIS_Major_2_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2_2 is Forensic Sci-Chemistry   or SIS_Major_2_2 is Forensic Science   or SIS_Major_2_2 is Forensic Science-Chemistry   or SIS_Major_2_2 is Forensic Science-Digital Foren   or SIS_Major_2_2 is Forensic Science-Molecular Bio   or SIS_Major_2_2 is Forensic Sci-Molecular Biology   or SIS_Major_2_2 is Psychology-Forensic Psychology   or SIS_Major_2_2 is Forensic Sci-Criminalistics   or SIS_Major_2_2 is Forensic Sci-Nursing   or SIS_Major_2_2 is Forensic Sci-Tech Investigat   or SIS_Major_2_2 is Forensic Sci-Digital Forensics   or SIS_Major_2_2 is Psych-Forensic Psychology   or SIS_Major_2_2 is Forensic Sci-Forensic Investig"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS <= 12.00",
+        "raw_text": "SIS_Enrolled HRS <= 12.00"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA <= 2.50",
+        "raw_text": "SIS_CumGPA <= 2.50"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"ADV_DwightAdams_FSI_Essay\"",
+        "raw_text": "Complete Essay \"ADV_DwightAdams_FSI_Essay\"",
+        "points": 1
+      }
+    ],
+    "total_possible_points": 1
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.749739",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

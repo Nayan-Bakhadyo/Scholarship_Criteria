@@ -1,0 +1,96 @@
+{
+  "basic_information": {
+    "scholarship_id": 107713,
+    "scholarship_name": "Brisch Family Music Outreach Scholarship",
+    "scholarship_code": "S10231",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CFAD - Brisch Outreach Scholarship",
+    "candidate_count": 4
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "This scholarship was generously established in 2007 by Dr. Margaret Brisch in honor of her late husband, Dr. Hans Brisch, the fourth chancellor for the Oklahoma State System of Higher Education. A highly regarded educator herself, Margaret is a devoted supporter of our School of Music and is passionate about music outreach as a vital aspect of learning. This scholarship provides financial assistance to students within the School of Music who are active participants in the music outreach program. Dr. Hans Brisch was named the fourth Chancellor for the Oklahoma State System of Higher Education on December 14, 1987. He is known for the courage, vision and strength he brought to the realm of higher education, often referring to his work through visual definition: A classroom is four walls with a future inside. As one of Oklahomas most respected leaders, he and his team ambitiously carried out the goal of providing higher education opportunities for Oklahomans, serving countless many in the name of student success. Born in Germany in 1940, Dr. Brisch immigrated to the United States at the age of 17 and completed his high school and college education while supporting himself through work, scholarships and loans. He earned a Bachelor of Arts degree from Park College in Political Science with a minor in chemistry, and a Master of Arts and Doctor of Philosophy degree in Political Science from the University of Kansas. Academic honors accorded to Hans Brisch include Fulbright-Hays Fellow, University of Alabama Research Grant Award, Venice Seminar Fellow, Public Administrative Fellow, Seminar Fellow  University of Belgrade and NDFL Title VI Fellow. During his career, Dr. Brisch served as Chancellor for the Oklahoma State System of Higher Education. He received his Ph.D. in Political Science from the University of Kansas. Early in his career he taught at the University of Alabama, University of Nebraska and Nebraska Wesleyan University and served at the Illinois Board of Higher Education. He also served as the Assistant Vice President for Academic Affairs, Executive Assistant to the President, and Associate Executive Vice President and Provost at the University of Nebraska, and Chief of Staff for Nebraska Governor Kay Orr. Dr. Brisch was a member of numerous professional, academic and civic organizations and held positions of active leadership in many of them. Dr. Brisch passed away February 22, 2006, leaving his wife Margaret, their three children: Ellen, Matthew, and Megan, his grandson Samuel and his sister Gisela Bridge. Eligibility Any School of Music student Sophomore, junior, senior or graduate student Requirements Personal artist statement (250 words) Official transcript Read the biography of Dr. Hans Brisch above and answer these questions in essay form: How have you helped and/or performed at elementary or secondary schools in the past? How would receiving this scholarship impact your life as a future musician? How do you see your involvement in the outreach program influencing students in the chosen schools? What inspired you to study music? Responsibilities Recipient required to participate in the music outreach program at least one a month",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CFAD_Brisch_Outreach = Yes",
+        "raw_text": "CFAD_Brisch_Outreach = Yes"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Brisch_Essay\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Brisch_Essay\""
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major_2 is Music   or SIS_Major_2 is Music Education-Instrumental   or SIS_Major_2 is Music Education-Vocal   or SIS_Major_2 is Music-Collaborative Piano   or SIS_Major_2 is Music-Composition   or SIS_Major_2 is Music-Conducting   or SIS_Major_2 is Music-Instrumental Performance   or SIS_Major_2 is Music-Jazz Performance   or SIS_Major_2 is Music-Music Education   or SIS_Major_2 is Music-Musical Theatre   or SIS_Major_2 is Music-Percussion Performance   or SIS_Major_2 is Music-Piano Performance   or SIS_Major_2 is Music-String Performance   or SIS_Major_2 is Music-Vocal Pedagogy   or SIS_Major_2 is Music-Vocal Performance   or SIS_Major_2 is Music-Wind Performance   or SIS_Major_2 is Music-Historical Performance   or SIS_Major_2 is Music-Jazz Studies   or SIS_Major_2 is Music-Music Theatre   or SIS_Major_2 is Music-Percussion   or SIS_Major_2 is Music-Performance   or SIS_Major_2 is Music-Piano   or SIS_Major_2 is Music-Piano Pedagogy   or SIS_Major_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2 is Music-String   or SIS_Major_2 is Music-Vocal   or SIS_Major_2 is Music-Wind   or SIS_Major is Music   or SIS_Major is Music Education-Instrumental   or SIS_Major is Music Education-Vocal   or SIS_Major is Music-Collaborative Piano   or SIS_Major is Music-Composition   or SIS_Major is Music-Conducting   or SIS_Major is Music-Instrumental Performance   or SIS_Major is Music-Jazz Performance   or SIS_Major is Music-Music Education   or SIS_Major is Music-Musical Theatre   or SIS_Major is Music-Percussion Performance   or SIS_Major is Music-Piano Performance   or SIS_Major is Music-String Performance   or SIS_Major is Music-Vocal Pedagogy   or SIS_Major is Music-Vocal Performance   or SIS_Major is Music-Wind Performance   or SIS_Major is Music-Historical Performance   or SIS_Major is Music-Jazz Studies   or SIS_Major is Music-Music Theatre   or SIS_Major is Music-Percussion   or SIS_Major is Music-Performance   or SIS_Major is Music-Piano   or SIS_Major is Music-Piano Pedagogy   or SIS_Major is Music-Piano Perform & Pedagogy   or SIS_Major is Music-String   or SIS_Major is Music-Vocal   or SIS_Major is Music-Wind   or SIS_Major_1_2 is Music   or SIS_Major_1_2 is Music Education-Instrumental   or SIS_Major_1_2 is Music Education-Vocal   or SIS_Major_1_2 is Music-Collaborative Piano   or SIS_Major_1_2 is Music-Composition   or SIS_Major_1_2 is Music-Conducting   or SIS_Major_1_2 is Music-Instrumental Performance   or SIS_Major_1_2 is Music-Jazz Performance   or SIS_Major_1_2 is Music-Music Education   or SIS_Major_1_2 is Music-Musical Theatre   or SIS_Major_1_2 is Music-Percussion Performance   or SIS_Major_1_2 is Music-Piano Performance   or SIS_Major_1_2 is Music-String Performance   or SIS_Major_1_2 is Music-Vocal Pedagogy   or SIS_Major_1_2 is Music-Vocal Performance   or SIS_Major_1_2 is Music-Wind Performance   or SIS_Major_1_2 is Music-Historical Performance   or SIS_Major_1_2 is Music-Jazz Studies   or SIS_Major_1_2 is Music-Music Theatre   or SIS_Major_1_2 is Music-Percussion   or SIS_Major_1_2 is Music-Performance   or SIS_Major_1_2 is Music-Piano   or SIS_Major_1_2 is Music-Piano Pedagogy   or SIS_Major_1_2 is Music-Piano Perform & Pedagogy   or SIS_Major_1_2 is Music-String   or SIS_Major_1_2 is Music-Vocal   or SIS_Major_1_2 is Music-Wind   or SIS_Major_2_2 is Music   or SIS_Major_2_2 is Music Education-Instrumental   or SIS_Major_2_2 is Music Education-Vocal   or SIS_Major_2_2 is Music-Collaborative Piano   or SIS_Major_2_2 is Music-Composition   or SIS_Major_2_2 is Music-Conducting   or SIS_Major_2_2 is Music-Instrumental Performance   or SIS_Major_2_2 is Music-Jazz Performance   or SIS_Major_2_2 is Music-Music Education   or SIS_Major_2_2 is Music-Musical Theatre   or SIS_Major_2_2 is Music-Percussion Performance   or SIS_Major_2_2 is Music-Piano Performance   or SIS_Major_2_2 is Music-String Performance   or SIS_Major_2_2 is Music-Vocal Pedagogy   or SIS_Major_2_2 is Music-Vocal Performance   or SIS_Major_2_2 is Music-Wind Performance   or SIS_Major_2_2 is Music-Historical Performance   or SIS_Major_2_2 is Music-Jazz Studies   or SIS_Major_2_2 is Music-Music Theatre   or SIS_Major_2_2 is Music-Percussion   or SIS_Major_2_2 is Music-Performance   or SIS_Major_2_2 is Music-Piano   or SIS_Major_2_2 is Music-Piano Pedagogy   or SIS_Major_2_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2_2 is Music-String   or SIS_Major_2_2 is Music-Vocal   or SIS_Major_2_2 is Music-Wind",
+        "raw_text": "SIS_Major_2 is Music   or SIS_Major_2 is Music Education-Instrumental   or SIS_Major_2 is Music Education-Vocal   or SIS_Major_2 is Music-Collaborative Piano   or SIS_Major_2 is Music-Composition   or SIS_Major_2 is Music-Conducting   or SIS_Major_2 is Music-Instrumental Performance   or SIS_Major_2 is Music-Jazz Performance   or SIS_Major_2 is Music-Music Education   or SIS_Major_2 is Music-Musical Theatre   or SIS_Major_2 is Music-Percussion Performance   or SIS_Major_2 is Music-Piano Performance   or SIS_Major_2 is Music-String Performance   or SIS_Major_2 is Music-Vocal Pedagogy   or SIS_Major_2 is Music-Vocal Performance   or SIS_Major_2 is Music-Wind Performance   or SIS_Major_2 is Music-Historical Performance   or SIS_Major_2 is Music-Jazz Studies   or SIS_Major_2 is Music-Music Theatre   or SIS_Major_2 is Music-Percussion   or SIS_Major_2 is Music-Performance   or SIS_Major_2 is Music-Piano   or SIS_Major_2 is Music-Piano Pedagogy   or SIS_Major_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2 is Music-String   or SIS_Major_2 is Music-Vocal   or SIS_Major_2 is Music-Wind   or SIS_Major is Music   or SIS_Major is Music Education-Instrumental   or SIS_Major is Music Education-Vocal   or SIS_Major is Music-Collaborative Piano   or SIS_Major is Music-Composition   or SIS_Major is Music-Conducting   or SIS_Major is Music-Instrumental Performance   or SIS_Major is Music-Jazz Performance   or SIS_Major is Music-Music Education   or SIS_Major is Music-Musical Theatre   or SIS_Major is Music-Percussion Performance   or SIS_Major is Music-Piano Performance   or SIS_Major is Music-String Performance   or SIS_Major is Music-Vocal Pedagogy   or SIS_Major is Music-Vocal Performance   or SIS_Major is Music-Wind Performance   or SIS_Major is Music-Historical Performance   or SIS_Major is Music-Jazz Studies   or SIS_Major is Music-Music Theatre   or SIS_Major is Music-Percussion   or SIS_Major is Music-Performance   or SIS_Major is Music-Piano   or SIS_Major is Music-Piano Pedagogy   or SIS_Major is Music-Piano Perform & Pedagogy   or SIS_Major is Music-String   or SIS_Major is Music-Vocal   or SIS_Major is Music-Wind   or SIS_Major_1_2 is Music   or SIS_Major_1_2 is Music Education-Instrumental   or SIS_Major_1_2 is Music Education-Vocal   or SIS_Major_1_2 is Music-Collaborative Piano   or SIS_Major_1_2 is Music-Composition   or SIS_Major_1_2 is Music-Conducting   or SIS_Major_1_2 is Music-Instrumental Performance   or SIS_Major_1_2 is Music-Jazz Performance   or SIS_Major_1_2 is Music-Music Education   or SIS_Major_1_2 is Music-Musical Theatre   or SIS_Major_1_2 is Music-Percussion Performance   or SIS_Major_1_2 is Music-Piano Performance   or SIS_Major_1_2 is Music-String Performance   or SIS_Major_1_2 is Music-Vocal Pedagogy   or SIS_Major_1_2 is Music-Vocal Performance   or SIS_Major_1_2 is Music-Wind Performance   or SIS_Major_1_2 is Music-Historical Performance   or SIS_Major_1_2 is Music-Jazz Studies   or SIS_Major_1_2 is Music-Music Theatre   or SIS_Major_1_2 is Music-Percussion   or SIS_Major_1_2 is Music-Performance   or SIS_Major_1_2 is Music-Piano   or SIS_Major_1_2 is Music-Piano Pedagogy   or SIS_Major_1_2 is Music-Piano Perform & Pedagogy   or SIS_Major_1_2 is Music-String   or SIS_Major_1_2 is Music-Vocal   or SIS_Major_1_2 is Music-Wind   or SIS_Major_2_2 is Music   or SIS_Major_2_2 is Music Education-Instrumental   or SIS_Major_2_2 is Music Education-Vocal   or SIS_Major_2_2 is Music-Collaborative Piano   or SIS_Major_2_2 is Music-Composition   or SIS_Major_2_2 is Music-Conducting   or SIS_Major_2_2 is Music-Instrumental Performance   or SIS_Major_2_2 is Music-Jazz Performance   or SIS_Major_2_2 is Music-Music Education   or SIS_Major_2_2 is Music-Musical Theatre   or SIS_Major_2_2 is Music-Percussion Performance   or SIS_Major_2_2 is Music-Piano Performance   or SIS_Major_2_2 is Music-String Performance   or SIS_Major_2_2 is Music-Vocal Pedagogy   or SIS_Major_2_2 is Music-Vocal Performance   or SIS_Major_2_2 is Music-Wind Performance   or SIS_Major_2_2 is Music-Historical Performance   or SIS_Major_2_2 is Music-Jazz Studies   or SIS_Major_2_2 is Music-Music Theatre   or SIS_Major_2_2 is Music-Percussion   or SIS_Major_2_2 is Music-Performance   or SIS_Major_2_2 is Music-Piano   or SIS_Major_2_2 is Music-Piano Pedagogy   or SIS_Major_2_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2_2 is Music-String   or SIS_Major_2_2 is Music-Vocal   or SIS_Major_2_2 is Music-Wind"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 8,
+        "type": "unknown",
+        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes"
+      },
+      {
+        "id": 9,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.660525",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

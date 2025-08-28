@@ -1,0 +1,54 @@
+{
+  "basic_information": {
+    "scholarship_id": 140214,
+    "scholarship_name": "The Two Structures Homes Endowed Scholarship",
+    "scholarship_code": "S10512",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "COB - Finance Department Scholarship Committee",
+    "candidate_count": 18
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Eligibility Requirements Complete qualifying application Real Estate Minor",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Minor_2 is Finance-Real Estate   or SIS_Minor is Finance-Real Estate   or SIS_Minor_1_2 is Finance-Real Estate   or SIS_Minor_2_2 is Finance-Real Estate",
+        "raw_text": "SIS_Minor_2 is Finance-Real Estate   or SIS_Minor is Finance-Real Estate   or SIS_Minor_1_2 is Finance-Real Estate   or SIS_Minor_2_2 is Finance-Real Estate"
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.857002",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "basic_information": {
+    "scholarship_id": 138863,
+    "scholarship_name": "Dr. Diane Martin-Gutel Scholarship",
+    "scholarship_code": "S20758",
+    "scholarship_notes": "",
+    "donor_name": "UCO Foundation",
+    "committee_name": "CEPS - Dr. Martin-Gutel Scholarship",
+    "candidate_count": 5
+  },
+  "renewable_information": {
+    "is_renewable": false,
+    "renewable_years": 0
+  },
+  "description": "Scholarship Mission: To provide scholarship assistance to undergraduate students within the College of Education & Professional Studies who are majoring in Teacher Education. Eligibility Requirements Must be admitted to teacher education Provide a one-page essay promoting the inclusion of special education students in your classroom Preference will be given to students who are active within the BGLTQ+ student center at UCO Preference also given to student applicants who have completed PTE 3023, Foundations of American Education Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Students in the semester of student teaching are eligible for the full award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
+  "qualifying_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major is Physical Education/Health   or SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Spec Ed-SP/Mult Disabilities   or SIS_Major is Special Education   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_1_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_1_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_1_2 is Special Education",
+        "raw_text": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major is Physical Education/Health   or SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Spec Ed-SP/Mult Disabilities   or SIS_Major is Special Education   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_1_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_1_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_1_2 is Special Education"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_DianeMartin-GutelScholarship\"",
+        "raw_text": "Complete Essay \"CEPS_DianeMartin-GutelScholarship\""
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Campus_Organizations\"",
+        "raw_text": "Complete Essay \"CEPS_Campus_Organizations\""
+      }
+    ]
+  },
+  "general_criteria": {
+    "description": "Soft requirements that provide additional points/consideration",
+    "criteria_count": 0,
+    "criteria": [],
+    "total_possible_points": 0
+  },
+  "conditional_criteria": {
+    "description": "Requirements for scholarship renewal",
+    "criteria_count": 0,
+    "criteria": []
+  },
+  "metadata": {
+    "processed_date": "2025-08-28T14:17:39.725221",
+    "source_file": "ScholarshipswithCriteriaNextGen08202025.csv",
+    "processing_notes": {
+      "html_cleaned": true,
+      "requirements_parsed": true,
+      "criteria_categorized": true
+    }
+  }
+}
