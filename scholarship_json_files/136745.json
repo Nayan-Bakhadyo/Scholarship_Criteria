@@ -13,36 +13,6 @@
     "renewable_years": 0
   },
   "description": "Mission: Scholarship will benefit a student majoring in Biology. Eligibility Requirements Must be majoring in Biology Must have a 3.5 GPA Must have completed 60 credit hours Two letters of recommendation",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 4,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 2,
-        "type": "hours",
-        "description": "SIS_Overall_Hours >= 60.00",
-        "raw_text": "SIS_Overall_Hours >= 60.00"
-      },
-      {
-        "id": 3,
-        "type": "major",
-        "description": "SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Biology-Medical Laboratory Sci   or SIS_Major is Biology-Pre-Dental   or SIS_Major is Biology-Pre-Medical   or SIS_Major is Biology-Pre-Optometry   or SIS_Major is Biology-Pre-Veterinary Med",
-        "raw_text": "SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Biology-Medical Laboratory Sci   or SIS_Major is Biology-Pre-Dental   or SIS_Major is Biology-Pre-Medical   or SIS_Major is Biology-Pre-Optometry   or SIS_Major is Biology-Pre-Veterinary Med"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -69,6 +39,62 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 2,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 60.00",
+        "raw_text": "SIS_Overall_Hours >= 60.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Biology-Medical Laboratory Sci   or SIS_Major is Biology-Pre-Dental   or SIS_Major is Biology-Pre-Medical   or SIS_Major is Biology-Pre-Optometry   or SIS_Major is Biology-Pre-Veterinary Med",
+        "raw_text": "SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Biology-Medical Laboratory Sci   or SIS_Major is Biology-Pre-Dental   or SIS_Major is Biology-Pre-Medical   or SIS_Major is Biology-Pre-Optometry   or SIS_Major is Biology-Pre-Veterinary Med",
+        "parsed_sis": {
+          "majors": [
+            "Biology",
+            "Biology-Biomedical Sciences",
+            "Biology-Medical Laboratory Sci",
+            "Biology-Pre-Dental",
+            "Biology-Pre-Medical",
+            "Biology-Pre-Optometry",
+            "Biology-Pre-Veterinary Med"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Biology, Biology-Biomedical Sciences, Biology-Medical Laboratory Sci, Biology-Pre-Dental, Biology-Pre-Medical, Biology-Pre-Optometry, Biology-Pre-Veterinary Med",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 2
     }
   }
 }

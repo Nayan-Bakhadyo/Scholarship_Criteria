@@ -13,11 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship recognizes the outstanding effort of a Liberal Arts Honor Society officer. Must be nominated by CLA faculty to apply. Eligibility Requirements Liberal Arts major Full-time student Minimum GPA of 3.0 Current Honor Society member Continuing student in the fall semester that the scholarship is awarded",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 0,
-    "criteria": []
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -36,6 +31,17 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 0,
+    "criteria": [],
+    "banner_summary": {
+      "total_criteria": 0,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 0
     }
   }
 }

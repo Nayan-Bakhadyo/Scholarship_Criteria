@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science pursuing a degree in the Department of Nursing. Eligibility Requirements Complete the application and attach a transcript Personal letter discussing career choice and objectives One letter of recommendation US Citizen Resident of the State of Oklahoma Officially admitted to or eligible for admission to Nursing Program 3.2 GPA Enrolled in a minimum of 12 hours for semesters of award",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.20",
-        "raw_text": "SIS_CumGPA >= 3.20"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_STATE_OF_RESIDENCE is OKLAHOMA",
-        "raw_text": "SIS_STATE_OF_RESIDENCE is OKLAHOMA"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_CITZ_CODE is United States",
-        "raw_text": "SIS_CITZ_CODE is United States"
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
-        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing"
-      },
-      {
-        "id": 6,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 12.00",
-        "raw_text": "SIS_Enrolled HRS >= 12.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 2,
@@ -88,6 +46,70 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.20",
+        "raw_text": "SIS_CumGPA >= 3.20",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_STATE_OF_RESIDENCE is OKLAHOMA",
+        "raw_text": "SIS_STATE_OF_RESIDENCE is OKLAHOMA",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_CITZ_CODE is United States",
+        "raw_text": "SIS_CITZ_CODE is United States",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
+        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
+        "parsed_sis": {
+          "majors": [
+            "Nursing"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Nursing",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 2,
+      "application_required": 0,
+      "manual_review": 4
     }
   }
 }

@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "The International Man of Mystery Scholarship is open to declared College of Business majors with a minimum 3.0 cumulative GPA and a minimum of 12 hours remaining before degree completion. Students must have plans to study abroad for at least one semester; scholarship recipient's study abroad enrollment status will be confirmed before funds are disbursed. Eligibility Requirements Declared College of Business majors Minimum cumulative GPA of 3.0 or higher Minimum of 12 HRS remaining before degree completion Plans to study abroad for at least one semester Award Requirements Scholarship recipient's study abroad enrollment status will be confirmed before funds are disbursed",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Business Administration",
-        "raw_text": "SIS_College is Business Administration"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "GEN_Study_/Abroad = Yes",
-        "raw_text": "GEN_Study_/Abroad = Yes"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -67,6 +31,53 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Business Administration",
+        "raw_text": "SIS_College is Business Administration",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "GEN_Study_/Abroad = Yes",
+        "raw_text": "GEN_Study_/Abroad = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 2,
+      "application_required": 0,
+      "manual_review": 3
     }
   }
 }

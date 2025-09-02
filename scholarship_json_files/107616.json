@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who are majoring in Industrial or Occupational Safety. Eligibility Requirements Open to any student majoring in Industrial or Occupational Safety Minimum 2.75 GPA Enrolled in a minimum of (6) hours Good academic standing in the BS-Industrial Safety degree program or the Med  General Education or Adult and Higher Education: Interdisciplinary Studies (Specialization Area  Industrial Safety) Provides a letter of recommendation from one off-campus source Provides a personal statement that explains why they exemplify those characteristics displayed by Harvey during his time in school including: dedication, perseverance, commitment, and that have endured some kind of hardship working toward their degree, be it financial or physical Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.75",
-        "raw_text": "SIS_CumGPA >= 2.75"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 6.00",
-        "raw_text": "SIS_Enrolled HRS >= 6.00"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"CEPS_Harvey_Mankins\"",
-        "raw_text": "Complete Essay \"CEPS_Harvey_Mankins\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety",
-        "raw_text": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety"
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "1 letters of recommendation: \"GEN_LOR_Off_Campus\"",
-        "raw_text": "1 letters of recommendation: \"GEN_LOR_Off_Campus\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -79,6 +31,78 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.75",
+        "raw_text": "SIS_CumGPA >= 2.75",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 6.00",
+        "raw_text": "SIS_Enrolled HRS >= 6.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Harvey_Mankins\"",
+        "raw_text": "Complete Essay \"CEPS_Harvey_Mankins\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety",
+        "raw_text": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety",
+        "parsed_sis": {
+          "majors": [
+            "Industrial Safety",
+            "Occupational Safety"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Industrial Safety, Occupational Safety",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"GEN_LOR_Off_Campus\"",
+        "raw_text": "1 letters of recommendation: \"GEN_LOR_Off_Campus\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 3,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

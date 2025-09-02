@@ -13,30 +13,6 @@
     "renewable_years": 0
   },
   "description": "Student Transformative Learning Endowment Scholarship in College of Liberal Arts This scholarship supports undergraduate students in their transformative learning journey through UCO's Student Transformative Learning Record (STLR) activities and STLR tenet areas: Global & Cultural Competencies; Health & Wellness; Leadership; Research, Creative & Scholarly Activities; and Service Learning & Civic Engagement. Eligibility Requirements: College of Liberal Arts Major Undergraduate first-generation college student and/or Indicated financial need and/or From a traditionally underserved group. Application Process: Provide a short, typed personal statement. In your statement, talk about: at least one of these (STLR) tenet areas youre most interested to get experience in and why: Global & Cultural Competencies, Health & Wellness, Leadership, Research, Creative & Scholarly Activities, and Service Learning & Civic Engagement. anything youve already done or plan to get involved in that relates to that area or areas. at least one STLR activity you could do in the future or have already done that could help you become more well-rounded and ready for life outside of college. If you have a STLR Snapshot showing STLR activities youve already done, upload an unofficial STLR Snapshot PDF printout. Visit STLR Snapshot to log in and find more info about how to create your printout. If youve done official STLR-tagged activities, but theyre not showing on your STLR Snapshot, you can talk about them in your personal statement. Application Period: This scholarship is available to apply for during the Current UCO Student Application time frame.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 3,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Essay \"ADV_STLRessay1\"",
-        "raw_text": "Complete Essay \"ADV_STLRessay1\""
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_College is Liberal Arts   or SIS_College_2 is Liberal Arts",
-        "raw_text": "SIS_College is Liberal Arts   or SIS_College_2 is Liberal Arts"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 3,
@@ -77,6 +53,39 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"ADV_STLRessay1\"",
+        "raw_text": "Complete Essay \"ADV_STLRessay1\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_College is Liberal Arts   or SIS_College_2 is Liberal Arts",
+        "raw_text": "SIS_College is Liberal Arts   or SIS_College_2 is Liberal Arts",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 1
     }
   }
 }

@@ -13,36 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science pursuing a degree in the Department of Nursing. Eligibility Requirements College of Mathematics and Science student Undergraduate student Junior status only Nursing major pursuing degree as a second career Written essay (approximately 1,000 to 1,500 words) articulating the nursing students commitment to nursing, brief biography and goals for the future Two faculty letters of recommendation/support One personal letter of recommendation (non-faculty)",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 4,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 3,
-        "type": "major",
-        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
-        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "CMS_Nursing_second_career = Yes",
-        "raw_text": "CMS_Nursing_second_career = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 5,
@@ -97,6 +67,56 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
+        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
+        "parsed_sis": {
+          "majors": [
+            "Nursing"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Nursing",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CMS_Nursing_second_career = Yes",
+        "raw_text": "CMS_Nursing_second_career = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 2
     }
   }
 }

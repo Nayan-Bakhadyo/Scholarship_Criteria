@@ -13,60 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies pursuing a degree in Industrial Safety. Eligibility Requirements Undergraduate student Sophomore or junior status Major in Industrial Safety or Occupational Safety Taking at least (6) credit hours Minimum 3.0 GPA Active participation in campus activities/organizations or volunteer in the community Demonstrate financial need Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 8,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 6.00",
-        "raw_text": "SIS_Enrolled HRS >= 6.00"
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety",
-        "raw_text": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior",
-        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior"
-      },
-      {
-        "id": 8,
-        "type": "unknown",
-        "description": "GEN_Activities = Yes",
-        "raw_text": "GEN_Activities = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -85,6 +31,96 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 6.00",
+        "raw_text": "SIS_Enrolled HRS >= 6.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety",
+        "raw_text": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety",
+        "parsed_sis": {
+          "majors": [
+            "Industrial Safety",
+            "Occupational Safety"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Industrial Safety, Occupational Safety",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior",
+        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 8,
+        "type": "unknown",
+        "description": "GEN_Activities = Yes",
+        "raw_text": "GEN_Activities = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 8,
+      "banner_accessible": 4,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

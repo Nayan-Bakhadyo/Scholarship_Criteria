@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "?Scholarship mission: To provide scholarship assistance to the students within the College of Mathematics and Science pursuing a degree in the Department of Nursing. Eligibility Requirements College of Mathematics and Science student Enrolled as full-time student in Nursing Program Complete application and provide transcript Minimum 3.0 GPA Two letters of recommendation from a nursing faculty member Preference given to a First Generation college student Preference given to a student who shows the true definition of nursing characteristics The Love of Janeene Cooper scholarship was created by her son who graduated from UCO's nursing program. Thinking back, he derived how to effectively be a nurse through watching his mother provide care for others. Through her work ethic, joy, and love for others, Janeene did whatever she could to help someone in need. This scholarship is for a nursing student whom resembles the true characteristics of a nurse. You can have all the knowledge there is to know to become a nurse, but if you cannot show your patients love, empathy, and support, then you have missed what it truly means to be a nurse.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "major",
-        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing",
-        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "CMS_Nursing_Program = Yes",
-        "raw_text": "CMS_Nursing_Program = Yes"
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 12.00",
-        "raw_text": "SIS_Enrolled HRS >= 12.00"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 2,
@@ -88,6 +46,70 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing",
+        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing",
+        "parsed_sis": {
+          "majors": [
+            "Nursing"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Nursing",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CMS_Nursing_Program = Yes",
+        "raw_text": "CMS_Nursing_Program = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

@@ -13,72 +13,6 @@
     "renewable_years": 0
   },
   "description": "Full-time Student, US Citizen, Finance or Accounting major, must have completed 45+ hours, minimum 3.0 GPA, preference given to students who are active in campus clubs/extracurricular activities, financial need considered Eligibility Requirements Finance or Accounting major Must have completed 45+ hours Minimum GPA of 3.0 Selection Process Preference is given to students who are active in campus clubs/extracurricular activities Financial need considered",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 10,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 12.00",
-        "raw_text": "SIS_Enrolled HRS >= 12.00"
-      },
-      {
-        "id": 4,
-        "type": "citizenship",
-        "description": "SIS_USCitizen = Yes",
-        "raw_text": "SIS_USCitizen = Yes"
-      },
-      {
-        "id": 5,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Work_History\"",
-        "raw_text": "Complete Essay \"GEN_Work_History\""
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 8,
-        "type": "hours",
-        "description": "SIS_Overall_Hours >= 45.00",
-        "raw_text": "SIS_Overall_Hours >= 45.00"
-      },
-      {
-        "id": 9,
-        "type": "major",
-        "description": "SIS_Major_2 is Finance-Real Estate   or SIS_Major_2 is Accounting   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2 is Finance-Banking   or SIS_Major_2 is Finance-Business Law   or SIS_Major_2 is Finance-Financial Planning   or SIS_Major_2 is Finance-Insurance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Business Law   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major_1_2 is Finance-Real Estate   or SIS_Major_1_2 is Accounting   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Banking   or SIS_Major_1_2 is Finance-Business Law   or SIS_Major_1_2 is Finance-Financial Planning   or SIS_Major_1_2 is Finance-Insurance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance-Real Estate   or SIS_Major_2_2 is Accounting   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Banking   or SIS_Major_2_2 is Finance-Business Law   or SIS_Major_2_2 is Finance-Financial Planning   or SIS_Major_2_2 is Finance-Insurance   or SIS_Major_2_2 is Finance-Risk Management",
-        "raw_text": "SIS_Major_2 is Finance-Real Estate   or SIS_Major_2 is Accounting   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2 is Finance-Banking   or SIS_Major_2 is Finance-Business Law   or SIS_Major_2 is Finance-Financial Planning   or SIS_Major_2 is Finance-Insurance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Business Law   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major_1_2 is Finance-Real Estate   or SIS_Major_1_2 is Accounting   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Banking   or SIS_Major_1_2 is Finance-Business Law   or SIS_Major_1_2 is Finance-Financial Planning   or SIS_Major_1_2 is Finance-Insurance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance-Real Estate   or SIS_Major_2_2 is Accounting   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Banking   or SIS_Major_2_2 is Finance-Business Law   or SIS_Major_2_2 is Finance-Financial Planning   or SIS_Major_2_2 is Finance-Insurance   or SIS_Major_2_2 is Finance-Risk Management"
-      },
-      {
-        "id": 10,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -105,6 +39,106 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 10,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Work_History\"",
+        "raw_text": "Complete Essay \"GEN_Work_History\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 8,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 45.00",
+        "raw_text": "SIS_Overall_Hours >= 45.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 9,
+        "type": "major",
+        "description": "SIS_Major_2 is Finance-Real Estate   or SIS_Major_2 is Accounting   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2 is Finance-Banking   or SIS_Major_2 is Finance-Business Law   or SIS_Major_2 is Finance-Financial Planning   or SIS_Major_2 is Finance-Insurance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Business Law   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major_1_2 is Finance-Real Estate   or SIS_Major_1_2 is Accounting   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Banking   or SIS_Major_1_2 is Finance-Business Law   or SIS_Major_1_2 is Finance-Financial Planning   or SIS_Major_1_2 is Finance-Insurance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance-Real Estate   or SIS_Major_2_2 is Accounting   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Banking   or SIS_Major_2_2 is Finance-Business Law   or SIS_Major_2_2 is Finance-Financial Planning   or SIS_Major_2_2 is Finance-Insurance   or SIS_Major_2_2 is Finance-Risk Management",
+        "raw_text": "SIS_Major_2 is Finance-Real Estate   or SIS_Major_2 is Accounting   or SIS_Major_2 is Finance   or SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2 is Finance-Banking   or SIS_Major_2 is Finance-Business Law   or SIS_Major_2 is Finance-Financial Planning   or SIS_Major_2 is Finance-Insurance   or SIS_Major_2 is Finance-Risk Management   or SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Business Law   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major_1_2 is Finance-Real Estate   or SIS_Major_1_2 is Accounting   or SIS_Major_1_2 is Finance   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Banking   or SIS_Major_1_2 is Finance-Business Law   or SIS_Major_1_2 is Finance-Financial Planning   or SIS_Major_1_2 is Finance-Insurance   or SIS_Major_1_2 is Finance-Risk Management   or SIS_Major_2_2 is Finance-Real Estate   or SIS_Major_2_2 is Accounting   or SIS_Major_2_2 is Finance   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Banking   or SIS_Major_2_2 is Finance-Business Law   or SIS_Major_2_2 is Finance-Financial Planning   or SIS_Major_2_2 is Finance-Insurance   or SIS_Major_2_2 is Finance-Risk Management",
+        "parsed_sis": {
+          "majors": [
+            "Accounting",
+            "Finance",
+            "Finance-Banking",
+            "Finance-Business Law",
+            "Finance-Financial Planning",
+            "Finance-Insurance",
+            "Finance-Insurance & Risk Mgmt",
+            "Finance-Real Estate",
+            "Finance-Risk Management"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Accounting, Finance, Finance-Banking, Finance-Business Law, Finance-Financial Planning, Finance-Insurance, Finance-Insurance & Risk Mgmt, Finance-Real Estate, Finance-Risk Management",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 10,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 10,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 6
     }
   }
 }

@@ -13,72 +13,6 @@
     "renewable_years": 2
   },
   "description": "Scholarship Mission: To provide scholarship assistance to female students within the College of Education & Professional Studies who are pursuing an undergraduate teaching degree in physical education. The amount awarded and number of recipients for this scholarship will be determined by the amount available in the fund at the time of the selection. NOTE: Any student awarded this scholarship may, and must, reapply to receive the scholarship in subsequent years, thus making the scholarship unavailable to new applicants, other than incoming freshman. For clarity, check with the KHS department chair. Eligibility Requirements Female student Sophomore standing Minimum 2.8 overall GPA Pursuing a Health/Physical Education teaching degree Active membership in the UCO KHS or PEM Club & the OAHPERD Involvement in the Kinesiology & Health Studies departmental activities Demonstrate commitment to a physically active & physically fit lifestyle Demonstrate appropriate behavior reflective of a professional person Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 10,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore",
-        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Gender is Female",
-        "raw_text": "SIS_Gender is Female"
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_2_2 is Physical Education/Health",
-        "raw_text": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_2_2 is Physical Education/Health"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "activities",
-        "description": "CEPS_KHS_Club = Yes",
-        "raw_text": "CEPS_KHS_Club = Yes"
-      },
-      {
-        "id": 8,
-        "type": "unknown",
-        "description": "CEPS_OAHPERD = Yes",
-        "raw_text": "CEPS_OAHPERD = Yes"
-      },
-      {
-        "id": 9,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.80",
-        "raw_text": "SIS_CumGPA >= 2.80"
-      },
-      {
-        "id": 10,
-        "type": "application",
-        "description": "Complete Essay \"CEPS_Bottger_Essay\"",
-        "raw_text": "Complete Essay \"CEPS_Bottger_Essay\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -97,6 +31,109 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 10,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore",
+        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Freshman",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Freshman, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Gender is Female",
+        "raw_text": "SIS_Gender is Female",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_2_2 is Physical Education/Health",
+        "raw_text": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health   or SIS_Major_2_2 is Physical Education/Health",
+        "parsed_sis": {
+          "majors": [
+            "Physical Education/Health"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Physical Education/Health",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "activities",
+        "description": "CEPS_KHS_Club = Yes",
+        "raw_text": "CEPS_KHS_Club = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "unknown",
+        "description": "CEPS_OAHPERD = Yes",
+        "raw_text": "CEPS_OAHPERD = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 9,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.80",
+        "raw_text": "SIS_CumGPA >= 2.80",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 10,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Bottger_Essay\"",
+        "raw_text": "Complete Essay \"CEPS_Bottger_Essay\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 10,
+      "banner_accessible": 4,
+      "application_required": 1,
+      "manual_review": 5
     }
   }
 }

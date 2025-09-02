@@ -13,66 +13,6 @@
     "renewable_years": 0
   },
   "description": "To provide scholarships for an active collegiate member of the Epsilon Nu chapter of Alpha Gamma Delta in good standing. **If you are NOT an active collegiate member of the EN Chapter of Alpha Gamma Delta and in good standing you are not eligible to receive this scholarship.** Eligibility Requirements Must be a Junior or Senior in the upcoming fall semester; Minimum cumulative GPA of 2.5, Be an undergraduate, full-time student, Be a member of Alpha Gamma Delta in good standing. This scholarship is available to apply for during the Current UCO Student Application.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 9,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 12.00",
-        "raw_text": "SIS_Enrolled HRS >= 12.00"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior"
-      },
-      {
-        "id": 5,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 6,
-        "type": "unknown",
-        "description": "ADV_AlphaGamma_Delta = Yes",
-        "raw_text": "ADV_AlphaGamma_Delta = Yes"
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Essay \"ADV_AlphaGamma_Delta_Essay\"",
-        "raw_text": "Complete Essay \"ADV_AlphaGamma_Delta_Essay\""
-      },
-      {
-        "id": 9,
-        "type": "application",
-        "description": "Complete Essay \"ADV_AlphaGamma_Delta-Honors2\"",
-        "raw_text": "Complete Essay \"ADV_AlphaGamma_Delta-Honors2\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -99,6 +39,92 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior",
+            "Senior"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior, Senior",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "ADV_AlphaGamma_Delta = Yes",
+        "raw_text": "ADV_AlphaGamma_Delta = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Essay \"ADV_AlphaGamma_Delta_Essay\"",
+        "raw_text": "Complete Essay \"ADV_AlphaGamma_Delta_Essay\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 9,
+        "type": "application",
+        "description": "Complete Essay \"ADV_AlphaGamma_Delta-Honors2\"",
+        "raw_text": "Complete Essay \"ADV_AlphaGamma_Delta-Honors2\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 9,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 5
     }
   }
 }

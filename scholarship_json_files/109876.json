@@ -13,36 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who is majoring in Family Life Education. Eligibility Requirements Must be a Family Life Education major Minimum of 3.0 GPA Participates in HES student professional organizations Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 4,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 4,
-        "type": "major",
-        "description": "SIS_Major is Fam &Child Studies-Fam Life Ed   or SIS_Major is Fam&Child Stud-Infant/Child Sp   or SIS_Major is Fam&Child Stud-MarriageFamTher   or SIS_Major is Family Life Ed-Child Develop   or SIS_Major is Family Life Ed-Gerontology   or SIS_Major is Family Life Ed-Marriage & Fam   or SIS_Major is Fam & Child Studies-LMFT   or SIS_Major is Family & Child Studies   or SIS_Major_1_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_1_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_1_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_1_2 is Family Life Ed-Child Develop   or SIS_Major_1_2 is Family Life Ed-Gerontology   or SIS_Major_1_2 is Family Life Ed-Marriage & Fam   or SIS_Major_1_2 is Fam & Child Studies-LMFT   or SIS_Major_1_2 is Family & Child Studies   or SIS_Major_2_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_2_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_2_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_2_2 is Family Life Ed-Child Develop   or SIS_Major_2_2 is Family Life Ed-Gerontology   or SIS_Major_2_2 is Family Life Ed-Marriage & Fam   or SIS_Major_2_2 is Fam & Child Studies-LMFT   or SIS_Major_2_2 is Family & Child Studies",
-        "raw_text": "SIS_Major is Fam &Child Studies-Fam Life Ed   or SIS_Major is Fam&Child Stud-Infant/Child Sp   or SIS_Major is Fam&Child Stud-MarriageFamTher   or SIS_Major is Family Life Ed-Child Develop   or SIS_Major is Family Life Ed-Gerontology   or SIS_Major is Family Life Ed-Marriage & Fam   or SIS_Major is Fam & Child Studies-LMFT   or SIS_Major is Family & Child Studies   or SIS_Major_1_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_1_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_1_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_1_2 is Family Life Ed-Child Develop   or SIS_Major_1_2 is Family Life Ed-Gerontology   or SIS_Major_1_2 is Family Life Ed-Marriage & Fam   or SIS_Major_1_2 is Fam & Child Studies-LMFT   or SIS_Major_1_2 is Family & Child Studies   or SIS_Major_2_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_2_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_2_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_2_2 is Family Life Ed-Child Develop   or SIS_Major_2_2 is Family Life Ed-Gerontology   or SIS_Major_2_2 is Family Life Ed-Marriage & Fam   or SIS_Major_2_2 is Fam & Child Studies-LMFT   or SIS_Major_2_2 is Family & Child Studies"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -61,6 +31,63 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major is Fam &Child Studies-Fam Life Ed   or SIS_Major is Fam&Child Stud-Infant/Child Sp   or SIS_Major is Fam&Child Stud-MarriageFamTher   or SIS_Major is Family Life Ed-Child Develop   or SIS_Major is Family Life Ed-Gerontology   or SIS_Major is Family Life Ed-Marriage & Fam   or SIS_Major is Fam & Child Studies-LMFT   or SIS_Major is Family & Child Studies   or SIS_Major_1_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_1_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_1_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_1_2 is Family Life Ed-Child Develop   or SIS_Major_1_2 is Family Life Ed-Gerontology   or SIS_Major_1_2 is Family Life Ed-Marriage & Fam   or SIS_Major_1_2 is Fam & Child Studies-LMFT   or SIS_Major_1_2 is Family & Child Studies   or SIS_Major_2_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_2_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_2_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_2_2 is Family Life Ed-Child Develop   or SIS_Major_2_2 is Family Life Ed-Gerontology   or SIS_Major_2_2 is Family Life Ed-Marriage & Fam   or SIS_Major_2_2 is Fam & Child Studies-LMFT   or SIS_Major_2_2 is Family & Child Studies",
+        "raw_text": "SIS_Major is Fam &Child Studies-Fam Life Ed   or SIS_Major is Fam&Child Stud-Infant/Child Sp   or SIS_Major is Fam&Child Stud-MarriageFamTher   or SIS_Major is Family Life Ed-Child Develop   or SIS_Major is Family Life Ed-Gerontology   or SIS_Major is Family Life Ed-Marriage & Fam   or SIS_Major is Fam & Child Studies-LMFT   or SIS_Major is Family & Child Studies   or SIS_Major_1_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_1_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_1_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_1_2 is Family Life Ed-Child Develop   or SIS_Major_1_2 is Family Life Ed-Gerontology   or SIS_Major_1_2 is Family Life Ed-Marriage & Fam   or SIS_Major_1_2 is Fam & Child Studies-LMFT   or SIS_Major_1_2 is Family & Child Studies   or SIS_Major_2_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_2_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_2_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_2_2 is Family Life Ed-Child Develop   or SIS_Major_2_2 is Family Life Ed-Gerontology   or SIS_Major_2_2 is Family Life Ed-Marriage & Fam   or SIS_Major_2_2 is Fam & Child Studies-LMFT   or SIS_Major_2_2 is Family & Child Studies",
+        "parsed_sis": {
+          "majors": [
+            "Fam & Child Studies-LMFT",
+            "Fam &Child Studies-Fam Life Ed",
+            "Fam&Child Stud-Infant/Child Sp",
+            "Fam&Child Stud-MarriageFamTher",
+            "Family & Child Studies",
+            "Family Life Ed-Child Develop",
+            "Family Life Ed-Gerontology",
+            "Family Life Ed-Marriage & Fam"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Fam & Child Studies-LMFT, Fam &Child Studies-Fam Life Ed, Fam&Child Stud-Infant/Child Sp, Fam&Child Stud-MarriageFamTher, Family & Child Studies, Family Life Ed-Child Develop, Family Life Ed-Gerontology, Family Life Ed-Marriage & Fam",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 3,
+      "application_required": 0,
+      "manual_review": 1
     }
   }
 }

@@ -13,36 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science majoring in Funeral Service. Eligibility Requirements College of Mathematics and Science student Funeral Service major Criteria Varies Two faculty recommendation letters",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 4,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 3,
-        "type": "major",
-        "description": "SIS_Major_2 is Funeral Service   or SIS_Major is Funeral Service",
-        "raw_text": "SIS_Major_2 is Funeral Service   or SIS_Major is Funeral Service"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -69,6 +39,56 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Funeral Service   or SIS_Major is Funeral Service",
+        "raw_text": "SIS_Major_2 is Funeral Service   or SIS_Major is Funeral Service",
+        "parsed_sis": {
+          "majors": [
+            "Funeral Service"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Funeral Service",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 2
     }
   }
 }

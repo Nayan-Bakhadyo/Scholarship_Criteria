@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who demonstrate a strong commitment to begin the teacher education program at UCO. Eligibility Requirements Eligible applicants must demonstrate a strong commitment to begin the teacher education program at UCO. Preference will be given to sophomore level applicants who are admitted to the teacher education program with intentions to teach in middle school or high school 3.0 GPA or higher Must submit a short essay demonstrating financial need Once the student is awarded the scholarship, they will continue to hold the scholarship for a maximum of three (3) years, or until graduation provided that they continue to meet criteria and maintain in good-standing with the department Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "CEPS_TE = Yes",
-        "raw_text": "CEPS_TE = Yes"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -73,6 +31,60 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

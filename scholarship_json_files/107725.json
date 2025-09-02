@@ -13,36 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship recognizes a Philosophy student who demonstrates academic excellence and has mastered the balance of work and school life. Eligibility Requirements Philosophy Major 3.5 minimum GPA No more than 250 word essay demonstrating need and work/life balance Preference given to a student who provides a letter from employer or faculty member that speaks to their character as an employee and human being",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 4,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.50",
-        "raw_text": "SIS_CumGPA >= 3.50"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Essay \"CLA_work_life_balance\"",
-        "raw_text": "Complete Essay \"CLA_work_life_balance\""
-      },
-      {
-        "id": 3,
-        "type": "major",
-        "description": "SIS_Major_2 is Philosophy   or SIS_Major_2 is Philosophy-Class Studies Greek   or SIS_Major_2 is Philosophy-Class Studies Latin   or SIS_Major is Philosophy   or SIS_Major is Philosophy-Class Studies Greek   or SIS_Major is Philosophy-Class Studies Latin   or SIS_Major_1_2 is Philosophy   or SIS_Major_1_2 is Philosophy-Class Studies Greek   or SIS_Major_1_2 is Philosophy-Class Studies Latin   or SIS_Major_2_2 is Philosophy   or SIS_Major_2_2 is Philosophy-Class Studies Greek   or SIS_Major_2_2 is Philosophy-Class Studies Latin",
-        "raw_text": "SIS_Major_2 is Philosophy   or SIS_Major_2 is Philosophy-Class Studies Greek   or SIS_Major_2 is Philosophy-Class Studies Latin   or SIS_Major is Philosophy   or SIS_Major is Philosophy-Class Studies Greek   or SIS_Major is Philosophy-Class Studies Latin   or SIS_Major_1_2 is Philosophy   or SIS_Major_1_2 is Philosophy-Class Studies Greek   or SIS_Major_1_2 is Philosophy-Class Studies Latin   or SIS_Major_2_2 is Philosophy   or SIS_Major_2_2 is Philosophy-Class Studies Greek   or SIS_Major_2_2 is Philosophy-Class Studies Latin"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -69,6 +39,58 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"CLA_work_life_balance\"",
+        "raw_text": "Complete Essay \"CLA_work_life_balance\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Philosophy   or SIS_Major_2 is Philosophy-Class Studies Greek   or SIS_Major_2 is Philosophy-Class Studies Latin   or SIS_Major is Philosophy   or SIS_Major is Philosophy-Class Studies Greek   or SIS_Major is Philosophy-Class Studies Latin   or SIS_Major_1_2 is Philosophy   or SIS_Major_1_2 is Philosophy-Class Studies Greek   or SIS_Major_1_2 is Philosophy-Class Studies Latin   or SIS_Major_2_2 is Philosophy   or SIS_Major_2_2 is Philosophy-Class Studies Greek   or SIS_Major_2_2 is Philosophy-Class Studies Latin",
+        "raw_text": "SIS_Major_2 is Philosophy   or SIS_Major_2 is Philosophy-Class Studies Greek   or SIS_Major_2 is Philosophy-Class Studies Latin   or SIS_Major is Philosophy   or SIS_Major is Philosophy-Class Studies Greek   or SIS_Major is Philosophy-Class Studies Latin   or SIS_Major_1_2 is Philosophy   or SIS_Major_1_2 is Philosophy-Class Studies Greek   or SIS_Major_1_2 is Philosophy-Class Studies Latin   or SIS_Major_2_2 is Philosophy   or SIS_Major_2_2 is Philosophy-Class Studies Greek   or SIS_Major_2_2 is Philosophy-Class Studies Latin",
+        "parsed_sis": {
+          "majors": [
+            "Philosophy",
+            "Philosophy-Class Studies Greek",
+            "Philosophy-Class Studies Latin"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Philosophy, Philosophy-Class Studies Greek, Philosophy-Class Studies Latin",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 1
     }
   }
 }

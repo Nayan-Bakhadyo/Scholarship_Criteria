@@ -13,36 +13,6 @@
     "renewable_years": 0
   },
   "description": "The David Henry Memorial Scholarship is open to declared Marketing (Marketing or Professional Selling) majors who are permanent residents of Oklahoma. Eligibility Requirements Declared Marketing (Marketing or Professional Selling) majors Permanent Oklahoma residents",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 4,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_OKResidency = Yes",
-        "raw_text": "SIS_OKResidency = Yes"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 3,
-        "type": "major",
-        "description": "SIS_Major_2 is Marketing   or SIS_Major_2 is Marketing-Professional Selling   or SIS_Major is Marketing   or SIS_Major is Marketing-Professional Selling   or SIS_Major_1_2 is Marketing   or SIS_Major_1_2 is Marketing-Professional Selling   or SIS_Major_2_2 is Marketing   or SIS_Major_2_2 is Marketing-Professional Selling",
-        "raw_text": "SIS_Major_2 is Marketing   or SIS_Major_2 is Marketing-Professional Selling   or SIS_Major is Marketing   or SIS_Major is Marketing-Professional Selling   or SIS_Major_1_2 is Marketing   or SIS_Major_1_2 is Marketing-Professional Selling   or SIS_Major_2_2 is Marketing   or SIS_Major_2_2 is Marketing-Professional Selling"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -61,6 +31,57 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_OKResidency = Yes",
+        "raw_text": "SIS_OKResidency = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Marketing   or SIS_Major_2 is Marketing-Professional Selling   or SIS_Major is Marketing   or SIS_Major is Marketing-Professional Selling   or SIS_Major_1_2 is Marketing   or SIS_Major_1_2 is Marketing-Professional Selling   or SIS_Major_2_2 is Marketing   or SIS_Major_2_2 is Marketing-Professional Selling",
+        "raw_text": "SIS_Major_2 is Marketing   or SIS_Major_2 is Marketing-Professional Selling   or SIS_Major is Marketing   or SIS_Major is Marketing-Professional Selling   or SIS_Major_1_2 is Marketing   or SIS_Major_1_2 is Marketing-Professional Selling   or SIS_Major_2_2 is Marketing   or SIS_Major_2_2 is Marketing-Professional Selling",
+        "parsed_sis": {
+          "majors": [
+            "Marketing",
+            "Marketing-Professional Selling"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Marketing, Marketing-Professional Selling",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 3
     }
   }
 }

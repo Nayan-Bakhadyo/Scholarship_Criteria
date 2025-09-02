@@ -13,60 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established by UCO Distinguished Alumnus Lance Robertson and his wife, Lori Robertson, to help UCO graduate students successfully transition into public service. This scholarship recognizes a Master of Public Administration student who shows exceptional passion, vision and commitment for service with a demonstrated strong academic record and financial need. In addition to financial support, the recipient is also offered mentorship hours with the Robertsons. Eligibility Requirements Graduate student in the MPA program Preference for a student working at least part-time Graduate GPA of 2.5 or higher Recommendation from a faculty member One page essay demonstrating the student's fit for the scholarship, financial need and future goals of serving in a public administration capacity Preference may be given to previous recipients",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 8,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "GEN_Working = Yes",
-        "raw_text": "GEN_Working = Yes"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "1 letters of recommendation: \"CMS_LOR_1\"",
-        "raw_text": "1 letters of recommendation: \"CMS_LOR_1\""
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 4,
-        "type": "level",
-        "description": "SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Graduate"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Essay \"CLA_Roberson_Background\"",
-        "raw_text": "Complete Essay \"CLA_Roberson_Background\""
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Work_History\"",
-        "raw_text": "Complete Essay \"GEN_Work_History\""
-      },
-      {
-        "id": 8,
-        "type": "major",
-        "description": "SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public Administration   or SIS_Major is Political Sci-Public Administr   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Political Sci-Public Administr",
-        "raw_text": "SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public Administration   or SIS_Major is Political Sci-Public Administr   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Political Sci-Public Administr"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -85,6 +31,86 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "GEN_Working = Yes",
+        "raw_text": "GEN_Working = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"CMS_LOR_1\"",
+        "raw_text": "1 letters of recommendation: \"CMS_LOR_1\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"CLA_Roberson_Background\"",
+        "raw_text": "Complete Essay \"CLA_Roberson_Background\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Work_History\"",
+        "raw_text": "Complete Essay \"GEN_Work_History\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 8,
+        "type": "major",
+        "description": "SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public Administration   or SIS_Major is Political Sci-Public Administr   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Political Sci-Public Administr",
+        "raw_text": "SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public Administration   or SIS_Major is Political Sci-Public Administr   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Political Sci-Public Administr",
+        "parsed_sis": {
+          "majors": [
+            "Political Sci-Public Administr",
+            "Political Science-Public Admin",
+            "Public Administration"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Political Sci-Public Administr, Political Science-Public Admin, Public Administration",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 8,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 4
     }
   }
 }

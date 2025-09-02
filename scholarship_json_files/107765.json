@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship honors Dr. Frank Finney, Jr. In 1971, he became the first dean of the newly-formed College of Liberal Arts. Dr. Finney was passionate about developing the creative potential of students and giving them a sound background in their academic disciplines. \"The Finney\" recognizes Liberal Arts students who are identified as having a proven record of high academic achievement in their major. Eligibility Requirements Declared History/Geography major Minimum 3.5 GPA in major 3.5 GPA overall Full-time undergraduate or graduate student in good standing with the University Must show practical evidence of excellence in the discipline as determined by the department Continuing student for fall semester that the scholarship is awarded",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "hours",
-        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
-        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate"
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.50",
-        "raw_text": "SIS_CumGPA >= 3.50"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Attachment:  \"CLA_Finney_Writing_Sample\"",
-        "raw_text": "Complete Attachment:  \"CLA_Finney_Writing_Sample\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Personal_Statement \"",
-        "raw_text": "Complete Essay \"GEN_Personal_Statement \""
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major_2 is Geography   or SIS_Major_2 is History   or SIS_Major_2 is History Education   or SIS_Major_2 is History-General   or SIS_Major_2 is History-History   or SIS_Major_2 is History-Museum Studies   or SIS_Major_2 is History-Social Studies Teach   or SIS_Major is Geography   or SIS_Major is History   or SIS_Major is History Education   or SIS_Major is History-General   or SIS_Major is History-History   or SIS_Major is History-Museum Studies   or SIS_Major is History-Social Studies Teach   or SIS_Major_1_2 is Geography   or SIS_Major_1_2 is History   or SIS_Major_1_2 is History Education   or SIS_Major_1_2 is History-General   or SIS_Major_1_2 is History-History   or SIS_Major_1_2 is History-Museum Studies   or SIS_Major_1_2 is History-Social Studies Teach   or SIS_Major_2_2 is Geography   or SIS_Major_2_2 is History   or SIS_Major_2_2 is History Education   or SIS_Major_2_2 is History-General   or SIS_Major_2_2 is History-History   or SIS_Major_2_2 is History-Museum Studies   or SIS_Major_2_2 is History-Social Studies Teach",
-        "raw_text": "SIS_Major_2 is Geography   or SIS_Major_2 is History   or SIS_Major_2 is History Education   or SIS_Major_2 is History-General   or SIS_Major_2 is History-History   or SIS_Major_2 is History-Museum Studies   or SIS_Major_2 is History-Social Studies Teach   or SIS_Major is Geography   or SIS_Major is History   or SIS_Major is History Education   or SIS_Major is History-General   or SIS_Major is History-History   or SIS_Major is History-Museum Studies   or SIS_Major is History-Social Studies Teach   or SIS_Major_1_2 is Geography   or SIS_Major_1_2 is History   or SIS_Major_1_2 is History Education   or SIS_Major_1_2 is History-General   or SIS_Major_1_2 is History-History   or SIS_Major_1_2 is History-Museum Studies   or SIS_Major_1_2 is History-Social Studies Teach   or SIS_Major_2_2 is Geography   or SIS_Major_2_2 is History   or SIS_Major_2_2 is History Education   or SIS_Major_2_2 is History-General   or SIS_Major_2_2 is History-History   or SIS_Major_2_2 is History-Museum Studies   or SIS_Major_2_2 is History-Social Studies Teach"
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -87,6 +39,83 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Attachment:  \"CLA_Finney_Writing_Sample\"",
+        "raw_text": "Complete Attachment:  \"CLA_Finney_Writing_Sample\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Personal_Statement \"",
+        "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major_2 is Geography   or SIS_Major_2 is History   or SIS_Major_2 is History Education   or SIS_Major_2 is History-General   or SIS_Major_2 is History-History   or SIS_Major_2 is History-Museum Studies   or SIS_Major_2 is History-Social Studies Teach   or SIS_Major is Geography   or SIS_Major is History   or SIS_Major is History Education   or SIS_Major is History-General   or SIS_Major is History-History   or SIS_Major is History-Museum Studies   or SIS_Major is History-Social Studies Teach   or SIS_Major_1_2 is Geography   or SIS_Major_1_2 is History   or SIS_Major_1_2 is History Education   or SIS_Major_1_2 is History-General   or SIS_Major_1_2 is History-History   or SIS_Major_1_2 is History-Museum Studies   or SIS_Major_1_2 is History-Social Studies Teach   or SIS_Major_2_2 is Geography   or SIS_Major_2_2 is History   or SIS_Major_2_2 is History Education   or SIS_Major_2_2 is History-General   or SIS_Major_2_2 is History-History   or SIS_Major_2_2 is History-Museum Studies   or SIS_Major_2_2 is History-Social Studies Teach",
+        "raw_text": "SIS_Major_2 is Geography   or SIS_Major_2 is History   or SIS_Major_2 is History Education   or SIS_Major_2 is History-General   or SIS_Major_2 is History-History   or SIS_Major_2 is History-Museum Studies   or SIS_Major_2 is History-Social Studies Teach   or SIS_Major is Geography   or SIS_Major is History   or SIS_Major is History Education   or SIS_Major is History-General   or SIS_Major is History-History   or SIS_Major is History-Museum Studies   or SIS_Major is History-Social Studies Teach   or SIS_Major_1_2 is Geography   or SIS_Major_1_2 is History   or SIS_Major_1_2 is History Education   or SIS_Major_1_2 is History-General   or SIS_Major_1_2 is History-History   or SIS_Major_1_2 is History-Museum Studies   or SIS_Major_1_2 is History-Social Studies Teach   or SIS_Major_2_2 is Geography   or SIS_Major_2_2 is History   or SIS_Major_2_2 is History Education   or SIS_Major_2_2 is History-General   or SIS_Major_2_2 is History-History   or SIS_Major_2_2 is History-Museum Studies   or SIS_Major_2_2 is History-Social Studies Teach",
+        "parsed_sis": {
+          "majors": [
+            "Geography",
+            "History",
+            "History Education",
+            "History-General",
+            "History-History",
+            "History-Museum Studies",
+            "History-Social Studies Teach"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Geography, History, History Education, History-General, History-History, History-Museum Studies, History-Social Studies Teach",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 3
     }
   }
 }

@@ -13,42 +13,6 @@
     "renewable_years": 3
   },
   "description": "The National Tornado Summit Foundation Endowed Scholarship is open to declared Insurance and Risk Management majors with a minimum 3.0 cumulative GPA. The student must be a U.S. citizen. Eligibility Requirements Declared Insurance & Risk Management majors Minimum cumulative GPA of 3.0 or higher U.S. Citizen Selection Process Preference will be given to Oklahoma residents and incoming sophomores or juniors Award Requirements Once the recipient receives the scholarship he/she will continue to hold the scholarship for a maximum of three years, or until graduation, whichever comes first, provided the following criteria are met: Student maintains a 3.0 GPA Student continues to make progress toward a degree in Insurance & Risk Management",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "citizenship",
-        "description": "SIS_USCitizen = Yes",
-        "raw_text": "SIS_USCitizen = Yes"
-      },
-      {
-        "id": 4,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt",
-        "raw_text": "SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 2,
@@ -107,6 +71,63 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt",
+        "raw_text": "SIS_Major_2 is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major_1_2 is Finance-Insurance & Risk Mgmt   or SIS_Major_2_2 is Finance-Insurance & Risk Mgmt",
+        "parsed_sis": {
+          "majors": [
+            "Finance-Insurance & Risk Mgmt"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Finance-Insurance & Risk Mgmt",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 2,
+      "application_required": 0,
+      "manual_review": 3
     }
   }
 }

@@ -13,60 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship is named in honor of former debate coach Harland B. Mitchell and is awarded to the student who exemplifies the best qualities of Oklahoma high school debate. This scholarship is for Oklahoma residents only and is only available to students beginning their first semester at UCO. Eligibility Requirements Oklahoma resident committed to UCO Accepted into Debate program Documents to prove success (tournaments, awards, competitions) Minimum 3.0 GPA Letter of Recommendation from High School Debate coach",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 8,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_OKResidency = Yes",
-        "raw_text": "SIS_OKResidency = Yes"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "CLA_Debate_Team = Yes",
-        "raw_text": "CLA_Debate_Team = Yes"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Attachment:  \"CLA_Debate_Success\"",
-        "raw_text": "Complete Attachment:  \"CLA_Debate_Success\""
-      },
-      {
-        "id": 4,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Personal_Statement \"",
-        "raw_text": "Complete Essay \"GEN_Personal_Statement \""
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "1 letters of recommendation: \"CLA_LOR_ Debate\"",
-        "raw_text": "1 letters of recommendation: \"CLA_LOR_ Debate\""
-      },
-      {
-        "id": 8,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -85,6 +31,74 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_OKResidency = Yes",
+        "raw_text": "SIS_OKResidency = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CLA_Debate_Team = Yes",
+        "raw_text": "CLA_Debate_Team = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Attachment:  \"CLA_Debate_Success\"",
+        "raw_text": "Complete Attachment:  \"CLA_Debate_Success\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Personal_Statement \"",
+        "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"CLA_LOR_ Debate\"",
+        "raw_text": "1 letters of recommendation: \"CLA_LOR_ Debate\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 8,
+      "banner_accessible": 1,
+      "application_required": 2,
+      "manual_review": 5
     }
   }
 }

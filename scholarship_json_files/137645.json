@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who are pursuing a career in public health. Eligibility Requirements Enrolled in the MPH Program at UCO Minimum 2.5 GPA Provide statement outlining a personal or financial struggle and how this scholarship will impact your life Preference will be given to a student actively involved with the Majors Club in KHS Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Graduate"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 4,
-        "type": "major",
-        "description": "SIS_Major_2 is Public Health   or SIS_Major_2 is Community Health   or SIS_Major_2 is Public Health - Community Engagement   or SIS_Major_2 is Community Engagement   or SIS_Major_2 is Community/Public Health   or SIS_Major is Public Health   or SIS_Major is Community Health   or SIS_Major is Public Health - Community Engagement   or SIS_Major is Community Engagement   or SIS_Major is Community/Public Health   or SIS_Major_1_2 is Public Health   or SIS_Major_1_2 is Community Health   or SIS_Major_1_2 is Public Health - Community Engagement   or SIS_Major_1_2 is Community Engagement   or SIS_Major_1_2 is Community/Public Health",
-        "raw_text": "SIS_Major_2 is Public Health   or SIS_Major_2 is Community Health   or SIS_Major_2 is Public Health - Community Engagement   or SIS_Major_2 is Community Engagement   or SIS_Major_2 is Community/Public Health   or SIS_Major is Public Health   or SIS_Major is Community Health   or SIS_Major is Public Health - Community Engagement   or SIS_Major is Community Engagement   or SIS_Major is Community/Public Health   or SIS_Major_1_2 is Public Health   or SIS_Major_1_2 is Community Health   or SIS_Major_1_2 is Public Health - Community Engagement   or SIS_Major_1_2 is Community Engagement   or SIS_Major_1_2 is Community/Public Health"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"CEPS_Wise Essay\"",
-        "raw_text": "Complete Essay \"CEPS_Wise Essay\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -75,6 +39,67 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2 is Public Health   or SIS_Major_2 is Community Health   or SIS_Major_2 is Public Health - Community Engagement   or SIS_Major_2 is Community Engagement   or SIS_Major_2 is Community/Public Health   or SIS_Major is Public Health   or SIS_Major is Community Health   or SIS_Major is Public Health - Community Engagement   or SIS_Major is Community Engagement   or SIS_Major is Community/Public Health   or SIS_Major_1_2 is Public Health   or SIS_Major_1_2 is Community Health   or SIS_Major_1_2 is Public Health - Community Engagement   or SIS_Major_1_2 is Community Engagement   or SIS_Major_1_2 is Community/Public Health",
+        "raw_text": "SIS_Major_2 is Public Health   or SIS_Major_2 is Community Health   or SIS_Major_2 is Public Health - Community Engagement   or SIS_Major_2 is Community Engagement   or SIS_Major_2 is Community/Public Health   or SIS_Major is Public Health   or SIS_Major is Community Health   or SIS_Major is Public Health - Community Engagement   or SIS_Major is Community Engagement   or SIS_Major is Community/Public Health   or SIS_Major_1_2 is Public Health   or SIS_Major_1_2 is Community Health   or SIS_Major_1_2 is Public Health - Community Engagement   or SIS_Major_1_2 is Community Engagement   or SIS_Major_1_2 is Community/Public Health",
+        "parsed_sis": {
+          "majors": [
+            "Community Engagement",
+            "Community Health",
+            "Community/Public Health",
+            "Public Health",
+            "Public Health - Community Engagement"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Community Engagement, Community Health, Community/Public Health, Public Health, Public Health - Community Engagement",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Wise Essay\"",
+        "raw_text": "Complete Essay \"CEPS_Wise Essay\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 2
     }
   }
 }

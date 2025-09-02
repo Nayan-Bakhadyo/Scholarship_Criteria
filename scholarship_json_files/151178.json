@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship honors retired faculty member Dr. Cheryl Frech, who enthusiastically encouraged many students to pursue an education in Chemistry. This scholarship will provide assistance to the students within the College of Mathematics and Science who are pursuing a degree in the Department of Chemistry and are active in Chemistry Club. The recipient(s) of the Dr. Cheryl B. Frech Endowed Scholarship in Chemistry will be selected by committee appointed by the Dean of the College of Mathematics and Science and will include representatives from the Department of Chemistry. The recipient(s) will be selected in the spring for distribution the following fall and/or spring semesters. Eligibility Requirements Undergraduate student Must be enrolled full-time Minimum of 2.5 GPA Must be a Chemistry major Preference will be given to a student who is active in Chemistry Club",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior"
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2 is Science Ed-Chemistry   or SIS_Major_2 is Chemistry-Environmental Chem   or SIS_Major_2 is Environmental Chemistry   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Chemistry-Pre-Pharmacy   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Chemistry-Environmental Chem   or SIS_Major is Environmental Chemistry   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Chemistry-Pre-Pharmacy   or SIS_Major_1_2 is Science Ed-Chemistry   or SIS_Major_1_2 is Chemistry-Environmental Chem   or SIS_Major_1_2 is Environmental Chemistry   or SIS_Major_2_2 is Chemistry   or SIS_Major_2_2 is Chemistry-ACS Certificate   or SIS_Major_2_2 is Chemistry-Health Sciences   or SIS_Major_2_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2_2 is Science Ed-Chemistry   or SIS_Major_2_2 is Chemistry-Environmental Chem   or SIS_Major_2_2 is Environmental Chemistry",
-        "raw_text": "SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2 is Science Ed-Chemistry   or SIS_Major_2 is Chemistry-Environmental Chem   or SIS_Major_2 is Environmental Chemistry   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Chemistry-Pre-Pharmacy   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Chemistry-Environmental Chem   or SIS_Major is Environmental Chemistry   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Chemistry-Pre-Pharmacy   or SIS_Major_1_2 is Science Ed-Chemistry   or SIS_Major_1_2 is Chemistry-Environmental Chem   or SIS_Major_1_2 is Environmental Chemistry   or SIS_Major_2_2 is Chemistry   or SIS_Major_2_2 is Chemistry-ACS Certificate   or SIS_Major_2_2 is Chemistry-Health Sciences   or SIS_Major_2_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2_2 is Science Ed-Chemistry   or SIS_Major_2_2 is Chemistry-Environmental Chem   or SIS_Major_2_2 is Environmental Chemistry"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -75,6 +39,82 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Freshman",
+            "Junior",
+            "Senior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Freshman, Junior, Senior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2 is Science Ed-Chemistry   or SIS_Major_2 is Chemistry-Environmental Chem   or SIS_Major_2 is Environmental Chemistry   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Chemistry-Pre-Pharmacy   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Chemistry-Environmental Chem   or SIS_Major is Environmental Chemistry   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Chemistry-Pre-Pharmacy   or SIS_Major_1_2 is Science Ed-Chemistry   or SIS_Major_1_2 is Chemistry-Environmental Chem   or SIS_Major_1_2 is Environmental Chemistry   or SIS_Major_2_2 is Chemistry   or SIS_Major_2_2 is Chemistry-ACS Certificate   or SIS_Major_2_2 is Chemistry-Health Sciences   or SIS_Major_2_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2_2 is Science Ed-Chemistry   or SIS_Major_2_2 is Chemistry-Environmental Chem   or SIS_Major_2_2 is Environmental Chemistry",
+        "raw_text": "SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2 is Science Ed-Chemistry   or SIS_Major_2 is Chemistry-Environmental Chem   or SIS_Major_2 is Environmental Chemistry   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences   or SIS_Major is Chemistry-Pre-Pharmacy   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Chemistry-Environmental Chem   or SIS_Major is Environmental Chemistry   or SIS_Major_1_2 is Chemistry   or SIS_Major_1_2 is Chemistry-ACS Certificate   or SIS_Major_1_2 is Chemistry-Health Sciences   or SIS_Major_1_2 is Chemistry-Pre-Pharmacy   or SIS_Major_1_2 is Science Ed-Chemistry   or SIS_Major_1_2 is Chemistry-Environmental Chem   or SIS_Major_1_2 is Environmental Chemistry   or SIS_Major_2_2 is Chemistry   or SIS_Major_2_2 is Chemistry-ACS Certificate   or SIS_Major_2_2 is Chemistry-Health Sciences   or SIS_Major_2_2 is Chemistry-Pre-Pharmacy   or SIS_Major_2_2 is Science Ed-Chemistry   or SIS_Major_2_2 is Chemistry-Environmental Chem   or SIS_Major_2_2 is Environmental Chemistry",
+        "parsed_sis": {
+          "majors": [
+            "Chemistry",
+            "Chemistry-ACS Certificate",
+            "Chemistry-Environmental Chem",
+            "Chemistry-Health Sciences",
+            "Chemistry-Pre-Pharmacy",
+            "Environmental Chemistry",
+            "Science Ed-Chemistry"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Chemistry, Chemistry-ACS Certificate, Chemistry-Environmental Chem, Chemistry-Health Sciences, Chemistry-Pre-Pharmacy, Environmental Chemistry, Science Ed-Chemistry",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 3,
+      "application_required": 0,
+      "manual_review": 2
     }
   }
 }

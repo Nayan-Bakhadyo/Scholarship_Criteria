@@ -13,36 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to graduate students within the College of Education & Professional Studies who are majoring in Family & Child Studies. Eligibility Requirements Majoring in Family & Child Studies Deemed to be outstanding, determined by leadership skills shown in personal statement Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 4,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Graduate"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 4,
-        "type": "major",
-        "description": "SIS_Major is Fam &Child Studies-Fam Life Ed   or SIS_Major is Fam&Child Stud-Infant/Child Sp   or SIS_Major is Fam&Child Stud-MarriageFamTher   or SIS_Major is Fam & Child Studies-LMFT   or SIS_Major_1_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_1_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_1_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_1_2 is Fam & Child Studies-LMFT   or SIS_Major_2_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_2_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_2_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_2_2 is Fam & Child Studies-LMFT",
-        "raw_text": "SIS_Major is Fam &Child Studies-Fam Life Ed   or SIS_Major is Fam&Child Stud-Infant/Child Sp   or SIS_Major is Fam&Child Stud-MarriageFamTher   or SIS_Major is Fam & Child Studies-LMFT   or SIS_Major_1_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_1_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_1_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_1_2 is Fam & Child Studies-LMFT   or SIS_Major_2_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_2_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_2_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_2_2 is Fam & Child Studies-LMFT"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -61,6 +31,59 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major is Fam &Child Studies-Fam Life Ed   or SIS_Major is Fam&Child Stud-Infant/Child Sp   or SIS_Major is Fam&Child Stud-MarriageFamTher   or SIS_Major is Fam & Child Studies-LMFT   or SIS_Major_1_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_1_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_1_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_1_2 is Fam & Child Studies-LMFT   or SIS_Major_2_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_2_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_2_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_2_2 is Fam & Child Studies-LMFT",
+        "raw_text": "SIS_Major is Fam &Child Studies-Fam Life Ed   or SIS_Major is Fam&Child Stud-Infant/Child Sp   or SIS_Major is Fam&Child Stud-MarriageFamTher   or SIS_Major is Fam & Child Studies-LMFT   or SIS_Major_1_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_1_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_1_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_1_2 is Fam & Child Studies-LMFT   or SIS_Major_2_2 is Fam &Child Studies-Fam Life Ed   or SIS_Major_2_2 is Fam&Child Stud-Infant/Child Sp   or SIS_Major_2_2 is Fam&Child Stud-MarriageFamTher   or SIS_Major_2_2 is Fam & Child Studies-LMFT",
+        "parsed_sis": {
+          "majors": [
+            "Fam & Child Studies-LMFT",
+            "Fam &Child Studies-Fam Life Ed",
+            "Fam&Child Stud-Infant/Child Sp",
+            "Fam&Child Stud-MarriageFamTher"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Fam & Child Studies-LMFT, Fam &Child Studies-Fam Life Ed, Fam&Child Stud-Infant/Child Sp, Fam&Child Stud-MarriageFamTher",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 2,
+      "application_required": 0,
+      "manual_review": 2
     }
   }
 }

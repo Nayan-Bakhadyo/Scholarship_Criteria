@@ -13,108 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was generously established in 2013 by Britt and Jean Piper to fuel a creative partnership between the initiatives of the Piper family and UCOs art program. Eligibility Art major Cumulative GPA 2.5+ Sophomore, junior or senior Pursuing a bachelor's degree Requirements 5-10 images of your artwork 250-word essay answering the question, \"where do you see your art taking you in the course of your life, both professionally and personally?\" Personal artist statement (250 words) Official transcript",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 16,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "CFAD_Piper_Degree = Yes",
-        "raw_text": "CFAD_Piper_Degree = Yes"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Piper_Essay\"",
-        "raw_text": "Complete Essay \"CFAD_Piper_Essay\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample1\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample1\""
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample2\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample2\""
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample3\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample3\""
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample4\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample4\""
-      },
-      {
-        "id": 9,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample5\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample5\""
-      },
-      {
-        "id": 10,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample6\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample7\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample8\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample9\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample10\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample6\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample7\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample8\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample9\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample10\""
-      },
-      {
-        "id": 11,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 12,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
-        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
-      },
-      {
-        "id": 13,
-        "type": "major",
-        "description": "SIS_Major_2 is Art Education   or SIS_Major_2 is Arts Administration   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Art   or SIS_Major_2 is Art-Global Art & Visual Cultur   or SIS_Major is Art Education   or SIS_Major is Arts Administration   or SIS_Major is Art-Studio Art   or SIS_Major is Art   or SIS_Major is Art-Global Art & Visual Cultur   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Arts Administration   or SIS_Major_1_2 is Art-Studio Art   or SIS_Major_1_2 is Art   or SIS_Major_1_2 is Art-Global Art & Visual Cultur   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Arts Administration   or SIS_Major_2_2 is Art-Studio Art   or SIS_Major_2_2 is Art   or SIS_Major_2_2 is Art-Global Art & Visual Cultur",
-        "raw_text": "SIS_Major_2 is Art Education   or SIS_Major_2 is Arts Administration   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Art   or SIS_Major_2 is Art-Global Art & Visual Cultur   or SIS_Major is Art Education   or SIS_Major is Arts Administration   or SIS_Major is Art-Studio Art   or SIS_Major is Art   or SIS_Major is Art-Global Art & Visual Cultur   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Arts Administration   or SIS_Major_1_2 is Art-Studio Art   or SIS_Major_1_2 is Art   or SIS_Major_1_2 is Art-Global Art & Visual Cultur   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Arts Administration   or SIS_Major_2_2 is Art-Studio Art   or SIS_Major_2_2 is Art   or SIS_Major_2_2 is Art-Global Art & Visual Cultur"
-      },
-      {
-        "id": 14,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 15,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 16,
-        "type": "unknown",
-        "description": "CFAD_So_Jr_Sr = Yes",
-        "raw_text": "CFAD_So_Jr_Sr = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -133,6 +31,144 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 16,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CFAD_Piper_Degree = Yes",
+        "raw_text": "CFAD_Piper_Degree = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Piper_Essay\"",
+        "raw_text": "Complete Essay \"CFAD_Piper_Essay\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample1\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample1\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample2\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample2\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample3\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample3\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample4\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample4\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 9,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample5\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample5\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 10,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Piper_Attach_Sample6\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample7\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample8\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample9\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample10\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Piper_Attach_Sample6\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample7\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample8\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample9\"   or Complete Attachment:  \"CFAD_Piper_Attach_Sample10\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 11,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 12,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 13,
+        "type": "major",
+        "description": "SIS_Major_2 is Art Education   or SIS_Major_2 is Arts Administration   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Art   or SIS_Major_2 is Art-Global Art & Visual Cultur   or SIS_Major is Art Education   or SIS_Major is Arts Administration   or SIS_Major is Art-Studio Art   or SIS_Major is Art   or SIS_Major is Art-Global Art & Visual Cultur   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Arts Administration   or SIS_Major_1_2 is Art-Studio Art   or SIS_Major_1_2 is Art   or SIS_Major_1_2 is Art-Global Art & Visual Cultur   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Arts Administration   or SIS_Major_2_2 is Art-Studio Art   or SIS_Major_2_2 is Art   or SIS_Major_2_2 is Art-Global Art & Visual Cultur",
+        "raw_text": "SIS_Major_2 is Art Education   or SIS_Major_2 is Arts Administration   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Art   or SIS_Major_2 is Art-Global Art & Visual Cultur   or SIS_Major is Art Education   or SIS_Major is Arts Administration   or SIS_Major is Art-Studio Art   or SIS_Major is Art   or SIS_Major is Art-Global Art & Visual Cultur   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Arts Administration   or SIS_Major_1_2 is Art-Studio Art   or SIS_Major_1_2 is Art   or SIS_Major_1_2 is Art-Global Art & Visual Cultur   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Arts Administration   or SIS_Major_2_2 is Art-Studio Art   or SIS_Major_2_2 is Art   or SIS_Major_2_2 is Art-Global Art & Visual Cultur",
+        "parsed_sis": {
+          "majors": [
+            "Art",
+            "Art Education",
+            "Art-Global Art & Visual Cultur",
+            "Art-Studio Art",
+            "Arts Administration"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Art, Art Education, Art-Global Art & Visual Cultur, Art-Studio Art, Arts Administration",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 14,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 15,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 16,
+        "type": "unknown",
+        "description": "CFAD_So_Jr_Sr = Yes",
+        "raw_text": "CFAD_So_Jr_Sr = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 16,
+      "banner_accessible": 2,
+      "application_required": 9,
+      "manual_review": 5
     }
   }
 }

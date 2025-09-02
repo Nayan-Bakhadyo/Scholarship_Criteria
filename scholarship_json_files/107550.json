@@ -13,30 +13,6 @@
     "renewable_years": 0
   },
   "description": "Please take a minute and nominate a faculty or staff member here at UCO who helped you your freshman year (at UCO). This person should be one who made a difference to you and helped you make important educational decisions. This award is made possible through the generosity of Phi Eta Sigma, Dr. Robert Epstein, UCO AMBUCS Club and the UCO Foundation. The Outstanding Mentor will be announced at the next annual Faculty Staff Fall Forum. Eligibility Requirements Nominated by a current UCO student or a graduated former student Employed at UCO for a minimum of 2 years This scholarship is available to apply for during the Current UCO Student Application.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 3,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Essay \"ADV_Mentor_Award\"",
-        "raw_text": "Complete Essay \"ADV_Mentor_Award\""
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"ADV_DordickNom\"",
-        "raw_text": "Complete Essay \"ADV_DordickNom\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -55,6 +31,39 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Mentor_Award\"",
+        "raw_text": "Complete Essay \"ADV_Mentor_Award\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"ADV_DordickNom\"",
+        "raw_text": "Complete Essay \"ADV_DordickNom\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 0,
+      "application_required": 2,
+      "manual_review": 1
     }
   }
 }

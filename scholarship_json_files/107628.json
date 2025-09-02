@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to the graduate students within the College of Education & Professional Studies pursuing a Masters of Education degree in Instructional Media/Library Media Education. Eligibility Requirements This scholarship is open to any graduate student majoring in Instructional Media/Library Media Education Must have a minimum 3.5 GPA Must be a U.S. Citizen Resident of Oklahoma preferred Must demonstrate financial need Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Graduate"
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.50",
-        "raw_text": "SIS_CumGPA >= 3.50"
-      },
-      {
-        "id": 4,
-        "type": "citizenship",
-        "description": "SIS_USCitizen = Yes",
-        "raw_text": "SIS_USCitizen = Yes"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major is Library Media Education   or SIS_Major_1_2 is Library Media Education   or SIS_Major_2_2 is Library Media Education",
-        "raw_text": "SIS_Major is Library Media Education   or SIS_Major_1_2 is Library Media Education   or SIS_Major_2_2 is Library Media Education"
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -87,6 +39,77 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major is Library Media Education   or SIS_Major_1_2 is Library Media Education   or SIS_Major_2_2 is Library Media Education",
+        "raw_text": "SIS_Major is Library Media Education   or SIS_Major_1_2 is Library Media Education   or SIS_Major_2_2 is Library Media Education",
+        "parsed_sis": {
+          "majors": [
+            "Library Media Education"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Library Media Education",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 3,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

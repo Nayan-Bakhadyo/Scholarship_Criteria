@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science majoring in Biology or Chemistry with the intent to continue their education to obtain a dental degree. Eligibility Requirements College of Mathematics and Science student Must be Junior or Senior status Biology or Chemistry major Intent to continue education to obtain a dental degree 3.3 GPA or above U.S. citizen Oklahoma resident Demonstrate financial need Write 1,000 word essay explaining why applicant is pursuing a career in dentistry Two letters of faculty recommendation/support",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "major",
-        "description": "SIS_Major_2 is Biology   or SIS_Major_2 is Biology-Biomedical Sciences   or SIS_Major_2 is Biology-Pre-Dental   or SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Biology-Pre-Dental   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences",
-        "raw_text": "SIS_Major_2 is Biology   or SIS_Major_2 is Biology-Biomedical Sciences   or SIS_Major_2 is Biology-Pre-Dental   or SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Biology-Pre-Dental   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.30",
-        "raw_text": "SIS_CumGPA >= 3.30"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior"
-      },
-      {
-        "id": 4,
-        "type": "citizenship",
-        "description": "SIS_USCitizen = Yes",
-        "raw_text": "SIS_USCitizen = Yes"
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "GEN_OK Resident = Yes",
-        "raw_text": "GEN_OK Resident = Yes"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "CMS_Dental_Degree = Yes",
-        "raw_text": "CMS_Dental_Degree = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 4,
@@ -108,6 +60,93 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Biology   or SIS_Major_2 is Biology-Biomedical Sciences   or SIS_Major_2 is Biology-Pre-Dental   or SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Biology-Pre-Dental   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences",
+        "raw_text": "SIS_Major_2 is Biology   or SIS_Major_2 is Biology-Biomedical Sciences   or SIS_Major_2 is Biology-Pre-Dental   or SIS_Major_2 is Chemistry   or SIS_Major_2 is Chemistry-ACS Certificate   or SIS_Major_2 is Chemistry-Health Sciences   or SIS_Major is Biology   or SIS_Major is Biology-Biomedical Sciences   or SIS_Major is Biology-Pre-Dental   or SIS_Major is Chemistry   or SIS_Major is Chemistry-ACS Certificate   or SIS_Major is Chemistry-Health Sciences",
+        "parsed_sis": {
+          "majors": [
+            "Biology",
+            "Biology-Biomedical Sciences",
+            "Biology-Pre-Dental",
+            "Chemistry",
+            "Chemistry-ACS Certificate",
+            "Chemistry-Health Sciences"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Biology, Biology-Biomedical Sciences, Biology-Pre-Dental, Chemistry, Chemistry-ACS Certificate, Chemistry-Health Sciences",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.30",
+        "raw_text": "SIS_CumGPA >= 3.30",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior",
+            "Senior"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior, Senior",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "GEN_OK Resident = Yes",
+        "raw_text": "GEN_OK Resident = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "CMS_Dental_Degree = Yes",
+        "raw_text": "CMS_Dental_Degree = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 3,
+      "application_required": 0,
+      "manual_review": 4
     }
   }
 }

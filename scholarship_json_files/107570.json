@@ -13,60 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who are pursuing a degree in Psychology. Eligibility Requirements Undergraduate or Graduate student in the psychology program 3.0 GPA or higher Enrolled in at least 9 credit hours for graduate students or 12 credit hours for undergraduate students Participant in a student research assistantship when awarded Must include a faculty reference letter Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 8,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate"
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major is Psych-General (Experimental)   or SIS_Major is Psychology   or SIS_Major is Psychology-Counseling   or SIS_Major is Psychology-Experimental Psych   or SIS_Major is Psychology-Forensic Psychology   or SIS_Major is Psychology-General Psychology   or SIS_Major is Psychology-School Psychology   or SIS_Major_1_2 is Psych-General (Experimental)   or SIS_Major_1_2 is Psychology   or SIS_Major_1_2 is Psychology-Counseling   or SIS_Major_1_2 is Psychology-Experimental Psych   or SIS_Major_1_2 is Psychology-Forensic Psychology   or SIS_Major_1_2 is Psychology-General Psychology   or SIS_Major_1_2 is Psychology-School Psychology   or SIS_Major_2_2 is Psych-General (Experimental)   or SIS_Major_2_2 is Psychology   or SIS_Major_2_2 is Psychology-Counseling   or SIS_Major_2_2 is Psychology-Experimental Psych   or SIS_Major_2_2 is Psychology-Forensic Psychology   or SIS_Major_2_2 is Psychology-General Psychology   or SIS_Major_2_2 is Psychology-School Psychology",
-        "raw_text": "SIS_Major is Psych-General (Experimental)   or SIS_Major is Psychology   or SIS_Major is Psychology-Counseling   or SIS_Major is Psychology-Experimental Psych   or SIS_Major is Psychology-Forensic Psychology   or SIS_Major is Psychology-General Psychology   or SIS_Major is Psychology-School Psychology   or SIS_Major_1_2 is Psych-General (Experimental)   or SIS_Major_1_2 is Psychology   or SIS_Major_1_2 is Psychology-Counseling   or SIS_Major_1_2 is Psychology-Experimental Psych   or SIS_Major_1_2 is Psychology-Forensic Psychology   or SIS_Major_1_2 is Psychology-General Psychology   or SIS_Major_1_2 is Psychology-School Psychology   or SIS_Major_2_2 is Psych-General (Experimental)   or SIS_Major_2_2 is Psychology   or SIS_Major_2_2 is Psychology-Counseling   or SIS_Major_2_2 is Psychology-Experimental Psych   or SIS_Major_2_2 is Psychology-Forensic Psychology   or SIS_Major_2_2 is Psychology-General Psychology   or SIS_Major_2_2 is Psychology-School Psychology"
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\""
-      },
-      {
-        "id": 8,
-        "type": "unknown",
-        "description": "CEPS_Research_Assistantship = Yes",
-        "raw_text": "CEPS_Research_Assistantship = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -85,6 +31,90 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major is Psych-General (Experimental)   or SIS_Major is Psychology   or SIS_Major is Psychology-Counseling   or SIS_Major is Psychology-Experimental Psych   or SIS_Major is Psychology-Forensic Psychology   or SIS_Major is Psychology-General Psychology   or SIS_Major is Psychology-School Psychology   or SIS_Major_1_2 is Psych-General (Experimental)   or SIS_Major_1_2 is Psychology   or SIS_Major_1_2 is Psychology-Counseling   or SIS_Major_1_2 is Psychology-Experimental Psych   or SIS_Major_1_2 is Psychology-Forensic Psychology   or SIS_Major_1_2 is Psychology-General Psychology   or SIS_Major_1_2 is Psychology-School Psychology   or SIS_Major_2_2 is Psych-General (Experimental)   or SIS_Major_2_2 is Psychology   or SIS_Major_2_2 is Psychology-Counseling   or SIS_Major_2_2 is Psychology-Experimental Psych   or SIS_Major_2_2 is Psychology-Forensic Psychology   or SIS_Major_2_2 is Psychology-General Psychology   or SIS_Major_2_2 is Psychology-School Psychology",
+        "raw_text": "SIS_Major is Psych-General (Experimental)   or SIS_Major is Psychology   or SIS_Major is Psychology-Counseling   or SIS_Major is Psychology-Experimental Psych   or SIS_Major is Psychology-Forensic Psychology   or SIS_Major is Psychology-General Psychology   or SIS_Major is Psychology-School Psychology   or SIS_Major_1_2 is Psych-General (Experimental)   or SIS_Major_1_2 is Psychology   or SIS_Major_1_2 is Psychology-Counseling   or SIS_Major_1_2 is Psychology-Experimental Psych   or SIS_Major_1_2 is Psychology-Forensic Psychology   or SIS_Major_1_2 is Psychology-General Psychology   or SIS_Major_1_2 is Psychology-School Psychology   or SIS_Major_2_2 is Psych-General (Experimental)   or SIS_Major_2_2 is Psychology   or SIS_Major_2_2 is Psychology-Counseling   or SIS_Major_2_2 is Psychology-Experimental Psych   or SIS_Major_2_2 is Psychology-Forensic Psychology   or SIS_Major_2_2 is Psychology-General Psychology   or SIS_Major_2_2 is Psychology-School Psychology",
+        "parsed_sis": {
+          "majors": [
+            "Psych-General (Experimental)",
+            "Psychology",
+            "Psychology-Counseling",
+            "Psychology-Experimental Psych",
+            "Psychology-Forensic Psychology",
+            "Psychology-General Psychology",
+            "Psychology-School Psychology"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Psych-General (Experimental), Psychology, Psychology-Counseling, Psychology-Experimental Psych, Psychology-Forensic Psychology, Psychology-General Psychology, Psychology-School Psychology",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "unknown",
+        "description": "CEPS_Research_Assistantship = Yes",
+        "raw_text": "CEPS_Research_Assistantship = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 8,
+      "banner_accessible": 3,
+      "application_required": 0,
+      "manual_review": 5
     }
   }
 }

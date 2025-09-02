@@ -13,66 +13,6 @@
     "renewable_years": 0
   },
   "description": "Established in 2007, this scholarship is open to upper-level students of the UCO College of Fine Arts and Design who demonstrate high academic achievement, distinctive artistry and distinguishing leadership and character. This scholarship is considered our highest scholarship honor. Recipient must possess a high level of artistry in your area of discipline and demonstrate leadership, personal achievement, integrity and character. Eligibility Any CFAD major Cumulative GPA 3.5+ Junior, senior or graduate student Enrolled full time (12+ hours undergraduate, 9+ hours graduate) Requirements Two faculty references Personal artist statement (250 words) Official transcript",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 9,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.50",
-        "raw_text": "SIS_CumGPA >= 3.50"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "CFAD_Full_Time = Yes",
-        "raw_text": "CFAD_Full_Time = Yes"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
-        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
-        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "CFAD_Class_Jr_Sr_Grad = Yes",
-        "raw_text": "CFAD_Class_Jr_Sr_Grad = Yes"
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 9,
-        "type": "unknown",
-        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -91,6 +31,81 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CFAD_Full_Time = Yes",
+        "raw_text": "CFAD_Full_Time = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "CFAD_Class_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_Jr_Sr_Grad = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 9,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 5
     }
   }
 }

@@ -13,30 +13,6 @@
     "renewable_years": 0
   },
   "description": "This award was established by Duane and Joan Grubert to honor the contributions of Brian Gorrell, UCO's Director of Jazz Studies and Applied Saxophone, to the field of education. The award is given upon graduation to a senior instrumental music education major with a minimum 2.75 GPA who will begin a teaching position upon completion of their degree. Preference is given to a student also completing a minor in jazz studies. Eligibility Instrumental music education major Preference to student completing minor in jazz studies Graduating senior Minimum cumulative GPA of 2.75 Beginning a teaching position after graduation Disbursement The value of this scholarship will be determined by the amount available and will be disbursed upon recipient's graduation Requirements AWARDED BY COMMITTEE NOMINATION. Nominated student(s) will be invited to apply by the college's scholarship coordinator.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 3,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "CFAD_Nomination_Required = Yes",
-        "raw_text": "CFAD_Nomination_Required = Yes"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.75",
-        "raw_text": "SIS_CumGPA >= 2.75"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -55,6 +31,39 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CFAD_Nomination_Required = Yes",
+        "raw_text": "CFAD_Nomination_Required = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.75",
+        "raw_text": "SIS_CumGPA >= 2.75",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 2
     }
   }
 }

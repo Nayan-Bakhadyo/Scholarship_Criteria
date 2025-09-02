@@ -13,18 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established by Renee Wood-Vincent and Scott Vincent to honor the memory of their son Ryan Wood, who lost his life while serving our country in 2007. Ryan's passing occurred less than one week after his mother, Renee, shared with him the happy news of his acceptance to UCO. Ryan's love for all types of music led his family to establish this scholarship, their second in Ryan's memory. This scholarship benefits a student studying at ACM@UCO. Eligibility Major in Contemporary Music Business, Production, or Performance Minimum cumulative GPA of 2.5 Enrolling full time (12+ credit hours) Requirements AWARDED BY COMMITTEE NOMINATION. Nominated student(s) will be invited to apply by the college's scholarship coordinator. Interview with the scholarship selection committee",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 1,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Application: \"Sergeant Ryan Wood ACM Endowed Scholarship\"",
-        "raw_text": "Complete Application: \"Sergeant Ryan Wood ACM Endowed Scholarship\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -43,6 +31,25 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"Sergeant Ryan Wood ACM Endowed Scholarship\"",
+        "raw_text": "Complete Application: \"Sergeant Ryan Wood ACM Endowed Scholarship\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 1
     }
   }
 }

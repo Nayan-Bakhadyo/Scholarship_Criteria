@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who are student teaching in the upcoming academic year. Eligibility Requirements Must be admitted to Teacher Education Min 3.0 GPA Demonstrates financial need Short essay describing plan to work in public education within the state of Oklahoma after graduation Preference given to those with outside or student organization involvement Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall or spring semester to receive award All funds from this scholarship will be distributed during student teaching Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "CEPS_Student_Teaching = Yes",
-        "raw_text": "CEPS_Student_Teaching = Yes"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "CEPS_TE = Yes",
-        "raw_text": "CEPS_TE = Yes"
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Teaching Summary\"",
-        "raw_text": "Complete Essay \"GEN_Teaching Summary\""
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -73,6 +31,60 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CEPS_Student_Teaching = Yes",
+        "raw_text": "CEPS_Student_Teaching = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Teaching Summary\"",
+        "raw_text": "Complete Essay \"GEN_Teaching Summary\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 1,
+      "application_required": 2,
+      "manual_review": 3
     }
   }
 }

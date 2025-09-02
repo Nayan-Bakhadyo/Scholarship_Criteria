@@ -13,66 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in 2009 to honor the late Richard Denson, a faculty member in the UCO Department of Dance who passed away in 2011. Further donations were contributed to the fund in memory of his mother, Audrey Denson, who passed away in 2012. Eligibility Dance education major Cumulative GPA 2.5+ Sophomore, junior, senior, or graduate student 12+ completed hours at UCO Requirements Personal artist statement (250 words) Official transcript",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 9,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 2,
-        "type": "hours",
-        "description": "CFAD_Hours_Completed_12 = Yes",
-        "raw_text": "CFAD_Hours_Completed_12 = Yes"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
-        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major_2 is Dance Education   or SIS_Major is Dance Education   or SIS_Major_1_2 is Dance Education   or SIS_Major_2_2 is Dance Education",
-        "raw_text": "SIS_Major_2 is Dance Education   or SIS_Major is Dance Education   or SIS_Major_1_2 is Dance Education   or SIS_Major_2_2 is Dance Education"
-      },
-      {
-        "id": 6,
-        "type": "unknown",
-        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
-        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design"
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 9,
-        "type": "unknown",
-        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
-        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -91,6 +31,91 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "hours",
+        "description": "CFAD_Hours_Completed_12 = Yes",
+        "raw_text": "CFAD_Hours_Completed_12 = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Dance Education   or SIS_Major is Dance Education   or SIS_Major_1_2 is Dance Education   or SIS_Major_2_2 is Dance Education",
+        "raw_text": "SIS_Major_2 is Dance Education   or SIS_Major is Dance Education   or SIS_Major_1_2 is Dance Education   or SIS_Major_2_2 is Dance Education",
+        "parsed_sis": {
+          "majors": [
+            "Dance Education"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Dance Education",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 9,
+      "banner_accessible": 3,
+      "application_required": 2,
+      "manual_review": 4
     }
   }
 }

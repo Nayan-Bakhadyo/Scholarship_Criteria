@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "This fund provides scholarships for graduate students within the Department of Kinesiology and Health Studies. Eligibility Requirements Graduate degree in the department of Kinesiology and Health Studies Minimum 2.75 GPA Must submit a personal statement including career goals, financial need and evidence of professional development Must be enrolled in at least 6 credit hours when the scholarship is received Recipient must be enrolled in the required amount of hours in the upcoming fall and spring semesters in order to be eligible to receive this scholarship Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Graduate"
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.75",
-        "raw_text": "SIS_CumGPA >= 2.75"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 6.00",
-        "raw_text": "SIS_Enrolled HRS >= 6.00"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"CEPS_KHS_Essay\"",
-        "raw_text": "Complete Essay \"CEPS_KHS_Essay\""
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "major",
-        "description": "SIS_Major is Athletic Training   or SIS_Major is Wellness Mgmt-Exercise Science   or SIS_Major is Wellness Mgmt-Health Promotion   or SIS_Major is Wellness Mgmt-Health Studies   or SIS_Major is Public Health - Community Engagement   or SIS_Major is Community Engagement   or SIS_Major_1_2 is Athletic Training   or SIS_Major_1_2 is Wellness Mgmt-Exercise Science   or SIS_Major_1_2 is Wellness Mgmt-Health Promotion   or SIS_Major_1_2 is Wellness Mgmt-Health Studies   or SIS_Major_1_2 is Public Health - Community Engagement   or SIS_Major_1_2 is Community Engagement   or SIS_Major_2_2 is Athletic Training   or SIS_Major_2_2 is Wellness Mgmt-Exercise Science   or SIS_Major_2_2 is Wellness Mgmt-Health Promotion   or SIS_Major_2_2 is Wellness Mgmt-Health Studies",
-        "raw_text": "SIS_Major is Athletic Training   or SIS_Major is Wellness Mgmt-Exercise Science   or SIS_Major is Wellness Mgmt-Health Promotion   or SIS_Major is Wellness Mgmt-Health Studies   or SIS_Major is Public Health - Community Engagement   or SIS_Major is Community Engagement   or SIS_Major_1_2 is Athletic Training   or SIS_Major_1_2 is Wellness Mgmt-Exercise Science   or SIS_Major_1_2 is Wellness Mgmt-Health Promotion   or SIS_Major_1_2 is Wellness Mgmt-Health Studies   or SIS_Major_1_2 is Public Health - Community Engagement   or SIS_Major_1_2 is Community Engagement   or SIS_Major_2_2 is Athletic Training   or SIS_Major_2_2 is Wellness Mgmt-Exercise Science   or SIS_Major_2_2 is Wellness Mgmt-Health Promotion   or SIS_Major_2_2 is Wellness Mgmt-Health Studies"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -79,6 +31,82 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.75",
+        "raw_text": "SIS_CumGPA >= 2.75",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 6.00",
+        "raw_text": "SIS_Enrolled HRS >= 6.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_KHS_Essay\"",
+        "raw_text": "Complete Essay \"CEPS_KHS_Essay\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "major",
+        "description": "SIS_Major is Athletic Training   or SIS_Major is Wellness Mgmt-Exercise Science   or SIS_Major is Wellness Mgmt-Health Promotion   or SIS_Major is Wellness Mgmt-Health Studies   or SIS_Major is Public Health - Community Engagement   or SIS_Major is Community Engagement   or SIS_Major_1_2 is Athletic Training   or SIS_Major_1_2 is Wellness Mgmt-Exercise Science   or SIS_Major_1_2 is Wellness Mgmt-Health Promotion   or SIS_Major_1_2 is Wellness Mgmt-Health Studies   or SIS_Major_1_2 is Public Health - Community Engagement   or SIS_Major_1_2 is Community Engagement   or SIS_Major_2_2 is Athletic Training   or SIS_Major_2_2 is Wellness Mgmt-Exercise Science   or SIS_Major_2_2 is Wellness Mgmt-Health Promotion   or SIS_Major_2_2 is Wellness Mgmt-Health Studies",
+        "raw_text": "SIS_Major is Athletic Training   or SIS_Major is Wellness Mgmt-Exercise Science   or SIS_Major is Wellness Mgmt-Health Promotion   or SIS_Major is Wellness Mgmt-Health Studies   or SIS_Major is Public Health - Community Engagement   or SIS_Major is Community Engagement   or SIS_Major_1_2 is Athletic Training   or SIS_Major_1_2 is Wellness Mgmt-Exercise Science   or SIS_Major_1_2 is Wellness Mgmt-Health Promotion   or SIS_Major_1_2 is Wellness Mgmt-Health Studies   or SIS_Major_1_2 is Public Health - Community Engagement   or SIS_Major_1_2 is Community Engagement   or SIS_Major_2_2 is Athletic Training   or SIS_Major_2_2 is Wellness Mgmt-Exercise Science   or SIS_Major_2_2 is Wellness Mgmt-Health Promotion   or SIS_Major_2_2 is Wellness Mgmt-Health Studies",
+        "parsed_sis": {
+          "majors": [
+            "Athletic Training",
+            "Community Engagement",
+            "Public Health - Community Engagement",
+            "Wellness Mgmt-Exercise Science",
+            "Wellness Mgmt-Health Promotion",
+            "Wellness Mgmt-Health Studies"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Athletic Training, Community Engagement, Public Health - Community Engagement, Wellness Mgmt-Exercise Science, Wellness Mgmt-Health Promotion, Wellness Mgmt-Health Studies",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 3,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

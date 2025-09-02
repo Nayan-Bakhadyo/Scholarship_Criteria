@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who are preparing for a teaching career. Eligibility Requirements Student preparing for a teaching career Undergraduate or Graduate Admitted to Teacher Education Preference given to students who demonstrate financial need Selection Process Recipients of the scholarship will be selected by a departmental committee 2 scholarships for music education majors and 2 scholarships for non-music education majors Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Seniors graduating in December are eligible to receive full scholarship in their last semester Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.75",
-        "raw_text": "SIS_CumGPA >= 2.75"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_College is Business Administration   or SIS_College is Education and Prof Studies   or SIS_College is Fine Arts and Design   or SIS_College is Graduate Studies & Research   or SIS_College is Liberal Arts   or SIS_College is Mathematics and Science",
-        "raw_text": "SIS_College is Business Administration   or SIS_College is Education and Prof Studies   or SIS_College is Fine Arts and Design   or SIS_College is Graduate Studies & Research   or SIS_College is Liberal Arts   or SIS_College is Mathematics and Science"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "CEPS_TE = Yes",
-        "raw_text": "CEPS_TE = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -79,6 +31,67 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.75",
+        "raw_text": "SIS_CumGPA >= 2.75",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_College is Business Administration   or SIS_College is Education and Prof Studies   or SIS_College is Fine Arts and Design   or SIS_College is Graduate Studies & Research   or SIS_College is Liberal Arts   or SIS_College is Mathematics and Science",
+        "raw_text": "SIS_College is Business Administration   or SIS_College is Education and Prof Studies   or SIS_College is Fine Arts and Design   or SIS_College is Graduate Studies & Research   or SIS_College is Liberal Arts   or SIS_College is Mathematics and Science",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 3
     }
   }
 }

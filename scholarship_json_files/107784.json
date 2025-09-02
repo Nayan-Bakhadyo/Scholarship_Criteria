@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship, established by MPA alumnus Kory Atcuson to honor his former Political Science professor, Dr. Brett Sharp, recognizes UCO MPA students for their commitment to academic excellence as well as professional experience. Eligibility Requirements Graduate Student Minimum part-time graduate status Enrolled for the semester after scholarship is disbursed Masters in Public Administration major Minimum 3.5 GPA Submit an essay between 2 and 3 pages in length on how your academic studies and practical experiences have/will shape you as a Public Administrator",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "hours",
-        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
-        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Graduate"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Attachment:  \"CLA_PublicAdmn_Essay\"",
-        "raw_text": "Complete Attachment:  \"CLA_PublicAdmn_Essay\""
-      },
-      {
-        "id": 4,
-        "type": "major",
-        "description": "SIS_Major_2 is Political Science   or SIS_Major_2 is Political Science-Intnl Affair   or SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public & Nonprofit Management   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Urban Management   or SIS_Major_2 is Political Science-General   or SIS_Major_2 is Political Science-Urban Affair   or SIS_Major_2 is Political Sci-Intnl Relations   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major_2 is Political Sci-Public Affairs   or SIS_Major is Political Science   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public & Nonprofit Management   or SIS_Major is Public Administration   or SIS_Major is Urban Management   or SIS_Major is Political Science-General   or SIS_Major is Political Science-Urban Affair   or SIS_Major is Political Sci-Intnl Relations   or SIS_Major is Political Sci-Public Administr   or SIS_Major is Political Sci-Public Affairs   or SIS_Major_1_2 is Political Science   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public & Nonprofit Management   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Urban Management   or SIS_Major_1_2 is Political Science-General   or SIS_Major_1_2 is Political Science-Urban Affair   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_1_2 is Political Sci-Public Affairs   or SIS_Major_2_2 is Political Science   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public & Nonprofit Management   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Urban Management   or SIS_Major_2_2 is Political Science-General   or SIS_Major_2_2 is Political Science-Urban Affair   or SIS_Major_2_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Sci-Public Affairs",
-        "raw_text": "SIS_Major_2 is Political Science   or SIS_Major_2 is Political Science-Intnl Affair   or SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public & Nonprofit Management   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Urban Management   or SIS_Major_2 is Political Science-General   or SIS_Major_2 is Political Science-Urban Affair   or SIS_Major_2 is Political Sci-Intnl Relations   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major_2 is Political Sci-Public Affairs   or SIS_Major is Political Science   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public & Nonprofit Management   or SIS_Major is Public Administration   or SIS_Major is Urban Management   or SIS_Major is Political Science-General   or SIS_Major is Political Science-Urban Affair   or SIS_Major is Political Sci-Intnl Relations   or SIS_Major is Political Sci-Public Administr   or SIS_Major is Political Sci-Public Affairs   or SIS_Major_1_2 is Political Science   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public & Nonprofit Management   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Urban Management   or SIS_Major_1_2 is Political Science-General   or SIS_Major_1_2 is Political Science-Urban Affair   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_1_2 is Political Sci-Public Affairs   or SIS_Major_2_2 is Political Science   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public & Nonprofit Management   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Urban Management   or SIS_Major_2_2 is Political Science-General   or SIS_Major_2_2 is Political Science-Urban Affair   or SIS_Major_2_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Sci-Public Affairs"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.50",
-        "raw_text": "SIS_CumGPA >= 3.50"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -73,6 +31,80 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Attachment:  \"CLA_PublicAdmn_Essay\"",
+        "raw_text": "Complete Attachment:  \"CLA_PublicAdmn_Essay\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2 is Political Science   or SIS_Major_2 is Political Science-Intnl Affair   or SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public & Nonprofit Management   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Urban Management   or SIS_Major_2 is Political Science-General   or SIS_Major_2 is Political Science-Urban Affair   or SIS_Major_2 is Political Sci-Intnl Relations   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major_2 is Political Sci-Public Affairs   or SIS_Major is Political Science   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public & Nonprofit Management   or SIS_Major is Public Administration   or SIS_Major is Urban Management   or SIS_Major is Political Science-General   or SIS_Major is Political Science-Urban Affair   or SIS_Major is Political Sci-Intnl Relations   or SIS_Major is Political Sci-Public Administr   or SIS_Major is Political Sci-Public Affairs   or SIS_Major_1_2 is Political Science   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public & Nonprofit Management   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Urban Management   or SIS_Major_1_2 is Political Science-General   or SIS_Major_1_2 is Political Science-Urban Affair   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_1_2 is Political Sci-Public Affairs   or SIS_Major_2_2 is Political Science   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public & Nonprofit Management   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Urban Management   or SIS_Major_2_2 is Political Science-General   or SIS_Major_2_2 is Political Science-Urban Affair   or SIS_Major_2_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Sci-Public Affairs",
+        "raw_text": "SIS_Major_2 is Political Science   or SIS_Major_2 is Political Science-Intnl Affair   or SIS_Major_2 is Political Science-Public Admin   or SIS_Major_2 is Public & Nonprofit Management   or SIS_Major_2 is Public Administration   or SIS_Major_2 is Urban Management   or SIS_Major_2 is Political Science-General   or SIS_Major_2 is Political Science-Urban Affair   or SIS_Major_2 is Political Sci-Intnl Relations   or SIS_Major_2 is Political Sci-Public Administr   or SIS_Major_2 is Political Sci-Public Affairs   or SIS_Major is Political Science   or SIS_Major is Political Science-Public Admin   or SIS_Major is Public & Nonprofit Management   or SIS_Major is Public Administration   or SIS_Major is Urban Management   or SIS_Major is Political Science-General   or SIS_Major is Political Science-Urban Affair   or SIS_Major is Political Sci-Intnl Relations   or SIS_Major is Political Sci-Public Administr   or SIS_Major is Political Sci-Public Affairs   or SIS_Major_1_2 is Political Science   or SIS_Major_1_2 is Political Science-Public Admin   or SIS_Major_1_2 is Public & Nonprofit Management   or SIS_Major_1_2 is Public Administration   or SIS_Major_1_2 is Urban Management   or SIS_Major_1_2 is Political Science-General   or SIS_Major_1_2 is Political Science-Urban Affair   or SIS_Major_1_2 is Political Sci-Public Administr   or SIS_Major_1_2 is Political Sci-Public Affairs   or SIS_Major_2_2 is Political Science   or SIS_Major_2_2 is Political Science-Public Admin   or SIS_Major_2_2 is Public & Nonprofit Management   or SIS_Major_2_2 is Public Administration   or SIS_Major_2_2 is Urban Management   or SIS_Major_2_2 is Political Science-General   or SIS_Major_2_2 is Political Science-Urban Affair   or SIS_Major_2_2 is Political Sci-Public Administr   or SIS_Major_2_2 is Political Sci-Public Affairs",
+        "parsed_sis": {
+          "majors": [
+            "Political Sci-Intnl Relations",
+            "Political Sci-Public Administr",
+            "Political Sci-Public Affairs",
+            "Political Science",
+            "Political Science-General",
+            "Political Science-Intnl Affair",
+            "Political Science-Public Admin",
+            "Political Science-Urban Affair",
+            "Public & Nonprofit Management",
+            "Public Administration",
+            "Urban Management"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Political Sci-Intnl Relations, Political Sci-Public Administr, Political Sci-Public Affairs, Political Science, Political Science-General, Political Science-Intnl Affair, Political Science-Public Admin, Political Science-Urban Affair, Public & Nonprofit Management, Public Administration, Urban Management",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

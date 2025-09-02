@@ -211,7 +211,7 @@ function applyFilters() {
         
         // GPA filter
         if (minGPA) {
-            const hasGPARequirement = scholarship.qualifying_criteria.criteria.some(criteria => 
+            const hasGPARequirement = scholarship.hard_criteria.criteria.some(criteria => 
                 criteria.type === 'gpa' && extractGPAValue(criteria.description) >= parseFloat(minGPA)
             );
             if (!hasGPARequirement) {
@@ -221,7 +221,7 @@ function applyFilters() {
         
         // Level filter
         if (levelFilter) {
-            const hasLevelRequirement = scholarship.qualifying_criteria.criteria.some(criteria => 
+            const hasLevelRequirement = scholarship.hard_criteria.criteria.some(criteria => 
                 criteria.type === 'level' && criteria.description.toLowerCase().includes(levelFilter)
             );
             if (!hasLevelRequirement) {
@@ -321,7 +321,7 @@ function createScholarshipCard(scholarship) {
     const cardElement = document.createElement('div');
     cardElement.className = `${colClass} mb-4`;
     
-    const qualifyingCount = scholarship.qualifying_criteria.criteria_count;
+    const hardCount = scholarship.hard_criteria.criteria_count;
     const generalCount = scholarship.general_criteria.criteria_count;
     const conditionalCount = scholarship.conditional_criteria.criteria_count;
     const totalPoints = scholarship.general_criteria.total_possible_points;
@@ -354,7 +354,7 @@ function createScholarshipCard(scholarship) {
                 <div class="criteria-summary mb-3">
                     <span class="badge bg-primary criteria-badge me-2">
                         <i class="fas fa-exclamation-circle me-1"></i>
-                        ${qualifyingCount} Required
+                        ${hardCount} Required
                     </span>
                     ${generalCount > 0 ? `
                         <span class="badge bg-info criteria-badge me-2">
@@ -434,13 +434,24 @@ async function showScholarshipDetails(scholarshipId) {
             
             <div class="col-md-4">
                 <div class="criteria-section p-3">
-                    <h6><i class="fas fa-exclamation-circle me-2"></i>Qualifying Criteria</h6>
-                    <p class="small text-muted">${scholarship.qualifying_criteria.description}</p>
-                    ${scholarship.qualifying_criteria.criteria.map(criteria => `
+                    <h6><i class="fas fa-exclamation-circle me-2"></i>Hard Criteria</h6>
+                    <p class="small text-muted">${scholarship.hard_criteria.description}</p>
+                    ${scholarship.hard_criteria.criteria.map(criteria => `
                         <div class="criteria-item ${criteria.type}">
-                            <strong>${criteria.id}.</strong> ${criteria.description}
+                            <strong>${criteria.id}.</strong> ${criteria.clean_description || criteria.description}
+                            ${criteria.banner_accessibility ? `<span class="badge ms-2 ${criteria.banner_accessibility === 'banner_accessible' ? 'bg-success' : criteria.banner_accessibility === 'application_required' ? 'bg-warning' : 'bg-secondary'}">${criteria.banner_accessibility.replace('_', ' ')}</span>` : ''}
                         </div>
                     `).join('')}
+                    ${scholarship.hard_criteria.banner_summary ? `
+                        <div class="mt-3">
+                            <small class="text-muted">
+                                <strong>Banner Summary:</strong> 
+                                ${scholarship.hard_criteria.banner_summary.banner_accessible} Banner accessible, 
+                                ${scholarship.hard_criteria.banner_summary.application_required} Application required, 
+                                ${scholarship.hard_criteria.banner_summary.manual_review} Manual review
+                            </small>
+                        </div>
+                    ` : ''}
                 </div>
                 
                 ${scholarship.general_criteria.criteria_count > 0 ? `

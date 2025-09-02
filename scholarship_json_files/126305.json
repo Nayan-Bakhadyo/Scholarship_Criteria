@@ -13,66 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in 2020 in honor of Professor Carrie Cook Hill. Scholarship will be awarded to a Sophomore, Junior or Senior Theatre Arts Education major with a 3.0 GPA. Candidates are required to write a 150 word essay. Eligibility Theatre Arts Education Major Cumulative GPA 3.0+ Sophomore, Junior or Senior 150 Word Essay - \"Why did you choose to be a Theatre Education major?\" Requirements Personal artist statement (250 words) Official transcript",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 9,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
-        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "CFAD_So_Jr_Sr = Yes",
-        "raw_text": "CFAD_So_Jr_Sr = Yes"
-      },
-      {
-        "id": 4,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
-        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Cook_Theatre\"",
-        "raw_text": "Complete Essay \"CFAD_Cook_Theatre\""
-      },
-      {
-        "id": 8,
-        "type": "major",
-        "description": "SIS_Major_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2 is Theatre/Communication Educatio   or SIS_Major_2 is Theatre Arts-Theatre Ed Study   or SIS_Major is Theatre Arts-Theatre/Comm Ed   or SIS_Major is Theatre/Communication Educatio   or SIS_Major is Theatre Arts-Theatre Ed Study   or SIS_Major_1_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_1_2 is Theatre/Communication Educatio   or SIS_Major_1_2 is Theatre Arts-Theatre Ed Study   or SIS_Major_2_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2_2 is Theatre/Communication Educatio   or SIS_Major_2_2 is Theatre Arts-Theatre Ed Study",
-        "raw_text": "SIS_Major_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2 is Theatre/Communication Educatio   or SIS_Major_2 is Theatre Arts-Theatre Ed Study   or SIS_Major is Theatre Arts-Theatre/Comm Ed   or SIS_Major is Theatre/Communication Educatio   or SIS_Major is Theatre Arts-Theatre Ed Study   or SIS_Major_1_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_1_2 is Theatre/Communication Educatio   or SIS_Major_1_2 is Theatre Arts-Theatre Ed Study   or SIS_Major_2_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2_2 is Theatre/Communication Educatio   or SIS_Major_2_2 is Theatre Arts-Theatre Ed Study"
-      },
-      {
-        "id": 9,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -91,6 +31,93 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CFAD_So_Jr_Sr = Yes",
+        "raw_text": "CFAD_So_Jr_Sr = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Cook_Theatre\"",
+        "raw_text": "Complete Essay \"CFAD_Cook_Theatre\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 8,
+        "type": "major",
+        "description": "SIS_Major_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2 is Theatre/Communication Educatio   or SIS_Major_2 is Theatre Arts-Theatre Ed Study   or SIS_Major is Theatre Arts-Theatre/Comm Ed   or SIS_Major is Theatre/Communication Educatio   or SIS_Major is Theatre Arts-Theatre Ed Study   or SIS_Major_1_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_1_2 is Theatre/Communication Educatio   or SIS_Major_1_2 is Theatre Arts-Theatre Ed Study   or SIS_Major_2_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2_2 is Theatre/Communication Educatio   or SIS_Major_2_2 is Theatre Arts-Theatre Ed Study",
+        "raw_text": "SIS_Major_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2 is Theatre/Communication Educatio   or SIS_Major_2 is Theatre Arts-Theatre Ed Study   or SIS_Major is Theatre Arts-Theatre/Comm Ed   or SIS_Major is Theatre/Communication Educatio   or SIS_Major is Theatre Arts-Theatre Ed Study   or SIS_Major_1_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_1_2 is Theatre/Communication Educatio   or SIS_Major_1_2 is Theatre Arts-Theatre Ed Study   or SIS_Major_2_2 is Theatre Arts-Theatre/Comm Ed   or SIS_Major_2_2 is Theatre/Communication Educatio   or SIS_Major_2_2 is Theatre Arts-Theatre Ed Study",
+        "parsed_sis": {
+          "majors": [
+            "Theatre Arts-Theatre Ed Study",
+            "Theatre Arts-Theatre/Comm Ed",
+            "Theatre/Communication Educatio"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Theatre Arts-Theatre Ed Study, Theatre Arts-Theatre/Comm Ed, Theatre/Communication Educatio",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 9,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 9,
+      "banner_accessible": 3,
+      "application_required": 3,
+      "manual_review": 3
     }
   }
 }

@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship is available to help undergraduate students who participate in student organization activities, show leadership skills, and demonstrate courage and commitment to education while enduring adversity. Eligibility Requirements Must be enrolled as a full-time student Must have completed at least one year at UCO Must have a GPA of 3.0 or above Must complete UBS Courage and Commitment leadership essay This scholarship is available to apply for during the current UCO student application process.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"ADV_UBS_Leadership Essay\"",
-        "raw_text": "Complete Essay \"ADV_UBS_Leadership Essay\""
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "GEN_Activities = Yes",
-        "raw_text": "GEN_Activities = Yes"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -81,6 +39,60 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"ADV_UBS_Leadership Essay\"",
+        "raw_text": "Complete Essay \"ADV_UBS_Leadership Essay\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "GEN_Activities = Yes",
+        "raw_text": "GEN_Activities = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 4
     }
   }
 }

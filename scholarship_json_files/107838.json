@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Math and Sciences pursing a degree in the Department of Mathematics and Statistics, Majoring in Math with an Economics Minor preferred. Eligibility Requirements College of Mathematics and Science student Major in Mathematics required, with minor in Economics preferred Minimum GPA of 3.5 Must have completed 60 hours of credit Provide two faculty recommendations Personal statement outlining financial need and career goals",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.50",
-        "raw_text": "SIS_CumGPA >= 3.50"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major_2 is Actuarial Science   or SIS_Major_2 is Data Science   or SIS_Major_2 is Mathematics   or SIS_Major_2 is Mathematics Education   or SIS_Major_2 is Mathematics-Applied Math   or SIS_Major_2 is Mathematics-Statistics   or SIS_Major_2 is Statistics   or SIS_Major is Actuarial Science   or SIS_Major is Data Science   or SIS_Major is Mathematics   or SIS_Major is Mathematics Education   or SIS_Major is Mathematics-Applied Math   or SIS_Major is Mathematics-Statistics   or SIS_Major is Statistics",
-        "raw_text": "SIS_Major_2 is Actuarial Science   or SIS_Major_2 is Data Science   or SIS_Major_2 is Mathematics   or SIS_Major_2 is Mathematics Education   or SIS_Major_2 is Mathematics-Applied Math   or SIS_Major_2 is Mathematics-Statistics   or SIS_Major_2 is Statistics   or SIS_Major is Actuarial Science   or SIS_Major is Data Science   or SIS_Major is Mathematics   or SIS_Major is Mathematics Education   or SIS_Major is Mathematics-Applied Math   or SIS_Major is Mathematics-Statistics   or SIS_Major is Statistics"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "hours",
-        "description": "SIS_Overall_Hours >= 60.00",
-        "raw_text": "SIS_Overall_Hours >= 60.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 3,
@@ -101,6 +53,83 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Actuarial Science   or SIS_Major_2 is Data Science   or SIS_Major_2 is Mathematics   or SIS_Major_2 is Mathematics Education   or SIS_Major_2 is Mathematics-Applied Math   or SIS_Major_2 is Mathematics-Statistics   or SIS_Major_2 is Statistics   or SIS_Major is Actuarial Science   or SIS_Major is Data Science   or SIS_Major is Mathematics   or SIS_Major is Mathematics Education   or SIS_Major is Mathematics-Applied Math   or SIS_Major is Mathematics-Statistics   or SIS_Major is Statistics",
+        "raw_text": "SIS_Major_2 is Actuarial Science   or SIS_Major_2 is Data Science   or SIS_Major_2 is Mathematics   or SIS_Major_2 is Mathematics Education   or SIS_Major_2 is Mathematics-Applied Math   or SIS_Major_2 is Mathematics-Statistics   or SIS_Major_2 is Statistics   or SIS_Major is Actuarial Science   or SIS_Major is Data Science   or SIS_Major is Mathematics   or SIS_Major is Mathematics Education   or SIS_Major is Mathematics-Applied Math   or SIS_Major is Mathematics-Statistics   or SIS_Major is Statistics",
+        "parsed_sis": {
+          "majors": [
+            "Actuarial Science",
+            "Data Science",
+            "Mathematics",
+            "Mathematics Education",
+            "Mathematics-Applied Math",
+            "Mathematics-Statistics",
+            "Statistics"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Actuarial Science, Data Science, Mathematics, Mathematics Education, Mathematics-Applied Math, Mathematics-Statistics, Statistics",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 60.00",
+        "raw_text": "SIS_Overall_Hours >= 60.00",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 3
     }
   }
 }

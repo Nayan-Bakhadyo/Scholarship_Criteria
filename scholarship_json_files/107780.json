@@ -13,18 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was made possible by a generous gift from the Michael Adam Everett Memorial Fund and the late Dr. Mark Allen Everett. The Everett Family Fund was established at the Oklahoma City Community Foundation by Dr. Mark Everett, father of Howard Dean Everett. This scholarship is awarded to a student with service contributions to the English department, campus, and community. Must apply through the OCCF website. Eligibility Requirements Must be enrolled at University of Central Oklahoma Must be an English Major  preference may be given to a student with individual service contributions to the English department, campus, and community Applicants must have a minimum GPA equal to or greater than 3.5 in their English courses, and an overall GPA greater than or equal to 3.0",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 1,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -43,6 +31,25 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 0
     }
   }
 }

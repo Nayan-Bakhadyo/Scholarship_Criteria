@@ -13,60 +13,6 @@
     "renewable_years": 0
   },
   "description": "Eligibility Requirements Complete application and official transcript Open to full-time, undergraduate students pursuing a degree in the College of Business Minimum 2.0 Cumulative Retention GPA with at least one semester completed at UCO Candidates must have a part-time job working at least 12 hours a week to support college attendance Preference will be given to campus student employees Financial need will be considered when there are multiple qualified applicants",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 8,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 3,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 4,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.00",
-        "raw_text": "SIS_CumGPA >= 2.00"
-      },
-      {
-        "id": 5,
-        "type": "hours",
-        "description": "SIS_UCO_Completed_Hours >= 12.00",
-        "raw_text": "SIS_UCO_Completed_Hours >= 12.00"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Essay \"COB_Financial_Need\"",
-        "raw_text": "Complete Essay \"COB_Financial_Need\""
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "SIS_College is Business Administration",
-        "raw_text": "SIS_College is Business Administration"
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -85,6 +31,74 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.00",
+        "raw_text": "SIS_CumGPA >= 2.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 12.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 12.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"COB_Financial_Need\"",
+        "raw_text": "Complete Essay \"COB_Financial_Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "SIS_College is Business Administration",
+        "raw_text": "SIS_College is Business Administration",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 8,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 4
     }
   }
 }

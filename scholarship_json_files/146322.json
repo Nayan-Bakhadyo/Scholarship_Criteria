@@ -13,36 +13,6 @@
     "renewable_years": 0
   },
   "description": "Oklahoma High School Seniors are eligible for up to 18 credit hours of waived tuition. This begins from the summer before their senior year through the spring semester before graduation. Eligibility: Meet admissions guidelines Admitted as a concurrent student Must be a resident of Oklahoma Be a HS senior for the 22-23 academic year",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 4,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_OKResidency = Yes",
-        "raw_text": "SIS_OKResidency = Yes"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_ADMIT_DESC is Concurrent High School",
-        "raw_text": "SIS_ADMIT_DESC is Concurrent High School"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_SORHSCH_GRADUATION_DATE = Jun  1 2024 12:00AM",
-        "raw_text": "SIS_SORHSCH_GRADUATION_DATE = Jun  1 2024 12:00AM"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_SARADAP_TERM_DESCRIPTION is Summer 2023   or SIS_SARADAP_TERM_DESCRIPTION is Fall 2023   or SIS_SARADAP_TERM_DESCRIPTION is Spring 2024",
-        "raw_text": "SIS_SARADAP_TERM_DESCRIPTION is Summer 2023   or SIS_SARADAP_TERM_DESCRIPTION is Fall 2023   or SIS_SARADAP_TERM_DESCRIPTION is Spring 2024"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -61,6 +31,46 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_OKResidency = Yes",
+        "raw_text": "SIS_OKResidency = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_ADMIT_DESC is Concurrent High School",
+        "raw_text": "SIS_ADMIT_DESC is Concurrent High School",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_SORHSCH_GRADUATION_DATE = Jun  1 2024 12:00AM",
+        "raw_text": "SIS_SORHSCH_GRADUATION_DATE = Jun  1 2024 12:00AM",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_SARADAP_TERM_DESCRIPTION is Summer 2023   or SIS_SARADAP_TERM_DESCRIPTION is Fall 2023   or SIS_SARADAP_TERM_DESCRIPTION is Spring 2024",
+        "raw_text": "SIS_SARADAP_TERM_DESCRIPTION is Summer 2023   or SIS_SARADAP_TERM_DESCRIPTION is Fall 2023   or SIS_SARADAP_TERM_DESCRIPTION is Spring 2024",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 4
     }
   }
 }

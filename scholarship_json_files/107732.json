@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "In memory of Dr. Edward J. Pugh, this scholarship provides funds for a student whose major is Geography and holds sophomore or junior standing at UCO. It is open to U.S. and international students. Eligibility Requirements Sophomore or Junior standing in semester awarded Geography major Continuing student in the fall semester that the scholarship is awarded Personal letter discussing background, influences, career choice, etc.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior",
-        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior"
-      },
-      {
-        "id": 3,
-        "type": "major",
-        "description": "SIS_Major_2 is Geography   or SIS_Major is Geography   or SIS_Major_1_2 is Geography   or SIS_Major_2_2 is Geography",
-        "raw_text": "SIS_Major_2 is Geography   or SIS_Major is Geography   or SIS_Major_1_2 is Geography   or SIS_Major_2_2 is Geography"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Personal_Statement \"",
-        "raw_text": "Complete Essay \"GEN_Personal_Statement \""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -67,6 +31,74 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior",
+        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Geography   or SIS_Major is Geography   or SIS_Major_1_2 is Geography   or SIS_Major_2_2 is Geography",
+        "raw_text": "SIS_Major_2 is Geography   or SIS_Major is Geography   or SIS_Major_1_2 is Geography   or SIS_Major_2_2 is Geography",
+        "parsed_sis": {
+          "majors": [
+            "Geography"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Geography",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Personal_Statement \"",
+        "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 2
     }
   }
 }

@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "In honor of Dr. Macey's service to the UCO community, this scholarship was created to support students who will benefit from his innovative legacy. Eligibility Criteria Must be pursuing a major or minor in the College of Liberal Arts Complete application Must upload an official transcript Minimum GPA of 2.5 Must be a Sophomore, Junior, or Senior Enrolled either part-time or full-time Preference will be given to students who demonstrate financial need This scholarship is available to apply for during the current UCO student application period.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_College is Liberal Arts   or SIS_College_2 is Liberal Arts",
-        "raw_text": "SIS_College is Liberal Arts   or SIS_College_2 is Liberal Arts"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time   or SIS_Enrolled_Status is Part Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time   or SIS_Enrolled_Status is Part Time"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior"
-      },
-      {
-        "id": 5,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -81,6 +39,72 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_College is Liberal Arts   or SIS_College_2 is Liberal Arts",
+        "raw_text": "SIS_College is Liberal Arts   or SIS_College_2 is Liberal Arts",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time   or SIS_Enrolled_Status is Part Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time   or SIS_Enrolled_Status is Part Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior",
+            "Senior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior, Senior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 3,
+      "application_required": 1,
+      "manual_review": 2
     }
   }
 }

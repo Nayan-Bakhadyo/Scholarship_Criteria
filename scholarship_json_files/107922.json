@@ -13,78 +13,6 @@
     "renewable_years": 0
   },
   "description": "The Drs. Charles A. & Louise Rickman Scholarship is open to students who have declared a major in Management, Human Resource Management, or PGA Golf Management major. Eligibility Requirements Declared major in Management, Human Resource Management, or PGA Golf Management major Must have at least one semester completed at UCO Oklahoma resident and have a cumulative retention GPA in the upper 60% in the designated major Illustrating financial need through the EFC (Expected Family Contribution) number Enrolled full-time (throughout the application and award semesters) Minimum cumulative GPA of 2.75 or higher Demonstrate financial need by writing and essay detailing financial need If student is a senior they must be enrolled in both Fall and Spring undergraduate courses and not be eligible to apply for graduation during the time of awards. Selection Process Preference to be given to students who graduated from high school while a resident of Baptist Children's Home - OKC, Boys' Ranch Town - Edmond, Baptist Children's Home - Owasso, or the Baptist Home for Girls - Madill The student must have completed a personal finance course or successfully complete a personal finance course in the first semester eligible to enroll in the course (withdrawal from the course results in forfeiture of the scholarship) Must provide a current resume, biographical sketch, copy of most recent transcript, and detailed explanation of financial need this information along with copy of the current semester class enrollment will be provided to the donors within the first four weeks of the fall semester",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 11,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 3,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 12.00",
-        "raw_text": "SIS_Enrolled HRS >= 12.00"
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "SIS_State is OKLAHOMA",
-        "raw_text": "SIS_State is OKLAHOMA"
-      },
-      {
-        "id": 6,
-        "type": "unknown",
-        "description": "SIS_OKResidency = Yes",
-        "raw_text": "SIS_OKResidency = Yes"
-      },
-      {
-        "id": 7,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.75",
-        "raw_text": "SIS_CumGPA >= 2.75"
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Resume\"",
-        "raw_text": "Complete Attachment:  \"GEN_Resume\""
-      },
-      {
-        "id": 9,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 10,
-        "type": "major",
-        "description": "SIS_Major_2 is Management   or SIS_Major_2 is Management-PGA Golf Management   or SIS_Major_2 is Mngt-Human Resource Management   or SIS_Major_2 is Mngt-Professional Golf Mngt   or SIS_Major_2 is Mgmt-Human Resource Management   or SIS_Major is Management   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Management   or SIS_Major_1_2 is Management-PGA Golf Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mngt-Professional Golf Mngt   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Management   or SIS_Major_2_2 is Management-PGA Golf Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mngt-Professional Golf Mngt   or SIS_Major_2_2 is Mgmt-Human Resource Management",
-        "raw_text": "SIS_Major_2 is Management   or SIS_Major_2 is Management-PGA Golf Management   or SIS_Major_2 is Mngt-Human Resource Management   or SIS_Major_2 is Mngt-Professional Golf Mngt   or SIS_Major_2 is Mgmt-Human Resource Management   or SIS_Major is Management   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Management   or SIS_Major_1_2 is Management-PGA Golf Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mngt-Professional Golf Mngt   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Management   or SIS_Major_2_2 is Management-PGA Golf Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mngt-Professional Golf Mngt   or SIS_Major_2_2 is Mgmt-Human Resource Management"
-      },
-      {
-        "id": 11,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 2,
@@ -118,6 +46,109 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 11,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_State is OKLAHOMA",
+        "raw_text": "SIS_State is OKLAHOMA",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_OKResidency = Yes",
+        "raw_text": "SIS_OKResidency = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.75",
+        "raw_text": "SIS_CumGPA >= 2.75",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Resume\"",
+        "raw_text": "Complete Attachment:  \"GEN_Resume\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 9,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 10,
+        "type": "major",
+        "description": "SIS_Major_2 is Management   or SIS_Major_2 is Management-PGA Golf Management   or SIS_Major_2 is Mngt-Human Resource Management   or SIS_Major_2 is Mngt-Professional Golf Mngt   or SIS_Major_2 is Mgmt-Human Resource Management   or SIS_Major is Management   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Management   or SIS_Major_1_2 is Management-PGA Golf Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mngt-Professional Golf Mngt   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Management   or SIS_Major_2_2 is Management-PGA Golf Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mngt-Professional Golf Mngt   or SIS_Major_2_2 is Mgmt-Human Resource Management",
+        "raw_text": "SIS_Major_2 is Management   or SIS_Major_2 is Management-PGA Golf Management   or SIS_Major_2 is Mngt-Human Resource Management   or SIS_Major_2 is Mngt-Professional Golf Mngt   or SIS_Major_2 is Mgmt-Human Resource Management   or SIS_Major is Management   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Management   or SIS_Major_1_2 is Management-PGA Golf Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mngt-Professional Golf Mngt   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Management   or SIS_Major_2_2 is Management-PGA Golf Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mngt-Professional Golf Mngt   or SIS_Major_2_2 is Mgmt-Human Resource Management",
+        "parsed_sis": {
+          "majors": [
+            "Management",
+            "Management-PGA Golf Management",
+            "Mgmt-Human Resource Management",
+            "Mngt-Human Resource Management",
+            "Mngt-Professional Golf Mngt"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Management, Management-PGA Golf Management, Mgmt-Human Resource Management, Mngt-Human Resource Management, Mngt-Professional Golf Mngt",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 11,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 11,
+      "banner_accessible": 2,
+      "application_required": 3,
+      "manual_review": 6
     }
   }
 }

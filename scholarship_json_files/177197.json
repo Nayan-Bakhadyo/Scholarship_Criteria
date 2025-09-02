@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to any education major within the College of Education & Professional Studies who is pursuing a career in education. Eligibility Requirements Undergraduate student within the College of Education and Professional Studies Must be admitted to the Teacher Education Program 2.5 GPA or higher In a short essay, please share how you intend to serve in the Oklahoma Public School system after graduation Recipient must be in the semester of student teaching when award is received Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "CEPS_Student_Teaching = Yes",
-        "raw_text": "CEPS_Student_Teaching = Yes"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "CEPS_TE = Yes",
-        "raw_text": "CEPS_TE = Yes"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"CEPS_Haulman Cunliff TESOL\"",
-        "raw_text": "Complete Essay \"CEPS_Haulman Cunliff TESOL\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -67,6 +31,53 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CEPS_Student_Teaching = Yes",
+        "raw_text": "CEPS_Student_Teaching = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Haulman Cunliff TESOL\"",
+        "raw_text": "Complete Essay \"CEPS_Haulman Cunliff TESOL\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 2
     }
   }
 }

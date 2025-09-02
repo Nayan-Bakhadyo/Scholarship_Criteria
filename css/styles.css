@@ -291,3 +291,39 @@
     border-color: #e6a619;
     color: var(--uco-blue);
 }
+
+/* Banner Accessibility Indicators */
+.criteria-item {
+    position: relative;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-left: 3px solid transparent;
+}
+
+.criteria-item .badge {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.criteria-item:has(.bg-success) {
+    border-left-color: #28a745;
+    background-color: rgba(40, 167, 69, 0.05);
+}
+
+.criteria-item:has(.bg-warning) {
+    border-left-color: #ffc107;
+    background-color: rgba(255, 193, 7, 0.05);
+}
+
+.criteria-item:has(.bg-secondary) {
+    border-left-color: #6c757d;
+    background-color: rgba(108, 117, 125, 0.05);
+}
+
+/* Banner Summary Styling */
+.criteria-section .text-muted small {
+    background-color: rgba(248, 249, 250, 0.8);
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    display: block;
+}

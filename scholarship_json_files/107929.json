@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "The Dr. Michael Metzger Memorial Endowed Scholarship is open to declared Economics (Economics or Energy Economics) majors who have completed a minimum of 60 hours at the time of application. Students must have a minimum 3.0 cumulative GPA. Two faculty recommendations required (please indicate the two College of Business faculty members on your application that you wish to have supply a recommendation). This scholarship may only be used for tuition, books and fees. Eligibility Requirements Declared Economics (Economics or Energy Economics) majors Minimum of 60 hours completed Minimum cumulative GPA of 3.0 or higher Two faculty recommendations required (please indicate the two College of Business faculty members on your application that you wish to have supply a recommendation) Award Requirements This scholarship may only be used for tuition, books and fees",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 4,
-        "type": "hours",
-        "description": "SIS_Overall_Hours >= 60.00",
-        "raw_text": "SIS_Overall_Hours >= 60.00"
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major_2 is Economics   or SIS_Major_2 is Economics-Energy Economics   or SIS_Major is Economics   or SIS_Major is Economics-Energy Economics   or SIS_Major_1_2 is Economics   or SIS_Major_1_2 is Economics-Energy Economics   or SIS_Major_2_2 is Economics   or SIS_Major_2_2 is Economics-Energy Economics",
-        "raw_text": "SIS_Major_2 is Economics   or SIS_Major_2 is Economics-Energy Economics   or SIS_Major is Economics   or SIS_Major is Economics-Energy Economics   or SIS_Major_1_2 is Economics   or SIS_Major_1_2 is Economics-Energy Economics   or SIS_Major_2_2 is Economics   or SIS_Major_2_2 is Economics-Energy Economics"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -79,6 +31,78 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 60.00",
+        "raw_text": "SIS_Overall_Hours >= 60.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Economics   or SIS_Major_2 is Economics-Energy Economics   or SIS_Major is Economics   or SIS_Major is Economics-Energy Economics   or SIS_Major_1_2 is Economics   or SIS_Major_1_2 is Economics-Energy Economics   or SIS_Major_2_2 is Economics   or SIS_Major_2_2 is Economics-Energy Economics",
+        "raw_text": "SIS_Major_2 is Economics   or SIS_Major_2 is Economics-Energy Economics   or SIS_Major is Economics   or SIS_Major is Economics-Energy Economics   or SIS_Major_1_2 is Economics   or SIS_Major_1_2 is Economics-Energy Economics   or SIS_Major_2_2 is Economics   or SIS_Major_2_2 is Economics-Energy Economics",
+        "parsed_sis": {
+          "majors": [
+            "Economics",
+            "Economics-Energy Economics"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Economics, Economics-Energy Economics",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 4
     }
   }
 }

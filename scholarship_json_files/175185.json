@@ -13,30 +13,6 @@
     "renewable_years": 0
   },
   "description": "The Department of Mathematics and Statistics Outstanding Student of the Year Scholarship was established by former UCO staff member Sharon Kelting. Sharon created the scholarship to honor her children (UCO Math and Stat alums) and her colleagues. Eligibility Requirements Undergraduate student Minimum of 2.5 GPA Must be a Mathematics and Statistics major Preference to a Junior or Senior Mathematics and Statistics student",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 3,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 3,
-        "type": "major",
-        "description": "SIS_Major_2 is Actuarial Science   or SIS_Major_2 is Applied Math & Compt Science   or SIS_Major_2 is Applied Math Science-Teaching   or SIS_Major_2 is Applied Math Sci-Math   or SIS_Major_2 is Applied Math Sci-Statistics   or SIS_Major_2 is Data Science   or SIS_Major_2 is Mathematics   or SIS_Major_2 is Mathematics Education   or SIS_Major_2 is Mathematics-Applied Math   or SIS_Major_2 is Mathematics-Statistics   or SIS_Major_2 is Applied Math Sci-Computer Sci   or SIS_Major is Actuarial Science   or SIS_Major is Applied Math & Compt Science   or SIS_Major is Applied Math Science-Teaching   or SIS_Major is Applied Math Sci-Math   or SIS_Major is Applied Math Sci-Statistics   or SIS_Major is Data Science   or SIS_Major is Mathematics   or SIS_Major is Mathematics Education   or SIS_Major is Mathematics-Applied Math   or SIS_Major is Mathematics-Statistics   or SIS_Major is Applied Math Sci-Computer Sci   or SIS_Major_1_2 is Actuarial Science   or SIS_Major_1_2 is Applied Math & Compt Science   or SIS_Major_1_2 is Applied Math Science-Teaching   or SIS_Major_1_2 is Applied Math Sci-Math   or SIS_Major_1_2 is Applied Math Sci-Statistics   or SIS_Major_1_2 is Data Science   or SIS_Major_1_2 is Mathematics   or SIS_Major_1_2 is Mathematics Education   or SIS_Major_1_2 is Mathematics-Applied Math   or SIS_Major_1_2 is Mathematics-Statistics   or SIS_Major_1_2 is Applied Math Sci-Computer Sci   or SIS_Major_2_2 is Actuarial Science   or SIS_Major_2_2 is Applied Math & Compt Science   or SIS_Major_2_2 is Applied Math Science-Teaching   or SIS_Major_2_2 is Applied Math Sci-Math   or SIS_Major_2_2 is Applied Math Sci-Statistics   or SIS_Major_2_2 is Data Science   or SIS_Major_2_2 is Mathematics   or SIS_Major_2_2 is Mathematics Education   or SIS_Major_2_2 is Mathematics-Applied Math   or SIS_Major_2_2 is Mathematics-Statistics   or SIS_Major_2_2 is Applied Math Sci-Computer Sci",
-        "raw_text": "SIS_Major_2 is Actuarial Science   or SIS_Major_2 is Applied Math & Compt Science   or SIS_Major_2 is Applied Math Science-Teaching   or SIS_Major_2 is Applied Math Sci-Math   or SIS_Major_2 is Applied Math Sci-Statistics   or SIS_Major_2 is Data Science   or SIS_Major_2 is Mathematics   or SIS_Major_2 is Mathematics Education   or SIS_Major_2 is Mathematics-Applied Math   or SIS_Major_2 is Mathematics-Statistics   or SIS_Major_2 is Applied Math Sci-Computer Sci   or SIS_Major is Actuarial Science   or SIS_Major is Applied Math & Compt Science   or SIS_Major is Applied Math Science-Teaching   or SIS_Major is Applied Math Sci-Math   or SIS_Major is Applied Math Sci-Statistics   or SIS_Major is Data Science   or SIS_Major is Mathematics   or SIS_Major is Mathematics Education   or SIS_Major is Mathematics-Applied Math   or SIS_Major is Mathematics-Statistics   or SIS_Major is Applied Math Sci-Computer Sci   or SIS_Major_1_2 is Actuarial Science   or SIS_Major_1_2 is Applied Math & Compt Science   or SIS_Major_1_2 is Applied Math Science-Teaching   or SIS_Major_1_2 is Applied Math Sci-Math   or SIS_Major_1_2 is Applied Math Sci-Statistics   or SIS_Major_1_2 is Data Science   or SIS_Major_1_2 is Mathematics   or SIS_Major_1_2 is Mathematics Education   or SIS_Major_1_2 is Mathematics-Applied Math   or SIS_Major_1_2 is Mathematics-Statistics   or SIS_Major_1_2 is Applied Math Sci-Computer Sci   or SIS_Major_2_2 is Actuarial Science   or SIS_Major_2_2 is Applied Math & Compt Science   or SIS_Major_2_2 is Applied Math Science-Teaching   or SIS_Major_2_2 is Applied Math Sci-Math   or SIS_Major_2_2 is Applied Math Sci-Statistics   or SIS_Major_2_2 is Data Science   or SIS_Major_2_2 is Mathematics   or SIS_Major_2_2 is Mathematics Education   or SIS_Major_2_2 is Mathematics-Applied Math   or SIS_Major_2_2 is Mathematics-Statistics   or SIS_Major_2_2 is Applied Math Sci-Computer Sci"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -63,6 +39,72 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Freshman",
+            "Junior",
+            "Senior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Freshman, Junior, Senior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Actuarial Science   or SIS_Major_2 is Applied Math & Compt Science   or SIS_Major_2 is Applied Math Science-Teaching   or SIS_Major_2 is Applied Math Sci-Math   or SIS_Major_2 is Applied Math Sci-Statistics   or SIS_Major_2 is Data Science   or SIS_Major_2 is Mathematics   or SIS_Major_2 is Mathematics Education   or SIS_Major_2 is Mathematics-Applied Math   or SIS_Major_2 is Mathematics-Statistics   or SIS_Major_2 is Applied Math Sci-Computer Sci   or SIS_Major is Actuarial Science   or SIS_Major is Applied Math & Compt Science   or SIS_Major is Applied Math Science-Teaching   or SIS_Major is Applied Math Sci-Math   or SIS_Major is Applied Math Sci-Statistics   or SIS_Major is Data Science   or SIS_Major is Mathematics   or SIS_Major is Mathematics Education   or SIS_Major is Mathematics-Applied Math   or SIS_Major is Mathematics-Statistics   or SIS_Major is Applied Math Sci-Computer Sci   or SIS_Major_1_2 is Actuarial Science   or SIS_Major_1_2 is Applied Math & Compt Science   or SIS_Major_1_2 is Applied Math Science-Teaching   or SIS_Major_1_2 is Applied Math Sci-Math   or SIS_Major_1_2 is Applied Math Sci-Statistics   or SIS_Major_1_2 is Data Science   or SIS_Major_1_2 is Mathematics   or SIS_Major_1_2 is Mathematics Education   or SIS_Major_1_2 is Mathematics-Applied Math   or SIS_Major_1_2 is Mathematics-Statistics   or SIS_Major_1_2 is Applied Math Sci-Computer Sci   or SIS_Major_2_2 is Actuarial Science   or SIS_Major_2_2 is Applied Math & Compt Science   or SIS_Major_2_2 is Applied Math Science-Teaching   or SIS_Major_2_2 is Applied Math Sci-Math   or SIS_Major_2_2 is Applied Math Sci-Statistics   or SIS_Major_2_2 is Data Science   or SIS_Major_2_2 is Mathematics   or SIS_Major_2_2 is Mathematics Education   or SIS_Major_2_2 is Mathematics-Applied Math   or SIS_Major_2_2 is Mathematics-Statistics   or SIS_Major_2_2 is Applied Math Sci-Computer Sci",
+        "raw_text": "SIS_Major_2 is Actuarial Science   or SIS_Major_2 is Applied Math & Compt Science   or SIS_Major_2 is Applied Math Science-Teaching   or SIS_Major_2 is Applied Math Sci-Math   or SIS_Major_2 is Applied Math Sci-Statistics   or SIS_Major_2 is Data Science   or SIS_Major_2 is Mathematics   or SIS_Major_2 is Mathematics Education   or SIS_Major_2 is Mathematics-Applied Math   or SIS_Major_2 is Mathematics-Statistics   or SIS_Major_2 is Applied Math Sci-Computer Sci   or SIS_Major is Actuarial Science   or SIS_Major is Applied Math & Compt Science   or SIS_Major is Applied Math Science-Teaching   or SIS_Major is Applied Math Sci-Math   or SIS_Major is Applied Math Sci-Statistics   or SIS_Major is Data Science   or SIS_Major is Mathematics   or SIS_Major is Mathematics Education   or SIS_Major is Mathematics-Applied Math   or SIS_Major is Mathematics-Statistics   or SIS_Major is Applied Math Sci-Computer Sci   or SIS_Major_1_2 is Actuarial Science   or SIS_Major_1_2 is Applied Math & Compt Science   or SIS_Major_1_2 is Applied Math Science-Teaching   or SIS_Major_1_2 is Applied Math Sci-Math   or SIS_Major_1_2 is Applied Math Sci-Statistics   or SIS_Major_1_2 is Data Science   or SIS_Major_1_2 is Mathematics   or SIS_Major_1_2 is Mathematics Education   or SIS_Major_1_2 is Mathematics-Applied Math   or SIS_Major_1_2 is Mathematics-Statistics   or SIS_Major_1_2 is Applied Math Sci-Computer Sci   or SIS_Major_2_2 is Actuarial Science   or SIS_Major_2_2 is Applied Math & Compt Science   or SIS_Major_2_2 is Applied Math Science-Teaching   or SIS_Major_2_2 is Applied Math Sci-Math   or SIS_Major_2_2 is Applied Math Sci-Statistics   or SIS_Major_2_2 is Data Science   or SIS_Major_2_2 is Mathematics   or SIS_Major_2_2 is Mathematics Education   or SIS_Major_2_2 is Mathematics-Applied Math   or SIS_Major_2_2 is Mathematics-Statistics   or SIS_Major_2_2 is Applied Math Sci-Computer Sci",
+        "parsed_sis": {
+          "majors": [
+            "Actuarial Science",
+            "Applied Math & Compt Science",
+            "Applied Math Sci-Computer Sci",
+            "Applied Math Sci-Math",
+            "Applied Math Sci-Statistics",
+            "Applied Math Science-Teaching",
+            "Data Science",
+            "Mathematics",
+            "Mathematics Education",
+            "Mathematics-Applied Math",
+            "Mathematics-Statistics"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Actuarial Science, Applied Math & Compt Science, Applied Math Sci-Computer Sci, Applied Math Sci-Math, Applied Math Sci-Statistics, Applied Math Science-Teaching, Data Science, Mathematics, Mathematics Education, Mathematics-Applied Math, Mathematics-Statistics",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 3,
+      "application_required": 0,
+      "manual_review": 0
     }
   }
 }

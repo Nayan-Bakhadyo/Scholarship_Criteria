@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship, established in memory and honor of UCO student Danielle Lelene Barnes, recognizes a student with a minor in Women's, Gender, and Sexuality Studies. Eligibility Requirements English major Minimum 3.0 GPA Women's Gender, and Sexuality Studies major or minor Must submit a writing sample Preference given to a student who is active in the Association of Womens Studies Student Organization Preference given to a female, minority student",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Essay \"CLA_Womens_Studies_Org\"",
-        "raw_text": "Complete Essay \"CLA_Womens_Studies_Org\""
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"CLA_Barnes_Writing Sample\"",
-        "raw_text": "Complete Essay \"CLA_Barnes_Writing Sample\""
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Minor_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_2 is Women's Studies   or SIS_Minor_2 is Gender and Sexuality Studies   or SIS_Minor is Women's,Gender,&Sexuality Stds   or SIS_Minor is Women's Studies   or SIS_Minor is Gender and Sexuality Studies   or SIS_Major_2 is Creative Writing   or SIS_Major_2 is English   or SIS_Major_2 is English Education   or SIS_Major_2 is English-Creative Writing   or SIS_Major_2 is Technical Writing   or SIS_Major_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_2 is Women's Studies   or SIS_Major_2 is Women,Gender,Sex Studies   or SIS_Major_2 is Gender and Sexuality Studies   or SIS_Major_2 is English-20th & 21st Century St   or SIS_Major_2 is English-Composition & Rhetoric   or SIS_Major_2 is English-Composition Skills   or SIS_Major_2 is English-Contemporary Lit   or SIS_Major_2 is English-Creative Studies   or SIS_Major_2 is English-Teaching ESL   or SIS_Major_2 is English-Traditional Studies   or SIS_Major is Creative Writing   or SIS_Major is English   or SIS_Major is English Education   or SIS_Major is English-Creative Writing   or SIS_Major is Technical Writing   or SIS_Major is Women's,Gender,&Sexuality Stds   or SIS_Major is Women's Studies   or SIS_Major is Women,Gender,Sex Studies   or SIS_Major is Gender and Sexuality Studies   or SIS_Major is English-20th & 21st Century St   or SIS_Major is English-Composition & Rhetoric   or SIS_Major is English-Composition Skills   or SIS_Major is English-Contemporary Lit   or SIS_Major is English-Creative Studies   or SIS_Major is English-Teaching ESL   or SIS_Major is English-Traditional Studies   or SIS_Minor_1_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_1_2 is Women's Studies   or SIS_Minor_1_2 is Gender and Sexuality Studies   or SIS_Minor_2_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_2_2 is Women's Studies   or SIS_Minor_2_2 is Gender and Sexuality Studies   or SIS_Major_1_2 is Creative Writing   or SIS_Major_1_2 is English   or SIS_Major_1_2 is English Education   or SIS_Major_1_2 is English-Creative Writing   or SIS_Major_1_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_1_2 is Women's Studies   or SIS_Major_1_2 is Women,Gender,Sex Studies   or SIS_Major_1_2 is Gender and Sexuality Studies   or SIS_Major_1_2 is English-20th & 21st Century St   or SIS_Major_1_2 is English-Composition & Rhetoric   or SIS_Major_1_2 is English-Composition Skills   or SIS_Major_1_2 is English-Contemporary Lit   or SIS_Major_1_2 is English-Creative Studies   or SIS_Major_1_2 is English-Teaching ESL   or SIS_Major_1_2 is English-Traditional Studies   or SIS_Major_2_2 is Creative Writing   or SIS_Major_2_2 is English   or SIS_Major_2_2 is English Education   or SIS_Major_2_2 is English-Creative Writing   or SIS_Major_2_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_2_2 is Women's Studies   or SIS_Major_2_2 is Women,Gender,Sex Studies   or SIS_Major_2_2 is Gender and Sexuality Studies   or SIS_Major_2_2 is English-20th & 21st Century St   or SIS_Major_2_2 is English-Composition & Rhetoric   or SIS_Major_2_2 is English-Composition Skills   or SIS_Major_2_2 is English-Contemporary Lit   or SIS_Major_2_2 is English-Creative Studies   or SIS_Major_2_2 is English-Teaching ESL   or SIS_Major_2_2 is English-Traditional Studies",
-        "raw_text": "SIS_Minor_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_2 is Women's Studies   or SIS_Minor_2 is Gender and Sexuality Studies   or SIS_Minor is Women's,Gender,&Sexuality Stds   or SIS_Minor is Women's Studies   or SIS_Minor is Gender and Sexuality Studies   or SIS_Major_2 is Creative Writing   or SIS_Major_2 is English   or SIS_Major_2 is English Education   or SIS_Major_2 is English-Creative Writing   or SIS_Major_2 is Technical Writing   or SIS_Major_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_2 is Women's Studies   or SIS_Major_2 is Women,Gender,Sex Studies   or SIS_Major_2 is Gender and Sexuality Studies   or SIS_Major_2 is English-20th & 21st Century St   or SIS_Major_2 is English-Composition & Rhetoric   or SIS_Major_2 is English-Composition Skills   or SIS_Major_2 is English-Contemporary Lit   or SIS_Major_2 is English-Creative Studies   or SIS_Major_2 is English-Teaching ESL   or SIS_Major_2 is English-Traditional Studies   or SIS_Major is Creative Writing   or SIS_Major is English   or SIS_Major is English Education   or SIS_Major is English-Creative Writing   or SIS_Major is Technical Writing   or SIS_Major is Women's,Gender,&Sexuality Stds   or SIS_Major is Women's Studies   or SIS_Major is Women,Gender,Sex Studies   or SIS_Major is Gender and Sexuality Studies   or SIS_Major is English-20th & 21st Century St   or SIS_Major is English-Composition & Rhetoric   or SIS_Major is English-Composition Skills   or SIS_Major is English-Contemporary Lit   or SIS_Major is English-Creative Studies   or SIS_Major is English-Teaching ESL   or SIS_Major is English-Traditional Studies   or SIS_Minor_1_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_1_2 is Women's Studies   or SIS_Minor_1_2 is Gender and Sexuality Studies   or SIS_Minor_2_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_2_2 is Women's Studies   or SIS_Minor_2_2 is Gender and Sexuality Studies   or SIS_Major_1_2 is Creative Writing   or SIS_Major_1_2 is English   or SIS_Major_1_2 is English Education   or SIS_Major_1_2 is English-Creative Writing   or SIS_Major_1_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_1_2 is Women's Studies   or SIS_Major_1_2 is Women,Gender,Sex Studies   or SIS_Major_1_2 is Gender and Sexuality Studies   or SIS_Major_1_2 is English-20th & 21st Century St   or SIS_Major_1_2 is English-Composition & Rhetoric   or SIS_Major_1_2 is English-Composition Skills   or SIS_Major_1_2 is English-Contemporary Lit   or SIS_Major_1_2 is English-Creative Studies   or SIS_Major_1_2 is English-Teaching ESL   or SIS_Major_1_2 is English-Traditional Studies   or SIS_Major_2_2 is Creative Writing   or SIS_Major_2_2 is English   or SIS_Major_2_2 is English Education   or SIS_Major_2_2 is English-Creative Writing   or SIS_Major_2_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_2_2 is Women's Studies   or SIS_Major_2_2 is Women,Gender,Sex Studies   or SIS_Major_2_2 is Gender and Sexuality Studies   or SIS_Major_2_2 is English-20th & 21st Century St   or SIS_Major_2_2 is English-Composition & Rhetoric   or SIS_Major_2_2 is English-Composition Skills   or SIS_Major_2_2 is English-Contemporary Lit   or SIS_Major_2_2 is English-Creative Studies   or SIS_Major_2_2 is English-Teaching ESL   or SIS_Major_2_2 is English-Traditional Studies"
-      },
-      {
-        "id": 6,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 3,
@@ -95,6 +53,89 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"CLA_Womens_Studies_Org\"",
+        "raw_text": "Complete Essay \"CLA_Womens_Studies_Org\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CLA_Barnes_Writing Sample\"",
+        "raw_text": "Complete Essay \"CLA_Barnes_Writing Sample\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Minor_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_2 is Women's Studies   or SIS_Minor_2 is Gender and Sexuality Studies   or SIS_Minor is Women's,Gender,&Sexuality Stds   or SIS_Minor is Women's Studies   or SIS_Minor is Gender and Sexuality Studies   or SIS_Major_2 is Creative Writing   or SIS_Major_2 is English   or SIS_Major_2 is English Education   or SIS_Major_2 is English-Creative Writing   or SIS_Major_2 is Technical Writing   or SIS_Major_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_2 is Women's Studies   or SIS_Major_2 is Women,Gender,Sex Studies   or SIS_Major_2 is Gender and Sexuality Studies   or SIS_Major_2 is English-20th & 21st Century St   or SIS_Major_2 is English-Composition & Rhetoric   or SIS_Major_2 is English-Composition Skills   or SIS_Major_2 is English-Contemporary Lit   or SIS_Major_2 is English-Creative Studies   or SIS_Major_2 is English-Teaching ESL   or SIS_Major_2 is English-Traditional Studies   or SIS_Major is Creative Writing   or SIS_Major is English   or SIS_Major is English Education   or SIS_Major is English-Creative Writing   or SIS_Major is Technical Writing   or SIS_Major is Women's,Gender,&Sexuality Stds   or SIS_Major is Women's Studies   or SIS_Major is Women,Gender,Sex Studies   or SIS_Major is Gender and Sexuality Studies   or SIS_Major is English-20th & 21st Century St   or SIS_Major is English-Composition & Rhetoric   or SIS_Major is English-Composition Skills   or SIS_Major is English-Contemporary Lit   or SIS_Major is English-Creative Studies   or SIS_Major is English-Teaching ESL   or SIS_Major is English-Traditional Studies   or SIS_Minor_1_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_1_2 is Women's Studies   or SIS_Minor_1_2 is Gender and Sexuality Studies   or SIS_Minor_2_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_2_2 is Women's Studies   or SIS_Minor_2_2 is Gender and Sexuality Studies   or SIS_Major_1_2 is Creative Writing   or SIS_Major_1_2 is English   or SIS_Major_1_2 is English Education   or SIS_Major_1_2 is English-Creative Writing   or SIS_Major_1_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_1_2 is Women's Studies   or SIS_Major_1_2 is Women,Gender,Sex Studies   or SIS_Major_1_2 is Gender and Sexuality Studies   or SIS_Major_1_2 is English-20th & 21st Century St   or SIS_Major_1_2 is English-Composition & Rhetoric   or SIS_Major_1_2 is English-Composition Skills   or SIS_Major_1_2 is English-Contemporary Lit   or SIS_Major_1_2 is English-Creative Studies   or SIS_Major_1_2 is English-Teaching ESL   or SIS_Major_1_2 is English-Traditional Studies   or SIS_Major_2_2 is Creative Writing   or SIS_Major_2_2 is English   or SIS_Major_2_2 is English Education   or SIS_Major_2_2 is English-Creative Writing   or SIS_Major_2_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_2_2 is Women's Studies   or SIS_Major_2_2 is Women,Gender,Sex Studies   or SIS_Major_2_2 is Gender and Sexuality Studies   or SIS_Major_2_2 is English-20th & 21st Century St   or SIS_Major_2_2 is English-Composition & Rhetoric   or SIS_Major_2_2 is English-Composition Skills   or SIS_Major_2_2 is English-Contemporary Lit   or SIS_Major_2_2 is English-Creative Studies   or SIS_Major_2_2 is English-Teaching ESL   or SIS_Major_2_2 is English-Traditional Studies",
+        "raw_text": "SIS_Minor_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_2 is Women's Studies   or SIS_Minor_2 is Gender and Sexuality Studies   or SIS_Minor is Women's,Gender,&Sexuality Stds   or SIS_Minor is Women's Studies   or SIS_Minor is Gender and Sexuality Studies   or SIS_Major_2 is Creative Writing   or SIS_Major_2 is English   or SIS_Major_2 is English Education   or SIS_Major_2 is English-Creative Writing   or SIS_Major_2 is Technical Writing   or SIS_Major_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_2 is Women's Studies   or SIS_Major_2 is Women,Gender,Sex Studies   or SIS_Major_2 is Gender and Sexuality Studies   or SIS_Major_2 is English-20th & 21st Century St   or SIS_Major_2 is English-Composition & Rhetoric   or SIS_Major_2 is English-Composition Skills   or SIS_Major_2 is English-Contemporary Lit   or SIS_Major_2 is English-Creative Studies   or SIS_Major_2 is English-Teaching ESL   or SIS_Major_2 is English-Traditional Studies   or SIS_Major is Creative Writing   or SIS_Major is English   or SIS_Major is English Education   or SIS_Major is English-Creative Writing   or SIS_Major is Technical Writing   or SIS_Major is Women's,Gender,&Sexuality Stds   or SIS_Major is Women's Studies   or SIS_Major is Women,Gender,Sex Studies   or SIS_Major is Gender and Sexuality Studies   or SIS_Major is English-20th & 21st Century St   or SIS_Major is English-Composition & Rhetoric   or SIS_Major is English-Composition Skills   or SIS_Major is English-Contemporary Lit   or SIS_Major is English-Creative Studies   or SIS_Major is English-Teaching ESL   or SIS_Major is English-Traditional Studies   or SIS_Minor_1_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_1_2 is Women's Studies   or SIS_Minor_1_2 is Gender and Sexuality Studies   or SIS_Minor_2_2 is Women's,Gender,&Sexuality Stds   or SIS_Minor_2_2 is Women's Studies   or SIS_Minor_2_2 is Gender and Sexuality Studies   or SIS_Major_1_2 is Creative Writing   or SIS_Major_1_2 is English   or SIS_Major_1_2 is English Education   or SIS_Major_1_2 is English-Creative Writing   or SIS_Major_1_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_1_2 is Women's Studies   or SIS_Major_1_2 is Women,Gender,Sex Studies   or SIS_Major_1_2 is Gender and Sexuality Studies   or SIS_Major_1_2 is English-20th & 21st Century St   or SIS_Major_1_2 is English-Composition & Rhetoric   or SIS_Major_1_2 is English-Composition Skills   or SIS_Major_1_2 is English-Contemporary Lit   or SIS_Major_1_2 is English-Creative Studies   or SIS_Major_1_2 is English-Teaching ESL   or SIS_Major_1_2 is English-Traditional Studies   or SIS_Major_2_2 is Creative Writing   or SIS_Major_2_2 is English   or SIS_Major_2_2 is English Education   or SIS_Major_2_2 is English-Creative Writing   or SIS_Major_2_2 is Women's,Gender,&Sexuality Stds   or SIS_Major_2_2 is Women's Studies   or SIS_Major_2_2 is Women,Gender,Sex Studies   or SIS_Major_2_2 is Gender and Sexuality Studies   or SIS_Major_2_2 is English-20th & 21st Century St   or SIS_Major_2_2 is English-Composition & Rhetoric   or SIS_Major_2_2 is English-Composition Skills   or SIS_Major_2_2 is English-Contemporary Lit   or SIS_Major_2_2 is English-Creative Studies   or SIS_Major_2_2 is English-Teaching ESL   or SIS_Major_2_2 is English-Traditional Studies",
+        "parsed_sis": {
+          "majors": [
+            "Creative Writing",
+            "English",
+            "English Education",
+            "English-20th & 21st Century St",
+            "English-Composition & Rhetoric",
+            "English-Composition Skills",
+            "English-Contemporary Lit",
+            "English-Creative Studies",
+            "English-Creative Writing",
+            "English-Teaching ESL",
+            "English-Traditional Studies",
+            "Gender and Sexuality Studies",
+            "Technical Writing",
+            "Women's Studies",
+            "Women's,Gender,&Sexuality Stds",
+            "Women,Gender,Sex Studies"
+          ],
+          "minors": [
+            "Gender and Sexuality Studies",
+            "Women's Studies",
+            "Women's,Gender,&Sexuality Stds"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Creative Writing, English, English Education, English-20th & 21st Century St, English-Composition & Rhetoric, English-Composition Skills, English-Contemporary Lit, English-Creative Studies, English-Creative Writing, English-Teaching ESL, English-Traditional Studies, Gender and Sexuality Studies, Technical Writing, Women's Studies, Women's,Gender,&Sexuality Stds, Women,Gender,Sex Studies | Minor: Gender and Sexuality Studies, Women's Studies, Women's,Gender,&Sexuality Stds",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 2
     }
   }
 }

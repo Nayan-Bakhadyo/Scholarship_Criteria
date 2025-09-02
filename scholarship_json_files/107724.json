@@ -13,60 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship is provided to a student who is an Oklahoma resident and who has committed to going to UCO and to being active in the Debate Program. Eligibility Requirements Attending UCO in fall Accepted in debate program Documents to prove success (tournaments, awards, competitions) Minimum 3.0 GPA Participated in debate program for 1 year Letter of Recommendation from high school debate coach",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 8,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "CLA_Debate-Participate = Yes",
-        "raw_text": "CLA_Debate-Participate = Yes"
-      },
-      {
-        "id": 2,
-        "type": "hours",
-        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
-        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "CLA_Debate_Team = Yes",
-        "raw_text": "CLA_Debate_Team = Yes"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Attachment:  \"CLA_Debate_Success\"",
-        "raw_text": "Complete Attachment:  \"CLA_Debate_Success\""
-      },
-      {
-        "id": 5,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "1 letters of recommendation: \"CLA_LOR_ Debate\"",
-        "raw_text": "1 letters of recommendation: \"CLA_LOR_ Debate\""
-      },
-      {
-        "id": 8,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -85,6 +31,74 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CLA_Debate-Participate = Yes",
+        "raw_text": "CLA_Debate-Participate = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CLA_Debate_Team = Yes",
+        "raw_text": "CLA_Debate_Team = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Attachment:  \"CLA_Debate_Success\"",
+        "raw_text": "Complete Attachment:  \"CLA_Debate_Success\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"CLA_LOR_ Debate\"",
+        "raw_text": "1 letters of recommendation: \"CLA_LOR_ Debate\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 8,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 6
     }
   }
 }

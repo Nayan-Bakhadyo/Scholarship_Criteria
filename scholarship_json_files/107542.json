@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship is available to UCO students who have received their undergraduate degree from UCO and are entering the Masters program to continue their education. Eligibility Requirements Must be enrolled in at least 6 hours; Must have a GPA of at least 3.0; Must be a graduate student or a graduating senior entering the graduate program in the upcoming fall semester at UCO.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Classification is Senior   or SIS_Level is Graduate",
-        "raw_text": "SIS_Classification is Senior   or SIS_Level is Graduate"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\""
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"ADV_Legacy_Essay_Community\"",
-        "raw_text": "Complete Essay \"ADV_Legacy_Essay_Community\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"ADV_AlumLegacy\"",
-        "raw_text": "Complete Essay \"ADV_AlumLegacy\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -75,6 +39,65 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Classification is Senior   or SIS_Level is Graduate",
+        "raw_text": "SIS_Classification is Senior   or SIS_Level is Graduate",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Senior"
+          ],
+          "gpa_requirements": [],
+          "other_sis": [
+            "SIS_Level is Graduate"
+          ]
+        },
+        "clean_description": "Classification: Senior",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Legacy_Essay_Community\"",
+        "raw_text": "Complete Essay \"ADV_Legacy_Essay_Community\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"ADV_AlumLegacy\"",
+        "raw_text": "Complete Essay \"ADV_AlumLegacy\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 1
     }
   }
 }

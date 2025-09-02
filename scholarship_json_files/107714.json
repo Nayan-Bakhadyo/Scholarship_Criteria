@@ -13,78 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in 1996 by the Tom and Marye Kate Aldridge Foundation in honor of Dr. Bob Palmer, renowned muralist and retired UCO professor of art. Eligibility Art or art education major Cumulative GPA 3.0+ Sophomore, junior, senior or graduate student Enrolled in 6 hours of art coursework Demonstrate financial need Requirements Personal artist statement (250 words) Official transcript",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 11,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "CFAD_Palmer_Degree = Yes",
-        "raw_text": "CFAD_Palmer_Degree = Yes"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "CFAD_Art_Course_Work = Yes",
-        "raw_text": "CFAD_Art_Course_Work = Yes"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
-        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 8,
-        "type": "major",
-        "description": "SIS_Major_2 is Art Education   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Art   or SIS_Major is Art Education   or SIS_Major is Art-Studio Art   or SIS_Major is Art   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Art   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Art",
-        "raw_text": "SIS_Major_2 is Art Education   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Art   or SIS_Major is Art Education   or SIS_Major is Art-Studio Art   or SIS_Major is Art   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Art   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Art"
-      },
-      {
-        "id": 9,
-        "type": "unknown",
-        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
-        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design"
-      },
-      {
-        "id": 10,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 11,
-        "type": "unknown",
-        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
-        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -103,6 +31,107 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 11,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CFAD_Palmer_Degree = Yes",
+        "raw_text": "CFAD_Palmer_Degree = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CFAD_Art_Course_Work = Yes",
+        "raw_text": "CFAD_Art_Course_Work = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 8,
+        "type": "major",
+        "description": "SIS_Major_2 is Art Education   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Art   or SIS_Major is Art Education   or SIS_Major is Art-Studio Art   or SIS_Major is Art   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Art   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Art",
+        "raw_text": "SIS_Major_2 is Art Education   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Art   or SIS_Major is Art Education   or SIS_Major is Art-Studio Art   or SIS_Major is Art   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Art   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Art",
+        "parsed_sis": {
+          "majors": [
+            "Art",
+            "Art Education",
+            "Art-Studio Art"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Art, Art Education, Art-Studio Art",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 10,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 11,
+        "type": "unknown",
+        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 11,
+      "banner_accessible": 3,
+      "application_required": 3,
+      "manual_review": 5
     }
   }
 }

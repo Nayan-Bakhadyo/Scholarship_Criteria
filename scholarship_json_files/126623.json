@@ -13,30 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in 2016 by David Hornbeek for the Tres Amigos. Scholarships are awarded to a student in the Jazz Studies program. Student must be full-time undergraduate of sophomore level and above or graduate student with a minimum 2.0+ GPA. Requirements AWARDED BY COMMITTEE NOMINATION. Nominated student(s) will be invited to apply by the college's scholarship coordinator",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 3,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "CFAD_Nomination_Required = Yes",
-        "raw_text": "CFAD_Nomination_Required = Yes"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_College is Fine Arts and Design",
-        "raw_text": "SIS_College is Fine Arts and Design"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -55,6 +31,39 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CFAD_Nomination_Required = Yes",
+        "raw_text": "CFAD_Nomination_Required = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 2
     }
   }
 }

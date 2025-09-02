@@ -13,78 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in 2007 by School of Music faculty member Dr. Lori Wooden to honor her first bassoon teacher, Jill Marderness, and provide assistance to students studying the bassoon. Eligibility Bassoon major Cumulative GPA 3.0+ Sophomore, junior, senior or graduate student Enrolled full time (12+ hours undergraduate, 9+ hours graduate) Requirements Personal Artist Statement (250 Words) Official Transcript Responsibilities Recipient required to participate in the UCO Symphony Orchestra and/or Wind Symphony, the Wind Chamber Music Program, and represent the School of Music at the spring audition days Recipient required to make a contribution to the community through outreach performances and presentations to area schools and organizations",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 11,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Fine Arts and Design",
-        "raw_text": "SIS_College is Fine Arts and Design"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "CFAD_Marderness_Outreach = Yes",
-        "raw_text": "CFAD_Marderness_Outreach = Yes"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "CFAD_Music_Program = Yes",
-        "raw_text": "CFAD_Music_Program = Yes"
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Personal_Statement \"",
-        "raw_text": "Complete Essay \"GEN_Personal_Statement \""
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 9,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 10,
-        "type": "unknown",
-        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
-        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes"
-      },
-      {
-        "id": 11,
-        "type": "major",
-        "description": "SIS_Major is Music   or SIS_Major is Music Education-Instrumental   or SIS_Major is Music Education-Vocal   or SIS_Major is Music-Collaborative Piano   or SIS_Major is Music-Composition   or SIS_Major is Music-Conducting   or SIS_Major is Music-Instrumental Performance   or SIS_Major is Music-Jazz Performance   or SIS_Major is Music-Music Education   or SIS_Major is Music-Musical Theatre   or SIS_Major is Music-Percussion Performance   or SIS_Major is Music-Piano Performance   or SIS_Major is Music-String Performance   or SIS_Major is Music-Vocal Pedagogy   or SIS_Major is Music-Vocal Performance   or SIS_Major is Music-Wind Performance   or SIS_Major is Music-Historical Performance   or SIS_Major is Music-Jazz Studies   or SIS_Major is Music-Music Theatre   or SIS_Major is Music-Percussion   or SIS_Major is Music-Performance   or SIS_Major is Music-Piano   or SIS_Major is Music-Piano Pedagogy   or SIS_Major is Music-Piano Perform & Pedagogy   or SIS_Major is Music-String   or SIS_Major is Music-Vocal   or SIS_Major is Music-Wind   or SIS_Major is Music Education-Music Educ",
-        "raw_text": "SIS_Major is Music   or SIS_Major is Music Education-Instrumental   or SIS_Major is Music Education-Vocal   or SIS_Major is Music-Collaborative Piano   or SIS_Major is Music-Composition   or SIS_Major is Music-Conducting   or SIS_Major is Music-Instrumental Performance   or SIS_Major is Music-Jazz Performance   or SIS_Major is Music-Music Education   or SIS_Major is Music-Musical Theatre   or SIS_Major is Music-Percussion Performance   or SIS_Major is Music-Piano Performance   or SIS_Major is Music-String Performance   or SIS_Major is Music-Vocal Pedagogy   or SIS_Major is Music-Vocal Performance   or SIS_Major is Music-Wind Performance   or SIS_Major is Music-Historical Performance   or SIS_Major is Music-Jazz Studies   or SIS_Major is Music-Music Theatre   or SIS_Major is Music-Percussion   or SIS_Major is Music-Performance   or SIS_Major is Music-Piano   or SIS_Major is Music-Piano Pedagogy   or SIS_Major is Music-Piano Perform & Pedagogy   or SIS_Major is Music-String   or SIS_Major is Music-Vocal   or SIS_Major is Music-Wind   or SIS_Major is Music Education-Music Educ"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -111,6 +39,132 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 11,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CFAD_Marderness_Outreach = Yes",
+        "raw_text": "CFAD_Marderness_Outreach = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CFAD_Music_Program = Yes",
+        "raw_text": "CFAD_Music_Program = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Personal_Statement \"",
+        "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 9,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 10,
+        "type": "unknown",
+        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 11,
+        "type": "major",
+        "description": "SIS_Major is Music   or SIS_Major is Music Education-Instrumental   or SIS_Major is Music Education-Vocal   or SIS_Major is Music-Collaborative Piano   or SIS_Major is Music-Composition   or SIS_Major is Music-Conducting   or SIS_Major is Music-Instrumental Performance   or SIS_Major is Music-Jazz Performance   or SIS_Major is Music-Music Education   or SIS_Major is Music-Musical Theatre   or SIS_Major is Music-Percussion Performance   or SIS_Major is Music-Piano Performance   or SIS_Major is Music-String Performance   or SIS_Major is Music-Vocal Pedagogy   or SIS_Major is Music-Vocal Performance   or SIS_Major is Music-Wind Performance   or SIS_Major is Music-Historical Performance   or SIS_Major is Music-Jazz Studies   or SIS_Major is Music-Music Theatre   or SIS_Major is Music-Percussion   or SIS_Major is Music-Performance   or SIS_Major is Music-Piano   or SIS_Major is Music-Piano Pedagogy   or SIS_Major is Music-Piano Perform & Pedagogy   or SIS_Major is Music-String   or SIS_Major is Music-Vocal   or SIS_Major is Music-Wind   or SIS_Major is Music Education-Music Educ",
+        "raw_text": "SIS_Major is Music   or SIS_Major is Music Education-Instrumental   or SIS_Major is Music Education-Vocal   or SIS_Major is Music-Collaborative Piano   or SIS_Major is Music-Composition   or SIS_Major is Music-Conducting   or SIS_Major is Music-Instrumental Performance   or SIS_Major is Music-Jazz Performance   or SIS_Major is Music-Music Education   or SIS_Major is Music-Musical Theatre   or SIS_Major is Music-Percussion Performance   or SIS_Major is Music-Piano Performance   or SIS_Major is Music-String Performance   or SIS_Major is Music-Vocal Pedagogy   or SIS_Major is Music-Vocal Performance   or SIS_Major is Music-Wind Performance   or SIS_Major is Music-Historical Performance   or SIS_Major is Music-Jazz Studies   or SIS_Major is Music-Music Theatre   or SIS_Major is Music-Percussion   or SIS_Major is Music-Performance   or SIS_Major is Music-Piano   or SIS_Major is Music-Piano Pedagogy   or SIS_Major is Music-Piano Perform & Pedagogy   or SIS_Major is Music-String   or SIS_Major is Music-Vocal   or SIS_Major is Music-Wind   or SIS_Major is Music Education-Music Educ",
+        "parsed_sis": {
+          "majors": [
+            "Music",
+            "Music Education-Instrumental",
+            "Music Education-Music Educ",
+            "Music Education-Vocal",
+            "Music-Collaborative Piano",
+            "Music-Composition",
+            "Music-Conducting",
+            "Music-Historical Performance",
+            "Music-Instrumental Performance",
+            "Music-Jazz Performance",
+            "Music-Jazz Studies",
+            "Music-Music Education",
+            "Music-Music Theatre",
+            "Music-Musical Theatre",
+            "Music-Percussion",
+            "Music-Percussion Performance",
+            "Music-Performance",
+            "Music-Piano",
+            "Music-Piano Pedagogy",
+            "Music-Piano Perform & Pedagogy",
+            "Music-Piano Performance",
+            "Music-String",
+            "Music-String Performance",
+            "Music-Vocal",
+            "Music-Vocal Pedagogy",
+            "Music-Vocal Performance",
+            "Music-Wind",
+            "Music-Wind Performance"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Music, Music Education-Instrumental, Music Education-Music Educ, Music Education-Vocal, Music-Collaborative Piano, Music-Composition, Music-Conducting, Music-Historical Performance, Music-Instrumental Performance, Music-Jazz Performance, Music-Jazz Studies, Music-Music Education, Music-Music Theatre, Music-Musical Theatre, Music-Percussion, Music-Percussion Performance, Music-Performance, Music-Piano, Music-Piano Pedagogy, Music-Piano Perform & Pedagogy, Music-Piano Performance, Music-String, Music-String Performance, Music-Vocal, Music-Vocal Pedagogy, Music-Vocal Performance, Music-Wind, Music-Wind Performance",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 11,
+      "banner_accessible": 3,
+      "application_required": 2,
+      "manual_review": 6
     }
   }
 }

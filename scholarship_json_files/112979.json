@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to a full time undergraduate or graduate student within the College of Education & Professional Studies who is a coaching assistant in football. Eligibility Requirements Pursuing a degree in the Department of Kinesiology and Health Studies Must be a full-time undergraduate or graduate student 2.5 GPA or higher No disciplinary or academic probation on record Committee will consider commitment to a career in football coaching, leadership qualities, moral, and character Financial needs considered Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate"
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major is Athletic Training   or SIS_Major is Public Health   or SIS_Major is Kinesiology-Ex/Fitness Mngt   or SIS_Major is Kinesiology-Outdoor & Comm Rec   or SIS_Major is Physical Education/Health   or SIS_Major is Wellness Mgmt-Exercise Science   or SIS_Major is Wellness Mgmt-Health Promotion   or SIS_Major is Kinesiology-Recreation Mngt   or SIS_Major is Community Health",
-        "raw_text": "SIS_Major is Athletic Training   or SIS_Major is Public Health   or SIS_Major is Kinesiology-Ex/Fitness Mngt   or SIS_Major is Kinesiology-Outdoor & Comm Rec   or SIS_Major is Physical Education/Health   or SIS_Major is Wellness Mgmt-Exercise Science   or SIS_Major is Wellness Mgmt-Health Promotion   or SIS_Major is Kinesiology-Recreation Mngt   or SIS_Major is Community Health"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -79,6 +31,85 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major is Athletic Training   or SIS_Major is Public Health   or SIS_Major is Kinesiology-Ex/Fitness Mngt   or SIS_Major is Kinesiology-Outdoor & Comm Rec   or SIS_Major is Physical Education/Health   or SIS_Major is Wellness Mgmt-Exercise Science   or SIS_Major is Wellness Mgmt-Health Promotion   or SIS_Major is Kinesiology-Recreation Mngt   or SIS_Major is Community Health",
+        "raw_text": "SIS_Major is Athletic Training   or SIS_Major is Public Health   or SIS_Major is Kinesiology-Ex/Fitness Mngt   or SIS_Major is Kinesiology-Outdoor & Comm Rec   or SIS_Major is Physical Education/Health   or SIS_Major is Wellness Mgmt-Exercise Science   or SIS_Major is Wellness Mgmt-Health Promotion   or SIS_Major is Kinesiology-Recreation Mngt   or SIS_Major is Community Health",
+        "parsed_sis": {
+          "majors": [
+            "Athletic Training",
+            "Community Health",
+            "Kinesiology-Ex/Fitness Mngt",
+            "Kinesiology-Outdoor & Comm Rec",
+            "Kinesiology-Recreation Mngt",
+            "Physical Education/Health",
+            "Public Health",
+            "Wellness Mgmt-Exercise Science",
+            "Wellness Mgmt-Health Promotion"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Athletic Training, Community Health, Kinesiology-Ex/Fitness Mngt, Kinesiology-Outdoor & Comm Rec, Kinesiology-Recreation Mngt, Physical Education/Health, Public Health, Wellness Mgmt-Exercise Science, Wellness Mgmt-Health Promotion",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 3,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

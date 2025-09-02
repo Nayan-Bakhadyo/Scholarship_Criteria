@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "The Dr. Cheng & Feng Research Scholarship is open to full-time students who are declared Management Information Systems majors with demonstrated research and leadership abilities. Eligibility Requirements Declared Management Information Systems majors Demonstrated research and leadership abilities Full-time students Selection Process Preference is given to students demonstrating active participation in undergraduate research",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 12.00",
-        "raw_text": "SIS_Enrolled HRS >= 12.00"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Research_Leadership\"",
-        "raw_text": "Complete Essay \"GEN_Research_Leadership\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major_2 is Info & Op Mngt-MIS   or SIS_Major_2 is Info&Op Mngt-MIS   or SIS_Major_2 is InfoSys&OpMgmt-MIS   or SIS_Major is Info & Op Mngt-MIS   or SIS_Major is Info&Op Mngt-MIS   or SIS_Major is InfoSys&OpMgmt-MIS   or SIS_Major_1_2 is Info & Op Mngt-MIS   or SIS_Major_1_2 is Info&Op Mngt-MIS   or SIS_Major_2_2 is Info & Op Mngt-MIS   or SIS_Major_2_2 is Info&Op Mngt-MIS   or SIS_Major_2_2 is InfoSys&OpMgmt-MIS",
-        "raw_text": "SIS_Major_2 is Info & Op Mngt-MIS   or SIS_Major_2 is Info&Op Mngt-MIS   or SIS_Major_2 is InfoSys&OpMgmt-MIS   or SIS_Major is Info & Op Mngt-MIS   or SIS_Major is Info&Op Mngt-MIS   or SIS_Major is InfoSys&OpMgmt-MIS   or SIS_Major_1_2 is Info & Op Mngt-MIS   or SIS_Major_1_2 is Info&Op Mngt-MIS   or SIS_Major_2_2 is Info & Op Mngt-MIS   or SIS_Major_2_2 is Info&Op Mngt-MIS   or SIS_Major_2_2 is InfoSys&OpMgmt-MIS"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -81,6 +39,72 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Research_Leadership\"",
+        "raw_text": "Complete Essay \"GEN_Research_Leadership\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major_2 is Info & Op Mngt-MIS   or SIS_Major_2 is Info&Op Mngt-MIS   or SIS_Major_2 is InfoSys&OpMgmt-MIS   or SIS_Major is Info & Op Mngt-MIS   or SIS_Major is Info&Op Mngt-MIS   or SIS_Major is InfoSys&OpMgmt-MIS   or SIS_Major_1_2 is Info & Op Mngt-MIS   or SIS_Major_1_2 is Info&Op Mngt-MIS   or SIS_Major_2_2 is Info & Op Mngt-MIS   or SIS_Major_2_2 is Info&Op Mngt-MIS   or SIS_Major_2_2 is InfoSys&OpMgmt-MIS",
+        "raw_text": "SIS_Major_2 is Info & Op Mngt-MIS   or SIS_Major_2 is Info&Op Mngt-MIS   or SIS_Major_2 is InfoSys&OpMgmt-MIS   or SIS_Major is Info & Op Mngt-MIS   or SIS_Major is Info&Op Mngt-MIS   or SIS_Major is InfoSys&OpMgmt-MIS   or SIS_Major_1_2 is Info & Op Mngt-MIS   or SIS_Major_1_2 is Info&Op Mngt-MIS   or SIS_Major_2_2 is Info & Op Mngt-MIS   or SIS_Major_2_2 is Info&Op Mngt-MIS   or SIS_Major_2_2 is InfoSys&OpMgmt-MIS",
+        "parsed_sis": {
+          "majors": [
+            "Info & Op Mngt-MIS",
+            "Info&Op Mngt-MIS",
+            "InfoSys&OpMgmt-MIS"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Info & Op Mngt-MIS, Info&Op Mngt-MIS, InfoSys&OpMgmt-MIS",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 4
     }
   }
 }

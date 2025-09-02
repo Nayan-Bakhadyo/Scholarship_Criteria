@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who are majoring in Physical Education/Health. The amount awarded and number of recipients for this scholarship will be determined by the amount available in the fund at the time of the selection. NOTE: Any student awarded this scholarship may, and must, reapply to receive the scholarship in subsequent years, thus making the scholarship unavailable to new applicants. For clarity, check with the KHS department chair. Eligibility Requirements Open to any junior, or senior standing in the year for which the scholarship is given Minimum 3.0 GPA Participation in significant campus activities Preference given to students from Oklahoma Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health",
-        "raw_text": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health"
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Essay \"CEPS_Campus_Organizations\"",
-        "raw_text": "Complete Essay \"CEPS_Campus_Organizations\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -87,6 +39,89 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior",
+            "Senior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior, Senior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health",
+        "raw_text": "SIS_Major is Physical Education/Health   or SIS_Major_1_2 is Physical Education/Health",
+        "parsed_sis": {
+          "majors": [
+            "Physical Education/Health"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Physical Education/Health",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Campus_Organizations\"",
+        "raw_text": "Complete Essay \"CEPS_Campus_Organizations\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 4,
+      "application_required": 1,
+      "manual_review": 2
     }
   }
 }

@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "The Carmen G. Craney Endowed Scholarship honors alum Carmen Craney, 01 Nursing, who returned to UCO to receive her nursing degree at 61. She firmly believes in hard work and pursuing ones dream through education. Carmen is thrilled to be able to provide this nursing scholarship to a deserving student at UCO and she is sure that whoever receives this scholarship will do their best, and they will find much satisfaction in their nursing career. Eligibility Requirements Undergraduate student Must be enrolled full-time Minimum of 2.5 GPA Must be a Nursing major Preference to a Junior or Senior Nursing student",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "CMS_Nursing_Program = Yes",
-        "raw_text": "CMS_Nursing_Program = Yes"
-      },
-      {
-        "id": 2,
-        "type": "major",
-        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
-        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing"
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -75,6 +39,76 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CMS_Nursing_Program = Yes",
+        "raw_text": "CMS_Nursing_Program = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
+        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
+        "parsed_sis": {
+          "majors": [
+            "Nursing"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Nursing",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Freshman",
+            "Junior",
+            "Senior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Freshman, Junior, Senior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 3,
+      "application_required": 0,
+      "manual_review": 2
     }
   }
 }

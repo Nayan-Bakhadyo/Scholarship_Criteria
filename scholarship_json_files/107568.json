@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who is preparing for a teaching career. Eligibility Requirements Student preparing for a teaching career Student doing their student teaching when scholarship is awarded Demonstrates high scholarship (Overall GPA, Content GPA, and PTE GPA will be used to determine) Demonstrates high moral character (participation in campus & community activities) Demonstrates financial need Must be enrolled in the required amount of hours in the upcoming fall and spring semesters in order to be eligible to receive this scholarship. Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Seniors graduating in December are eligible to receive full scholarship in their last semester Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "CEPS_Student_Teaching = Yes",
-        "raw_text": "CEPS_Student_Teaching = Yes"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"CEPS_McBurney_Scholarship\"",
-        "raw_text": "Complete Essay \"CEPS_McBurney_Scholarship\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -67,6 +31,53 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CEPS_Student_Teaching = Yes",
+        "raw_text": "CEPS_Student_Teaching = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_McBurney_Scholarship\"",
+        "raw_text": "Complete Essay \"CEPS_McBurney_Scholarship\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 1,
+      "application_required": 2,
+      "manual_review": 2
     }
   }
 }

@@ -13,60 +13,6 @@
     "renewable_years": 0
   },
   "description": "The Flotilla Real Estate Scholarship was created for Business majors with a minor in Real Estate. Eligibility Criteria Must be a Business major Must have a minor in Real Estate Must have a minimum 3.0 GPA Must have completed at least 60 hours Preference to a Junior or Senior This scholarship is available to apply for during the current UCO student application period.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 8,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_College is Business Administration",
-        "raw_text": "SIS_College is Business Administration"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Minor is Finance-Real Estate",
-        "raw_text": "SIS_Minor is Finance-Real Estate"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Minor_1_2 is Finance-Real Estate",
-        "raw_text": "SIS_Minor_1_2 is Finance-Real Estate"
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "SIS_Minor_2 is Finance-Real Estate",
-        "raw_text": "SIS_Minor_2 is Finance-Real Estate"
-      },
-      {
-        "id": 6,
-        "type": "unknown",
-        "description": "SIS_Minor_2_2 is Finance-Real Estate",
-        "raw_text": "SIS_Minor_2_2 is Finance-Real Estate"
-      },
-      {
-        "id": 7,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 8,
-        "type": "hours",
-        "description": "SIS_Overall_Hours >= 60.00",
-        "raw_text": "SIS_Overall_Hours >= 60.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -85,6 +31,114 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_College is Business Administration",
+        "raw_text": "SIS_College is Business Administration",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Minor is Finance-Real Estate",
+        "raw_text": "SIS_Minor is Finance-Real Estate",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [
+            "Finance-Real Estate"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Minor: Finance-Real Estate",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Minor_1_2 is Finance-Real Estate",
+        "raw_text": "SIS_Minor_1_2 is Finance-Real Estate",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [
+            "Finance-Real Estate"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Minor: Finance-Real Estate",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Minor_2 is Finance-Real Estate",
+        "raw_text": "SIS_Minor_2 is Finance-Real Estate",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [
+            "Finance-Real Estate"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Minor: Finance-Real Estate",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_Minor_2_2 is Finance-Real Estate",
+        "raw_text": "SIS_Minor_2_2 is Finance-Real Estate",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [
+            "Finance-Real Estate"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Minor: Finance-Real Estate",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 8,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 60.00",
+        "raw_text": "SIS_Overall_Hours >= 60.00",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 8,
+      "banner_accessible": 6,
+      "application_required": 0,
+      "manual_review": 2
     }
   }
 }

@@ -13,36 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to undergraduate students within the College of Education & Professional Studies who are majoring in Math Education, Science Education or Special Education. Eligibility Requirements Must be a UCO student studying to be a Math, Science or Special Education teacher. Must be admitted to the teacher education program at UCO. Must maintain an overall GPA of 3.0 or higher Award Requirements Must be enrolled in the upcoming fall and/or spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 4,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "CEPS_TE = Yes",
-        "raw_text": "CEPS_TE = Yes"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies   or SIS_College is Mathematics and Science   or SIS_College is College of Math and Science   or SIS_College is Mathematics and Science",
-        "raw_text": "SIS_College is Education and Prof Studies   or SIS_College is Mathematics and Science   or SIS_College is College of Math and Science   or SIS_College is Mathematics and Science"
-      },
-      {
-        "id": 4,
-        "type": "major",
-        "description": "SIS_Major is Applied Math Science-Teaching   or SIS_Major is Mathematics Education   or SIS_Major is Science Ed-Biology   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Science Ed-General Science   or SIS_Major is Science Ed-Physics   or SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Special Education   or SIS_Major is Science Ed-Secondary Sci Ed   or SIS_Major is Science Ed-Physical Science",
-        "raw_text": "SIS_Major is Applied Math Science-Teaching   or SIS_Major is Mathematics Education   or SIS_Major is Science Ed-Biology   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Science Ed-General Science   or SIS_Major is Science Ed-Physics   or SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Special Education   or SIS_Major is Science Ed-Secondary Sci Ed   or SIS_Major is Science Ed-Physical Science"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -61,6 +31,65 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CEPS_TE = Yes",
+        "raw_text": "CEPS_TE = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies   or SIS_College is Mathematics and Science   or SIS_College is College of Math and Science   or SIS_College is Mathematics and Science",
+        "raw_text": "SIS_College is Education and Prof Studies   or SIS_College is Mathematics and Science   or SIS_College is College of Math and Science   or SIS_College is Mathematics and Science",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major is Applied Math Science-Teaching   or SIS_Major is Mathematics Education   or SIS_Major is Science Ed-Biology   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Science Ed-General Science   or SIS_Major is Science Ed-Physics   or SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Special Education   or SIS_Major is Science Ed-Secondary Sci Ed   or SIS_Major is Science Ed-Physical Science",
+        "raw_text": "SIS_Major is Applied Math Science-Teaching   or SIS_Major is Mathematics Education   or SIS_Major is Science Ed-Biology   or SIS_Major is Science Ed-Chemistry   or SIS_Major is Science Ed-General Science   or SIS_Major is Science Ed-Physics   or SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Special Education   or SIS_Major is Science Ed-Secondary Sci Ed   or SIS_Major is Science Ed-Physical Science",
+        "parsed_sis": {
+          "majors": [
+            "Applied Math Science-Teaching",
+            "Mathematics Education",
+            "Science Ed-Biology",
+            "Science Ed-Chemistry",
+            "Science Ed-General Science",
+            "Science Ed-Physical Science",
+            "Science Ed-Physics",
+            "Science Ed-Secondary Sci Ed",
+            "Spec Ed-Mild/Mod Disabilities",
+            "Special Education"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Applied Math Science-Teaching, Mathematics Education, Science Ed-Biology, Science Ed-Chemistry, Science Ed-General Science, Science Ed-Physical Science, Science Ed-Physics, Science Ed-Secondary Sci Ed, Spec Ed-Mild/Mod Disabilities, Special Education",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 3,
+      "application_required": 0,
+      "manual_review": 1
     }
   }
 }

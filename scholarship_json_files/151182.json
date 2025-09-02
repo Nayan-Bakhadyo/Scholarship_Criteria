@@ -13,30 +13,6 @@
     "renewable_years": 0
   },
   "description": "Viola Straw became an LPN through OJT in the mid-late 1940s and was grandfathered into LPN licensure when Vocational Education became the requirement for LPN licensure. When her daughter chose to pursue nursing, Viola Straw insisted her daughter complete a BS program for licensure as an RN which she did in 1975 at Central State University. Both recognized the effort required to make education a priority for career in nursing. To this end, this scholarship is designed to assist those seeking a BS nursing education. The recipient(s) of the Straw Family Endowed Scholarship in Nursing will be selected by a committee appointed by the Dean of the College of Mathematics and Science and will include representatives from the Department of Nursing. The recipient(s) will be selected in the spring for distribution the following fall and/or spring semesters. Eligibility Requirements First preference given to a Licensed Practical Nurse pursuing a B.S. in Nursing Second preference given to a R.N. returning for a B.S. in Nursing If first or second preference are unavailable, a junior or senior level Nursing student Minimum of 3.0 GPA Demonstrate financial need",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 3,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "major",
-        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
-        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 4,
@@ -84,6 +60,49 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
+        "raw_text": "SIS_Major_2 is Nursing   or SIS_Major is Nursing   or SIS_Major_1_2 is Nursing   or SIS_Major_2_2 is Nursing",
+        "parsed_sis": {
+          "majors": [
+            "Nursing"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Nursing",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 2,
+      "application_required": 0,
+      "manual_review": 1
     }
   }
 }

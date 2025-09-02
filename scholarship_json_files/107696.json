@@ -13,102 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in 2005 by Mr. Keith Webb, program director of the UCO Illustration Minor, to provide scholarship assistance to students with an emphasis in illustration. Eligibility Graphic design major with minor in illustration OR graduate student pursuing MFA in design Major GPA 3.0+ and cumulative GPA 3.0+ Sophomore, junior, senior or graduate student Enrolled in 9+ hours of design courses (undergraduate) OR 6+ hours of design courses (graduates) Requirements 5-10 images of your artwork Additional essay (250 words for undergraduates, 500 words for graduates) answering the questions: What is the most fulfilling aspect of your life as an artist? What influenced you to pursue art and what are your career objectives? One faculty letter of recommendation Personal artist statement (250 words) Official transcript",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 15,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Merit_Essay\"",
-        "raw_text": "Complete Essay \"CFAD_Merit_Essay\""
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "CFAD_Design_Coursework = Yes",
-        "raw_text": "CFAD_Design_Coursework = Yes"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample1\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample1\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample2\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample2\""
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample3\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample3\""
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample4\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample4\""
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample5\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample5\""
-      },
-      {
-        "id": 9,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 10,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
-        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
-      },
-      {
-        "id": 11,
-        "type": "major",
-        "description": "SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design",
-        "raw_text": "SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design"
-      },
-      {
-        "id": 12,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 13,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 14,
-        "type": "unknown",
-        "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\""
-      },
-      {
-        "id": 15,
-        "type": "unknown",
-        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
-        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 9,
@@ -191,6 +95,134 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 15,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Merit_Essay\"",
+        "raw_text": "Complete Essay \"CFAD_Merit_Essay\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CFAD_Design_Coursework = Yes",
+        "raw_text": "CFAD_Design_Coursework = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample1\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample1\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample2\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample2\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample3\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample3\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample4\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample4\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample5\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample5\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 10,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 11,
+        "type": "major",
+        "description": "SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design",
+        "raw_text": "SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design",
+        "parsed_sis": {
+          "majors": [
+            "Design",
+            "Design-Graphic Design"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Design, Design-Graphic Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 12,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 13,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 14,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 15,
+        "type": "unknown",
+        "description": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "raw_text": "CFAD_Class_So_Jr_Sr_Grad = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 15,
+      "banner_accessible": 2,
+      "application_required": 8,
+      "manual_review": 5
     }
   }
 }

@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to students within the College of Education & Professional Studies who are majoring in Occupational Safety. Eligibility Requirements Must be enrolled full-time in the Occupational Safety program at UCO Must provide a short statement demonstrating how you give back to your community via non-profit and safety community organizations, please also share what receiving this scholarship means to you and how it will impact your life Preference will be given to applicants who provide a letter of recommendation from a non-profit or safety organization Preference will be given to ASSP student member and National Safety Council student member applicants Selection Process Recipient will be selected by committee appointed by the Dean of the College of Education and Professional Studies and will include representatives from the Department of Adult Education and Safety Sciences Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "major",
-        "description": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety",
-        "raw_text": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"CEPS_William C. Young Occ. Safety\"",
-        "raw_text": "Complete Essay \"CEPS_William C. Young Occ. Safety\""
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 12.00",
-        "raw_text": "SIS_Enrolled HRS >= 12.00"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "unknown",
-        "description": "1 letters of recommendation: \"GEN_LOR_Off_Campus\"",
-        "raw_text": "1 letters of recommendation: \"GEN_LOR_Off_Campus\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -73,6 +31,71 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety",
+        "raw_text": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety",
+        "parsed_sis": {
+          "majors": [
+            "Industrial Safety",
+            "Occupational Safety"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Industrial Safety, Occupational Safety",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_William C. Young Occ. Safety\"",
+        "raw_text": "Complete Essay \"CEPS_William C. Young Occ. Safety\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"GEN_LOR_Off_Campus\"",
+        "raw_text": "1 letters of recommendation: \"GEN_LOR_Off_Campus\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

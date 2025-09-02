@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was created in 2019 by Andrew and Marilyn Macaulay to provide assistance to a College of Fine Arts and Design undergraduate student who is working to pay for college. Preference is given to art and design majors. Recipients must have a minimum 2.5 cumulative retention GPA and be working a minimum of 15 hours per week. Eligibility College of Fine Arts and Design major Preference given to art and design majors Requirements Minimum cumulative retention GPA of 2.5 Working a minimum of 15 hours per week",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "CFAD_Working_HRS = Yes",
-        "raw_text": "CFAD_Working_HRS = Yes"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_College is Fine Arts and Design",
-        "raw_text": "SIS_College is Fine Arts and Design"
-      },
-      {
-        "id": 4,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major_2 is Art Education   or SIS_Major_2 is Arts Administration   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major_2 is Design-Interior Design   or SIS_Major_2 is Design History   or SIS_Major_2 is Design-Illustration   or SIS_Major_2 is Art   or SIS_Major_2 is Art-Global Art & Visual Cultur   or SIS_Major is Art Education   or SIS_Major is Arts Administration   or SIS_Major is Arts Entrepreneurship   or SIS_Major is Art-Studio Art   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major is Design-Interior Design   or SIS_Major is Design History   or SIS_Major is Design-Illustration   or SIS_Major is Art   or SIS_Major is Art History   or SIS_Major is Art Therapy   or SIS_Major is Art-Global Art & Visual Cultur   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Arts Administration   or SIS_Major_1_2 is Arts Entrepreneurship   or SIS_Major_1_2 is Art-Studio Art   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_1_2 is Design-Interior Design   or SIS_Major_1_2 is Design History   or SIS_Major_1_2 is Design-Illustration   or SIS_Major_1_2 is Art   or SIS_Major_1_2 is Art History   or SIS_Major_1_2 is Art Therapy   or SIS_Major_1_2 is Art-Global Art & Visual Cultur   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Arts Administration   or SIS_Major_2_2 is Arts Entrepreneurship   or SIS_Major_2_2 is Art-Studio Art   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design   or SIS_Major_2_2 is Design-Interior Design   or SIS_Major_2_2 is Design History   or SIS_Major_2_2 is Design-Illustration   or SIS_Major_2_2 is Art   or SIS_Major_2_2 is Art History   or SIS_Major_2_2 is Art Therapy   or SIS_Major_2_2 is Art-Art History   or SIS_Major_2_2 is Art-Global Art & Visual Cultur",
-        "raw_text": "SIS_Major_2 is Art Education   or SIS_Major_2 is Arts Administration   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major_2 is Design-Interior Design   or SIS_Major_2 is Design History   or SIS_Major_2 is Design-Illustration   or SIS_Major_2 is Art   or SIS_Major_2 is Art-Global Art & Visual Cultur   or SIS_Major is Art Education   or SIS_Major is Arts Administration   or SIS_Major is Arts Entrepreneurship   or SIS_Major is Art-Studio Art   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major is Design-Interior Design   or SIS_Major is Design History   or SIS_Major is Design-Illustration   or SIS_Major is Art   or SIS_Major is Art History   or SIS_Major is Art Therapy   or SIS_Major is Art-Global Art & Visual Cultur   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Arts Administration   or SIS_Major_1_2 is Arts Entrepreneurship   or SIS_Major_1_2 is Art-Studio Art   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_1_2 is Design-Interior Design   or SIS_Major_1_2 is Design History   or SIS_Major_1_2 is Design-Illustration   or SIS_Major_1_2 is Art   or SIS_Major_1_2 is Art History   or SIS_Major_1_2 is Art Therapy   or SIS_Major_1_2 is Art-Global Art & Visual Cultur   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Arts Administration   or SIS_Major_2_2 is Arts Entrepreneurship   or SIS_Major_2_2 is Art-Studio Art   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design   or SIS_Major_2_2 is Design-Interior Design   or SIS_Major_2_2 is Design History   or SIS_Major_2_2 is Design-Illustration   or SIS_Major_2_2 is Art   or SIS_Major_2_2 is Art History   or SIS_Major_2_2 is Art Therapy   or SIS_Major_2_2 is Art-Art History   or SIS_Major_2_2 is Art-Global Art & Visual Cultur"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -81,6 +39,83 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CFAD_Working_HRS = Yes",
+        "raw_text": "CFAD_Working_HRS = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Art Education   or SIS_Major_2 is Arts Administration   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major_2 is Design-Interior Design   or SIS_Major_2 is Design History   or SIS_Major_2 is Design-Illustration   or SIS_Major_2 is Art   or SIS_Major_2 is Art-Global Art & Visual Cultur   or SIS_Major is Art Education   or SIS_Major is Arts Administration   or SIS_Major is Arts Entrepreneurship   or SIS_Major is Art-Studio Art   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major is Design-Interior Design   or SIS_Major is Design History   or SIS_Major is Design-Illustration   or SIS_Major is Art   or SIS_Major is Art History   or SIS_Major is Art Therapy   or SIS_Major is Art-Global Art & Visual Cultur   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Arts Administration   or SIS_Major_1_2 is Arts Entrepreneurship   or SIS_Major_1_2 is Art-Studio Art   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_1_2 is Design-Interior Design   or SIS_Major_1_2 is Design History   or SIS_Major_1_2 is Design-Illustration   or SIS_Major_1_2 is Art   or SIS_Major_1_2 is Art History   or SIS_Major_1_2 is Art Therapy   or SIS_Major_1_2 is Art-Global Art & Visual Cultur   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Arts Administration   or SIS_Major_2_2 is Arts Entrepreneurship   or SIS_Major_2_2 is Art-Studio Art   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design   or SIS_Major_2_2 is Design-Interior Design   or SIS_Major_2_2 is Design History   or SIS_Major_2_2 is Design-Illustration   or SIS_Major_2_2 is Art   or SIS_Major_2_2 is Art History   or SIS_Major_2_2 is Art Therapy   or SIS_Major_2_2 is Art-Art History   or SIS_Major_2_2 is Art-Global Art & Visual Cultur",
+        "raw_text": "SIS_Major_2 is Art Education   or SIS_Major_2 is Arts Administration   or SIS_Major_2 is Art-Studio Art   or SIS_Major_2 is Design   or SIS_Major_2 is Design-Graphic Design   or SIS_Major_2 is Design-Interior Design   or SIS_Major_2 is Design History   or SIS_Major_2 is Design-Illustration   or SIS_Major_2 is Art   or SIS_Major_2 is Art-Global Art & Visual Cultur   or SIS_Major is Art Education   or SIS_Major is Arts Administration   or SIS_Major is Arts Entrepreneurship   or SIS_Major is Art-Studio Art   or SIS_Major is Design   or SIS_Major is Design-Graphic Design   or SIS_Major is Design-Interior Design   or SIS_Major is Design History   or SIS_Major is Design-Illustration   or SIS_Major is Art   or SIS_Major is Art History   or SIS_Major is Art Therapy   or SIS_Major is Art-Global Art & Visual Cultur   or SIS_Major_1_2 is Art Education   or SIS_Major_1_2 is Arts Administration   or SIS_Major_1_2 is Arts Entrepreneurship   or SIS_Major_1_2 is Art-Studio Art   or SIS_Major_1_2 is Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_1_2 is Design-Interior Design   or SIS_Major_1_2 is Design History   or SIS_Major_1_2 is Design-Illustration   or SIS_Major_1_2 is Art   or SIS_Major_1_2 is Art History   or SIS_Major_1_2 is Art Therapy   or SIS_Major_1_2 is Art-Global Art & Visual Cultur   or SIS_Major_2_2 is Art Education   or SIS_Major_2_2 is Arts Administration   or SIS_Major_2_2 is Arts Entrepreneurship   or SIS_Major_2_2 is Art-Studio Art   or SIS_Major_2_2 is Design   or SIS_Major_2_2 is Design-Graphic Design   or SIS_Major_2_2 is Design-Interior Design   or SIS_Major_2_2 is Design History   or SIS_Major_2_2 is Design-Illustration   or SIS_Major_2_2 is Art   or SIS_Major_2_2 is Art History   or SIS_Major_2_2 is Art Therapy   or SIS_Major_2_2 is Art-Art History   or SIS_Major_2_2 is Art-Global Art & Visual Cultur",
+        "parsed_sis": {
+          "majors": [
+            "Art",
+            "Art Education",
+            "Art History",
+            "Art Therapy",
+            "Art-Art History",
+            "Art-Global Art & Visual Cultur",
+            "Art-Studio Art",
+            "Arts Administration",
+            "Arts Entrepreneurship",
+            "Design",
+            "Design History",
+            "Design-Graphic Design",
+            "Design-Illustration",
+            "Design-Interior Design"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Art, Art Education, Art History, Art Therapy, Art-Art History, Art-Global Art & Visual Cultur, Art-Studio Art, Arts Administration, Arts Entrepreneurship, Design, Design History, Design-Graphic Design, Design-Illustration, Design-Interior Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 3,
+      "application_required": 0,
+      "manual_review": 3
     }
   }
 }

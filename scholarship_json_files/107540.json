@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "To provide scholarships to UCO students. Eligibility Requirements Must be a Piedmont High School (Oklahoma) graduate. Must have a GPA of at least 2.5; Must have completed at least 12 hours at UCO; Must agree to be enrolled in 6 hours or more in the upcoming fall and spring semesters. UCO faculty member letter of recommendation. List all UCO activities and offices held in each organization, if any. Are you financially responsible for the majority of your living and school expenses and need financial assistance to help fund your college education? Provide a list of all loans, grants, or scholarship you have or will receive this academic school year. Provide a letter explaining your background and what influenced your career choice, special circumstances that would make you worthy of this scholarship. This scholarship is available to apply for during the Current UCO Student Application.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "hours",
-        "description": "SIS_UCO_Completed_Hours >= 12.00",
-        "raw_text": "SIS_UCO_Completed_Hours >= 12.00"
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"ADV_Every_Career_Choice\"",
-        "raw_text": "Complete Essay \"ADV_Every_Career_Choice\""
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"ADV_Gage_Financial_Details1\"",
-        "raw_text": "Complete Essay \"ADV_Gage_Financial_Details1\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 6.00",
-        "raw_text": "SIS_Enrolled HRS >= 6.00"
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "SIS_High_School_Name is Piedmont High School",
-        "raw_text": "SIS_High_School_Name is Piedmont High School"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -87,6 +39,67 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 12.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 12.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Every_Career_Choice\"",
+        "raw_text": "Complete Essay \"ADV_Every_Career_Choice\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"ADV_Gage_Financial_Details1\"",
+        "raw_text": "Complete Essay \"ADV_Gage_Financial_Details1\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 6.00",
+        "raw_text": "SIS_Enrolled HRS >= 6.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "SIS_High_School_Name is Piedmont High School",
+        "raw_text": "SIS_High_School_Name is Piedmont High School",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 1,
+      "application_required": 2,
+      "manual_review": 4
     }
   }
 }

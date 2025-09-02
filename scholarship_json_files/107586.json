@@ -13,66 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Education & Professional Studies majoring in Elementary Education or Early Childhood Education. Eligibility Requirements Pursuing undergraduate degree in Elementary Education or Early Childhood Education Must be sophomore classification or above at the time scholarship is awarded 3.0 GPA or higher Provide two letters of recommendation from faculty or a community member U.S. Citizen Oklahoma resident Demonstrate financial need Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 9,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior"
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "GEN_OK Resident = Yes",
-        "raw_text": "GEN_OK Resident = Yes"
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_2_2 is Early Childhood Education   or SIS_Major_2_2 is Elementary Education",
-        "raw_text": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_2_2 is Early Childhood Education   or SIS_Major_2_2 is Elementary Education"
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 8,
-        "type": "unknown",
-        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\""
-      },
-      {
-        "id": 9,
-        "type": "citizenship",
-        "description": "SIS_USCitizen = Yes",
-        "raw_text": "SIS_USCitizen = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -91,6 +31,104 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior",
+            "Senior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior, Senior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "GEN_OK Resident = Yes",
+        "raw_text": "GEN_OK Resident = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_2_2 is Early Childhood Education   or SIS_Major_2_2 is Elementary Education",
+        "raw_text": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_2_2 is Early Childhood Education   or SIS_Major_2_2 is Elementary Education",
+        "parsed_sis": {
+          "majors": [
+            "Early Childhood Education",
+            "Elementary Education"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Early Childhood Education, Elementary Education",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 9,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 9,
+      "banner_accessible": 3,
+      "application_required": 1,
+      "manual_review": 5
     }
   }
 }

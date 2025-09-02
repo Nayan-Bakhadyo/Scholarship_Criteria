@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "The recipient(s) of the Charles C. Estes Photography Scholarship must meet the following criteria: Complete application and transcript Declared minor or major in Photography Minimum 3.0 GPA Enrolled in 12 credit hours Active in Mass Communications activities--and/or Photography Club Essay of 250 words describing how you became interested in photography along with any plans for using photography in a future career. Preference given to a student awarded the prior year if they continue to meet the scholarship criteria",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 2,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"CLA_Estes_Essay\"",
-        "raw_text": "Complete Essay \"CLA_Estes_Essay\""
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Minor is Mass Comm-Photographic Arts   or SIS_Minor is Photographic Arts   or SIS_Minor is Journalism-Photographic Arts   or SIS_Major is Photographic Arts   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Journalism-Photographic Arts   or SIS_Major is Art-Photographic Arts",
-        "raw_text": "SIS_Minor is Mass Comm-Photographic Arts   or SIS_Minor is Photographic Arts   or SIS_Minor is Journalism-Photographic Arts   or SIS_Major is Photographic Arts   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Journalism-Photographic Arts   or SIS_Major is Art-Photographic Arts"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -81,6 +39,77 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 2,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CLA_Estes_Essay\"",
+        "raw_text": "Complete Essay \"CLA_Estes_Essay\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Minor is Mass Comm-Photographic Arts   or SIS_Minor is Photographic Arts   or SIS_Minor is Journalism-Photographic Arts   or SIS_Major is Photographic Arts   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Journalism-Photographic Arts   or SIS_Major is Art-Photographic Arts",
+        "raw_text": "SIS_Minor is Mass Comm-Photographic Arts   or SIS_Minor is Photographic Arts   or SIS_Minor is Journalism-Photographic Arts   or SIS_Major is Photographic Arts   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Journalism-Photographic Arts   or SIS_Major is Art-Photographic Arts",
+        "parsed_sis": {
+          "majors": [
+            "Art-Photographic Arts",
+            "Journalism-Photographic Arts",
+            "Mass Comm-Photographic Arts",
+            "Photographic Arts"
+          ],
+          "minors": [
+            "Journalism-Photographic Arts",
+            "Mass Comm-Photographic Arts",
+            "Photographic Arts"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Art-Photographic Arts, Journalism-Photographic Arts, Mass Comm-Photographic Arts, Photographic Arts | Minor: Journalism-Photographic Arts, Mass Comm-Photographic Arts, Photographic Arts",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 2
     }
   }
 }

@@ -13,66 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established by alumni and faculty of the Mass Communication Department, honoring Dr. Jack Deskin, who was instrumental in establishing the Broadcasting program at UCO. He was involved with UCO for more than three decades as a professor, Director of Academic Broadcasting, and Chair of the Communication Department. The scholarship awards a student studying Professional Media who displays excellence in the study of broadcasting. Eligibility Requirements Professional Media Major Junior or Senior in the fall that the scholarship is awarded Minimum 3.0 GPA Must be a full-time student Active in Mass Communication activities",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 9,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "hours",
-        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
-        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "GEN_Activities = Yes",
-        "raw_text": "GEN_Activities = Yes"
-      },
-      {
-        "id": 3,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"CLA_MCOMM_Activities\"",
-        "raw_text": "Complete Essay \"CLA_MCOMM_Activities\""
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major_2 is Mass Comm-Professional Media   or SIS_Major is Mass Comm-Professional Media   or SIS_Major_1_2 is Mass Comm-Professional Media   or SIS_Major_2_2 is Mass Comm-Professional Media",
-        "raw_text": "SIS_Major_2 is Mass Comm-Professional Media   or SIS_Major is Mass Comm-Professional Media   or SIS_Major_1_2 is Mass Comm-Professional Media   or SIS_Major_2_2 is Mass Comm-Professional Media"
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 8,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 9,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -99,6 +39,102 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "GEN_Activities = Yes",
+        "raw_text": "GEN_Activities = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior",
+            "Senior"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior, Senior",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CLA_MCOMM_Activities\"",
+        "raw_text": "Complete Essay \"CLA_MCOMM_Activities\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major_2 is Mass Comm-Professional Media   or SIS_Major is Mass Comm-Professional Media   or SIS_Major_1_2 is Mass Comm-Professional Media   or SIS_Major_2_2 is Mass Comm-Professional Media",
+        "raw_text": "SIS_Major_2 is Mass Comm-Professional Media   or SIS_Major is Mass Comm-Professional Media   or SIS_Major_1_2 is Mass Comm-Professional Media   or SIS_Major_2_2 is Mass Comm-Professional Media",
+        "parsed_sis": {
+          "majors": [
+            "Mass Comm-Professional Media"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Mass Comm-Professional Media",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 9,
+      "banner_accessible": 3,
+      "application_required": 1,
+      "manual_review": 5
     }
   }
 }

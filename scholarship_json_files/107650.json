@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in 2007 by Dr. Tess Remy-Schumacher and David Morris in honor of their parents Drs. Susanne and Horst Remy, and Mr. and Mrs. Marjorie and David Morris, Sr. for outstanding students enrolling in applied cello or applied strings, and orchestra. Eligibility Incoming Freshman and Transfer Students are eligible to apply. Student pursuing a degree in Music with preference given to a student studying strings. Preference given to a student who has been verified through FAFSA as a \"Former Ward of the Court\". Preference given to previous recipients. Requirements Personal artist statement (250 words) Official transcript",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_College is Fine Arts and Design",
-        "raw_text": "SIS_College is Fine Arts and Design"
-      },
-      {
-        "id": 3,
-        "type": "major",
-        "description": "SIS_Major_2 is Music   or SIS_Major_2 is Music Education-Instrumental   or SIS_Major_2 is Music Education-Vocal   or SIS_Major_2 is Music-Collaborative Piano   or SIS_Major_2 is Music-Composition   or SIS_Major_2 is Music-Conducting   or SIS_Major_2 is Music-Instrumental Performance   or SIS_Major_2 is Music-Jazz Performance   or SIS_Major_2 is Music-Music Education   or SIS_Major_2 is Music-Musical Theatre   or SIS_Major_2 is Music-Percussion Performance   or SIS_Major_2 is Music-Piano Performance   or SIS_Major_2 is Music-String Performance   or SIS_Major_2 is Music-Vocal Pedagogy   or SIS_Major_2 is Music-Vocal Performance   or SIS_Major_2 is Music-Wind Performance   or SIS_Major_2 is Music-Historical Performance   or SIS_Major_2 is Music-Jazz Studies   or SIS_Major_2 is Music-Music Theatre   or SIS_Major_2 is Music-Percussion   or SIS_Major_2 is Music-Performance   or SIS_Major_2 is Music-Piano   or SIS_Major_2 is Music-Piano Pedagogy   or SIS_Major_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2 is Music-String   or SIS_Major_2 is Music-Vocal   or SIS_Major_2 is Music-Wind   or SIS_Major_2 is Music-Pedagogy   or SIS_Major_2 is Music Education-Music Educ   or SIS_Major is Music   or SIS_Major is Music Education-Instrumental   or SIS_Major is Music Education-Vocal   or SIS_Major is Music-Collaborative Piano   or SIS_Major is Music-Composition   or SIS_Major is Music-Conducting   or SIS_Major is Music-Instrumental Performance   or SIS_Major is Music-Jazz Performance   or SIS_Major is Music-Music Education   or SIS_Major is Music-Musical Theatre   or SIS_Major is Music-Percussion Performance   or SIS_Major is Music-Piano Performance   or SIS_Major is Music-String Performance   or SIS_Major is Music-Vocal Pedagogy   or SIS_Major is Music-Vocal Performance   or SIS_Major is Music-Wind Performance   or SIS_Major is Music-Historical Performance   or SIS_Major is Music-Jazz Studies   or SIS_Major is Music-Music Theatre   or SIS_Major is Music-Percussion   or SIS_Major is Music-Performance   or SIS_Major is Music-Piano   or SIS_Major is Music-Piano Pedagogy   or SIS_Major is Music-Piano Perform & Pedagogy   or SIS_Major is Music-String   or SIS_Major is Music-Vocal   or SIS_Major is Music-Wind   or SIS_Major is Music-Pedagogy   or SIS_Major is Music Education-Music Educ   or SIS_Major_1_2 is Music   or SIS_Major_1_2 is Music Education-Instrumental   or SIS_Major_1_2 is Music Education-Vocal   or SIS_Major_1_2 is Music-Collaborative Piano   or SIS_Major_1_2 is Music-Composition   or SIS_Major_1_2 is Music-Conducting   or SIS_Major_1_2 is Music-Instrumental Performance   or SIS_Major_1_2 is Music-Jazz Performance   or SIS_Major_1_2 is Music-Music Education   or SIS_Major_1_2 is Music-Musical Theatre   or SIS_Major_1_2 is Music-Percussion Performance   or SIS_Major_1_2 is Music-Piano Performance   or SIS_Major_1_2 is Music-String Performance   or SIS_Major_1_2 is Music-Vocal Pedagogy   or SIS_Major_1_2 is Music-Vocal Performance   or SIS_Major_1_2 is Music-Wind Performance   or SIS_Major_1_2 is Music-Historical Performance   or SIS_Major_1_2 is Music-Jazz Studies   or SIS_Major_1_2 is Music-Music Theatre   or SIS_Major_1_2 is Music-Percussion   or SIS_Major_1_2 is Music-Performance   or SIS_Major_1_2 is Music-Piano   or SIS_Major_1_2 is Music-Piano Pedagogy   or SIS_Major_1_2 is Music-Piano Perform & Pedagogy   or SIS_Major_1_2 is Music-String   or SIS_Major_1_2 is Music-Vocal   or SIS_Major_1_2 is Music-Wind   or SIS_Major_1_2 is Music-Pedagogy   or SIS_Major_1_2 is Music Education-Music Educ   or SIS_Major_2_2 is Music   or SIS_Major_2_2 is Music Education-Instrumental   or SIS_Major_2_2 is Music Education-Vocal   or SIS_Major_2_2 is Music-Collaborative Piano   or SIS_Major_2_2 is Music-Composition   or SIS_Major_2_2 is Music-Conducting   or SIS_Major_2_2 is Music-Instrumental Performance   or SIS_Major_2_2 is Music-Jazz Performance   or SIS_Major_2_2 is Music-Music Education   or SIS_Major_2_2 is Music-Musical Theatre   or SIS_Major_2_2 is Music-Percussion Performance   or SIS_Major_2_2 is Music-Piano Performance   or SIS_Major_2_2 is Music-String Performance   or SIS_Major_2_2 is Music-Vocal Pedagogy   or SIS_Major_2_2 is Music-Vocal Performance   or SIS_Major_2_2 is Music-Wind Performance   or SIS_Major_2_2 is Music-Historical Performance   or SIS_Major_2_2 is Music-Jazz Studies   or SIS_Major_2_2 is Music-Music Theatre   or SIS_Major_2_2 is Music-Percussion   or SIS_Major_2_2 is Music-Performance   or SIS_Major_2_2 is Music-Piano   or SIS_Major_2_2 is Music-Piano Pedagogy   or SIS_Major_2_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2_2 is Music-String   or SIS_Major_2_2 is Music-Vocal   or SIS_Major_2_2 is Music-Wind   or SIS_Major_2_2 is Music-Pedagogy   or SIS_Major_2_2 is Music Education-Music Educ",
-        "raw_text": "SIS_Major_2 is Music   or SIS_Major_2 is Music Education-Instrumental   or SIS_Major_2 is Music Education-Vocal   or SIS_Major_2 is Music-Collaborative Piano   or SIS_Major_2 is Music-Composition   or SIS_Major_2 is Music-Conducting   or SIS_Major_2 is Music-Instrumental Performance   or SIS_Major_2 is Music-Jazz Performance   or SIS_Major_2 is Music-Music Education   or SIS_Major_2 is Music-Musical Theatre   or SIS_Major_2 is Music-Percussion Performance   or SIS_Major_2 is Music-Piano Performance   or SIS_Major_2 is Music-String Performance   or SIS_Major_2 is Music-Vocal Pedagogy   or SIS_Major_2 is Music-Vocal Performance   or SIS_Major_2 is Music-Wind Performance   or SIS_Major_2 is Music-Historical Performance   or SIS_Major_2 is Music-Jazz Studies   or SIS_Major_2 is Music-Music Theatre   or SIS_Major_2 is Music-Percussion   or SIS_Major_2 is Music-Performance   or SIS_Major_2 is Music-Piano   or SIS_Major_2 is Music-Piano Pedagogy   or SIS_Major_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2 is Music-String   or SIS_Major_2 is Music-Vocal   or SIS_Major_2 is Music-Wind   or SIS_Major_2 is Music-Pedagogy   or SIS_Major_2 is Music Education-Music Educ   or SIS_Major is Music   or SIS_Major is Music Education-Instrumental   or SIS_Major is Music Education-Vocal   or SIS_Major is Music-Collaborative Piano   or SIS_Major is Music-Composition   or SIS_Major is Music-Conducting   or SIS_Major is Music-Instrumental Performance   or SIS_Major is Music-Jazz Performance   or SIS_Major is Music-Music Education   or SIS_Major is Music-Musical Theatre   or SIS_Major is Music-Percussion Performance   or SIS_Major is Music-Piano Performance   or SIS_Major is Music-String Performance   or SIS_Major is Music-Vocal Pedagogy   or SIS_Major is Music-Vocal Performance   or SIS_Major is Music-Wind Performance   or SIS_Major is Music-Historical Performance   or SIS_Major is Music-Jazz Studies   or SIS_Major is Music-Music Theatre   or SIS_Major is Music-Percussion   or SIS_Major is Music-Performance   or SIS_Major is Music-Piano   or SIS_Major is Music-Piano Pedagogy   or SIS_Major is Music-Piano Perform & Pedagogy   or SIS_Major is Music-String   or SIS_Major is Music-Vocal   or SIS_Major is Music-Wind   or SIS_Major is Music-Pedagogy   or SIS_Major is Music Education-Music Educ   or SIS_Major_1_2 is Music   or SIS_Major_1_2 is Music Education-Instrumental   or SIS_Major_1_2 is Music Education-Vocal   or SIS_Major_1_2 is Music-Collaborative Piano   or SIS_Major_1_2 is Music-Composition   or SIS_Major_1_2 is Music-Conducting   or SIS_Major_1_2 is Music-Instrumental Performance   or SIS_Major_1_2 is Music-Jazz Performance   or SIS_Major_1_2 is Music-Music Education   or SIS_Major_1_2 is Music-Musical Theatre   or SIS_Major_1_2 is Music-Percussion Performance   or SIS_Major_1_2 is Music-Piano Performance   or SIS_Major_1_2 is Music-String Performance   or SIS_Major_1_2 is Music-Vocal Pedagogy   or SIS_Major_1_2 is Music-Vocal Performance   or SIS_Major_1_2 is Music-Wind Performance   or SIS_Major_1_2 is Music-Historical Performance   or SIS_Major_1_2 is Music-Jazz Studies   or SIS_Major_1_2 is Music-Music Theatre   or SIS_Major_1_2 is Music-Percussion   or SIS_Major_1_2 is Music-Performance   or SIS_Major_1_2 is Music-Piano   or SIS_Major_1_2 is Music-Piano Pedagogy   or SIS_Major_1_2 is Music-Piano Perform & Pedagogy   or SIS_Major_1_2 is Music-String   or SIS_Major_1_2 is Music-Vocal   or SIS_Major_1_2 is Music-Wind   or SIS_Major_1_2 is Music-Pedagogy   or SIS_Major_1_2 is Music Education-Music Educ   or SIS_Major_2_2 is Music   or SIS_Major_2_2 is Music Education-Instrumental   or SIS_Major_2_2 is Music Education-Vocal   or SIS_Major_2_2 is Music-Collaborative Piano   or SIS_Major_2_2 is Music-Composition   or SIS_Major_2_2 is Music-Conducting   or SIS_Major_2_2 is Music-Instrumental Performance   or SIS_Major_2_2 is Music-Jazz Performance   or SIS_Major_2_2 is Music-Music Education   or SIS_Major_2_2 is Music-Musical Theatre   or SIS_Major_2_2 is Music-Percussion Performance   or SIS_Major_2_2 is Music-Piano Performance   or SIS_Major_2_2 is Music-String Performance   or SIS_Major_2_2 is Music-Vocal Pedagogy   or SIS_Major_2_2 is Music-Vocal Performance   or SIS_Major_2_2 is Music-Wind Performance   or SIS_Major_2_2 is Music-Historical Performance   or SIS_Major_2_2 is Music-Jazz Studies   or SIS_Major_2_2 is Music-Music Theatre   or SIS_Major_2_2 is Music-Percussion   or SIS_Major_2_2 is Music-Performance   or SIS_Major_2_2 is Music-Piano   or SIS_Major_2_2 is Music-Piano Pedagogy   or SIS_Major_2_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2_2 is Music-String   or SIS_Major_2_2 is Music-Vocal   or SIS_Major_2_2 is Music-Wind   or SIS_Major_2_2 is Music-Pedagogy   or SIS_Major_2_2 is Music Education-Music Educ"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "CMS_Oplotnik_Ward = Yes",
-        "raw_text": "CMS_Oplotnik_Ward = Yes"
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
-        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -79,6 +31,105 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Music   or SIS_Major_2 is Music Education-Instrumental   or SIS_Major_2 is Music Education-Vocal   or SIS_Major_2 is Music-Collaborative Piano   or SIS_Major_2 is Music-Composition   or SIS_Major_2 is Music-Conducting   or SIS_Major_2 is Music-Instrumental Performance   or SIS_Major_2 is Music-Jazz Performance   or SIS_Major_2 is Music-Music Education   or SIS_Major_2 is Music-Musical Theatre   or SIS_Major_2 is Music-Percussion Performance   or SIS_Major_2 is Music-Piano Performance   or SIS_Major_2 is Music-String Performance   or SIS_Major_2 is Music-Vocal Pedagogy   or SIS_Major_2 is Music-Vocal Performance   or SIS_Major_2 is Music-Wind Performance   or SIS_Major_2 is Music-Historical Performance   or SIS_Major_2 is Music-Jazz Studies   or SIS_Major_2 is Music-Music Theatre   or SIS_Major_2 is Music-Percussion   or SIS_Major_2 is Music-Performance   or SIS_Major_2 is Music-Piano   or SIS_Major_2 is Music-Piano Pedagogy   or SIS_Major_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2 is Music-String   or SIS_Major_2 is Music-Vocal   or SIS_Major_2 is Music-Wind   or SIS_Major_2 is Music-Pedagogy   or SIS_Major_2 is Music Education-Music Educ   or SIS_Major is Music   or SIS_Major is Music Education-Instrumental   or SIS_Major is Music Education-Vocal   or SIS_Major is Music-Collaborative Piano   or SIS_Major is Music-Composition   or SIS_Major is Music-Conducting   or SIS_Major is Music-Instrumental Performance   or SIS_Major is Music-Jazz Performance   or SIS_Major is Music-Music Education   or SIS_Major is Music-Musical Theatre   or SIS_Major is Music-Percussion Performance   or SIS_Major is Music-Piano Performance   or SIS_Major is Music-String Performance   or SIS_Major is Music-Vocal Pedagogy   or SIS_Major is Music-Vocal Performance   or SIS_Major is Music-Wind Performance   or SIS_Major is Music-Historical Performance   or SIS_Major is Music-Jazz Studies   or SIS_Major is Music-Music Theatre   or SIS_Major is Music-Percussion   or SIS_Major is Music-Performance   or SIS_Major is Music-Piano   or SIS_Major is Music-Piano Pedagogy   or SIS_Major is Music-Piano Perform & Pedagogy   or SIS_Major is Music-String   or SIS_Major is Music-Vocal   or SIS_Major is Music-Wind   or SIS_Major is Music-Pedagogy   or SIS_Major is Music Education-Music Educ   or SIS_Major_1_2 is Music   or SIS_Major_1_2 is Music Education-Instrumental   or SIS_Major_1_2 is Music Education-Vocal   or SIS_Major_1_2 is Music-Collaborative Piano   or SIS_Major_1_2 is Music-Composition   or SIS_Major_1_2 is Music-Conducting   or SIS_Major_1_2 is Music-Instrumental Performance   or SIS_Major_1_2 is Music-Jazz Performance   or SIS_Major_1_2 is Music-Music Education   or SIS_Major_1_2 is Music-Musical Theatre   or SIS_Major_1_2 is Music-Percussion Performance   or SIS_Major_1_2 is Music-Piano Performance   or SIS_Major_1_2 is Music-String Performance   or SIS_Major_1_2 is Music-Vocal Pedagogy   or SIS_Major_1_2 is Music-Vocal Performance   or SIS_Major_1_2 is Music-Wind Performance   or SIS_Major_1_2 is Music-Historical Performance   or SIS_Major_1_2 is Music-Jazz Studies   or SIS_Major_1_2 is Music-Music Theatre   or SIS_Major_1_2 is Music-Percussion   or SIS_Major_1_2 is Music-Performance   or SIS_Major_1_2 is Music-Piano   or SIS_Major_1_2 is Music-Piano Pedagogy   or SIS_Major_1_2 is Music-Piano Perform & Pedagogy   or SIS_Major_1_2 is Music-String   or SIS_Major_1_2 is Music-Vocal   or SIS_Major_1_2 is Music-Wind   or SIS_Major_1_2 is Music-Pedagogy   or SIS_Major_1_2 is Music Education-Music Educ   or SIS_Major_2_2 is Music   or SIS_Major_2_2 is Music Education-Instrumental   or SIS_Major_2_2 is Music Education-Vocal   or SIS_Major_2_2 is Music-Collaborative Piano   or SIS_Major_2_2 is Music-Composition   or SIS_Major_2_2 is Music-Conducting   or SIS_Major_2_2 is Music-Instrumental Performance   or SIS_Major_2_2 is Music-Jazz Performance   or SIS_Major_2_2 is Music-Music Education   or SIS_Major_2_2 is Music-Musical Theatre   or SIS_Major_2_2 is Music-Percussion Performance   or SIS_Major_2_2 is Music-Piano Performance   or SIS_Major_2_2 is Music-String Performance   or SIS_Major_2_2 is Music-Vocal Pedagogy   or SIS_Major_2_2 is Music-Vocal Performance   or SIS_Major_2_2 is Music-Wind Performance   or SIS_Major_2_2 is Music-Historical Performance   or SIS_Major_2_2 is Music-Jazz Studies   or SIS_Major_2_2 is Music-Music Theatre   or SIS_Major_2_2 is Music-Percussion   or SIS_Major_2_2 is Music-Performance   or SIS_Major_2_2 is Music-Piano   or SIS_Major_2_2 is Music-Piano Pedagogy   or SIS_Major_2_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2_2 is Music-String   or SIS_Major_2_2 is Music-Vocal   or SIS_Major_2_2 is Music-Wind   or SIS_Major_2_2 is Music-Pedagogy   or SIS_Major_2_2 is Music Education-Music Educ",
+        "raw_text": "SIS_Major_2 is Music   or SIS_Major_2 is Music Education-Instrumental   or SIS_Major_2 is Music Education-Vocal   or SIS_Major_2 is Music-Collaborative Piano   or SIS_Major_2 is Music-Composition   or SIS_Major_2 is Music-Conducting   or SIS_Major_2 is Music-Instrumental Performance   or SIS_Major_2 is Music-Jazz Performance   or SIS_Major_2 is Music-Music Education   or SIS_Major_2 is Music-Musical Theatre   or SIS_Major_2 is Music-Percussion Performance   or SIS_Major_2 is Music-Piano Performance   or SIS_Major_2 is Music-String Performance   or SIS_Major_2 is Music-Vocal Pedagogy   or SIS_Major_2 is Music-Vocal Performance   or SIS_Major_2 is Music-Wind Performance   or SIS_Major_2 is Music-Historical Performance   or SIS_Major_2 is Music-Jazz Studies   or SIS_Major_2 is Music-Music Theatre   or SIS_Major_2 is Music-Percussion   or SIS_Major_2 is Music-Performance   or SIS_Major_2 is Music-Piano   or SIS_Major_2 is Music-Piano Pedagogy   or SIS_Major_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2 is Music-String   or SIS_Major_2 is Music-Vocal   or SIS_Major_2 is Music-Wind   or SIS_Major_2 is Music-Pedagogy   or SIS_Major_2 is Music Education-Music Educ   or SIS_Major is Music   or SIS_Major is Music Education-Instrumental   or SIS_Major is Music Education-Vocal   or SIS_Major is Music-Collaborative Piano   or SIS_Major is Music-Composition   or SIS_Major is Music-Conducting   or SIS_Major is Music-Instrumental Performance   or SIS_Major is Music-Jazz Performance   or SIS_Major is Music-Music Education   or SIS_Major is Music-Musical Theatre   or SIS_Major is Music-Percussion Performance   or SIS_Major is Music-Piano Performance   or SIS_Major is Music-String Performance   or SIS_Major is Music-Vocal Pedagogy   or SIS_Major is Music-Vocal Performance   or SIS_Major is Music-Wind Performance   or SIS_Major is Music-Historical Performance   or SIS_Major is Music-Jazz Studies   or SIS_Major is Music-Music Theatre   or SIS_Major is Music-Percussion   or SIS_Major is Music-Performance   or SIS_Major is Music-Piano   or SIS_Major is Music-Piano Pedagogy   or SIS_Major is Music-Piano Perform & Pedagogy   or SIS_Major is Music-String   or SIS_Major is Music-Vocal   or SIS_Major is Music-Wind   or SIS_Major is Music-Pedagogy   or SIS_Major is Music Education-Music Educ   or SIS_Major_1_2 is Music   or SIS_Major_1_2 is Music Education-Instrumental   or SIS_Major_1_2 is Music Education-Vocal   or SIS_Major_1_2 is Music-Collaborative Piano   or SIS_Major_1_2 is Music-Composition   or SIS_Major_1_2 is Music-Conducting   or SIS_Major_1_2 is Music-Instrumental Performance   or SIS_Major_1_2 is Music-Jazz Performance   or SIS_Major_1_2 is Music-Music Education   or SIS_Major_1_2 is Music-Musical Theatre   or SIS_Major_1_2 is Music-Percussion Performance   or SIS_Major_1_2 is Music-Piano Performance   or SIS_Major_1_2 is Music-String Performance   or SIS_Major_1_2 is Music-Vocal Pedagogy   or SIS_Major_1_2 is Music-Vocal Performance   or SIS_Major_1_2 is Music-Wind Performance   or SIS_Major_1_2 is Music-Historical Performance   or SIS_Major_1_2 is Music-Jazz Studies   or SIS_Major_1_2 is Music-Music Theatre   or SIS_Major_1_2 is Music-Percussion   or SIS_Major_1_2 is Music-Performance   or SIS_Major_1_2 is Music-Piano   or SIS_Major_1_2 is Music-Piano Pedagogy   or SIS_Major_1_2 is Music-Piano Perform & Pedagogy   or SIS_Major_1_2 is Music-String   or SIS_Major_1_2 is Music-Vocal   or SIS_Major_1_2 is Music-Wind   or SIS_Major_1_2 is Music-Pedagogy   or SIS_Major_1_2 is Music Education-Music Educ   or SIS_Major_2_2 is Music   or SIS_Major_2_2 is Music Education-Instrumental   or SIS_Major_2_2 is Music Education-Vocal   or SIS_Major_2_2 is Music-Collaborative Piano   or SIS_Major_2_2 is Music-Composition   or SIS_Major_2_2 is Music-Conducting   or SIS_Major_2_2 is Music-Instrumental Performance   or SIS_Major_2_2 is Music-Jazz Performance   or SIS_Major_2_2 is Music-Music Education   or SIS_Major_2_2 is Music-Musical Theatre   or SIS_Major_2_2 is Music-Percussion Performance   or SIS_Major_2_2 is Music-Piano Performance   or SIS_Major_2_2 is Music-String Performance   or SIS_Major_2_2 is Music-Vocal Pedagogy   or SIS_Major_2_2 is Music-Vocal Performance   or SIS_Major_2_2 is Music-Wind Performance   or SIS_Major_2_2 is Music-Historical Performance   or SIS_Major_2_2 is Music-Jazz Studies   or SIS_Major_2_2 is Music-Music Theatre   or SIS_Major_2_2 is Music-Percussion   or SIS_Major_2_2 is Music-Performance   or SIS_Major_2_2 is Music-Piano   or SIS_Major_2_2 is Music-Piano Pedagogy   or SIS_Major_2_2 is Music-Piano Perform & Pedagogy   or SIS_Major_2_2 is Music-String   or SIS_Major_2_2 is Music-Vocal   or SIS_Major_2_2 is Music-Wind   or SIS_Major_2_2 is Music-Pedagogy   or SIS_Major_2_2 is Music Education-Music Educ",
+        "parsed_sis": {
+          "majors": [
+            "Music",
+            "Music Education-Instrumental",
+            "Music Education-Music Educ",
+            "Music Education-Vocal",
+            "Music-Collaborative Piano",
+            "Music-Composition",
+            "Music-Conducting",
+            "Music-Historical Performance",
+            "Music-Instrumental Performance",
+            "Music-Jazz Performance",
+            "Music-Jazz Studies",
+            "Music-Music Education",
+            "Music-Music Theatre",
+            "Music-Musical Theatre",
+            "Music-Pedagogy",
+            "Music-Percussion",
+            "Music-Percussion Performance",
+            "Music-Performance",
+            "Music-Piano",
+            "Music-Piano Pedagogy",
+            "Music-Piano Perform & Pedagogy",
+            "Music-Piano Performance",
+            "Music-String",
+            "Music-String Performance",
+            "Music-Vocal",
+            "Music-Vocal Pedagogy",
+            "Music-Vocal Performance",
+            "Music-Wind",
+            "Music-Wind Performance"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Music, Music Education-Instrumental, Music Education-Music Educ, Music Education-Vocal, Music-Collaborative Piano, Music-Composition, Music-Conducting, Music-Historical Performance, Music-Instrumental Performance, Music-Jazz Performance, Music-Jazz Studies, Music-Music Education, Music-Music Theatre, Music-Musical Theatre, Music-Pedagogy, Music-Percussion, Music-Percussion Performance, Music-Performance, Music-Piano, Music-Piano Pedagogy, Music-Piano Perform & Pedagogy, Music-Piano Performance, Music-String, Music-String Performance, Music-Vocal, Music-Vocal Pedagogy, Music-Vocal Performance, Music-Wind, Music-Wind Performance",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CMS_Oplotnik_Ward = Yes",
+        "raw_text": "CMS_Oplotnik_Ward = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 3
     }
   }
 }

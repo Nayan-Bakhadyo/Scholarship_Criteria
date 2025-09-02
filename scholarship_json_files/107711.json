@@ -13,66 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in 2018 by Ronnie Hicks in honor of his son Connor Hicks. Connor, a songwriter, musician and former ACM@UCO student, passed away unexpectedly in 2017 at the age of 20. He was a member of the Chickasaw Nation and an administrative aide for the Chickasaw Nation Office of Governmental Affairs. Preference will be given to ACM@UCO performance majors and to Native American students, with additional preference given to a Member of the Chickasaw Nation (CDIB card required). Preference is also given to previous recipients. Eligibility ACM@UCO major Sophomore, junior or senior Enrolled full time (12+ hours undergraduate, 9+ hours graduate) Requirements Personal artist statement (250 words) Official transcript CDIB card (if applicable) Selection Process Preference given to a contemporary music performance major, member of the Chickasaw Nation, Native American student, and/or previous recipients (in that order)",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 9,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 12.00",
-        "raw_text": "SIS_Enrolled HRS >= 12.00"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
-        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Attachment:  \"CFAD_Hicks_Indian_CERT\"",
-        "raw_text": "Complete Attachment:  \"CFAD_Hicks_Indian_CERT\""
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major_2 is Audio Production   or SIS_Major_2 is Commercial Music   or SIS_Major_2 is Contemporary Music Business   or SIS_Major_2 is Contemporary Music Performance   or SIS_Major_2 is Contemporary Music Production   or SIS_Major is Audio Production   or SIS_Major is Commercial Music   or SIS_Major is Contemporary Music Business   or SIS_Major is Contemporary Music Performance   or SIS_Major is Contemporary Music Production   or SIS_Major_1_2 is Audio Production   or SIS_Major_1_2 is Commercial Music   or SIS_Major_1_2 is Contemporary Music Business   or SIS_Major_1_2 is Contemporary Music Performance   or SIS_Major_1_2 is Contemporary Music Production   or SIS_Major_2_2 is Audio Production   or SIS_Major_2_2 is Commercial Music   or SIS_Major_2_2 is Contemporary Music Business   or SIS_Major_2_2 is Contemporary Music Performance   or SIS_Major_2_2 is Contemporary Music Production",
-        "raw_text": "SIS_Major_2 is Audio Production   or SIS_Major_2 is Commercial Music   or SIS_Major_2 is Contemporary Music Business   or SIS_Major_2 is Contemporary Music Performance   or SIS_Major_2 is Contemporary Music Production   or SIS_Major is Audio Production   or SIS_Major is Commercial Music   or SIS_Major is Contemporary Music Business   or SIS_Major is Contemporary Music Performance   or SIS_Major is Contemporary Music Production   or SIS_Major_1_2 is Audio Production   or SIS_Major_1_2 is Commercial Music   or SIS_Major_1_2 is Contemporary Music Business   or SIS_Major_1_2 is Contemporary Music Performance   or SIS_Major_1_2 is Contemporary Music Production   or SIS_Major_2_2 is Audio Production   or SIS_Major_2_2 is Commercial Music   or SIS_Major_2_2 is Contemporary Music Business   or SIS_Major_2_2 is Contemporary Music Performance   or SIS_Major_2_2 is Contemporary Music Production"
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 9,
-        "type": "unknown",
-        "description": "CFAD_So_Jr_Sr = Yes",
-        "raw_text": "CFAD_So_Jr_Sr = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -99,6 +39,95 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Attachment:  \"CFAD_Hicks_Indian_CERT\"",
+        "raw_text": "Complete Attachment:  \"CFAD_Hicks_Indian_CERT\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major_2 is Audio Production   or SIS_Major_2 is Commercial Music   or SIS_Major_2 is Contemporary Music Business   or SIS_Major_2 is Contemporary Music Performance   or SIS_Major_2 is Contemporary Music Production   or SIS_Major is Audio Production   or SIS_Major is Commercial Music   or SIS_Major is Contemporary Music Business   or SIS_Major is Contemporary Music Performance   or SIS_Major is Contemporary Music Production   or SIS_Major_1_2 is Audio Production   or SIS_Major_1_2 is Commercial Music   or SIS_Major_1_2 is Contemporary Music Business   or SIS_Major_1_2 is Contemporary Music Performance   or SIS_Major_1_2 is Contemporary Music Production   or SIS_Major_2_2 is Audio Production   or SIS_Major_2_2 is Commercial Music   or SIS_Major_2_2 is Contemporary Music Business   or SIS_Major_2_2 is Contemporary Music Performance   or SIS_Major_2_2 is Contemporary Music Production",
+        "raw_text": "SIS_Major_2 is Audio Production   or SIS_Major_2 is Commercial Music   or SIS_Major_2 is Contemporary Music Business   or SIS_Major_2 is Contemporary Music Performance   or SIS_Major_2 is Contemporary Music Production   or SIS_Major is Audio Production   or SIS_Major is Commercial Music   or SIS_Major is Contemporary Music Business   or SIS_Major is Contemporary Music Performance   or SIS_Major is Contemporary Music Production   or SIS_Major_1_2 is Audio Production   or SIS_Major_1_2 is Commercial Music   or SIS_Major_1_2 is Contemporary Music Business   or SIS_Major_1_2 is Contemporary Music Performance   or SIS_Major_1_2 is Contemporary Music Production   or SIS_Major_2_2 is Audio Production   or SIS_Major_2_2 is Commercial Music   or SIS_Major_2_2 is Contemporary Music Business   or SIS_Major_2_2 is Contemporary Music Performance   or SIS_Major_2_2 is Contemporary Music Production",
+        "parsed_sis": {
+          "majors": [
+            "Audio Production",
+            "Commercial Music",
+            "Contemporary Music Business",
+            "Contemporary Music Performance",
+            "Contemporary Music Production"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Audio Production, Commercial Music, Contemporary Music Business, Contemporary Music Performance, Contemporary Music Production",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "CFAD_So_Jr_Sr = Yes",
+        "raw_text": "CFAD_So_Jr_Sr = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 9,
+      "banner_accessible": 1,
+      "application_required": 3,
+      "manual_review": 5
     }
   }
 }

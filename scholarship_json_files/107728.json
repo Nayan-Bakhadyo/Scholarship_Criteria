@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in honor of veteran news anchor, broadcast journalist, UCO Distinguished Alumnus, and inaugural Luminary Society member, Stanley Case. It is awarded to a Mass Communication Professional Media major. Eligibility Requirements Complete application Upload official or unofficial transcript Must be a Sophomore, Junior, or Senior with at least one more semester before graduation Minimum 3.0 GPA Preference given to students who have completed 4 of the required courses in the Professional Media degree program Must have desire to begin a career in broadcasting after graduation This scholarship is available to apply for during the current UCO student application period.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Essay \"CLA_Stanley_Case_Media\"",
-        "raw_text": "Complete Essay \"CLA_Stanley_Case_Media\""
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Essay \"CLA_Stanley_Case_Media_Career\"",
-        "raw_text": "Complete Essay \"CLA_Stanley_Case_Media_Career\""
-      },
-      {
-        "id": 3,
-        "type": "major",
-        "description": "SIS_Major_2 is Mass Comm-Professional Media   or SIS_Major is Mass Comm-Professional Media   or SIS_Major_1_2 is Mass Comm-Professional Media   or SIS_Major_2_2 is Mass Comm-Professional Media",
-        "raw_text": "SIS_Major_2 is Mass Comm-Professional Media   or SIS_Major is Mass Comm-Professional Media   or SIS_Major_1_2 is Mass Comm-Professional Media   or SIS_Major_2_2 is Mass Comm-Professional Media"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 7,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -79,6 +31,89 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Essay \"CLA_Stanley_Case_Media\"",
+        "raw_text": "Complete Essay \"CLA_Stanley_Case_Media\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"CLA_Stanley_Case_Media_Career\"",
+        "raw_text": "Complete Essay \"CLA_Stanley_Case_Media_Career\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Mass Comm-Professional Media   or SIS_Major is Mass Comm-Professional Media   or SIS_Major_1_2 is Mass Comm-Professional Media   or SIS_Major_2_2 is Mass Comm-Professional Media",
+        "raw_text": "SIS_Major_2 is Mass Comm-Professional Media   or SIS_Major is Mass Comm-Professional Media   or SIS_Major_1_2 is Mass Comm-Professional Media   or SIS_Major_2_2 is Mass Comm-Professional Media",
+        "parsed_sis": {
+          "majors": [
+            "Mass Comm-Professional Media"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Mass Comm-Professional Media",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior",
+            "Senior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior, Senior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 7,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 3,
+      "application_required": 3,
+      "manual_review": 1
     }
   }
 }

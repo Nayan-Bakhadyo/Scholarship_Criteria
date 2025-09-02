@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to the students within the College of Mathematics and Science majoring in Engineering and Physics. Eligibility Requirements College of Mathematics and Science student Engineering and/or Physics majors Full-time undergraduate student In good academic and social standing with the University Have financial need as recognized through the Free Application for Federal Student Aid (FAFSA) Two faculty letters of recommendation",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "major",
-        "description": "SIS_Major_2 is Electrical Engineering   or SIS_Major_2 is Engr Physics-Electrical Engr   or SIS_Major_2 is Engr Physics-Mechanical Engr   or SIS_Major_2 is Mechanical Engineering   or SIS_Major_2 is Engineering Physics-Electr Sys   or SIS_Major_2 is Engineering Physics-Mechan Sys   or SIS_Major is Electrical Engineering   or SIS_Major is Engr Physics-Electrical Engr   or SIS_Major is Engr Physics-Mechanical Engr   or SIS_Major is Mechanical Engineering   or SIS_Major is Engineering Physics-Electr Sys   or SIS_Major is Engineering Physics-Mechan Sys",
-        "raw_text": "SIS_Major_2 is Electrical Engineering   or SIS_Major_2 is Engr Physics-Electrical Engr   or SIS_Major_2 is Engr Physics-Mechanical Engr   or SIS_Major_2 is Mechanical Engineering   or SIS_Major_2 is Engineering Physics-Electr Sys   or SIS_Major_2 is Engineering Physics-Mechan Sys   or SIS_Major is Electrical Engineering   or SIS_Major is Engr Physics-Electrical Engr   or SIS_Major is Engr Physics-Mechanical Engr   or SIS_Major is Mechanical Engineering   or SIS_Major is Engineering Physics-Electr Sys   or SIS_Major is Engineering Physics-Mechan Sys"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 3,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 4,
-        "type": "financial_need",
-        "description": "CMS_Crossland_FAFSA = Yes",
-        "raw_text": "CMS_Crossland_FAFSA = Yes"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 2,
@@ -82,6 +46,68 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Electrical Engineering   or SIS_Major_2 is Engr Physics-Electrical Engr   or SIS_Major_2 is Engr Physics-Mechanical Engr   or SIS_Major_2 is Mechanical Engineering   or SIS_Major_2 is Engineering Physics-Electr Sys   or SIS_Major_2 is Engineering Physics-Mechan Sys   or SIS_Major is Electrical Engineering   or SIS_Major is Engr Physics-Electrical Engr   or SIS_Major is Engr Physics-Mechanical Engr   or SIS_Major is Mechanical Engineering   or SIS_Major is Engineering Physics-Electr Sys   or SIS_Major is Engineering Physics-Mechan Sys",
+        "raw_text": "SIS_Major_2 is Electrical Engineering   or SIS_Major_2 is Engr Physics-Electrical Engr   or SIS_Major_2 is Engr Physics-Mechanical Engr   or SIS_Major_2 is Mechanical Engineering   or SIS_Major_2 is Engineering Physics-Electr Sys   or SIS_Major_2 is Engineering Physics-Mechan Sys   or SIS_Major is Electrical Engineering   or SIS_Major is Engr Physics-Electrical Engr   or SIS_Major is Engr Physics-Mechanical Engr   or SIS_Major is Mechanical Engineering   or SIS_Major is Engineering Physics-Electr Sys   or SIS_Major is Engineering Physics-Mechan Sys",
+        "parsed_sis": {
+          "majors": [
+            "Electrical Engineering",
+            "Engineering Physics-Electr Sys",
+            "Engineering Physics-Mechan Sys",
+            "Engr Physics-Electrical Engr",
+            "Engr Physics-Mechanical Engr",
+            "Mechanical Engineering"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Electrical Engineering, Engineering Physics-Electr Sys, Engineering Physics-Mechan Sys, Engr Physics-Electrical Engr, Engr Physics-Mechanical Engr, Mechanical Engineering",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "financial_need",
+        "description": "CMS_Crossland_FAFSA = Yes",
+        "raw_text": "CMS_Crossland_FAFSA = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

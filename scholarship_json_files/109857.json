@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "The UCO Institute of Hope Scholarship is awarded to students facing financial hardship, abuse, or extenuating circumstances as they try to reach their educational goals. It was created by three Sociology alumnae to fight prejudice, poverty, and abuse through educational programming and flexible student financial aid. Eligibility Requirements Preference given to Liberal Arts majors Must be U.S. Resident/Citizen Evidence of student's commitment to their education through GPA or academic progress from past semesters Enrolled in a minimum of 6 hours in the semester awarded Provide a detailed statement explaining financial need, any special circumstances facing past or current poverty, abuse, or extenuating issues, and additional information or comments",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 6.00",
-        "raw_text": "SIS_Enrolled HRS >= 6.00"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior   or SIS_Classification is Post Baccalaureate Student   or SIS_Classification is Second Bachelors   or SIS_Classification is Post Masters Student   or SIS_Classification is 1st Year Graduate   or SIS_Classification is 2nd Year Graduate   or SIS_Classification is Second Masters   or SIS_Classification is AAS after Bachelors   or SIS_Classification is Certificate Graduate   or SIS_Classification is Certificate Undergraduate",
-        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior   or SIS_Classification is Post Baccalaureate Student   or SIS_Classification is Second Bachelors   or SIS_Classification is Post Masters Student   or SIS_Classification is 1st Year Graduate   or SIS_Classification is 2nd Year Graduate   or SIS_Classification is Second Masters   or SIS_Classification is AAS after Bachelors   or SIS_Classification is Certificate Graduate   or SIS_Classification is Certificate Undergraduate"
-      },
-      {
-        "id": 3,
-        "type": "citizenship",
-        "description": "SIS_USCitizen = Yes",
-        "raw_text": "SIS_USCitizen = Yes"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial_Awards\"",
-        "raw_text": "Complete Essay \"GEN_Financial_Awards\""
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "GEN_Financial_Support = Yes",
-        "raw_text": "GEN_Financial_Support = Yes"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Essay \"CLA_IOH_Emergency_Aid_Essay\"",
-        "raw_text": "Complete Essay \"CLA_IOH_Emergency_Aid_Essay\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 2,
@@ -94,6 +46,89 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 6.00",
+        "raw_text": "SIS_Enrolled HRS >= 6.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior   or SIS_Classification is Post Baccalaureate Student   or SIS_Classification is Second Bachelors   or SIS_Classification is Post Masters Student   or SIS_Classification is 1st Year Graduate   or SIS_Classification is 2nd Year Graduate   or SIS_Classification is Second Masters   or SIS_Classification is AAS after Bachelors   or SIS_Classification is Certificate Graduate   or SIS_Classification is Certificate Undergraduate",
+        "raw_text": "SIS_Classification is Freshman   or SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior   or SIS_Classification is Post Baccalaureate Student   or SIS_Classification is Second Bachelors   or SIS_Classification is Post Masters Student   or SIS_Classification is 1st Year Graduate   or SIS_Classification is 2nd Year Graduate   or SIS_Classification is Second Masters   or SIS_Classification is AAS after Bachelors   or SIS_Classification is Certificate Graduate   or SIS_Classification is Certificate Undergraduate",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "1st Year Graduate",
+            "2nd Year Graduate",
+            "AAS after Bachelors",
+            "Certificate Graduate",
+            "Certificate Undergraduate",
+            "Freshman",
+            "Junior",
+            "Post Baccalaureate Student",
+            "Post Masters Student",
+            "Second Bachelors",
+            "Second Masters",
+            "Senior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: 1st Year Graduate, 2nd Year Graduate, AAS after Bachelors, Certificate Graduate, Certificate Undergraduate, Freshman, Junior, Post Baccalaureate Student, Post Masters Student, Second Bachelors, Second Masters, Senior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "citizenship",
+        "description": "SIS_USCitizen = Yes",
+        "raw_text": "SIS_USCitizen = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial_Awards\"",
+        "raw_text": "Complete Essay \"GEN_Financial_Awards\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "GEN_Financial_Support = Yes",
+        "raw_text": "GEN_Financial_Support = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Essay \"CLA_IOH_Emergency_Aid_Essay\"",
+        "raw_text": "Complete Essay \"CLA_IOH_Emergency_Aid_Essay\"",
+        "banner_accessibility": "application_required"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 1,
+      "application_required": 2,
+      "manual_review": 4
     }
   }
 }

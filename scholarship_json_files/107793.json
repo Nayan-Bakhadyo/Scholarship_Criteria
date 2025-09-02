@@ -13,48 +13,6 @@
     "renewable_years": 0
   },
   "description": "Established by Brent and Cheryl Caffee in honor of a family of educators, this scholarship recognizes a UCO student who is a History major and has high academic achievement and strong writing skills. Eligibility Requirements Full-time undergraduate enrolled for semester received Minimum GPA 3.25 History major Attach a 10-12 page paper on American History",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 6,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.25",
-        "raw_text": "SIS_CumGPA >= 3.25"
-      },
-      {
-        "id": 2,
-        "type": "hours",
-        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
-        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Attachment:  \"CLA_Caffee_AmericanHistory\"",
-        "raw_text": "Complete Attachment:  \"CLA_Caffee_AmericanHistory\""
-      },
-      {
-        "id": 4,
-        "type": "major",
-        "description": "SIS_Major_2 is History   or SIS_Major_2 is History Education   or SIS_Major_2 is History-General   or SIS_Major_2 is History-History   or SIS_Major_2 is History-Museum Studies   or SIS_Major_2 is History-Social Studies Teach   or SIS_Major is History   or SIS_Major is History Education   or SIS_Major is History-General   or SIS_Major is History-History   or SIS_Major is History-Museum Studies   or SIS_Major is History-Social Studies Teach   or SIS_Major_1_2 is History   or SIS_Major_1_2 is History Education   or SIS_Major_1_2 is History-General   or SIS_Major_1_2 is History-History   or SIS_Major_1_2 is History-Museum Studies   or SIS_Major_1_2 is History-Social Studies Teach   or SIS_Major_2_2 is History   or SIS_Major_2_2 is History Education   or SIS_Major_2_2 is History-General   or SIS_Major_2_2 is History-History   or SIS_Major_2_2 is History-Museum Studies   or SIS_Major_2_2 is History-Social Studies Teach",
-        "raw_text": "SIS_Major_2 is History   or SIS_Major_2 is History Education   or SIS_Major_2 is History-General   or SIS_Major_2 is History-History   or SIS_Major_2 is History-Museum Studies   or SIS_Major_2 is History-Social Studies Teach   or SIS_Major is History   or SIS_Major is History Education   or SIS_Major is History-General   or SIS_Major is History-History   or SIS_Major is History-Museum Studies   or SIS_Major is History-Social Studies Teach   or SIS_Major_1_2 is History   or SIS_Major_1_2 is History Education   or SIS_Major_1_2 is History-General   or SIS_Major_1_2 is History-History   or SIS_Major_1_2 is History-Museum Studies   or SIS_Major_1_2 is History-Social Studies Teach   or SIS_Major_2_2 is History   or SIS_Major_2_2 is History Education   or SIS_Major_2_2 is History-General   or SIS_Major_2_2 is History-History   or SIS_Major_2_2 is History-Museum Studies   or SIS_Major_2_2 is History-Social Studies Teach"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -73,6 +31,75 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 6,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.25",
+        "raw_text": "SIS_CumGPA >= 3.25",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Attachment:  \"CLA_Caffee_AmericanHistory\"",
+        "raw_text": "Complete Attachment:  \"CLA_Caffee_AmericanHistory\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2 is History   or SIS_Major_2 is History Education   or SIS_Major_2 is History-General   or SIS_Major_2 is History-History   or SIS_Major_2 is History-Museum Studies   or SIS_Major_2 is History-Social Studies Teach   or SIS_Major is History   or SIS_Major is History Education   or SIS_Major is History-General   or SIS_Major is History-History   or SIS_Major is History-Museum Studies   or SIS_Major is History-Social Studies Teach   or SIS_Major_1_2 is History   or SIS_Major_1_2 is History Education   or SIS_Major_1_2 is History-General   or SIS_Major_1_2 is History-History   or SIS_Major_1_2 is History-Museum Studies   or SIS_Major_1_2 is History-Social Studies Teach   or SIS_Major_2_2 is History   or SIS_Major_2_2 is History Education   or SIS_Major_2_2 is History-General   or SIS_Major_2_2 is History-History   or SIS_Major_2_2 is History-Museum Studies   or SIS_Major_2_2 is History-Social Studies Teach",
+        "raw_text": "SIS_Major_2 is History   or SIS_Major_2 is History Education   or SIS_Major_2 is History-General   or SIS_Major_2 is History-History   or SIS_Major_2 is History-Museum Studies   or SIS_Major_2 is History-Social Studies Teach   or SIS_Major is History   or SIS_Major is History Education   or SIS_Major is History-General   or SIS_Major is History-History   or SIS_Major is History-Museum Studies   or SIS_Major is History-Social Studies Teach   or SIS_Major_1_2 is History   or SIS_Major_1_2 is History Education   or SIS_Major_1_2 is History-General   or SIS_Major_1_2 is History-History   or SIS_Major_1_2 is History-Museum Studies   or SIS_Major_1_2 is History-Social Studies Teach   or SIS_Major_2_2 is History   or SIS_Major_2_2 is History Education   or SIS_Major_2_2 is History-General   or SIS_Major_2_2 is History-History   or SIS_Major_2_2 is History-Museum Studies   or SIS_Major_2_2 is History-Social Studies Teach",
+        "parsed_sis": {
+          "majors": [
+            "History",
+            "History Education",
+            "History-General",
+            "History-History",
+            "History-Museum Studies",
+            "History-Social Studies Teach"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: History, History Education, History-General, History-History, History-Museum Studies, History-Social Studies Teach",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 3
     }
   }
 }

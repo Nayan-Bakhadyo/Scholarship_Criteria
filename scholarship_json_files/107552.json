@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "To provide scholarships to UCO students who are an honorably discharged veteran, active duty member or current member of the National Guard or Reserves. Eligibility Requirements Must have a minimum GPA of 2.50 Military experience and documentation 60 completed hours at UCO Demonstrated financial need as shown through FAFSA completion Declared major in Forensic Science, Sociology, or Criminal Justice U.S. Citizen Current student who is an honorably discharged veteran, Active Duty member or current member of the National Guard or Reserves. Discharged veterans must provide a copy of DD214, all other provide appropriate proof (orders, CAC, etc.) This scholarship is available to apply for during the Current UCO Student Application.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.50",
-        "raw_text": "SIS_CumGPA >= 2.50"
-      },
-      {
-        "id": 2,
-        "type": "military",
-        "description": "GEN_Military_Experience = Yes",
-        "raw_text": "GEN_Military_Experience = Yes"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Attachment:  \"ADV_Military_Documentation\"",
-        "raw_text": "Complete Attachment:  \"ADV_Military_Documentation\""
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major_2 is Crim Just Mgmt & Admin   or SIS_Major_2 is Crim Just-General Crim Justice   or SIS_Major_2 is Crim Just-Police   or SIS_Major_2 is Crime & Intelligence Analysis   or SIS_Major_2 is Criminal Justice-Corrections   or SIS_Major_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2 is Forensic Sci-Chemistry   or SIS_Major_2 is Forensic Science   or SIS_Major_2 is Forensic Science-Chemistry   or SIS_Major_2 is Forensic Science-Digital Foren   or SIS_Major_2 is Forensic Science-Molecular Bio   or SIS_Major_2 is Forensic Sci-Molecular Biology   or SIS_Major_2 is Sociology   or SIS_Major_2 is Sociology-Human Services   or SIS_Major_2 is Forensic Sci-Criminalistics   or SIS_Major_2 is Forensic Sci-Nursing   or SIS_Major_2 is Forensic Sci-Tech Investigat   or SIS_Major_2 is Criminal Justice   or SIS_Major_2 is Criminal Justice Mngt & Admin   or SIS_Major_2 is Criminal Justice-General CJ   or SIS_Major_2 is Criminal Justice-Police   or SIS_Major_2 is Criminal Just-Juvenile Justice   or SIS_Major_2 is Forensic Sci-Digital Forensics   or SIS_Major is Crim Just Mgmt & Admin   or SIS_Major is Crim Just-General Crim Justice   or SIS_Major is Crim Just-Police   or SIS_Major is Crime & Intelligence Analysis   or SIS_Major is Criminal Justice-Corrections   or SIS_Major is Forensic Sci-Biology/Chemistry   or SIS_Major is Forensic Sci-Chemistry   or SIS_Major is Forensic Science   or SIS_Major is Forensic Science-Chemistry   or SIS_Major is Forensic Science-Digital Foren   or SIS_Major is Forensic Science-Molecular Bio   or SIS_Major is Forensic Sci-Molecular Biology   or SIS_Major is Sociology   or SIS_Major is Sociology-Human Services   or SIS_Major is Forensic Sci-Criminalistics   or SIS_Major is Forensic Sci-Nursing   or SIS_Major is Forensic Sci-Tech Investigat   or SIS_Major is Criminal Justice   or SIS_Major is Criminal Justice Mngt & Admin   or SIS_Major is Criminal Justice-General CJ   or SIS_Major is Criminal Justice-Police   or SIS_Major is Criminal Just-Juvenile Justice   or SIS_Major is Forensic Sci-Digital Forensics   or SIS_Major_1_2 is Crim Just Mgmt & Admin   or SIS_Major_1_2 is Crim Just-General Crim Justice   or SIS_Major_1_2 is Crim Just-Police   or SIS_Major_1_2 is Crime & Intelligence Analysis   or SIS_Major_1_2 is Criminal Justice-Corrections   or SIS_Major_1_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_1_2 is Forensic Sci-Chemistry   or SIS_Major_1_2 is Forensic Science   or SIS_Major_1_2 is Forensic Science-Chemistry   or SIS_Major_1_2 is Forensic Science-Digital Foren   or SIS_Major_1_2 is Forensic Science-Molecular Bio   or SIS_Major_1_2 is Forensic Sci-Molecular Biology   or SIS_Major_1_2 is Sociology   or SIS_Major_1_2 is Sociology-Human Services   or SIS_Major_1_2 is Forensic Sci-Criminalistics   or SIS_Major_1_2 is Forensic Sci-Nursing   or SIS_Major_1_2 is Forensic Sci-Tech Investigat   or SIS_Major_1_2 is Criminal Justice   or SIS_Major_1_2 is Criminal Justice Mngt & Admin   or SIS_Major_1_2 is Criminal Justice-General CJ   or SIS_Major_1_2 is Criminal Justice-Police   or SIS_Major_1_2 is Criminal Just-Juvenile Justice   or SIS_Major_1_2 is Forensic Sci-Digital Forensics   or SIS_Major_2_2 is Crim Just Mgmt & Admin   or SIS_Major_2_2 is Crim Just-General Crim Justice   or SIS_Major_2_2 is Crim Just-Police   or SIS_Major_2_2 is Crime & Intelligence Analysis   or SIS_Major_2_2 is Criminal Justice-Corrections   or SIS_Major_2_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2_2 is Forensic Sci-Chemistry   or SIS_Major_2_2 is Forensic Science   or SIS_Major_2_2 is Forensic Science-Chemistry   or SIS_Major_2_2 is Forensic Science-Digital Foren   or SIS_Major_2_2 is Forensic Science-Molecular Bio   or SIS_Major_2_2 is Forensic Sci-Molecular Biology   or SIS_Major_2_2 is Sociology   or SIS_Major_2_2 is Sociology-Human Services   or SIS_Major_2_2 is Forensic Sci-Criminalistics   or SIS_Major_2_2 is Forensic Sci-Nursing   or SIS_Major_2_2 is Forensic Sci-Tech Investigat   or SIS_Major_2_2 is Criminal Justice   or SIS_Major_2_2 is Criminal Justice Mngt & Admin   or SIS_Major_2_2 is Criminal Justice-General CJ   or SIS_Major_2_2 is Criminal Justice-Police   or SIS_Major_2_2 is Criminal Just-Juvenile Justice   or SIS_Major_2_2 is Forensic Sci-Digital Forensics",
-        "raw_text": "SIS_Major_2 is Crim Just Mgmt & Admin   or SIS_Major_2 is Crim Just-General Crim Justice   or SIS_Major_2 is Crim Just-Police   or SIS_Major_2 is Crime & Intelligence Analysis   or SIS_Major_2 is Criminal Justice-Corrections   or SIS_Major_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2 is Forensic Sci-Chemistry   or SIS_Major_2 is Forensic Science   or SIS_Major_2 is Forensic Science-Chemistry   or SIS_Major_2 is Forensic Science-Digital Foren   or SIS_Major_2 is Forensic Science-Molecular Bio   or SIS_Major_2 is Forensic Sci-Molecular Biology   or SIS_Major_2 is Sociology   or SIS_Major_2 is Sociology-Human Services   or SIS_Major_2 is Forensic Sci-Criminalistics   or SIS_Major_2 is Forensic Sci-Nursing   or SIS_Major_2 is Forensic Sci-Tech Investigat   or SIS_Major_2 is Criminal Justice   or SIS_Major_2 is Criminal Justice Mngt & Admin   or SIS_Major_2 is Criminal Justice-General CJ   or SIS_Major_2 is Criminal Justice-Police   or SIS_Major_2 is Criminal Just-Juvenile Justice   or SIS_Major_2 is Forensic Sci-Digital Forensics   or SIS_Major is Crim Just Mgmt & Admin   or SIS_Major is Crim Just-General Crim Justice   or SIS_Major is Crim Just-Police   or SIS_Major is Crime & Intelligence Analysis   or SIS_Major is Criminal Justice-Corrections   or SIS_Major is Forensic Sci-Biology/Chemistry   or SIS_Major is Forensic Sci-Chemistry   or SIS_Major is Forensic Science   or SIS_Major is Forensic Science-Chemistry   or SIS_Major is Forensic Science-Digital Foren   or SIS_Major is Forensic Science-Molecular Bio   or SIS_Major is Forensic Sci-Molecular Biology   or SIS_Major is Sociology   or SIS_Major is Sociology-Human Services   or SIS_Major is Forensic Sci-Criminalistics   or SIS_Major is Forensic Sci-Nursing   or SIS_Major is Forensic Sci-Tech Investigat   or SIS_Major is Criminal Justice   or SIS_Major is Criminal Justice Mngt & Admin   or SIS_Major is Criminal Justice-General CJ   or SIS_Major is Criminal Justice-Police   or SIS_Major is Criminal Just-Juvenile Justice   or SIS_Major is Forensic Sci-Digital Forensics   or SIS_Major_1_2 is Crim Just Mgmt & Admin   or SIS_Major_1_2 is Crim Just-General Crim Justice   or SIS_Major_1_2 is Crim Just-Police   or SIS_Major_1_2 is Crime & Intelligence Analysis   or SIS_Major_1_2 is Criminal Justice-Corrections   or SIS_Major_1_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_1_2 is Forensic Sci-Chemistry   or SIS_Major_1_2 is Forensic Science   or SIS_Major_1_2 is Forensic Science-Chemistry   or SIS_Major_1_2 is Forensic Science-Digital Foren   or SIS_Major_1_2 is Forensic Science-Molecular Bio   or SIS_Major_1_2 is Forensic Sci-Molecular Biology   or SIS_Major_1_2 is Sociology   or SIS_Major_1_2 is Sociology-Human Services   or SIS_Major_1_2 is Forensic Sci-Criminalistics   or SIS_Major_1_2 is Forensic Sci-Nursing   or SIS_Major_1_2 is Forensic Sci-Tech Investigat   or SIS_Major_1_2 is Criminal Justice   or SIS_Major_1_2 is Criminal Justice Mngt & Admin   or SIS_Major_1_2 is Criminal Justice-General CJ   or SIS_Major_1_2 is Criminal Justice-Police   or SIS_Major_1_2 is Criminal Just-Juvenile Justice   or SIS_Major_1_2 is Forensic Sci-Digital Forensics   or SIS_Major_2_2 is Crim Just Mgmt & Admin   or SIS_Major_2_2 is Crim Just-General Crim Justice   or SIS_Major_2_2 is Crim Just-Police   or SIS_Major_2_2 is Crime & Intelligence Analysis   or SIS_Major_2_2 is Criminal Justice-Corrections   or SIS_Major_2_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2_2 is Forensic Sci-Chemistry   or SIS_Major_2_2 is Forensic Science   or SIS_Major_2_2 is Forensic Science-Chemistry   or SIS_Major_2_2 is Forensic Science-Digital Foren   or SIS_Major_2_2 is Forensic Science-Molecular Bio   or SIS_Major_2_2 is Forensic Sci-Molecular Biology   or SIS_Major_2_2 is Sociology   or SIS_Major_2_2 is Sociology-Human Services   or SIS_Major_2_2 is Forensic Sci-Criminalistics   or SIS_Major_2_2 is Forensic Sci-Nursing   or SIS_Major_2_2 is Forensic Sci-Tech Investigat   or SIS_Major_2_2 is Criminal Justice   or SIS_Major_2_2 is Criminal Justice Mngt & Admin   or SIS_Major_2_2 is Criminal Justice-General CJ   or SIS_Major_2_2 is Criminal Justice-Police   or SIS_Major_2_2 is Criminal Just-Juvenile Justice   or SIS_Major_2_2 is Forensic Sci-Digital Forensics"
-      },
-      {
-        "id": 7,
-        "type": "hours",
-        "description": "SIS_UCO_Completed_Hours >= 60.00",
-        "raw_text": "SIS_UCO_Completed_Hours >= 60.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -79,6 +31,99 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.50",
+        "raw_text": "SIS_CumGPA >= 2.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "military",
+        "description": "GEN_Military_Experience = Yes",
+        "raw_text": "GEN_Military_Experience = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Attachment:  \"ADV_Military_Documentation\"",
+        "raw_text": "Complete Attachment:  \"ADV_Military_Documentation\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major_2 is Crim Just Mgmt & Admin   or SIS_Major_2 is Crim Just-General Crim Justice   or SIS_Major_2 is Crim Just-Police   or SIS_Major_2 is Crime & Intelligence Analysis   or SIS_Major_2 is Criminal Justice-Corrections   or SIS_Major_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2 is Forensic Sci-Chemistry   or SIS_Major_2 is Forensic Science   or SIS_Major_2 is Forensic Science-Chemistry   or SIS_Major_2 is Forensic Science-Digital Foren   or SIS_Major_2 is Forensic Science-Molecular Bio   or SIS_Major_2 is Forensic Sci-Molecular Biology   or SIS_Major_2 is Sociology   or SIS_Major_2 is Sociology-Human Services   or SIS_Major_2 is Forensic Sci-Criminalistics   or SIS_Major_2 is Forensic Sci-Nursing   or SIS_Major_2 is Forensic Sci-Tech Investigat   or SIS_Major_2 is Criminal Justice   or SIS_Major_2 is Criminal Justice Mngt & Admin   or SIS_Major_2 is Criminal Justice-General CJ   or SIS_Major_2 is Criminal Justice-Police   or SIS_Major_2 is Criminal Just-Juvenile Justice   or SIS_Major_2 is Forensic Sci-Digital Forensics   or SIS_Major is Crim Just Mgmt & Admin   or SIS_Major is Crim Just-General Crim Justice   or SIS_Major is Crim Just-Police   or SIS_Major is Crime & Intelligence Analysis   or SIS_Major is Criminal Justice-Corrections   or SIS_Major is Forensic Sci-Biology/Chemistry   or SIS_Major is Forensic Sci-Chemistry   or SIS_Major is Forensic Science   or SIS_Major is Forensic Science-Chemistry   or SIS_Major is Forensic Science-Digital Foren   or SIS_Major is Forensic Science-Molecular Bio   or SIS_Major is Forensic Sci-Molecular Biology   or SIS_Major is Sociology   or SIS_Major is Sociology-Human Services   or SIS_Major is Forensic Sci-Criminalistics   or SIS_Major is Forensic Sci-Nursing   or SIS_Major is Forensic Sci-Tech Investigat   or SIS_Major is Criminal Justice   or SIS_Major is Criminal Justice Mngt & Admin   or SIS_Major is Criminal Justice-General CJ   or SIS_Major is Criminal Justice-Police   or SIS_Major is Criminal Just-Juvenile Justice   or SIS_Major is Forensic Sci-Digital Forensics   or SIS_Major_1_2 is Crim Just Mgmt & Admin   or SIS_Major_1_2 is Crim Just-General Crim Justice   or SIS_Major_1_2 is Crim Just-Police   or SIS_Major_1_2 is Crime & Intelligence Analysis   or SIS_Major_1_2 is Criminal Justice-Corrections   or SIS_Major_1_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_1_2 is Forensic Sci-Chemistry   or SIS_Major_1_2 is Forensic Science   or SIS_Major_1_2 is Forensic Science-Chemistry   or SIS_Major_1_2 is Forensic Science-Digital Foren   or SIS_Major_1_2 is Forensic Science-Molecular Bio   or SIS_Major_1_2 is Forensic Sci-Molecular Biology   or SIS_Major_1_2 is Sociology   or SIS_Major_1_2 is Sociology-Human Services   or SIS_Major_1_2 is Forensic Sci-Criminalistics   or SIS_Major_1_2 is Forensic Sci-Nursing   or SIS_Major_1_2 is Forensic Sci-Tech Investigat   or SIS_Major_1_2 is Criminal Justice   or SIS_Major_1_2 is Criminal Justice Mngt & Admin   or SIS_Major_1_2 is Criminal Justice-General CJ   or SIS_Major_1_2 is Criminal Justice-Police   or SIS_Major_1_2 is Criminal Just-Juvenile Justice   or SIS_Major_1_2 is Forensic Sci-Digital Forensics   or SIS_Major_2_2 is Crim Just Mgmt & Admin   or SIS_Major_2_2 is Crim Just-General Crim Justice   or SIS_Major_2_2 is Crim Just-Police   or SIS_Major_2_2 is Crime & Intelligence Analysis   or SIS_Major_2_2 is Criminal Justice-Corrections   or SIS_Major_2_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2_2 is Forensic Sci-Chemistry   or SIS_Major_2_2 is Forensic Science   or SIS_Major_2_2 is Forensic Science-Chemistry   or SIS_Major_2_2 is Forensic Science-Digital Foren   or SIS_Major_2_2 is Forensic Science-Molecular Bio   or SIS_Major_2_2 is Forensic Sci-Molecular Biology   or SIS_Major_2_2 is Sociology   or SIS_Major_2_2 is Sociology-Human Services   or SIS_Major_2_2 is Forensic Sci-Criminalistics   or SIS_Major_2_2 is Forensic Sci-Nursing   or SIS_Major_2_2 is Forensic Sci-Tech Investigat   or SIS_Major_2_2 is Criminal Justice   or SIS_Major_2_2 is Criminal Justice Mngt & Admin   or SIS_Major_2_2 is Criminal Justice-General CJ   or SIS_Major_2_2 is Criminal Justice-Police   or SIS_Major_2_2 is Criminal Just-Juvenile Justice   or SIS_Major_2_2 is Forensic Sci-Digital Forensics",
+        "raw_text": "SIS_Major_2 is Crim Just Mgmt & Admin   or SIS_Major_2 is Crim Just-General Crim Justice   or SIS_Major_2 is Crim Just-Police   or SIS_Major_2 is Crime & Intelligence Analysis   or SIS_Major_2 is Criminal Justice-Corrections   or SIS_Major_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2 is Forensic Sci-Chemistry   or SIS_Major_2 is Forensic Science   or SIS_Major_2 is Forensic Science-Chemistry   or SIS_Major_2 is Forensic Science-Digital Foren   or SIS_Major_2 is Forensic Science-Molecular Bio   or SIS_Major_2 is Forensic Sci-Molecular Biology   or SIS_Major_2 is Sociology   or SIS_Major_2 is Sociology-Human Services   or SIS_Major_2 is Forensic Sci-Criminalistics   or SIS_Major_2 is Forensic Sci-Nursing   or SIS_Major_2 is Forensic Sci-Tech Investigat   or SIS_Major_2 is Criminal Justice   or SIS_Major_2 is Criminal Justice Mngt & Admin   or SIS_Major_2 is Criminal Justice-General CJ   or SIS_Major_2 is Criminal Justice-Police   or SIS_Major_2 is Criminal Just-Juvenile Justice   or SIS_Major_2 is Forensic Sci-Digital Forensics   or SIS_Major is Crim Just Mgmt & Admin   or SIS_Major is Crim Just-General Crim Justice   or SIS_Major is Crim Just-Police   or SIS_Major is Crime & Intelligence Analysis   or SIS_Major is Criminal Justice-Corrections   or SIS_Major is Forensic Sci-Biology/Chemistry   or SIS_Major is Forensic Sci-Chemistry   or SIS_Major is Forensic Science   or SIS_Major is Forensic Science-Chemistry   or SIS_Major is Forensic Science-Digital Foren   or SIS_Major is Forensic Science-Molecular Bio   or SIS_Major is Forensic Sci-Molecular Biology   or SIS_Major is Sociology   or SIS_Major is Sociology-Human Services   or SIS_Major is Forensic Sci-Criminalistics   or SIS_Major is Forensic Sci-Nursing   or SIS_Major is Forensic Sci-Tech Investigat   or SIS_Major is Criminal Justice   or SIS_Major is Criminal Justice Mngt & Admin   or SIS_Major is Criminal Justice-General CJ   or SIS_Major is Criminal Justice-Police   or SIS_Major is Criminal Just-Juvenile Justice   or SIS_Major is Forensic Sci-Digital Forensics   or SIS_Major_1_2 is Crim Just Mgmt & Admin   or SIS_Major_1_2 is Crim Just-General Crim Justice   or SIS_Major_1_2 is Crim Just-Police   or SIS_Major_1_2 is Crime & Intelligence Analysis   or SIS_Major_1_2 is Criminal Justice-Corrections   or SIS_Major_1_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_1_2 is Forensic Sci-Chemistry   or SIS_Major_1_2 is Forensic Science   or SIS_Major_1_2 is Forensic Science-Chemistry   or SIS_Major_1_2 is Forensic Science-Digital Foren   or SIS_Major_1_2 is Forensic Science-Molecular Bio   or SIS_Major_1_2 is Forensic Sci-Molecular Biology   or SIS_Major_1_2 is Sociology   or SIS_Major_1_2 is Sociology-Human Services   or SIS_Major_1_2 is Forensic Sci-Criminalistics   or SIS_Major_1_2 is Forensic Sci-Nursing   or SIS_Major_1_2 is Forensic Sci-Tech Investigat   or SIS_Major_1_2 is Criminal Justice   or SIS_Major_1_2 is Criminal Justice Mngt & Admin   or SIS_Major_1_2 is Criminal Justice-General CJ   or SIS_Major_1_2 is Criminal Justice-Police   or SIS_Major_1_2 is Criminal Just-Juvenile Justice   or SIS_Major_1_2 is Forensic Sci-Digital Forensics   or SIS_Major_2_2 is Crim Just Mgmt & Admin   or SIS_Major_2_2 is Crim Just-General Crim Justice   or SIS_Major_2_2 is Crim Just-Police   or SIS_Major_2_2 is Crime & Intelligence Analysis   or SIS_Major_2_2 is Criminal Justice-Corrections   or SIS_Major_2_2 is Forensic Sci-Biology/Chemistry   or SIS_Major_2_2 is Forensic Sci-Chemistry   or SIS_Major_2_2 is Forensic Science   or SIS_Major_2_2 is Forensic Science-Chemistry   or SIS_Major_2_2 is Forensic Science-Digital Foren   or SIS_Major_2_2 is Forensic Science-Molecular Bio   or SIS_Major_2_2 is Forensic Sci-Molecular Biology   or SIS_Major_2_2 is Sociology   or SIS_Major_2_2 is Sociology-Human Services   or SIS_Major_2_2 is Forensic Sci-Criminalistics   or SIS_Major_2_2 is Forensic Sci-Nursing   or SIS_Major_2_2 is Forensic Sci-Tech Investigat   or SIS_Major_2_2 is Criminal Justice   or SIS_Major_2_2 is Criminal Justice Mngt & Admin   or SIS_Major_2_2 is Criminal Justice-General CJ   or SIS_Major_2_2 is Criminal Justice-Police   or SIS_Major_2_2 is Criminal Just-Juvenile Justice   or SIS_Major_2_2 is Forensic Sci-Digital Forensics",
+        "parsed_sis": {
+          "majors": [
+            "Crim Just Mgmt & Admin",
+            "Crim Just-General Crim Justice",
+            "Crim Just-Police",
+            "Crime & Intelligence Analysis",
+            "Criminal Just-Juvenile Justice",
+            "Criminal Justice",
+            "Criminal Justice Mngt & Admin",
+            "Criminal Justice-Corrections",
+            "Criminal Justice-General CJ",
+            "Criminal Justice-Police",
+            "Forensic Sci-Biology/Chemistry",
+            "Forensic Sci-Chemistry",
+            "Forensic Sci-Criminalistics",
+            "Forensic Sci-Digital Forensics",
+            "Forensic Sci-Molecular Biology",
+            "Forensic Sci-Nursing",
+            "Forensic Sci-Tech Investigat",
+            "Forensic Science",
+            "Forensic Science-Chemistry",
+            "Forensic Science-Digital Foren",
+            "Forensic Science-Molecular Bio",
+            "Sociology",
+            "Sociology-Human Services"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Crim Just Mgmt & Admin, Crim Just-General Crim Justice, Crim Just-Police, Crime & Intelligence Analysis, Criminal Just-Juvenile Justice, Criminal Justice, Criminal Justice Mngt & Admin, Criminal Justice-Corrections, Criminal Justice-General CJ, Criminal Justice-Police, Forensic Sci-Biology/Chemistry, Forensic Sci-Chemistry, Forensic Sci-Criminalistics, Forensic Sci-Digital Forensics, Forensic Sci-Molecular Biology, Forensic Sci-Nursing, Forensic Sci-Tech Investigat, Forensic Science, Forensic Science-Chemistry, Forensic Science-Digital Foren, Forensic Science-Molecular Bio, Sociology, Sociology-Human Services",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 60.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 60.00",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 3
     }
   }
 }

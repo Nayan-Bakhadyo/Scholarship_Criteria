@@ -13,18 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was made possible by the Everett Family Fund established at the Oklahoma City Community Foundation. It honors Dr. Pamela Washington, a former College of Liberal Arts Dean, by recognizing a sophomore Liberal Arts student who shows passion and commitment to their chosen major as evidenced by strong academic performance. Must apply through the OCCF website. Eligibility Requirements Must be enrolled at University of Central Oklahoma Must be a college sophomore at the time of application in Liberal Arts with more than 45 hours but less than 60 hours completed Overall GPA greater than or equal to 3.0 Preference may be given to applicants who demonstrate campus leadership",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 1,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -43,6 +31,25 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 0
     }
   }
 }

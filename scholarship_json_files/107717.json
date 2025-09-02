@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was created to honor the memory of Woody Gaddis who worked as a professional photographer for the Tulsa World and Hopkins Studio before becoming a photography professor at UCO. Woody was very instrumental in furthering the study of photography as a profession for many students, and the photo lab at UCO is named for him. This scholarship is awarded to a Photographic Arts major. Eligibility Requirements Declared Photography major Junior or Senior standing in the fall that the scholarship is awarded Minimum 3.0 GPA Enrolled in 12 credit hours Active in Mass Communication activities",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "major",
-        "description": "SIS_Major_2 is Photographic Arts   or SIS_Major_2 is Mass Comm-Photographic Arts   or SIS_Major_2 is Journalism-Photographic Arts   or SIS_Major is Photographic Arts   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Journalism-Photographic Arts   or SIS_Major_1_2 is Photographic Arts   or SIS_Major_1_2 is Mass Comm-Photographic Arts   or SIS_Major_1_2 is Journalism-Photographic Arts   or SIS_Major_2_2 is Photographic Arts   or SIS_Major_2_2 is Mass Comm-Photographic Arts   or SIS_Major_2_2 is Journalism-Photographic Arts",
-        "raw_text": "SIS_Major_2 is Photographic Arts   or SIS_Major_2 is Mass Comm-Photographic Arts   or SIS_Major_2 is Journalism-Photographic Arts   or SIS_Major is Photographic Arts   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Journalism-Photographic Arts   or SIS_Major_1_2 is Photographic Arts   or SIS_Major_1_2 is Mass Comm-Photographic Arts   or SIS_Major_1_2 is Journalism-Photographic Arts   or SIS_Major_2_2 is Photographic Arts   or SIS_Major_2_2 is Mass Comm-Photographic Arts   or SIS_Major_2_2 is Journalism-Photographic Arts"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Essay \"CLA_MCOMM_Activities\"",
-        "raw_text": "Complete Essay \"CLA_MCOMM_Activities\""
-      },
-      {
-        "id": 4,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 5,
-        "type": "unknown",
-        "description": "SIS_Enrolled HRS >= 12.00",
-        "raw_text": "SIS_Enrolled HRS >= 12.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -67,6 +31,65 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "major",
+        "description": "SIS_Major_2 is Photographic Arts   or SIS_Major_2 is Mass Comm-Photographic Arts   or SIS_Major_2 is Journalism-Photographic Arts   or SIS_Major is Photographic Arts   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Journalism-Photographic Arts   or SIS_Major_1_2 is Photographic Arts   or SIS_Major_1_2 is Mass Comm-Photographic Arts   or SIS_Major_1_2 is Journalism-Photographic Arts   or SIS_Major_2_2 is Photographic Arts   or SIS_Major_2_2 is Mass Comm-Photographic Arts   or SIS_Major_2_2 is Journalism-Photographic Arts",
+        "raw_text": "SIS_Major_2 is Photographic Arts   or SIS_Major_2 is Mass Comm-Photographic Arts   or SIS_Major_2 is Journalism-Photographic Arts   or SIS_Major is Photographic Arts   or SIS_Major is Mass Comm-Photographic Arts   or SIS_Major is Journalism-Photographic Arts   or SIS_Major_1_2 is Photographic Arts   or SIS_Major_1_2 is Mass Comm-Photographic Arts   or SIS_Major_1_2 is Journalism-Photographic Arts   or SIS_Major_2_2 is Photographic Arts   or SIS_Major_2_2 is Mass Comm-Photographic Arts   or SIS_Major_2_2 is Journalism-Photographic Arts",
+        "parsed_sis": {
+          "majors": [
+            "Journalism-Photographic Arts",
+            "Mass Comm-Photographic Arts",
+            "Photographic Arts"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Journalism-Photographic Arts, Mass Comm-Photographic Arts, Photographic Arts",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Essay \"CLA_MCOMM_Activities\"",
+        "raw_text": "Complete Essay \"CLA_MCOMM_Activities\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 4,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "unknown",
+        "description": "SIS_Enrolled HRS >= 12.00",
+        "raw_text": "SIS_Enrolled HRS >= 12.00",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 2
     }
   }
 }

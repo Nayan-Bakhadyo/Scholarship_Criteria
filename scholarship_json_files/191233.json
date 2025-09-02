@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "Awarded to General Business in College of Business, see preferences Criteria shall be: Undergraduate Students (2) enrolled full-time, United States Citizen. 3.0 GPA required and completed 60 hours at UCO. Preferences given in order of importance: 3 (a) General Business, Accounting, Finance 1st year awarded to 1 student $875.00 (2025) after second year of interest earned it can be awarded to 2 students $875.00 each, total of $1750 for 2026",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_CITZ_CODE is United States",
-        "raw_text": "SIS_CITZ_CODE is United States"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 4,
-        "type": "hours",
-        "description": "SIS_UCO_Completed_Hours = 60.00",
-        "raw_text": "SIS_UCO_Completed_Hours = 60.00"
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Busn Admin-General Business   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major is Business Admin-Accounting",
-        "raw_text": "SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Busn Admin-General Business   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major is Business Admin-Accounting"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -67,6 +31,72 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_CITZ_CODE is United States",
+        "raw_text": "SIS_CITZ_CODE is United States",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours = 60.00",
+        "raw_text": "SIS_UCO_Completed_Hours = 60.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Busn Admin-General Business   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major is Business Admin-Accounting",
+        "raw_text": "SIS_Major is Finance-Real Estate   or SIS_Major is Accounting   or SIS_Major is Busn Admin-General Business   or SIS_Major is Finance   or SIS_Major is Finance-Insurance & Risk Mgmt   or SIS_Major is Finance-Banking   or SIS_Major is Finance-Financial Planning   or SIS_Major is Finance-Insurance   or SIS_Major is Finance-Risk Management   or SIS_Major is Business Admin-Accounting",
+        "parsed_sis": {
+          "majors": [
+            "Accounting",
+            "Business Admin-Accounting",
+            "Busn Admin-General Business",
+            "Finance",
+            "Finance-Banking",
+            "Finance-Financial Planning",
+            "Finance-Insurance",
+            "Finance-Insurance & Risk Mgmt",
+            "Finance-Real Estate",
+            "Finance-Risk Management"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Accounting, Business Admin-Accounting, Busn Admin-General Business, Finance, Finance-Banking, Finance-Financial Planning, Finance-Insurance, Finance-Insurance & Risk Mgmt, Finance-Real Estate, Finance-Risk Management",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 2,
+      "application_required": 0,
+      "manual_review": 3
     }
   }
 }

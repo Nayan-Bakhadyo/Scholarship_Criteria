@@ -13,30 +13,6 @@
     "renewable_years": 0
   },
   "description": "Mission: Scholarship will support an incoming Freshman who is a graduate from Purcell High School. Eligibility Requirements Graduate from Purcell High School Letter of recommendation from the Purcell High School principal Incoming freshman to UCO Plan to pursue a degree within the College of Mathematics and Science This scholarship is available to apply for through the Incoming Student Application.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 3,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_High_School_Name is Purcell High School",
-        "raw_text": "SIS_High_School_Name is Purcell High School"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "CMS_Incoming Freshman = Yes",
-        "raw_text": "CMS_Incoming Freshman = Yes"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 2,
@@ -70,6 +46,39 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_High_School_Name is Purcell High School",
+        "raw_text": "SIS_High_School_Name is Purcell High School",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CMS_Incoming Freshman = Yes",
+        "raw_text": "CMS_Incoming Freshman = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"Incoming UCO Student Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 3
     }
   }
 }

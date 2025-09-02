@@ -13,24 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in 1996 with funds from the James and Julia Morrison Trust and is open to any full-time music major studying instrumental music within the UCO School of Music. Eligibility Any music major studying instrumental music Enrolling full time (12+ credit hours) The recipient must be actively involved in the School of Music through events, programs and performances, and must demonstrate leadership in the School of Music and its programs Requirements AWARDED BY COMMITTEE NOMINATION. Nominated student(s) will be invited to apply by the college's scholarship coordinator. Recipient must be actively involved in the UCO School of Music through events, programs and performances Recipient must demonstrate leadership in the School of Music and its programs",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 2,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "CFAD_Nomination_Required = Yes",
-        "raw_text": "CFAD_Nomination_Required = Yes"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -49,6 +31,32 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 2,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "CFAD_Nomination_Required = Yes",
+        "raw_text": "CFAD_Nomination_Required = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 2
     }
   }
 }

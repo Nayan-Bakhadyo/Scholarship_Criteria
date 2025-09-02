@@ -13,30 +13,6 @@
     "renewable_years": 0
   },
   "description": "The Dr. Renee Warning Endowed Scholarship in HR Management is open to declared Human Resource Management majors. Eligibility Requirements Declared Human Resource Management major",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 3,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 2,
-        "type": "major",
-        "description": "SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mgmt-Human Resource Management",
-        "raw_text": "SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mgmt-Human Resource Management"
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -55,6 +31,50 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "major",
+        "description": "SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mgmt-Human Resource Management",
+        "raw_text": "SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mgmt-Human Resource Management",
+        "parsed_sis": {
+          "majors": [
+            "Mgmt-Human Resource Management",
+            "Mngt-Human Resource Management"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Mgmt-Human Resource Management, Mngt-Human Resource Management",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 2
     }
   }
 }

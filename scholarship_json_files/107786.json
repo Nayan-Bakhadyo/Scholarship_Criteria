@@ -13,42 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship recognizes Sociology, Gerontology, or Substance Abuse Studies students who show passion and commitment to their chosen major as evidenced by strong academic performance. Eligibility Requirements Undergraduate majoring in Sociology or graduate majoring in Substance Abuse Studies or Gerontology Minimum 3.0 GPA Continuing student for fall semester that the scholarship is awarded Must provide a writing sample in the form of a paper done of Sociology-Substance Abuse Studies Coursework",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 5,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "hours",
-        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
-        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Attachment:  \"CLA_Sociology_Gerontology_SubsAbuseStudies\"",
-        "raw_text": "Complete Attachment:  \"CLA_Sociology_Gerontology_SubsAbuseStudies\""
-      },
-      {
-        "id": 3,
-        "type": "major",
-        "description": "SIS_Major_2 is Gerontology   or SIS_Major_2 is Sociology   or SIS_Major_2 is Socio-Substance Abuse Studies   or SIS_Major_2 is Substance Abuse Studies   or SIS_Major is Gerontology   or SIS_Major is Sociology   or SIS_Major is Sociology-Human Services   or SIS_Major is Socio-Substance Abuse Studies   or SIS_Major is Substance Abuse Studies   or SIS_Major_1_2 is Gerontology   or SIS_Major_1_2 is Sociology   or SIS_Major_1_2 is Sociology-Human Services   or SIS_Major_1_2 is Socio-Substance Abuse Studies   or SIS_Major_1_2 is Substance Abuse Studies   or SIS_Major_2_2 is Gerontology   or SIS_Major_2_2 is Sociology   or SIS_Major_2_2 is Sociology-Human Services   or SIS_Major_2_2 is Socio-Substance Abuse Studies   or SIS_Major_2_2 is Substance Abuse Studies",
-        "raw_text": "SIS_Major_2 is Gerontology   or SIS_Major_2 is Sociology   or SIS_Major_2 is Socio-Substance Abuse Studies   or SIS_Major_2 is Substance Abuse Studies   or SIS_Major is Gerontology   or SIS_Major is Sociology   or SIS_Major is Sociology-Human Services   or SIS_Major is Socio-Substance Abuse Studies   or SIS_Major is Substance Abuse Studies   or SIS_Major_1_2 is Gerontology   or SIS_Major_1_2 is Sociology   or SIS_Major_1_2 is Sociology-Human Services   or SIS_Major_1_2 is Socio-Substance Abuse Studies   or SIS_Major_1_2 is Substance Abuse Studies   or SIS_Major_2_2 is Gerontology   or SIS_Major_2_2 is Sociology   or SIS_Major_2_2 is Sociology-Human Services   or SIS_Major_2_2 is Socio-Substance Abuse Studies   or SIS_Major_2_2 is Substance Abuse Studies"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 5,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 1,
@@ -75,6 +39,67 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 5,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "hours",
+        "description": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "raw_text": "GEN_Enrolled_Hours_Per_Semester = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Attachment:  \"CLA_Sociology_Gerontology_SubsAbuseStudies\"",
+        "raw_text": "Complete Attachment:  \"CLA_Sociology_Gerontology_SubsAbuseStudies\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "major",
+        "description": "SIS_Major_2 is Gerontology   or SIS_Major_2 is Sociology   or SIS_Major_2 is Socio-Substance Abuse Studies   or SIS_Major_2 is Substance Abuse Studies   or SIS_Major is Gerontology   or SIS_Major is Sociology   or SIS_Major is Sociology-Human Services   or SIS_Major is Socio-Substance Abuse Studies   or SIS_Major is Substance Abuse Studies   or SIS_Major_1_2 is Gerontology   or SIS_Major_1_2 is Sociology   or SIS_Major_1_2 is Sociology-Human Services   or SIS_Major_1_2 is Socio-Substance Abuse Studies   or SIS_Major_1_2 is Substance Abuse Studies   or SIS_Major_2_2 is Gerontology   or SIS_Major_2_2 is Sociology   or SIS_Major_2_2 is Sociology-Human Services   or SIS_Major_2_2 is Socio-Substance Abuse Studies   or SIS_Major_2_2 is Substance Abuse Studies",
+        "raw_text": "SIS_Major_2 is Gerontology   or SIS_Major_2 is Sociology   or SIS_Major_2 is Socio-Substance Abuse Studies   or SIS_Major_2 is Substance Abuse Studies   or SIS_Major is Gerontology   or SIS_Major is Sociology   or SIS_Major is Sociology-Human Services   or SIS_Major is Socio-Substance Abuse Studies   or SIS_Major is Substance Abuse Studies   or SIS_Major_1_2 is Gerontology   or SIS_Major_1_2 is Sociology   or SIS_Major_1_2 is Sociology-Human Services   or SIS_Major_1_2 is Socio-Substance Abuse Studies   or SIS_Major_1_2 is Substance Abuse Studies   or SIS_Major_2_2 is Gerontology   or SIS_Major_2_2 is Sociology   or SIS_Major_2_2 is Sociology-Human Services   or SIS_Major_2_2 is Socio-Substance Abuse Studies   or SIS_Major_2_2 is Substance Abuse Studies",
+        "parsed_sis": {
+          "majors": [
+            "Gerontology",
+            "Socio-Substance Abuse Studies",
+            "Sociology",
+            "Sociology-Human Services",
+            "Substance Abuse Studies"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Gerontology, Socio-Substance Abuse Studies, Sociology, Sociology-Human Services, Substance Abuse Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 2
     }
   }
 }

@@ -13,66 +13,6 @@
     "renewable_years": 0
   },
   "description": "Scholarship Mission: To provide scholarship assistance to graduate students within the College of Education & Professional Studies who are pursuing their masters degree in Elementary Education, Early Childhood Education, or Special Education. Eligibility Requirements This scholarship is open to any graduate student who is pursuing their masters degree in Elementary Education, Teaching and Learning PK - 6, Early Childhood Education, or Special Education Has completed at least (12) graduate hours Demonstrates financial need and personal career goals Has an intent to teach after receiving degree Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 9,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "GEN_Teaching = Yes",
-        "raw_text": "GEN_Teaching = Yes"
-      },
-      {
-        "id": 4,
-        "type": "hours",
-        "description": "CEPS-Grad_Hours = Yes",
-        "raw_text": "CEPS-Grad_Hours = Yes"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"CEPS_CareerGoals\"",
-        "raw_text": "Complete Essay \"CEPS_CareerGoals\""
-      },
-      {
-        "id": 6,
-        "type": "level",
-        "description": "SIS_Level is Graduate",
-        "raw_text": "SIS_Level is Graduate"
-      },
-      {
-        "id": 7,
-        "type": "hours",
-        "description": "SIS_UCO_Completed_Hours >= 12.00",
-        "raw_text": "SIS_UCO_Completed_Hours >= 12.00"
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 9,
-        "type": "major",
-        "description": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Spec Ed-SP/Mult Disabilities   or SIS_Major is Special Education   or SIS_Major is Curr&Instr-Teach & Learn PK-6   or SIS_Major is Cert Teaching/Learning PreK-6   or SIS_Major is Curr&Instr-Early Child Educ   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_1_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_1_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_1_2 is Special Education   or SIS_Major_1_2 is Curr&Instr-Teach & Learn PK-6   or SIS_Major_1_2 is Cert Teaching/Learning PreK-6   or SIS_Major_1_2 is Curr&Instr-Early Child Educ   or SIS_Major_2_2 is Early Childhood Education   or SIS_Major_2_2 is Elementary Education   or SIS_Major_2_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_2_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_2_2 is Special Education",
-        "raw_text": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Spec Ed-SP/Mult Disabilities   or SIS_Major is Special Education   or SIS_Major is Curr&Instr-Teach & Learn PK-6   or SIS_Major is Cert Teaching/Learning PreK-6   or SIS_Major is Curr&Instr-Early Child Educ   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_1_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_1_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_1_2 is Special Education   or SIS_Major_1_2 is Curr&Instr-Teach & Learn PK-6   or SIS_Major_1_2 is Cert Teaching/Learning PreK-6   or SIS_Major_1_2 is Curr&Instr-Early Child Educ   or SIS_Major_2_2 is Early Childhood Education   or SIS_Major_2_2 is Elementary Education   or SIS_Major_2_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_2_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_2_2 is Special Education"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -91,6 +31,98 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "GEN_Teaching = Yes",
+        "raw_text": "GEN_Teaching = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "hours",
+        "description": "CEPS-Grad_Hours = Yes",
+        "raw_text": "CEPS-Grad_Hours = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_CareerGoals\"",
+        "raw_text": "Complete Essay \"CEPS_CareerGoals\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "level",
+        "description": "SIS_Level is Graduate",
+        "raw_text": "SIS_Level is Graduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "hours",
+        "description": "SIS_UCO_Completed_Hours >= 12.00",
+        "raw_text": "SIS_UCO_Completed_Hours >= 12.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 9,
+        "type": "major",
+        "description": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Spec Ed-SP/Mult Disabilities   or SIS_Major is Special Education   or SIS_Major is Curr&Instr-Teach & Learn PK-6   or SIS_Major is Cert Teaching/Learning PreK-6   or SIS_Major is Curr&Instr-Early Child Educ   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_1_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_1_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_1_2 is Special Education   or SIS_Major_1_2 is Curr&Instr-Teach & Learn PK-6   or SIS_Major_1_2 is Cert Teaching/Learning PreK-6   or SIS_Major_1_2 is Curr&Instr-Early Child Educ   or SIS_Major_2_2 is Early Childhood Education   or SIS_Major_2_2 is Elementary Education   or SIS_Major_2_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_2_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_2_2 is Special Education",
+        "raw_text": "SIS_Major is Early Childhood Education   or SIS_Major is Elementary Education   or SIS_Major is Spec Ed-Mild/Mod Disabilities   or SIS_Major is Spec Ed-SP/Mult Disabilities   or SIS_Major is Special Education   or SIS_Major is Curr&Instr-Teach & Learn PK-6   or SIS_Major is Cert Teaching/Learning PreK-6   or SIS_Major is Curr&Instr-Early Child Educ   or SIS_Major_1_2 is Early Childhood Education   or SIS_Major_1_2 is Elementary Education   or SIS_Major_1_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_1_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_1_2 is Special Education   or SIS_Major_1_2 is Curr&Instr-Teach & Learn PK-6   or SIS_Major_1_2 is Cert Teaching/Learning PreK-6   or SIS_Major_1_2 is Curr&Instr-Early Child Educ   or SIS_Major_2_2 is Early Childhood Education   or SIS_Major_2_2 is Elementary Education   or SIS_Major_2_2 is Spec Ed-Mild/Mod Disabilities   or SIS_Major_2_2 is Spec Ed-SP/Mult Disabilities   or SIS_Major_2_2 is Special Education",
+        "parsed_sis": {
+          "majors": [
+            "Cert Teaching/Learning PreK-6",
+            "Curr&Instr-Early Child Educ",
+            "Curr&Instr-Teach & Learn PK-6",
+            "Early Childhood Education",
+            "Elementary Education",
+            "Spec Ed-Mild/Mod Disabilities",
+            "Spec Ed-SP/Mult Disabilities",
+            "Special Education"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Cert Teaching/Learning PreK-6, Curr&Instr-Early Child Educ, Curr&Instr-Teach & Learn PK-6, Early Childhood Education, Elementary Education, Spec Ed-Mild/Mod Disabilities, Spec Ed-SP/Mult Disabilities, Special Education",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 9,
+      "banner_accessible": 2,
+      "application_required": 2,
+      "manual_review": 5
     }
   }
 }

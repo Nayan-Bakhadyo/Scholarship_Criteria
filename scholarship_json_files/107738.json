@@ -13,36 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship is awarded to a student who shows excellence in their language studies. Eligibility Requirements Major/Minor in Spanish Minimum 3.0 GPA Club participation, leadership, involvement in outreach events, or have plans for participation in a study tour Continuing student for fall semester that the scholarship is awarded",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 4,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Leadership\"",
-        "raw_text": "Complete Essay \"GEN_Leadership\""
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 4,
-        "type": "major",
-        "description": "SIS_Minor_2 is Modern Language-Spanish   or SIS_Minor is Modern Language-Spanish   or SIS_Major_2 is Modern Language Ed-Spanish   or SIS_Major_2 is Modern Language-Spanish   or SIS_Major is Modern Language Ed-Spanish   or SIS_Major is Modern Language-Spanish   or SIS_Minor_1_2 is Modern Language-Spanish   or SIS_Minor_2_2 is Modern Language-Spanish   or SIS_Major_1_2 is Modern Language Ed-Spanish   or SIS_Major_1_2 is Modern Language-Spanish   or SIS_Major_2_2 is Modern Language Ed-Spanish   or SIS_Major_2_2 is Modern Language-Spanish",
-        "raw_text": "SIS_Minor_2 is Modern Language-Spanish   or SIS_Minor is Modern Language-Spanish   or SIS_Major_2 is Modern Language Ed-Spanish   or SIS_Major_2 is Modern Language-Spanish   or SIS_Major is Modern Language Ed-Spanish   or SIS_Major is Modern Language-Spanish   or SIS_Minor_1_2 is Modern Language-Spanish   or SIS_Minor_2_2 is Modern Language-Spanish   or SIS_Major_1_2 is Modern Language Ed-Spanish   or SIS_Major_1_2 is Modern Language-Spanish   or SIS_Major_2_2 is Modern Language Ed-Spanish   or SIS_Major_2_2 is Modern Language-Spanish"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 2,
@@ -76,6 +46,59 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 4,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Leadership\"",
+        "raw_text": "Complete Essay \"GEN_Leadership\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Minor_2 is Modern Language-Spanish   or SIS_Minor is Modern Language-Spanish   or SIS_Major_2 is Modern Language Ed-Spanish   or SIS_Major_2 is Modern Language-Spanish   or SIS_Major is Modern Language Ed-Spanish   or SIS_Major is Modern Language-Spanish   or SIS_Minor_1_2 is Modern Language-Spanish   or SIS_Minor_2_2 is Modern Language-Spanish   or SIS_Major_1_2 is Modern Language Ed-Spanish   or SIS_Major_1_2 is Modern Language-Spanish   or SIS_Major_2_2 is Modern Language Ed-Spanish   or SIS_Major_2_2 is Modern Language-Spanish",
+        "raw_text": "SIS_Minor_2 is Modern Language-Spanish   or SIS_Minor is Modern Language-Spanish   or SIS_Major_2 is Modern Language Ed-Spanish   or SIS_Major_2 is Modern Language-Spanish   or SIS_Major is Modern Language Ed-Spanish   or SIS_Major is Modern Language-Spanish   or SIS_Minor_1_2 is Modern Language-Spanish   or SIS_Minor_2_2 is Modern Language-Spanish   or SIS_Major_1_2 is Modern Language Ed-Spanish   or SIS_Major_1_2 is Modern Language-Spanish   or SIS_Major_2_2 is Modern Language Ed-Spanish   or SIS_Major_2_2 is Modern Language-Spanish",
+        "parsed_sis": {
+          "majors": [
+            "Modern Language Ed-Spanish",
+            "Modern Language-Spanish"
+          ],
+          "minors": [
+            "Modern Language-Spanish"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Modern Language Ed-Spanish, Modern Language-Spanish | Minor: Modern Language-Spanish",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 1
     }
   }
 }

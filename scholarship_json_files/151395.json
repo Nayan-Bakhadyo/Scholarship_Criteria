@@ -13,11 +13,6 @@
     "renewable_years": 0
   },
   "description": "The recipient(s) of The Rose M. Smeltzer Endowed Scholarship in Music Theater will be appointed by the Dean of the College of Fine Arts and Design in conjunction with the Department of Music Theater. Eligibility Requirements Must be a student at UCO Must be a declared major within the Musical Theater Maintain a 2.50 GPA or higher In a short essay (2 pages): Highlight yourself to our committee and demonstrate why you are best recipient for this scholarship Explain what receiving this scholarship will mean to you and your family",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 0,
-    "criteria": []
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -36,6 +31,17 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 0,
+    "criteria": [],
+    "banner_summary": {
+      "total_criteria": 0,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 0
     }
   }
 }

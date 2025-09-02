@@ -13,60 +13,6 @@
     "renewable_years": 0
   },
   "description": "The Dr. Ralph H. and Jessie M. Mengel Endowed Scholarship is open to full-time students with a declared Management (Management, Human Resource Management, or PGA Golf Management) major. Eligibility Requirements 45 or more credit hours completed at the time of the application Minimum 3.5 cumulative GPA, and completion of all courses during the previous semester Students who graduate in Fall 2024 or prior are not eligible to apply One faculty recommendation is required (please indicate the College of Business faculty member on your application that you wish to supply a recommendation).",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 8,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 2,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.50",
-        "raw_text": "SIS_CumGPA >= 3.50"
-      },
-      {
-        "id": 4,
-        "type": "unknown",
-        "description": "COB_Mengel_Courses = Yes",
-        "raw_text": "COB_Mengel_Courses = Yes"
-      },
-      {
-        "id": 5,
-        "type": "hours",
-        "description": "SIS_Overall_Hours >= 45.00",
-        "raw_text": "SIS_Overall_Hours >= 45.00"
-      },
-      {
-        "id": 6,
-        "type": "major",
-        "description": "SIS_Major_2 is Management   or SIS_Major_2 is Management-PGA Golf Management   or SIS_Major_2 is Mngt-Human Resource Management   or SIS_Major_2 is Mngt-Professional Golf Mngt   or SIS_Major_2 is Mgmt-Human Resource Management   or SIS_Major is Management   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Management   or SIS_Major_1_2 is Management-PGA Golf Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mngt-Professional Golf Mngt   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Management   or SIS_Major_2_2 is Management-PGA Golf Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mngt-Professional Golf Mngt   or SIS_Major_2_2 is Mgmt-Human Resource Management",
-        "raw_text": "SIS_Major_2 is Management   or SIS_Major_2 is Management-PGA Golf Management   or SIS_Major_2 is Mngt-Human Resource Management   or SIS_Major_2 is Mngt-Professional Golf Mngt   or SIS_Major_2 is Mgmt-Human Resource Management   or SIS_Major is Management   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Management   or SIS_Major_1_2 is Management-PGA Golf Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mngt-Professional Golf Mngt   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Management   or SIS_Major_2_2 is Management-PGA Golf Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mngt-Professional Golf Mngt   or SIS_Major_2_2 is Mgmt-Human Resource Management"
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 8,
-        "type": "unknown",
-        "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -85,6 +31,88 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.50",
+        "raw_text": "SIS_CumGPA >= 3.50",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 4,
+        "type": "unknown",
+        "description": "COB_Mengel_Courses = Yes",
+        "raw_text": "COB_Mengel_Courses = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 5,
+        "type": "hours",
+        "description": "SIS_Overall_Hours >= 45.00",
+        "raw_text": "SIS_Overall_Hours >= 45.00",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "major",
+        "description": "SIS_Major_2 is Management   or SIS_Major_2 is Management-PGA Golf Management   or SIS_Major_2 is Mngt-Human Resource Management   or SIS_Major_2 is Mngt-Professional Golf Mngt   or SIS_Major_2 is Mgmt-Human Resource Management   or SIS_Major is Management   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Management   or SIS_Major_1_2 is Management-PGA Golf Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mngt-Professional Golf Mngt   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Management   or SIS_Major_2_2 is Management-PGA Golf Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mngt-Professional Golf Mngt   or SIS_Major_2_2 is Mgmt-Human Resource Management",
+        "raw_text": "SIS_Major_2 is Management   or SIS_Major_2 is Management-PGA Golf Management   or SIS_Major_2 is Mngt-Human Resource Management   or SIS_Major_2 is Mngt-Professional Golf Mngt   or SIS_Major_2 is Mgmt-Human Resource Management   or SIS_Major is Management   or SIS_Major is Management-PGA Golf Management   or SIS_Major is Mngt-Human Resource Management   or SIS_Major is Mngt-Professional Golf Mngt   or SIS_Major is Mgmt-Human Resource Management   or SIS_Major_1_2 is Management   or SIS_Major_1_2 is Management-PGA Golf Management   or SIS_Major_1_2 is Mngt-Human Resource Management   or SIS_Major_1_2 is Mngt-Professional Golf Mngt   or SIS_Major_1_2 is Mgmt-Human Resource Management   or SIS_Major_2_2 is Management   or SIS_Major_2_2 is Management-PGA Golf Management   or SIS_Major_2_2 is Mngt-Human Resource Management   or SIS_Major_2_2 is Mngt-Professional Golf Mngt   or SIS_Major_2_2 is Mgmt-Human Resource Management",
+        "parsed_sis": {
+          "majors": [
+            "Management",
+            "Management-PGA Golf Management",
+            "Mgmt-Human Resource Management",
+            "Mngt-Human Resource Management",
+            "Mngt-Professional Golf Mngt"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Management, Management-PGA Golf Management, Mgmt-Human Resource Management, Mngt-Human Resource Management, Mngt-Professional Golf Mngt",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "unknown",
+        "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 8,
+      "banner_accessible": 2,
+      "application_required": 0,
+      "manual_review": 6
     }
   }
 }

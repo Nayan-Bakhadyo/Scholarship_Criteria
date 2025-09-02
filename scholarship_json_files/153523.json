@@ -13,30 +13,6 @@
     "renewable_years": 0
   },
   "description": "To provide scholarship assistance for students who were on probation after their first semester at UCO but off probation by their second semester. Eligibility Requirements Must have been on probation after first semester Must achieve a minimum 2.0 GPA after end of second semester Must demonstrate financial need as shown through FAFSA completion Scholarship will be available throughout the year for emergency purposes.",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 3,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "financial_need",
-        "description": "CMS_Crossland_FAFSA = Yes",
-        "raw_text": "CMS_Crossland_FAFSA = Yes"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "ADV_Probation = Yes",
-        "raw_text": "ADV_Probation = Yes"
-      },
-      {
-        "id": 3,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 2.00",
-        "raw_text": "SIS_CumGPA >= 2.00"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -55,6 +31,39 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 3,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "financial_need",
+        "description": "CMS_Crossland_FAFSA = Yes",
+        "raw_text": "CMS_Crossland_FAFSA = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "ADV_Probation = Yes",
+        "raw_text": "ADV_Probation = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 2.00",
+        "raw_text": "SIS_CumGPA >= 2.00",
+        "banner_accessibility": "banner_accessible"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 2
     }
   }
 }

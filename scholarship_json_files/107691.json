@@ -13,66 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established in 2012 by Piyush and Lisa Patel to provide scholarship assistance to students within the UCO Department of Design who demonstrate proficiency and interest in web and multimedia design. Eligibility Graphic design major Cumulative GPA 3.25+ Junior or senior Proficiency and interest in web and multimedia design Requirements Personal artist statement (250 words) Official transcript",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 9,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.25",
-        "raw_text": "SIS_CumGPA >= 3.25"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "CFAD_Patel_Interests = Yes",
-        "raw_text": "CFAD_Patel_Interests = Yes"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "CFAD_Award_Requirements = Yes",
-        "raw_text": "CFAD_Award_Requirements = Yes"
-      },
-      {
-        "id": 4,
-        "type": "application",
-        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
-        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\""
-      },
-      {
-        "id": 5,
-        "type": "major",
-        "description": "SIS_Major_2 is Design-Graphic Design   or SIS_Major is Design-Graphic Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_2_2 is Design-Graphic Design",
-        "raw_text": "SIS_Major_2 is Design-Graphic Design   or SIS_Major is Design-Graphic Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_2_2 is Design-Graphic Design"
-      },
-      {
-        "id": 6,
-        "type": "unknown",
-        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
-        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design"
-      },
-      {
-        "id": 7,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 8,
-        "type": "application",
-        "description": "Complete Attachment:  \"GEN_Transcript\"",
-        "raw_text": "Complete Attachment:  \"GEN_Transcript\""
-      },
-      {
-        "id": 9,
-        "type": "unknown",
-        "description": "CFAD_Class_Jr_Sr = Yes",
-        "raw_text": "CFAD_Class_Jr_Sr = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -91,6 +31,91 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 9,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.25",
+        "raw_text": "SIS_CumGPA >= 3.25",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "CFAD_Patel_Interests = Yes",
+        "raw_text": "CFAD_Patel_Interests = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "CFAD_Award_Requirements = Yes",
+        "raw_text": "CFAD_Award_Requirements = Yes",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "application",
+        "description": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "raw_text": "Complete Essay \"CFAD_Personal_Artist_Statement\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 5,
+        "type": "major",
+        "description": "SIS_Major_2 is Design-Graphic Design   or SIS_Major is Design-Graphic Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_2_2 is Design-Graphic Design",
+        "raw_text": "SIS_Major_2 is Design-Graphic Design   or SIS_Major is Design-Graphic Design   or SIS_Major_1_2 is Design-Graphic Design   or SIS_Major_2_2 is Design-Graphic Design",
+        "parsed_sis": {
+          "majors": [
+            "Design-Graphic Design"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Design-Graphic Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "raw_text": "SIS_College is Fine Arts and Design   or SIS_College_2 is Fine Arts and Design",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "application",
+        "description": "Complete Attachment:  \"GEN_Transcript\"",
+        "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 9,
+        "type": "unknown",
+        "description": "CFAD_Class_Jr_Sr = Yes",
+        "raw_text": "CFAD_Class_Jr_Sr = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 9,
+      "banner_accessible": 3,
+      "application_required": 2,
+      "manual_review": 4
     }
   }
 }

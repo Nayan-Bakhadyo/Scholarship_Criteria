@@ -13,54 +13,6 @@
     "renewable_years": 0
   },
   "description": "Eligibility Requirements Complete the application and provide an official transcript Must be a full-time student Minimum GPA of 3.0 Student must enroll the following semester in an upper-level sales class with the intention of completing a professional sales degree",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 7,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "gpa",
-        "description": "SIS_CumGPA >= 3.00",
-        "raw_text": "SIS_CumGPA >= 3.00"
-      },
-      {
-        "id": 2,
-        "type": "unknown",
-        "description": "SIS_College is Business Administration",
-        "raw_text": "SIS_College is Business Administration"
-      },
-      {
-        "id": 3,
-        "type": "unknown",
-        "description": "SIS_Enrolled_Status is Full Time",
-        "raw_text": "SIS_Enrolled_Status is Full Time"
-      },
-      {
-        "id": 4,
-        "type": "major",
-        "description": "SIS_Major_2 is Mrktg-Professional Selling   or SIS_Major_2 is Marketing-Professional Selling   or SIS_Major is Mrktg-Professional Selling   or SIS_Major is Marketing-Professional Selling   or SIS_Major_1_2 is Mrktg-Professional Selling   or SIS_Major_1_2 is Marketing-Professional Selling   or SIS_Major_2_2 is Mrktg-Professional Selling   or SIS_Major_2_2 is Marketing-Professional Selling",
-        "raw_text": "SIS_Major_2 is Mrktg-Professional Selling   or SIS_Major_2 is Marketing-Professional Selling   or SIS_Major is Mrktg-Professional Selling   or SIS_Major is Marketing-Professional Selling   or SIS_Major_1_2 is Mrktg-Professional Selling   or SIS_Major_1_2 is Marketing-Professional Selling   or SIS_Major_2_2 is Mrktg-Professional Selling   or SIS_Major_2_2 is Marketing-Professional Selling"
-      },
-      {
-        "id": 5,
-        "type": "level",
-        "description": "SIS_Level is Undergraduate",
-        "raw_text": "SIS_Level is Undergraduate"
-      },
-      {
-        "id": 6,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "SIS_Gender is Female   or SIS_Gender is F",
-        "raw_text": "SIS_Gender is Female   or SIS_Gender is F"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -79,6 +31,78 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 7,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "gpa",
+        "description": "SIS_CumGPA >= 3.00",
+        "raw_text": "SIS_CumGPA >= 3.00",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "unknown",
+        "description": "SIS_College is Business Administration",
+        "raw_text": "SIS_College is Business Administration",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 3,
+        "type": "unknown",
+        "description": "SIS_Enrolled_Status is Full Time",
+        "raw_text": "SIS_Enrolled_Status is Full Time",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major_2 is Mrktg-Professional Selling   or SIS_Major_2 is Marketing-Professional Selling   or SIS_Major is Mrktg-Professional Selling   or SIS_Major is Marketing-Professional Selling   or SIS_Major_1_2 is Mrktg-Professional Selling   or SIS_Major_1_2 is Marketing-Professional Selling   or SIS_Major_2_2 is Mrktg-Professional Selling   or SIS_Major_2_2 is Marketing-Professional Selling",
+        "raw_text": "SIS_Major_2 is Mrktg-Professional Selling   or SIS_Major_2 is Marketing-Professional Selling   or SIS_Major is Mrktg-Professional Selling   or SIS_Major is Marketing-Professional Selling   or SIS_Major_1_2 is Mrktg-Professional Selling   or SIS_Major_1_2 is Marketing-Professional Selling   or SIS_Major_2_2 is Mrktg-Professional Selling   or SIS_Major_2_2 is Marketing-Professional Selling",
+        "parsed_sis": {
+          "majors": [
+            "Marketing-Professional Selling",
+            "Mrktg-Professional Selling"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Marketing-Professional Selling, Mrktg-Professional Selling",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "level",
+        "description": "SIS_Level is Undergraduate",
+        "raw_text": "SIS_Level is Undergraduate",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 6,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "SIS_Gender is Female   or SIS_Gender is F",
+        "raw_text": "SIS_Gender is Female   or SIS_Gender is F",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 7,
+      "banner_accessible": 3,
+      "application_required": 0,
+      "manual_review": 4
     }
   }
 }

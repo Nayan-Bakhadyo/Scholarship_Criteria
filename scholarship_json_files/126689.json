@@ -13,60 +13,6 @@
     "renewable_years": 0
   },
   "description": "To provide scholarship assistance to students majoring in Industrial or Occupational Safety. Eligibility Requirements Declared major in good standing at UCO in the Occupational Safety Program Active and engaged member of the UCO Student Chapter of the ASSP Applying as a junior, priority will be given to a senior student who has met the criteria Two professional letters of recommendation Essay detailing financial need and appreciation of the mission, history, and importance of ASSP Selection Process Recipients of the scholarship will be selected by a departmental committee Award Requirements Must be enrolled in the upcoming fall and spring semester to receive award Attendance at an awards banquet is required for all recipients Recipients must write a thank you letter to the donors of the scholarship",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 8,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "unknown",
-        "description": "SIS_College is Education and Prof Studies",
-        "raw_text": "SIS_College is Education and Prof Studies"
-      },
-      {
-        "id": 2,
-        "type": "application",
-        "description": "Complete Essay \"GEN_Financial Need\"",
-        "raw_text": "Complete Essay \"GEN_Financial Need\""
-      },
-      {
-        "id": 3,
-        "type": "application",
-        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
-        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\""
-      },
-      {
-        "id": 4,
-        "type": "major",
-        "description": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety",
-        "raw_text": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety"
-      },
-      {
-        "id": 5,
-        "type": "application",
-        "description": "Complete Essay \"CEPS_Delano\"",
-        "raw_text": "Complete Essay \"CEPS_Delano\""
-      },
-      {
-        "id": 6,
-        "type": "unknown",
-        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
-        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior"
-      },
-      {
-        "id": 7,
-        "type": "unknown",
-        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\""
-      },
-      {
-        "id": 8,
-        "type": "unknown",
-        "description": "CEPS_Safety Org = Yes",
-        "raw_text": "CEPS_Safety Org = Yes"
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -85,6 +31,97 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 8,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "unknown",
+        "description": "SIS_College is Education and Prof Studies",
+        "raw_text": "SIS_College is Education and Prof Studies",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 2,
+        "type": "application",
+        "description": "Complete Essay \"GEN_Financial Need\"",
+        "raw_text": "Complete Essay \"GEN_Financial Need\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 3,
+        "type": "application",
+        "description": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "raw_text": "Complete Application: \"UCO Foundation Qualifying Scholarship Application\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 4,
+        "type": "major",
+        "description": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety",
+        "raw_text": "SIS_Major is Industrial Safety   or SIS_Major is Occupational Safety   or SIS_Major_1_2 is Industrial Safety   or SIS_Major_1_2 is Occupational Safety   or SIS_Major_2_2 is Industrial Safety   or SIS_Major_2_2 is Occupational Safety",
+        "parsed_sis": {
+          "majors": [
+            "Industrial Safety",
+            "Occupational Safety"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Industrial Safety, Occupational Safety",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 5,
+        "type": "application",
+        "description": "Complete Essay \"CEPS_Delano\"",
+        "raw_text": "Complete Essay \"CEPS_Delano\"",
+        "banner_accessibility": "application_required"
+      },
+      {
+        "id": 6,
+        "type": "unknown",
+        "description": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "raw_text": "SIS_Classification is Sophomore   or SIS_Classification is Junior   or SIS_Classification is Senior",
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior",
+            "Senior",
+            "Sophomore"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior, Senior, Sophomore",
+        "banner_accessibility": "banner_accessible"
+      },
+      {
+        "id": 7,
+        "type": "unknown",
+        "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
+        "banner_accessibility": "manual_review"
+      },
+      {
+        "id": 8,
+        "type": "unknown",
+        "description": "CEPS_Safety Org = Yes",
+        "raw_text": "CEPS_Safety Org = Yes",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 8,
+      "banner_accessible": 3,
+      "application_required": 2,
+      "manual_review": 3
     }
   }
 }

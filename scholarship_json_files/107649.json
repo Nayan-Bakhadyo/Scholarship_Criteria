@@ -13,18 +13,6 @@
     "renewable_years": 0
   },
   "description": "This scholarship was established by Renee Wood-Vincent and Scott Vincent to honor the memory of their son Ryan Wood, who lost his life while serving our country in 2007. United by their fierce love for Ryan, his family, friends and brothers-in-arms worked to establish this memorial scholarship and gather together every year to commemorate Ryan's life and raise funds to award to UCO students. The scholarship is open to art and design students who demonstrate an understanding of freedom through an essay and creative artwork. Eligibility Art or design major Minimum cumulative GPA of 2.5 Enrolled full time (12+ credit hours) Requirements AWARDED BY COMMITTEE NOMINATION. Nominated student(s) will be invited to apply by the college's scholarship coordinator An honest and thoughtful 250-word typed essay on the topic What freedom means to me that demonstrates an understanding and expresses your personal feelings on freedom A portfolio of your artwork (bring to the interview) Interview with the scholarship selection committee",
-  "qualifying_criteria": {
-    "description": "Hard requirements that must be met to qualify for the scholarship",
-    "criteria_count": 1,
-    "criteria": [
-      {
-        "id": 1,
-        "type": "application",
-        "description": "Complete Application: \"Ryan Wood Freedom Art Endowed Scholarship\"",
-        "raw_text": "Complete Application: \"Ryan Wood Freedom Art Endowed Scholarship\""
-      }
-    ]
-  },
   "general_criteria": {
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
@@ -43,6 +31,25 @@
       "html_cleaned": true,
       "requirements_parsed": true,
       "criteria_categorized": true
+    }
+  },
+  "hard_criteria": {
+    "description": "Hard requirements that must be met to qualify for the scholarship",
+    "criteria_count": 1,
+    "criteria": [
+      {
+        "id": 1,
+        "type": "application",
+        "description": "Complete Application: \"Ryan Wood Freedom Art Endowed Scholarship\"",
+        "raw_text": "Complete Application: \"Ryan Wood Freedom Art Endowed Scholarship\"",
+        "banner_accessibility": "manual_review"
+      }
+    ],
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 1
     }
   }
 }
