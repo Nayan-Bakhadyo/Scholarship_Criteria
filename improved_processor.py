@@ -73,28 +73,71 @@ def parse_sis_criteria(raw_text: str) -> Dict:
 def categorize_banner_accessibility(criteria_type: str, description: str) -> str:
     """
     Determine if criteria can be accessed from Banner system
+    Based on actual Banner data fields available:
+    Term Code, Term, PIDM, ID, First Name, Last Name, Gender, Hispanic/Latino Flag,
+    Term Hours Enrolled, Term Hours Billed, Residency, Sport Code, High School,
+    Level, Classification, College 1, Major Code 1, Major 1, College 2, Major Code 2,
+    Major 2, College Code 3, Major Code 3, Major 3, Minor Code 1, Minor 1,
+    Minor Code 2, Minor 2, Minor Code 3, Minor 3, Term Admitted, Admission Type,
+    Transfer Hours, Cumulative Hours, Cumulative GPA, Unmet Need, FAFSA, Emails
     """
+    
+    # Fields directly available from Banner
     banner_accessible_patterns = [
-        'SIS_Major', 'SIS_Minor', 'SIS_Classification', 'SIS_CumGPA',
-        'SIS_College', 'SIS_Department', 'SIS_Hours', 'SIS_Resident'
+        # Academic information
+        'SIS_Major', 'SIS_Minor', 'SIS_Classification', 'SIS_College', 'SIS_Level',
+        'SIS_CumGPA', 'SIS_Hours', 'SIS_Term_Hours', 'SIS_Cumulative_Hours',
+        
+        # Student demographics  
+        'SIS_Gender', 'SIS_Hispanic', 'SIS_Resident', 'SIS_Residency',
+        
+        # Enrollment status
+        'SIS_Enrolled_Status', 'SIS_Term_Enrolled', 'SIS_Full_Time', 'SIS_Part_Time',
+        
+        # Academic history
+        'SIS_Transfer_Hours', 'SIS_Admission_Type', 'SIS_Term_Admitted',
+        'SIS_High_School',
+        
+        # Financial aid (from Banner FAFSA integration)
+        'SIS_FAFSA', 'SIS_Unmet_Need', 'SIS_Financial_Need',
+        
+        # Athletics (if Sport Code is tracked)
+        'SIS_Sport', 'SIS_Athletic'
     ]
     
+    # Requirements that need application materials
     application_patterns = [
         'Complete Attachment', 'Complete Essay', 'Upload', 'Submit',
-        'Provide', 'Must provide', 'statement', 'essay', 'attachment'
+        'Provide', 'Must provide', 'statement', 'essay', 'attachment',
+        'portfolio', 'writing sample', 'recommendation', 'letter',
+        'transcript', 'resume', 'interview'
     ]
+    
+    # Special cases that might need manual review despite being in Banner
+    manual_review_patterns = [
+        'demonstrated financial need', 'extracurricular activities',
+        'community service', 'leadership', 'volunteer', 'employment',
+        'family income', 'hardship', 'circumstances'
+    ]
+    
+    description_lower = description.lower()
+    
+    # Check for manual review first (these override Banner accessibility)
+    for pattern in manual_review_patterns:
+        if pattern in description_lower:
+            return 'manual_review'
+    
+    # Check if it's application required
+    for pattern in application_patterns:
+        if pattern.lower() in description_lower:
+            return 'application_required'
     
     # Check if it's Banner accessible
     for pattern in banner_accessible_patterns:
         if pattern in description:
             return 'banner_accessible'
     
-    # Check if it's application/manual requirement
-    for pattern in application_patterns:
-        if pattern.lower() in description.lower():
-            return 'application_required'
-    
-    # Default to manual review
+    # Default to manual review for unknown criteria
     return 'manual_review'
 
 def improve_criteria_parsing(criteria_item: Dict) -> Dict:
