@@ -694,11 +694,23 @@ async function showScholarshipDetails(scholarshipId) {
                         ${scholarship.general_criteria.criteria.map(criteria => `
                             <div class="criteria-item ${criteria.type}">
                                 <div class="d-flex justify-content-between align-items-start">
-                                    <span><strong>${criteria.id}.</strong> ${criteria.description}</span>
+                                    <span><strong>${criteria.id}.</strong> ${criteria.description}
+                                        ${criteria.banner_accessibility ? `<span class="badge ms-2 ${criteria.banner_accessibility === 'banner_accessible' ? 'bg-success' : criteria.banner_accessibility === 'application_required' ? 'bg-warning' : 'bg-secondary'}">${criteria.banner_accessibility.replace('_', ' ')}</span>` : ''}
+                                    </span>
                                     ${criteria.points ? `<span class="badge points-badge">${criteria.points}</span>` : ''}
                                 </div>
                             </div>
                         `).join('')}
+                        ${scholarship.general_criteria.banner_summary ? `
+                            <div class="mt-3">
+                                <small class="text-muted">
+                                    <strong>Banner Summary:</strong> 
+                                    ${scholarship.general_criteria.banner_summary.banner_accessible} Banner accessible, 
+                                    ${scholarship.general_criteria.banner_summary.application_required} Application required, 
+                                    ${scholarship.general_criteria.banner_summary.manual_review} Manual review
+                                </small>
+                            </div>
+                        ` : ''}
                     </div>
                 ` : ''}
                 
