@@ -22,24 +22,33 @@
         "type": "unknown",
         "description": "CLA_Clif_Warren_Recipient = Yes",
         "raw_text": "CLA_Clif_Warren_Recipient = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time",
         "raw_text": "SIS_Enrolled_Status is Full Time",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "application",
         "description": "Complete Essay \"GEN_Personal_Statement \"",
         "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 2
+    "total_possible_points": 2,
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -112,5 +121,6 @@
       "application_required": 2,
       "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

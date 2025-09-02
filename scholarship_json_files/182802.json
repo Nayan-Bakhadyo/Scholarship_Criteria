@@ -22,10 +22,17 @@
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time   and SIS_Enrolled_Status is Part Time",
         "raw_text": "SIS_Enrolled_Status is Full Time   and SIS_Enrolled_Status is Part Time",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -51,5 +58,6 @@
       "application_required": 0,
       "manual_review": 0
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -22,10 +22,17 @@
         "type": "unknown",
         "description": "GEN_OK Resident = Yes",
         "raw_text": "GEN_OK Resident = Yes",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -64,7 +71,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
@@ -119,9 +126,10 @@
     ],
     "banner_summary": {
       "total_criteria": 7,
-      "banner_accessible": 4,
+      "banner_accessible": 5,
       "application_required": 1,
-      "manual_review": 2
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -22,10 +22,17 @@
         "type": "unknown",
         "description": "ADV_Johnson_Safe = Yes",
         "raw_text": "ADV_Johnson_Safe = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -85,7 +92,7 @@
         "type": "application",
         "description": "Complete Essay \"ADV_JohnsonVolunteer\"",
         "raw_text": "Complete Essay \"ADV_JohnsonVolunteer\"",
-        "banner_accessibility": "application_required"
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 7,
@@ -112,8 +119,9 @@
     "banner_summary": {
       "total_criteria": 9,
       "banner_accessible": 1,
-      "application_required": 5,
-      "manual_review": 3
+      "application_required": 4,
+      "manual_review": 4
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

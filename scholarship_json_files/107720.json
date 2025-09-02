@@ -22,17 +22,35 @@
         "type": "unknown",
         "description": "CLA_Tutor = Yes",
         "raw_text": "CLA_Tutor = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "SIS_Classification is Junior   and SIS_Classification is Senior   and SIS_Classification is Second Bachelors   and SIS_Classification is 1st Year Graduate   and SIS_Classification is 2nd Year Graduate",
         "raw_text": "SIS_Classification is Junior   and SIS_Classification is Senior   and SIS_Classification is Second Bachelors   and SIS_Classification is 1st Year Graduate   and SIS_Classification is 2nd Year Graduate",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior   and SIS_Classification is Senior   and SIS_Classification is Second Bachelors   and SIS_Classification is 1st Year Graduate   and SIS_Classification is 2nd Year Graduate"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior   and SIS_Classification is Senior   and SIS_Classification is Second Bachelors   and SIS_Classification is 1st Year Graduate   and SIS_Classification is 2nd Year Graduate",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -97,5 +115,6 @@
       "application_required": 0,
       "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

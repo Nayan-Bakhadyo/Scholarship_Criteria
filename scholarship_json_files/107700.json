@@ -22,10 +22,17 @@
         "type": "unknown",
         "description": "CFAD_Incoming_Freshman = Yes",
         "raw_text": "CFAD_Incoming_Freshman = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -115,5 +122,6 @@
       "application_required": 2,
       "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

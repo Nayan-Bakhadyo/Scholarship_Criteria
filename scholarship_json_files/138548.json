@@ -22,24 +22,33 @@
         "type": "application",
         "description": "Complete Attachment:  \"GEN_STLR Snapshot\"",
         "raw_text": "Complete Attachment:  \"GEN_STLR Snapshot\"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "GEN_FirstGen = Yes",
         "raw_text": "GEN_FirstGen = Yes",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "application",
         "description": "Complete Essay \"GEN_Financial Need\"",
         "raw_text": "Complete Essay \"GEN_Financial Need\"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 0,
+      "application_required": 2,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -87,5 +96,6 @@
       "application_required": 1,
       "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

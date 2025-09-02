@@ -22,10 +22,17 @@
         "type": "gpa",
         "description": "SIS_CumGPA >= 2.50",
         "raw_text": "SIS_CumGPA >= 2.50",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -57,7 +64,7 @@
         "type": "level",
         "description": "SIS_Level is Graduate",
         "raw_text": "SIS_Level is Graduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
@@ -97,9 +104,10 @@
     ],
     "banner_summary": {
       "total_criteria": 5,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 1,
-      "manual_review": 2
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

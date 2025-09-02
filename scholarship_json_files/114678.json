@@ -22,10 +22,17 @@
         "type": "unknown",
         "description": "ADV_DACA = Yes",
         "raw_text": "ADV_DACA = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -87,5 +94,6 @@
       "application_required": 0,
       "manual_review": 4
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -22,24 +22,33 @@
         "type": "gpa",
         "description": "SIS_CumGPA >= 3.00",
         "raw_text": "SIS_CumGPA >= 3.00",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "GEN_Activities = Yes",
         "raw_text": "GEN_Activities = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "application",
         "description": "Complete Essay \"COB_APICS_Other_Activities\"",
         "raw_text": "Complete Essay \"COB_APICS_Other_Activities\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 3
+    "total_possible_points": 3,
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -71,14 +80,14 @@
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time",
         "raw_text": "SIS_Enrolled_Status is Full Time",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
@@ -108,9 +117,10 @@
     ],
     "banner_summary": {
       "total_criteria": 5,
-      "banner_accessible": 1,
+      "banner_accessible": 3,
       "application_required": 1,
-      "manual_review": 3
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

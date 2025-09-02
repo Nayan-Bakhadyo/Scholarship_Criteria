@@ -22,17 +22,35 @@
         "type": "major",
         "description": "SIS_Major is Music Education-Instrumental   and SIS_Major is Music Education-Vocal   and SIS_Major is Secondary Education   and SIS_Major is Music Education-Music Educ",
         "raw_text": "SIS_Major is Music Education-Instrumental   and SIS_Major is Music Education-Vocal   and SIS_Major is Secondary Education   and SIS_Major is Music Education-Music Educ",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Music Education-Instrumental   and SIS_Major is Music Education-Vocal   and SIS_Major is Secondary Education   and SIS_Major is Music Education-Music Educ"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Music Education-Instrumental   and SIS_Major is Music Education-Vocal   and SIS_Major is Secondary Education   and SIS_Major is Music Education-Music Educ",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "SIS_College is Education and Prof Studies",
         "raw_text": "SIS_College is Education and Prof Studies",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 2,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -57,7 +75,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
         "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -76,9 +94,10 @@
     ],
     "banner_summary": {
       "total_criteria": 3,
-      "banner_accessible": 0,
+      "banner_accessible": 1,
       "application_required": 0,
-      "manual_review": 3
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

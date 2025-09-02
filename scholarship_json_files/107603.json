@@ -22,17 +22,25 @@
         "type": "unknown",
         "description": "CEPS_Student_Teaching = Yes",
         "raw_text": "CEPS_Student_Teaching = Yes",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "CEPS_TE = Yes",
         "raw_text": "CEPS_TE = Yes",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 2
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -64,7 +72,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
@@ -117,9 +125,10 @@
     ],
     "banner_summary": {
       "total_criteria": 7,
-      "banner_accessible": 3,
+      "banner_accessible": 4,
       "application_required": 2,
-      "manual_review": 2
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

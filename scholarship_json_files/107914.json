@@ -22,10 +22,17 @@
         "type": "unknown",
         "description": "GEN_Activities = Yes",
         "raw_text": "GEN_Activities = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -50,21 +57,21 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time",
         "raw_text": "SIS_Enrolled_Status is Full Time",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "unknown",
         "description": "SIS_Enrolled HRS >= 12.00",
         "raw_text": "SIS_Enrolled HRS >= 12.00",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
@@ -136,9 +143,10 @@
     ],
     "banner_summary": {
       "total_criteria": 10,
-      "banner_accessible": 2,
+      "banner_accessible": 5,
       "application_required": 2,
-      "manual_review": 6
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

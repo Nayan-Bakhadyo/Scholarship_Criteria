@@ -22,10 +22,27 @@
         "type": "major",
         "description": "SIS_Major is Applied Math Science-Teaching   and SIS_Major is Art Education   and SIS_Major is Biomedical Engineering   and SIS_Major is Dance Education   and SIS_Major is Early Childhood Education   and SIS_Major is Electrical Engineering   and SIS_Major is Elementary Education   and SIS_Major is Engineering Physics   and SIS_Major is Engineering Physics-Physics   and SIS_Major is English Education   and SIS_Major is History Education   and SIS_Major is Library Media Education   and SIS_Major is Mathematics Education   and SIS_Major is Mechanical Engineering   and SIS_Major is Music Education-Instrumental   and SIS_Major is Music Education-Vocal   and SIS_Major is Music-Music Education   and SIS_Major is Nursing   and SIS_Major is Secondary Education   and SIS_Major is Software Engineering   and SIS_Major is Teacher Certification   and SIS_Major is Teaching English as 2nd Lang   and SIS_Major is Social Studies Education   and SIS_Major is History-Social Studies Teach   and SIS_Major is Fam&Consumer Sci-Education   and SIS_Major is Education-General Education   and SIS_Major is Education-Secondary Education   and SIS_Major is Eng Phy-Pre-Engineering   and SIS_Major is Engineering Physics-Electr Sys   and SIS_Major is Engineering Physics-Mechan Sys   and SIS_Major is Engineering Physics-Sciences   and SIS_Major is Engineering Physics-Technology   and SIS_Major is English-Teaching ESL   and SIS_Major is Music Education-Music Educ   and SIS_Major is Computer Engineering   and SIS_Major is BilEd/Teach Eng Speak Oth Lang   and SIS_Major is Computer Engineering    and SIS_Major is Curr&Instr-Teach & Learn PK-6   and SIS_Major is Cert Teaching/Learning PreK-6",
         "raw_text": "SIS_Major is Applied Math Science-Teaching   and SIS_Major is Art Education   and SIS_Major is Biomedical Engineering   and SIS_Major is Dance Education   and SIS_Major is Early Childhood Education   and SIS_Major is Electrical Engineering   and SIS_Major is Elementary Education   and SIS_Major is Engineering Physics   and SIS_Major is Engineering Physics-Physics   and SIS_Major is English Education   and SIS_Major is History Education   and SIS_Major is Library Media Education   and SIS_Major is Mathematics Education   and SIS_Major is Mechanical Engineering   and SIS_Major is Music Education-Instrumental   and SIS_Major is Music Education-Vocal   and SIS_Major is Music-Music Education   and SIS_Major is Nursing   and SIS_Major is Secondary Education   and SIS_Major is Software Engineering   and SIS_Major is Teacher Certification   and SIS_Major is Teaching English as 2nd Lang   and SIS_Major is Social Studies Education   and SIS_Major is History-Social Studies Teach   and SIS_Major is Fam&Consumer Sci-Education   and SIS_Major is Education-General Education   and SIS_Major is Education-Secondary Education   and SIS_Major is Eng Phy-Pre-Engineering   and SIS_Major is Engineering Physics-Electr Sys   and SIS_Major is Engineering Physics-Mechan Sys   and SIS_Major is Engineering Physics-Sciences   and SIS_Major is Engineering Physics-Technology   and SIS_Major is English-Teaching ESL   and SIS_Major is Music Education-Music Educ   and SIS_Major is Computer Engineering   and SIS_Major is BilEd/Teach Eng Speak Oth Lang   and SIS_Major is Computer Engineering    and SIS_Major is Curr&Instr-Teach & Learn PK-6   and SIS_Major is Cert Teaching/Learning PreK-6",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Applied Math Science-Teaching   and SIS_Major is Art Education   and SIS_Major is Biomedical Engineering   and SIS_Major is Dance Education   and SIS_Major is Early Childhood Education   and SIS_Major is Electrical Engineering   and SIS_Major is Elementary Education   and SIS_Major is Engineering Physics   and SIS_Major is Engineering Physics-Physics   and SIS_Major is English Education   and SIS_Major is History Education   and SIS_Major is Library Media Education   and SIS_Major is Mathematics Education   and SIS_Major is Mechanical Engineering   and SIS_Major is Music Education-Instrumental   and SIS_Major is Music Education-Vocal   and SIS_Major is Music-Music Education   and SIS_Major is Nursing   and SIS_Major is Secondary Education   and SIS_Major is Software Engineering   and SIS_Major is Teacher Certification   and SIS_Major is Teaching English as 2nd Lang   and SIS_Major is Social Studies Education   and SIS_Major is History-Social Studies Teach   and SIS_Major is Fam&Consumer Sci-Education   and SIS_Major is Education-General Education   and SIS_Major is Education-Secondary Education   and SIS_Major is Eng Phy-Pre-Engineering   and SIS_Major is Engineering Physics-Electr Sys   and SIS_Major is Engineering Physics-Mechan Sys   and SIS_Major is Engineering Physics-Sciences   and SIS_Major is Engineering Physics-Technology   and SIS_Major is English-Teaching ESL   and SIS_Major is Music Education-Music Educ   and SIS_Major is Computer Engineering   and SIS_Major is BilEd/Teach Eng Speak Oth Lang   and SIS_Major is Computer Engineering    and SIS_Major is Curr&Instr-Teach & Learn PK-6   and SIS_Major is Cert Teaching/Learning PreK-6"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Applied Math Science-Teaching   and SIS_Major is Art Education   and SIS_Major is Biomedical Engineering   and SIS_Major is Dance Education   and SIS_Major is Early Childhood Education   and SIS_Major is Electrical Engineering   and SIS_Major is Elementary Education   and SIS_Major is Engineering Physics   and SIS_Major is Engineering Physics-Physics   and SIS_Major is English Education   and SIS_Major is History Education   and SIS_Major is Library Media Education   and SIS_Major is Mathematics Education   and SIS_Major is Mechanical Engineering   and SIS_Major is Music Education-Instrumental   and SIS_Major is Music Education-Vocal   and SIS_Major is Music-Music Education   and SIS_Major is Nursing   and SIS_Major is Secondary Education   and SIS_Major is Software Engineering   and SIS_Major is Teacher Certification   and SIS_Major is Teaching English as 2nd Lang   and SIS_Major is Social Studies Education   and SIS_Major is History-Social Studies Teach   and SIS_Major is Fam&Consumer Sci-Education   and SIS_Major is Education-General Education   and SIS_Major is Education-Secondary Education   and SIS_Major is Eng Phy-Pre-Engineering   and SIS_Major is Engineering Physics-Electr Sys   and SIS_Major is Engineering Physics-Mechan Sys   and SIS_Major is Engineering Physics-Sciences   and SIS_Major is Engineering Physics-Technology   and SIS_Major is English-Teaching ESL   and SIS_Major is Music Education-Music Educ   and SIS_Major is Computer Engineering   and SIS_Major is BilEd/Teach Eng Speak Oth Lang   and SIS_Major is Computer Engineering    and SIS_Major is Curr&Instr-Teach & Learn PK-6   and SIS_Major is Cert Teaching/Learning PreK-6",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -71,7 +88,7 @@
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time",
         "raw_text": "SIS_Enrolled_Status is Full Time",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 5,
@@ -90,9 +107,10 @@
     ],
     "banner_summary": {
       "total_criteria": 6,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 1,
-      "manual_review": 4
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

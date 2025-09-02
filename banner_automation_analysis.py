@@ -40,19 +40,40 @@ def analyze_banner_automation():
             scholarship_name = scholarship['basic_information']['scholarship_name']
             scholarship_id = scholarship['basic_information']['scholarship_id']
             hard_criteria = scholarship.get('hard_criteria', {})
+            general_criteria = scholarship.get('general_criteria', {})
             
-            if not hard_criteria.get('criteria'):
+            # Count criteria from both hard and general criteria
+            total_hard_criteria = len(hard_criteria.get('criteria', []))
+            total_general_criteria = len(general_criteria.get('criteria', []))
+            
+            if not total_hard_criteria and not total_general_criteria:
                 continue
                 
             total_scholarships += 1
-            scholarship_criteria = len(hard_criteria['criteria'])
+            scholarship_criteria = total_hard_criteria + total_general_criteria
             total_criteria += scholarship_criteria
             
             banner_count = 0
             app_count = 0
             manual_count = 0
             
-            for criteria in hard_criteria['criteria']:
+            # Process hard criteria
+            for criteria in hard_criteria.get('criteria', []):
+                accessibility = criteria.get('banner_accessibility', 'manual_review')
+                criteria_types[accessibility] += 1
+                
+                if accessibility == 'banner_accessible':
+                    banner_count += 1
+                    banner_accessible_count += 1
+                elif accessibility == 'application_required':
+                    app_count += 1
+                    application_required_count += 1
+                else:
+                    manual_count += 1
+                    manual_review_count += 1
+            
+            # Process general criteria (soft requirements)
+            for criteria in general_criteria.get('criteria', []):
                 accessibility = criteria.get('banner_accessibility', 'manual_review')
                 criteria_types[accessibility] += 1
                 
@@ -148,22 +169,32 @@ def analyze_banner_automation():
             with open(json_file, 'r', encoding='utf-8') as f:
                 scholarship = json.load(f)
             
-            hard_criteria = scholarship.get('hard_criteria', {})
-            for criteria in hard_criteria.get('criteria', []):
-                if criteria.get('banner_accessibility') == 'banner_accessible':
-                    description = criteria.get('description', '')
-                    if 'SIS_Major' in description:
-                        banner_fields['Major Requirements'] += 1
-                    if 'SIS_Minor' in description:
-                        banner_fields['Minor Requirements'] += 1
-                    if 'SIS_Classification' in description:
-                        banner_fields['Classification Requirements'] += 1
-                    if 'SIS_CumGPA' in description:
-                        banner_fields['GPA Requirements'] += 1
-                    if 'SIS_College' in description:
-                        banner_fields['College Requirements'] += 1
-                    if 'SIS_Resident' in description:
-                        banner_fields['Residency Requirements'] += 1
+            # Check both hard and general criteria
+            for criteria_section in ['hard_criteria', 'general_criteria']:
+                criteria_data = scholarship.get(criteria_section, {})
+                for criteria in criteria_data.get('criteria', []):
+                    if criteria.get('banner_accessibility') == 'banner_accessible':
+                        description = criteria.get('description', '')
+                        if 'SIS_Major' in description:
+                            banner_fields['Major Requirements'] += 1
+                        if 'SIS_Minor' in description:
+                            banner_fields['Minor Requirements'] += 1
+                        if 'SIS_Classification' in description:
+                            banner_fields['Classification Requirements'] += 1
+                        if 'SIS_CumGPA' in description:
+                            banner_fields['Cumulative GPA Requirements'] += 1
+                        if 'SIS_MajorGPA' in description:
+                            banner_fields['Major GPA Requirements'] += 1
+                        if 'SIS_Enrolled HRS' in description or 'SIS_Enrolled_HRS' in description:
+                            banner_fields['Enrolled Hours Requirements'] += 1
+                        if 'SIS_College' in description:
+                            banner_fields['College Requirements'] += 1
+                        if 'SIS_Resident' in description:
+                            banner_fields['Residency Requirements'] += 1
+                        if 'SIS_Hours' in description and 'Enrolled' not in description:
+                            banner_fields['Credit Hours Requirements'] += 1
+                        if 'SIS_Level' in description:
+                            banner_fields['Academic Level Requirements'] += 1
         except:
             continue
     

@@ -22,31 +22,41 @@
         "type": "unknown",
         "description": "GEN_Working = Yes",
         "raw_text": "GEN_Working = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "COB_StudentType = Yes",
         "raw_text": "COB_StudentType = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "unknown",
         "description": "COB_Wiley_StudentType = Yes",
         "raw_text": "COB_Wiley_StudentType = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 4,
         "type": "unknown",
         "description": "COB_StudentType = Yes",
         "raw_text": "COB_StudentType = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 4
+    "total_possible_points": 4,
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 4
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -92,7 +102,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 5,
@@ -128,9 +138,10 @@
     ],
     "banner_summary": {
       "total_criteria": 7,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 1,
-      "manual_review": 4
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

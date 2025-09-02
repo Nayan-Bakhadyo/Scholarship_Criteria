@@ -22,10 +22,17 @@
         "type": "application",
         "description": "Complete Essay \"GEN_Personal_Statement \"",
         "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 1,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -95,14 +102,15 @@
         "type": "unknown",
         "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "application_required"
       }
     ],
     "banner_summary": {
       "total_criteria": 6,
       "banner_accessible": 2,
-      "application_required": 0,
-      "manual_review": 4
+      "application_required": 1,
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -22,24 +22,33 @@
         "type": "military",
         "description": "GEN_Military_Experience = Yes",
         "raw_text": "GEN_Military_Experience = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "gpa",
         "description": "SIS_CumGPA >= 3.50",
         "raw_text": "SIS_CumGPA >= 3.50",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "gpa",
         "description": "SIS_CumGPA >= 3.00",
         "raw_text": "SIS_CumGPA >= 3.00",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 2,
+      "application_required": 0,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -64,7 +73,7 @@
         "type": "application",
         "description": "Complete Essay \"GEN_Leadership\"",
         "raw_text": "Complete Essay \"GEN_Leadership\"",
-        "banner_accessibility": "application_required"
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
@@ -97,8 +106,9 @@
     "banner_summary": {
       "total_criteria": 3,
       "banner_accessible": 1,
-      "application_required": 1,
-      "manual_review": 1
+      "application_required": 0,
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

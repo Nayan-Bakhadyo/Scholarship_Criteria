@@ -22,10 +22,17 @@
         "type": "unknown",
         "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 1,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -50,7 +57,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -115,9 +122,10 @@
     ],
     "banner_summary": {
       "total_criteria": 8,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 1,
-      "manual_review": 5
+      "manual_review": 4
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -22,17 +22,25 @@
         "type": "gpa",
         "description": "SIS_CumGPA >= 3.00",
         "raw_text": "SIS_CumGPA >= 3.00",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "application",
         "description": "Complete Essay \"GEN_Personal_Statement \"",
         "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -107,14 +115,15 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
         "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       }
     ],
     "banner_summary": {
       "total_criteria": 6,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 1,
-      "manual_review": 4
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

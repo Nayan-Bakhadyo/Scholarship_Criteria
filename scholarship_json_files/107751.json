@@ -22,10 +22,17 @@
         "type": "gpa",
         "description": "SIS_CumGPA >= 3.00",
         "raw_text": "SIS_CumGPA >= 3.00",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -88,14 +95,15 @@
         "type": "unknown",
         "description": "SIS_Enrolled HRS >= 3.00",
         "raw_text": "SIS_Enrolled HRS >= 3.00",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       }
     ],
     "banner_summary": {
       "total_criteria": 5,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 0,
-      "manual_review": 4
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -22,10 +22,17 @@
         "type": "application",
         "description": "Complete Essay \"GEN_Personal_Statement \"",
         "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 1,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -106,5 +113,6 @@
       "application_required": 1,
       "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

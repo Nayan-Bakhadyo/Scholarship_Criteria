@@ -22,17 +22,35 @@
         "type": "major",
         "description": "SIS_Major is Actuarial Science   and SIS_Major is Applied Math & Compt Science   and SIS_Major is Applied Math Science-Teaching   and SIS_Major is Applied Math Sci-Math   and SIS_Major is Applied Math Sci-Statistics   and SIS_Major is Biology   and SIS_Major is Biology-Biomedical Sciences   and SIS_Major is Biology-Medical Laboratory Sci   and SIS_Major is Biology-Pre-Dental   and SIS_Major is Biology-Pre-Medical   and SIS_Major is Biomedical Engineering   and SIS_Major is Chemistry   and SIS_Major is Chemistry-ACS Certificate   and SIS_Major is Chemistry-Health Sciences   and SIS_Major is Chemistry-Pre-Pharmacy   and SIS_Major is Compl Sci-Computational Engr   and SIS_Major is Compl Sci-Computational Math   and SIS_Major is Compl Sci-Computer Science   and SIS_Major is Computer Science   and SIS_Major is Computer Science-Applied   and SIS_Major is Computer Science-Info Science   and SIS_Major is Engineering Physics   and SIS_Major is Engineering Physics-Physics   and SIS_Major is Engr Physics-Biomedical Engr   and SIS_Major is Engr Physics-Electrical Engr   and SIS_Major is Engr Physics-Mechanical Engr   and SIS_Major is Engr Physics-Physics   and SIS_Major is Funeral Service   and SIS_Major is Funeral Service Certificate   and SIS_Major is Math & Science Non-Degree GR   and SIS_Major is Math & Science Non-Degree UG   and SIS_Major is Math & Science Undecided UG   and SIS_Major is Mathematics   and SIS_Major is Mathematics Education   and SIS_Major is Mathematics-Applied Math   and SIS_Major is Mathematics-Statistics   and SIS_Major is Mechanical Engineering   and SIS_Major is Nursing   and SIS_Major is Science Ed-Biology   and SIS_Major is Science Ed-Chemistry   and SIS_Major is Science Ed-General Science   and SIS_Major is Science Ed-Physics   and SIS_Major is Software Engineering   and SIS_Major is Science Ed-Secondary Sci Ed   and SIS_Major is Science Ed-Physical Science   and SIS_Major is Math & Science Post Masters St   and SIS_Major is Medical Technology   and SIS_Major is Eng Phy-Pre-Engineering   and SIS_Major is Engineering Physics-Electr Sys   and SIS_Major is Engineering Physics-Mechan Sys   and SIS_Major is Engineering Physics-Sciences   and SIS_Major is Engineering Physics-Technology   and SIS_Major is Biology-Pre-Optometry   and SIS_Major is Biology-Pre-Veterinary Med   and SIS_Major is Applied Math Sci-Computer Sci   and SIS_Major is Computer Engineering",
         "raw_text": "SIS_Major is Actuarial Science   and SIS_Major is Applied Math & Compt Science   and SIS_Major is Applied Math Science-Teaching   and SIS_Major is Applied Math Sci-Math   and SIS_Major is Applied Math Sci-Statistics   and SIS_Major is Biology   and SIS_Major is Biology-Biomedical Sciences   and SIS_Major is Biology-Medical Laboratory Sci   and SIS_Major is Biology-Pre-Dental   and SIS_Major is Biology-Pre-Medical   and SIS_Major is Biomedical Engineering   and SIS_Major is Chemistry   and SIS_Major is Chemistry-ACS Certificate   and SIS_Major is Chemistry-Health Sciences   and SIS_Major is Chemistry-Pre-Pharmacy   and SIS_Major is Compl Sci-Computational Engr   and SIS_Major is Compl Sci-Computational Math   and SIS_Major is Compl Sci-Computer Science   and SIS_Major is Computer Science   and SIS_Major is Computer Science-Applied   and SIS_Major is Computer Science-Info Science   and SIS_Major is Engineering Physics   and SIS_Major is Engineering Physics-Physics   and SIS_Major is Engr Physics-Biomedical Engr   and SIS_Major is Engr Physics-Electrical Engr   and SIS_Major is Engr Physics-Mechanical Engr   and SIS_Major is Engr Physics-Physics   and SIS_Major is Funeral Service   and SIS_Major is Funeral Service Certificate   and SIS_Major is Math & Science Non-Degree GR   and SIS_Major is Math & Science Non-Degree UG   and SIS_Major is Math & Science Undecided UG   and SIS_Major is Mathematics   and SIS_Major is Mathematics Education   and SIS_Major is Mathematics-Applied Math   and SIS_Major is Mathematics-Statistics   and SIS_Major is Mechanical Engineering   and SIS_Major is Nursing   and SIS_Major is Science Ed-Biology   and SIS_Major is Science Ed-Chemistry   and SIS_Major is Science Ed-General Science   and SIS_Major is Science Ed-Physics   and SIS_Major is Software Engineering   and SIS_Major is Science Ed-Secondary Sci Ed   and SIS_Major is Science Ed-Physical Science   and SIS_Major is Math & Science Post Masters St   and SIS_Major is Medical Technology   and SIS_Major is Eng Phy-Pre-Engineering   and SIS_Major is Engineering Physics-Electr Sys   and SIS_Major is Engineering Physics-Mechan Sys   and SIS_Major is Engineering Physics-Sciences   and SIS_Major is Engineering Physics-Technology   and SIS_Major is Biology-Pre-Optometry   and SIS_Major is Biology-Pre-Veterinary Med   and SIS_Major is Applied Math Sci-Computer Sci   and SIS_Major is Computer Engineering",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Actuarial Science   and SIS_Major is Applied Math & Compt Science   and SIS_Major is Applied Math Science-Teaching   and SIS_Major is Applied Math Sci-Math   and SIS_Major is Applied Math Sci-Statistics   and SIS_Major is Biology   and SIS_Major is Biology-Biomedical Sciences   and SIS_Major is Biology-Medical Laboratory Sci   and SIS_Major is Biology-Pre-Dental   and SIS_Major is Biology-Pre-Medical   and SIS_Major is Biomedical Engineering   and SIS_Major is Chemistry   and SIS_Major is Chemistry-ACS Certificate   and SIS_Major is Chemistry-Health Sciences   and SIS_Major is Chemistry-Pre-Pharmacy   and SIS_Major is Compl Sci-Computational Engr   and SIS_Major is Compl Sci-Computational Math   and SIS_Major is Compl Sci-Computer Science   and SIS_Major is Computer Science   and SIS_Major is Computer Science-Applied   and SIS_Major is Computer Science-Info Science   and SIS_Major is Engineering Physics   and SIS_Major is Engineering Physics-Physics   and SIS_Major is Engr Physics-Biomedical Engr   and SIS_Major is Engr Physics-Electrical Engr   and SIS_Major is Engr Physics-Mechanical Engr   and SIS_Major is Engr Physics-Physics   and SIS_Major is Funeral Service   and SIS_Major is Funeral Service Certificate   and SIS_Major is Math & Science Non-Degree GR   and SIS_Major is Math & Science Non-Degree UG   and SIS_Major is Math & Science Undecided UG   and SIS_Major is Mathematics   and SIS_Major is Mathematics Education   and SIS_Major is Mathematics-Applied Math   and SIS_Major is Mathematics-Statistics   and SIS_Major is Mechanical Engineering   and SIS_Major is Nursing   and SIS_Major is Science Ed-Biology   and SIS_Major is Science Ed-Chemistry   and SIS_Major is Science Ed-General Science   and SIS_Major is Science Ed-Physics   and SIS_Major is Software Engineering   and SIS_Major is Science Ed-Secondary Sci Ed   and SIS_Major is Science Ed-Physical Science   and SIS_Major is Math & Science Post Masters St   and SIS_Major is Medical Technology   and SIS_Major is Eng Phy-Pre-Engineering   and SIS_Major is Engineering Physics-Electr Sys   and SIS_Major is Engineering Physics-Mechan Sys   and SIS_Major is Engineering Physics-Sciences   and SIS_Major is Engineering Physics-Technology   and SIS_Major is Biology-Pre-Optometry   and SIS_Major is Biology-Pre-Veterinary Med   and SIS_Major is Applied Math Sci-Computer Sci   and SIS_Major is Computer Engineering"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Actuarial Science   and SIS_Major is Applied Math & Compt Science   and SIS_Major is Applied Math Science-Teaching   and SIS_Major is Applied Math Sci-Math   and SIS_Major is Applied Math Sci-Statistics   and SIS_Major is Biology   and SIS_Major is Biology-Biomedical Sciences   and SIS_Major is Biology-Medical Laboratory Sci   and SIS_Major is Biology-Pre-Dental   and SIS_Major is Biology-Pre-Medical   and SIS_Major is Biomedical Engineering   and SIS_Major is Chemistry   and SIS_Major is Chemistry-ACS Certificate   and SIS_Major is Chemistry-Health Sciences   and SIS_Major is Chemistry-Pre-Pharmacy   and SIS_Major is Compl Sci-Computational Engr   and SIS_Major is Compl Sci-Computational Math   and SIS_Major is Compl Sci-Computer Science   and SIS_Major is Computer Science   and SIS_Major is Computer Science-Applied   and SIS_Major is Computer Science-Info Science   and SIS_Major is Engineering Physics   and SIS_Major is Engineering Physics-Physics   and SIS_Major is Engr Physics-Biomedical Engr   and SIS_Major is Engr Physics-Electrical Engr   and SIS_Major is Engr Physics-Mechanical Engr   and SIS_Major is Engr Physics-Physics   and SIS_Major is Funeral Service   and SIS_Major is Funeral Service Certificate   and SIS_Major is Math & Science Non-Degree GR   and SIS_Major is Math & Science Non-Degree UG   and SIS_Major is Math & Science Undecided UG   and SIS_Major is Mathematics   and SIS_Major is Mathematics Education   and SIS_Major is Mathematics-Applied Math   and SIS_Major is Mathematics-Statistics   and SIS_Major is Mechanical Engineering   and SIS_Major is Nursing   and SIS_Major is Science Ed-Biology   and SIS_Major is Science Ed-Chemistry   and SIS_Major is Science Ed-General Science   and SIS_Major is Science Ed-Physics   and SIS_Major is Software Engineering   and SIS_Major is Science Ed-Secondary Sci Ed   and SIS_Major is Science Ed-Physical Science   and SIS_Major is Math & Science Post Masters St   and SIS_Major is Medical Technology   and SIS_Major is Eng Phy-Pre-Engineering   and SIS_Major is Engineering Physics-Electr Sys   and SIS_Major is Engineering Physics-Mechan Sys   and SIS_Major is Engineering Physics-Sciences   and SIS_Major is Engineering Physics-Technology   and SIS_Major is Biology-Pre-Optometry   and SIS_Major is Biology-Pre-Veterinary Med   and SIS_Major is Applied Math Sci-Computer Sci   and SIS_Major is Computer Engineering",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "1 letters of recommendation: \"CMS_Letter of Rec from High School principal \"",
         "raw_text": "1 letters of recommendation: \"CMS_Letter of Rec from High School principal \"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -57,7 +75,7 @@
         "type": "unknown",
         "description": "SIS_High_School_Name is Purcell High School",
         "raw_text": "SIS_High_School_Name is Purcell High School",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -76,9 +94,10 @@
     ],
     "banner_summary": {
       "total_criteria": 3,
-      "banner_accessible": 0,
+      "banner_accessible": 1,
       "application_required": 0,
-      "manual_review": 3
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

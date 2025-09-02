@@ -22,38 +22,49 @@
         "type": "unknown",
         "description": "CLA_Employed_Student = Yes",
         "raw_text": "CLA_Employed_Student = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "CLA_Non_Traditional_Student = Yes",
         "raw_text": "CLA_Non_Traditional_Student = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "unknown",
         "description": "CLA_Single_Parent = Yes",
         "raw_text": "CLA_Single_Parent = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 4,
         "type": "application",
         "description": "Complete Essay \"GEN_Work_History\"",
         "raw_text": "Complete Essay \"GEN_Work_History\"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 5,
         "type": "application",
         "description": "Complete Essay \"CLA_Background_Employment_Goals_Essay\"",
         "raw_text": "Complete Essay \"CLA_Background_Employment_Goals_Essay\"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 3
+    "total_possible_points": 3,
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 0,
+      "application_required": 1,
+      "manual_review": 4
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -133,5 +144,6 @@
       "application_required": 0,
       "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

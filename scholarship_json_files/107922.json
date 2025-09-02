@@ -22,17 +22,25 @@
         "type": "unknown",
         "description": "COB_Rickman_HighSchool = Yes",
         "raw_text": "COB_Rickman_HighSchool = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "GEN_FINANCECLASS = Yes",
         "raw_text": "GEN_FINANCECLASS = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 2
+    "total_possible_points": 2,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 2
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -64,21 +72,21 @@
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time",
         "raw_text": "SIS_Enrolled_Status is Full Time",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
         "type": "unknown",
         "description": "SIS_Enrolled HRS >= 12.00",
         "raw_text": "SIS_Enrolled HRS >= 12.00",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 5,
@@ -146,9 +154,10 @@
     ],
     "banner_summary": {
       "total_criteria": 11,
-      "banner_accessible": 2,
+      "banner_accessible": 5,
       "application_required": 3,
-      "manual_review": 6
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -22,24 +22,33 @@
         "type": "unknown",
         "description": "SIS_Ethnicity is Black or African American   and SIS_Ethnicity is Asian   and SIS_Ethnicity is Pacific Islander/Native Hawaii   and SIS_Ethnicity is Hispanic or Latino   and SIS_Ethnicity is Amer Indian or Alaskan Native",
         "raw_text": "SIS_Ethnicity is Black or African American   and SIS_Ethnicity is Asian   and SIS_Ethnicity is Pacific Islander/Native Hawaii   and SIS_Ethnicity is Hispanic or Latino   and SIS_Ethnicity is Amer Indian or Alaskan Native",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "SIS_Gender is Female",
         "raw_text": "SIS_Gender is Female",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "application",
         "description": "Complete Essay \"GEN_Personal_Statement \"",
         "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 2
+    "total_possible_points": 2,
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -64,7 +73,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -133,9 +142,10 @@
     ],
     "banner_summary": {
       "total_criteria": 6,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 2,
-      "manual_review": 2
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

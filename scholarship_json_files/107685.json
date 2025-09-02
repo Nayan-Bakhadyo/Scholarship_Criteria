@@ -22,10 +22,24 @@
         "type": "gpa",
         "description": "SIS_MajorGPA >= 3.25",
         "raw_text": "SIS_MajorGPA >= 3.25",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -137,5 +151,6 @@
       "application_required": 3,
       "manual_review": 4
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

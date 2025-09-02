@@ -22,10 +22,27 @@
         "type": "unknown",
         "description": "SIS_Classification is 2nd Year Graduate",
         "raw_text": "SIS_Classification is 2nd Year Graduate",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "2nd Year Graduate"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: 2nd Year Graduate",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -57,7 +74,7 @@
         "type": "level",
         "description": "SIS_Level is Graduate",
         "raw_text": "SIS_Level is Graduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
@@ -104,9 +121,10 @@
     ],
     "banner_summary": {
       "total_criteria": 5,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 0,
-      "manual_review": 4
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -22,24 +22,33 @@
         "type": "unknown",
         "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "GEN_OK Resident = Yes",
         "raw_text": "GEN_OK Resident = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "gpa",
         "description": "SIS_CumGPA >= 3.00",
         "raw_text": "SIS_CumGPA >= 3.00",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 3
+    "total_possible_points": 3,
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -85,7 +94,7 @@
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time",
         "raw_text": "SIS_Enrolled_Status is Full Time",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 5,
@@ -122,7 +131,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
         "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 8,
@@ -141,9 +150,10 @@
     ],
     "banner_summary": {
       "total_criteria": 9,
-      "banner_accessible": 3,
+      "banner_accessible": 5,
       "application_required": 2,
-      "manual_review": 4
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

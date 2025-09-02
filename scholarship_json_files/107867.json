@@ -22,31 +22,48 @@
         "type": "gpa",
         "description": "SIS_CumGPA >= 3.00",
         "raw_text": "SIS_CumGPA >= 3.00",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "gpa",
         "description": "SIS_MajorGPA >= 3.00",
         "raw_text": "SIS_MajorGPA >= 3.00",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "unknown",
         "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 4,
         "type": "military",
         "description": "CMS_Military_Healthcare = Yes",
         "raw_text": "CMS_Military_Healthcare = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 4
+    "total_possible_points": 4,
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 2,
+      "application_required": 1,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -71,7 +88,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
         "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -121,9 +138,10 @@
     ],
     "banner_summary": {
       "total_criteria": 5,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 1,
-      "manual_review": 3
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

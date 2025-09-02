@@ -22,17 +22,25 @@
         "type": "application",
         "description": "Complete Essay \"Whitesell_Essay\"",
         "raw_text": "Complete Essay \"Whitesell_Essay\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "Whitesell2 = Yes",
         "raw_text": "Whitesell2 = Yes",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 0,
+      "application_required": 1,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -57,7 +65,7 @@
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time",
         "raw_text": "SIS_Enrolled_Status is Full Time",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -98,9 +106,10 @@
     ],
     "banner_summary": {
       "total_criteria": 4,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 0,
-      "manual_review": 2
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

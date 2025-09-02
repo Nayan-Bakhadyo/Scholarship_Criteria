@@ -22,24 +22,33 @@
         "type": "unknown",
         "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "1 letters of recommendation: \"CMS_LOR_Vaughan\"",
         "raw_text": "1 letters of recommendation: \"CMS_LOR_Vaughan\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 3,
         "type": "application",
         "description": "Complete Essay \"GEN_Financial Need\"",
         "raw_text": "Complete Essay \"GEN_Financial Need\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 3
+    "total_possible_points": 3,
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 0,
+      "application_required": 3,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -111,5 +120,6 @@
       "application_required": 1,
       "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -22,17 +22,25 @@
         "type": "unknown",
         "description": "GEN_Teaching = Yes",
         "raw_text": "GEN_Teaching = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "application",
         "description": "Complete Essay \"GEN_Personal_Statement \"",
         "raw_text": "Complete Essay \"GEN_Personal_Statement \"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 0,
+      "application_required": 1,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -81,7 +89,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
@@ -93,9 +101,10 @@
     ],
     "banner_summary": {
       "total_criteria": 4,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 0,
-      "manual_review": 3
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

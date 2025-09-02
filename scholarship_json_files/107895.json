@@ -22,10 +22,17 @@
         "type": "unknown",
         "description": "GEN_International = Yes",
         "raw_text": "GEN_International = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -57,7 +64,7 @@
         "type": "level",
         "description": "SIS_Level is Graduate",
         "raw_text": "SIS_Level is Graduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
@@ -88,9 +95,10 @@
     ],
     "banner_summary": {
       "total_criteria": 4,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 0,
-      "manual_review": 2
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

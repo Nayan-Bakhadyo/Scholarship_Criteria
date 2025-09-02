@@ -22,45 +22,97 @@
         "type": "major",
         "description": "SIS_Major is Modern Language Ed-French   and SIS_Major is Modern Language-French",
         "raw_text": "SIS_Major is Modern Language Ed-French   and SIS_Major is Modern Language-French",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Modern Language Ed-French   and SIS_Major is Modern Language-French"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Modern Language Ed-French   and SIS_Major is Modern Language-French",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "GEN_1st_Generation = Yes",
         "raw_text": "GEN_1st_Generation = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "major",
         "description": "SIS_Major_2 is Modern Language Ed-French   and SIS_Major_2 is Modern Language-French",
         "raw_text": "SIS_Major_2 is Modern Language Ed-French   and SIS_Major_2 is Modern Language-French",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Modern Language Ed-French   and SIS_Major_2 is Modern Language-French"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Modern Language Ed-French   and SIS_Major_2 is Modern Language-French",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
         "type": "unknown",
         "description": "CLA_Study_Tour_General = Yes",
         "raw_text": "CLA_Study_Tour_General = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 5,
         "type": "major",
         "description": "SIS_Major_2_2 is Modern Language Ed-French   and SIS_Major_2_2 is Modern Language-French",
         "raw_text": "SIS_Major_2_2 is Modern Language Ed-French   and SIS_Major_2_2 is Modern Language-French",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Modern Language Ed-French   and SIS_Major_2_2 is Modern Language-French"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Modern Language Ed-French   and SIS_Major_2_2 is Modern Language-French",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 6,
         "type": "major",
         "description": "SIS_Major_1_2 is Modern Language Ed-French   and SIS_Major_1_2 is Modern Language-French",
         "raw_text": "SIS_Major_1_2 is Modern Language Ed-French   and SIS_Major_1_2 is Modern Language-French",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Modern Language Ed-French   and SIS_Major_1_2 is Modern Language-French"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Modern Language Ed-French   and SIS_Major_1_2 is Modern Language-French",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 6
+    "total_possible_points": 6,
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 4,
+      "application_required": 0,
+      "manual_review": 2
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -92,7 +144,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
         "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
@@ -153,9 +205,10 @@
     ],
     "banner_summary": {
       "total_criteria": 6,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 1,
-      "manual_review": 3
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

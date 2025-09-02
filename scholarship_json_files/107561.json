@@ -17,7 +17,13 @@
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
     "criteria": [],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 0,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -87,21 +93,22 @@
         "type": "unknown",
         "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "application_required"
       },
       {
         "id": 7,
         "type": "unknown",
         "description": "1 letters of recommendation: \"GEN_LOR_Off_Campus\"",
         "raw_text": "1 letters of recommendation: \"GEN_LOR_Off_Campus\"",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "application_required"
       }
     ],
     "banner_summary": {
       "total_criteria": 7,
       "banner_accessible": 2,
-      "application_required": 2,
-      "manual_review": 3
+      "application_required": 4,
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

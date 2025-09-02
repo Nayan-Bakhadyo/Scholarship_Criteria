@@ -22,17 +22,25 @@
         "type": "unknown",
         "description": "GEN_Spanish_Language = Yes",
         "raw_text": "GEN_Spanish_Language = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "GEN_Study_/Abroad = Yes",
         "raw_text": "GEN_Study_/Abroad = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 2
+    "total_possible_points": 2,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 2
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -64,7 +72,7 @@
         "type": "application",
         "description": "Complete Essay \"GEN_Leadership\"",
         "raw_text": "Complete Essay \"GEN_Leadership\"",
-        "banner_accessibility": "application_required"
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
@@ -97,8 +105,9 @@
     "banner_summary": {
       "total_criteria": 4,
       "banner_accessible": 2,
-      "application_required": 1,
-      "manual_review": 1
+      "application_required": 0,
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

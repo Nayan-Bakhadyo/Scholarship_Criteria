@@ -17,7 +17,13 @@
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
     "criteria": [],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 0,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -42,7 +48,7 @@
         "type": "application",
         "description": "Complete Essay \"GEN_Leadership\"",
         "raw_text": "Complete Essay \"GEN_Leadership\"",
-        "banner_accessibility": "application_required"
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
@@ -105,8 +111,9 @@
     "banner_summary": {
       "total_criteria": 5,
       "banner_accessible": 2,
-      "application_required": 1,
-      "manual_review": 2
+      "application_required": 0,
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

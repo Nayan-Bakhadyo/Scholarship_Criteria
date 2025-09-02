@@ -22,45 +22,57 @@
         "type": "unknown",
         "description": "SIS_Ethnicity is Amer Indian or Alaskan Native",
         "raw_text": "SIS_Ethnicity is Amer Indian or Alaskan Native",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "SIS_Ethnicity is Asian",
         "raw_text": "SIS_Ethnicity is Asian",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "unknown",
         "description": "SIS_Ethnicity is Black or African American",
         "raw_text": "SIS_Ethnicity is Black or African American",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 4,
         "type": "unknown",
         "description": "SIS_Ethnicity is Pacific Islander/Native Hawaii",
         "raw_text": "SIS_Ethnicity is Pacific Islander/Native Hawaii",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 5,
         "type": "unknown",
         "description": "SIS_Ethnicity is Hispanic or Latino",
         "raw_text": "SIS_Ethnicity is Hispanic or Latino",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 6,
         "type": "application",
         "description": "Complete Essay \"GEN_Financial Need\"",
         "raw_text": "Complete Essay \"GEN_Financial Need\"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 5
+    "total_possible_points": 5,
+    "banner_summary": {
+      "total_criteria": 6,
+      "banner_accessible": 0,
+      "application_required": 1,
+      "manual_review": 5
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -136,7 +148,7 @@
         "type": "unknown",
         "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "application_required"
       },
       {
         "id": 7,
@@ -149,8 +161,9 @@
     "banner_summary": {
       "total_criteria": 7,
       "banner_accessible": 2,
-      "application_required": 2,
-      "manual_review": 3
+      "application_required": 3,
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -17,7 +17,13 @@
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
     "criteria": [],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 0,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -49,14 +55,14 @@
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time   or SIS_Enrolled_Status is Part Time",
         "raw_text": "SIS_Enrolled_Status is Full Time   or SIS_Enrolled_Status is Part Time",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "level",
         "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
         "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
@@ -77,7 +83,7 @@
         "type": "hours",
         "description": "SIS_Level is Graduate   or SIS_Overall_Hours >= 60.00",
         "raw_text": "SIS_Level is Graduate   or SIS_Overall_Hours >= 60.00",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 7,
@@ -108,9 +114,10 @@
     ],
     "banner_summary": {
       "total_criteria": 8,
-      "banner_accessible": 2,
+      "banner_accessible": 5,
       "application_required": 1,
-      "manual_review": 5
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

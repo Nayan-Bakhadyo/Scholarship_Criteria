@@ -22,31 +22,41 @@
         "type": "unknown",
         "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 2,
         "type": "application",
         "description": "Complete Essay \"CMS_Steffen_essay\"",
         "raw_text": "Complete Essay \"CMS_Steffen_essay\"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 3,
         "type": "application",
         "description": "Complete Essay \"GEN_Financial Need\"",
         "raw_text": "Complete Essay \"GEN_Financial Need\"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 4,
         "type": "application",
         "description": "Complete Attachment:  \"GEN_Transcript\"",
         "raw_text": "Complete Attachment:  \"GEN_Transcript\"",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 0,
+      "application_required": 4,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -148,5 +158,6 @@
       "application_required": 0,
       "manual_review": 4
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

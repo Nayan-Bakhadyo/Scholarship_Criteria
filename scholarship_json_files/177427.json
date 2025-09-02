@@ -22,17 +22,25 @@
         "type": "unknown",
         "description": "SIS_Gender is Female",
         "raw_text": "SIS_Gender is Female",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "application",
         "description": "Complete Essay \"GEN_Work_History\"",
         "raw_text": "Complete Essay \"GEN_Work_History\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 2
+    "total_possible_points": 2,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -78,14 +86,15 @@
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time   or SIS_Enrolled_Status is Part Time",
         "raw_text": "SIS_Enrolled_Status is Full Time   or SIS_Enrolled_Status is Part Time",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       }
     ],
     "banner_summary": {
       "total_criteria": 4,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 0,
-      "manual_review": 2
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

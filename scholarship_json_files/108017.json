@@ -22,24 +22,33 @@
         "type": "unknown",
         "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "CMS_Grosebeck_onlineclass = Yes",
         "raw_text": "CMS_Grosebeck_onlineclass = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "unknown",
         "description": "CMS_Groesbeck_Leadership = Yes",
         "raw_text": "CMS_Groesbeck_Leadership = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 3
+    "total_possible_points": 3,
+    "banner_summary": {
+      "total_criteria": 3,
+      "banner_accessible": 0,
+      "application_required": 1,
+      "manual_review": 2
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -88,7 +97,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
@@ -100,9 +109,10 @@
     ],
     "banner_summary": {
       "total_criteria": 4,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 1,
-      "manual_review": 2
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

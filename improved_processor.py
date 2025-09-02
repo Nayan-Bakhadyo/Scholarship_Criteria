@@ -51,9 +51,13 @@ def parse_sis_criteria(raw_text: str) -> Dict:
                 classification = match.group(1).strip()
                 parsed['classifications'].add(classification)
         
-        # Parse GPA conditions
-        elif 'SIS_CumGPA' in condition or 'GPA' in condition:
+        # Parse GPA conditions (both cumulative and major GPA)
+        elif 'SIS_CumGPA' in condition or 'SIS_MajorGPA' in condition or 'GPA' in condition:
             parsed['gpa_requirements'].add(condition)
+        
+        # Parse enrollment hours conditions
+        elif 'SIS_Enrolled HRS' in condition or 'SIS_Enrolled_HRS' in condition:
+            parsed['other_sis'].add(condition)
         
         # Other SIS conditions
         elif 'SIS_' in condition:
@@ -86,7 +90,8 @@ def categorize_banner_accessibility(criteria_type: str, description: str) -> str
     banner_accessible_patterns = [
         # Academic information
         'SIS_Major', 'SIS_Minor', 'SIS_Classification', 'SIS_College', 'SIS_Level',
-        'SIS_CumGPA', 'SIS_Hours', 'SIS_Term_Hours', 'SIS_Cumulative_Hours',
+        'SIS_CumGPA', 'SIS_MajorGPA', 'SIS_Hours', 'SIS_Term_Hours', 'SIS_Cumulative_Hours',
+        'SIS_Enrolled HRS', 'SIS_Enrolled_HRS',
         
         # Student demographics  
         'SIS_Gender', 'SIS_Hispanic', 'SIS_Resident', 'SIS_Residency',
@@ -122,7 +127,12 @@ def categorize_banner_accessibility(criteria_type: str, description: str) -> str
     
     description_lower = description.lower()
     
-    # Check for manual review first (these override Banner accessibility)
+    # Check if it's Banner accessible FIRST (these take priority)
+    for pattern in banner_accessible_patterns:
+        if description.startswith(pattern):
+            return 'banner_accessible'
+    
+    # Check for manual review patterns (these override application requirements)
     for pattern in manual_review_patterns:
         if pattern in description_lower:
             return 'manual_review'
@@ -131,11 +141,6 @@ def categorize_banner_accessibility(criteria_type: str, description: str) -> str
     for pattern in application_patterns:
         if pattern.lower() in description_lower:
             return 'application_required'
-    
-    # Check if it's Banner accessible
-    for pattern in banner_accessible_patterns:
-        if pattern in description:
-            return 'banner_accessible'
     
     # Default to manual review for unknown criteria
     return 'manual_review'
@@ -180,43 +185,83 @@ def process_scholarship_json(json_file_path: str) -> bool:
         with open(json_file_path, 'r', encoding='utf-8') as f:
             scholarship_data = json.load(f)
         
-        # Rename qualifying_criteria to hard_criteria
+        # Handle both qualifying_criteria (old) and hard_criteria (current)
         if 'qualifying_criteria' in scholarship_data:
             hard_criteria = scholarship_data.pop('qualifying_criteria')
-            
             # Update the description
             hard_criteria['description'] = "Hard requirements that must be met to qualify for the scholarship"
+        elif 'hard_criteria' in scholarship_data:
+            hard_criteria = scholarship_data['hard_criteria']
+        else:
+            # No criteria to process
+            return True
+        
+        # Improve each criteria item
+        improved_criteria = []
+        banner_accessible_count = 0
+        application_required_count = 0
+        manual_review_count = 0
+        
+        for criteria in hard_criteria['criteria']:
+            improved_criteria_item = improve_criteria_parsing(criteria)
+            improved_criteria.append(improved_criteria_item)
             
-            # Improve each criteria item
-            improved_criteria = []
-            banner_accessible_count = 0
-            application_required_count = 0
-            manual_review_count = 0
+            # Count by accessibility type
+            if improved_criteria_item['banner_accessibility'] == 'banner_accessible':
+                banner_accessible_count += 1
+            elif improved_criteria_item['banner_accessibility'] == 'application_required':
+                application_required_count += 1
+            else:
+                manual_review_count += 1
+        
+        hard_criteria['criteria'] = improved_criteria
+        
+        # Add summary of Banner accessibility
+        hard_criteria['banner_summary'] = {
+            'total_criteria': len(improved_criteria),
+            'banner_accessible': banner_accessible_count,
+            'application_required': application_required_count,
+            'manual_review': manual_review_count
+        }
+        
+        # Add the improved hard_criteria to scholarship data
+        scholarship_data['hard_criteria'] = hard_criteria
+        
+        # Also process general_criteria (soft requirements) if they exist
+        if 'general_criteria' in scholarship_data and 'criteria' in scholarship_data['general_criteria']:
+            general_criteria = scholarship_data['general_criteria']
+            improved_general_criteria = []
+            general_banner_accessible_count = 0
+            general_application_required_count = 0
+            general_manual_review_count = 0
             
-            for criteria in hard_criteria['criteria']:
+            for criteria in general_criteria['criteria']:
                 improved_criteria_item = improve_criteria_parsing(criteria)
-                improved_criteria.append(improved_criteria_item)
+                improved_general_criteria.append(improved_criteria_item)
                 
                 # Count by accessibility type
                 if improved_criteria_item['banner_accessibility'] == 'banner_accessible':
-                    banner_accessible_count += 1
+                    general_banner_accessible_count += 1
                 elif improved_criteria_item['banner_accessibility'] == 'application_required':
-                    application_required_count += 1
+                    general_application_required_count += 1
                 else:
-                    manual_review_count += 1
+                    general_manual_review_count += 1
             
-            hard_criteria['criteria'] = improved_criteria
+            general_criteria['criteria'] = improved_general_criteria
             
-            # Add summary of Banner accessibility
-            hard_criteria['banner_summary'] = {
-                'total_criteria': len(improved_criteria),
-                'banner_accessible': banner_accessible_count,
-                'application_required': application_required_count,
-                'manual_review': manual_review_count
+            # Add summary of Banner accessibility for general criteria
+            general_criteria['banner_summary'] = {
+                'total_criteria': len(improved_general_criteria),
+                'banner_accessible': general_banner_accessible_count,
+                'application_required': general_application_required_count,
+                'manual_review': general_manual_review_count
             }
             
-            # Add the improved hard_criteria to scholarship data
-            scholarship_data['hard_criteria'] = hard_criteria
+            scholarship_data['general_criteria'] = general_criteria
+        
+        # Add progress_status field if it doesn't exist
+        if 'progress_status' not in scholarship_data:
+            scholarship_data['progress_status'] = 'not-processed'
         
         # Write back the improved JSON
         with open(json_file_path, 'w', encoding='utf-8') as f:

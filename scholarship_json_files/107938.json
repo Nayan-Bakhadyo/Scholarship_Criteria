@@ -22,17 +22,35 @@
         "type": "unknown",
         "description": "SIS_OKResidency = Yes",
         "raw_text": "SIS_OKResidency = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "SIS_Classification is Sophomore   and SIS_Classification is Junior",
         "raw_text": "SIS_Classification is Sophomore   and SIS_Classification is Junior",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Sophomore   and SIS_Classification is Junior"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Sophomore   and SIS_Classification is Junior",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 2
+    "total_possible_points": 2,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -127,14 +145,15 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       }
     ],
     "banner_summary": {
       "total_criteria": 6,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 0,
-      "manual_review": 4
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

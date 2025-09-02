@@ -22,31 +22,81 @@
         "type": "major",
         "description": "SIS_Major is Accounting   and SIS_Major is Economics-Energy Economics   and SIS_Major is Mngt-Human Resource Management   and SIS_Major is Mgmt-Human Resource Management   and SIS_Major is InfoSys&OpMgmt-MIS   and SIS_Major is InfoSys&OpMgmt-Op&Sup Chain Mg",
         "raw_text": "SIS_Major is Accounting   and SIS_Major is Economics-Energy Economics   and SIS_Major is Mngt-Human Resource Management   and SIS_Major is Mgmt-Human Resource Management   and SIS_Major is InfoSys&OpMgmt-MIS   and SIS_Major is InfoSys&OpMgmt-Op&Sup Chain Mg",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Accounting   and SIS_Major is Economics-Energy Economics   and SIS_Major is Mngt-Human Resource Management   and SIS_Major is Mgmt-Human Resource Management   and SIS_Major is InfoSys&OpMgmt-MIS   and SIS_Major is InfoSys&OpMgmt-Op&Sup Chain Mg"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Accounting   and SIS_Major is Economics-Energy Economics   and SIS_Major is Mngt-Human Resource Management   and SIS_Major is Mgmt-Human Resource Management   and SIS_Major is InfoSys&OpMgmt-MIS   and SIS_Major is InfoSys&OpMgmt-Op&Sup Chain Mg",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "major",
         "description": "SIS_Major_1_2 is Accounting   and SIS_Major_1_2 is Economics-Energy Economics   and SIS_Major_1_2 is Mngt-Human Resource Management   and SIS_Major_1_2 is Mgmt-Human Resource Management   and SIS_Major_1_2 is InfoSys&OpMgmt-MIS   and SIS_Major_1_2 is InfoSys&OpMgmt-Op&Sup Chain Mg",
         "raw_text": "SIS_Major_1_2 is Accounting   and SIS_Major_1_2 is Economics-Energy Economics   and SIS_Major_1_2 is Mngt-Human Resource Management   and SIS_Major_1_2 is Mgmt-Human Resource Management   and SIS_Major_1_2 is InfoSys&OpMgmt-MIS   and SIS_Major_1_2 is InfoSys&OpMgmt-Op&Sup Chain Mg",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [
+            "Accounting   and SIS_Major_1_2 is Economics-Energy Economics   and SIS_Major_1_2 is Mngt-Human Resource Management   and SIS_Major_1_2 is Mgmt-Human Resource Management   and SIS_Major_1_2 is InfoSys&OpMgmt-MIS   and SIS_Major_1_2 is InfoSys&OpMgmt-Op&Sup Chain Mg"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Accounting   and SIS_Major_1_2 is Economics-Energy Economics   and SIS_Major_1_2 is Mngt-Human Resource Management   and SIS_Major_1_2 is Mgmt-Human Resource Management   and SIS_Major_1_2 is InfoSys&OpMgmt-MIS   and SIS_Major_1_2 is InfoSys&OpMgmt-Op&Sup Chain Mg",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "major",
         "description": "SIS_Major_2_2 is Accounting   and SIS_Major_2_2 is Economics-Energy Economics   and SIS_Major_2_2 is Mngt-Human Resource Management   and SIS_Major_2_2 is Mgmt-Human Resource Management   and SIS_Major_2_2 is InfoSys&OpMgmt-MIS   and SIS_Major_2_2 is InfoSys&OpMgmt-Op&Sup Chain Mg",
         "raw_text": "SIS_Major_2_2 is Accounting   and SIS_Major_2_2 is Economics-Energy Economics   and SIS_Major_2_2 is Mngt-Human Resource Management   and SIS_Major_2_2 is Mgmt-Human Resource Management   and SIS_Major_2_2 is InfoSys&OpMgmt-MIS   and SIS_Major_2_2 is InfoSys&OpMgmt-Op&Sup Chain Mg",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [
+            "Accounting   and SIS_Major_2_2 is Economics-Energy Economics   and SIS_Major_2_2 is Mngt-Human Resource Management   and SIS_Major_2_2 is Mgmt-Human Resource Management   and SIS_Major_2_2 is InfoSys&OpMgmt-MIS   and SIS_Major_2_2 is InfoSys&OpMgmt-Op&Sup Chain Mg"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Accounting   and SIS_Major_2_2 is Economics-Energy Economics   and SIS_Major_2_2 is Mngt-Human Resource Management   and SIS_Major_2_2 is Mgmt-Human Resource Management   and SIS_Major_2_2 is InfoSys&OpMgmt-MIS   and SIS_Major_2_2 is InfoSys&OpMgmt-Op&Sup Chain Mg",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
         "type": "major",
         "description": "SIS_Major_2 is Accounting   and SIS_Major_2 is Economics-Energy Economics   and SIS_Major_2 is Mngt-Human Resource Management   and SIS_Major_2 is Mgmt-Human Resource Management   and SIS_Major_2 is InfoSys&OpMgmt-MIS   and SIS_Major_2 is InfoSys&OpMgmt-Op&Sup Chain Mg",
         "raw_text": "SIS_Major_2 is Accounting   and SIS_Major_2 is Economics-Energy Economics   and SIS_Major_2 is Mngt-Human Resource Management   and SIS_Major_2 is Mgmt-Human Resource Management   and SIS_Major_2 is InfoSys&OpMgmt-MIS   and SIS_Major_2 is InfoSys&OpMgmt-Op&Sup Chain Mg",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [
+            "Accounting   and SIS_Major_2 is Economics-Energy Economics   and SIS_Major_2 is Mngt-Human Resource Management   and SIS_Major_2 is Mgmt-Human Resource Management   and SIS_Major_2 is InfoSys&OpMgmt-MIS   and SIS_Major_2 is InfoSys&OpMgmt-Op&Sup Chain Mg"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Accounting   and SIS_Major_2 is Economics-Energy Economics   and SIS_Major_2 is Mngt-Human Resource Management   and SIS_Major_2 is Mgmt-Human Resource Management   and SIS_Major_2 is InfoSys&OpMgmt-MIS   and SIS_Major_2 is InfoSys&OpMgmt-Op&Sup Chain Mg",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 4,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -71,7 +121,7 @@
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time",
         "raw_text": "SIS_Enrolled_Status is Full Time",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -100,9 +150,10 @@
     ],
     "banner_summary": {
       "total_criteria": 3,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 0,
-      "manual_review": 2
+      "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

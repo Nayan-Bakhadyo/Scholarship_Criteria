@@ -7,6 +7,194 @@ let currentPage = 1;
 const itemsPerPage = 12;
 let viewMode = 'grid';
 
+// Calculate complexity score for a scholarship
+function calculateComplexityScore(scholarship) {
+    let complexity = 0;
+    
+    // Hard criteria complexity (weighted heavily)
+    complexity += scholarship.hard_criteria.criteria_count * 3;
+    
+    // General criteria complexity
+    complexity += scholarship.general_criteria.criteria_count * 1;
+    
+    // Conditional criteria complexity
+    complexity += scholarship.conditional_criteria.criteria_count * 2;
+    
+    // Application requirements add complexity
+    if (scholarship.hard_criteria.criteria) {
+        scholarship.hard_criteria.criteria.forEach(criteria => {
+            if (criteria.banner_accessibility === 'application_required') {
+                complexity += 2;
+            } else if (criteria.banner_accessibility === 'manual_review') {
+                complexity += 3;
+            }
+        });
+    }
+    
+    return complexity;
+}
+
+// Progress status management functions
+function determineProgressStatus(scholarship) {
+    const scholarshipId = scholarship.basic_information.scholarship_id;
+    
+    // Check localStorage first for any manual overrides
+    const localStatus = getLocalProgressStatus(scholarshipId);
+    if (localStatus) {
+        return localStatus;
+    }
+    
+    // Fall back to JSON file status
+    return scholarship.progress_status || 'not-processed';
+}
+
+function getLocalProgressStatus(scholarshipId) {
+    try {
+        const localStatuses = JSON.parse(localStorage.getItem('scholarshipProgressStatus') || '{}');
+        return localStatuses[scholarshipId];
+    } catch (error) {
+        console.error('Error reading local progress status:', error);
+        return null;
+    }
+}
+
+function setLocalProgressStatus(scholarshipId, status) {
+    try {
+        const localStatuses = JSON.parse(localStorage.getItem('scholarshipProgressStatus') || '{}');
+        localStatuses[scholarshipId] = status;
+        localStorage.setItem('scholarshipProgressStatus', JSON.stringify(localStatuses));
+        
+        // Also update the in-memory scholarship data
+        const scholarship = scholarships.find(s => s.basic_information.scholarship_id === scholarshipId);
+        if (scholarship) {
+            scholarship.progress_status = status;
+        }
+        
+        return true;
+    } catch (error) {
+        console.error('Error saving local progress status:', error);
+        return false;
+    }
+}
+
+function getProgressStatusInfo(status) {
+    const statusConfig = {
+        'not-processed': {
+            label: 'Not Processed',
+            icon: 'fas fa-circle',
+            class: 'text-secondary'
+        },
+        'in-process': {
+            label: 'In Process',
+            icon: 'fas fa-clock',
+            class: 'text-warning'
+        },
+        'complete': {
+            label: 'Complete',
+            icon: 'fas fa-check-circle',
+            class: 'text-success'
+        }
+    };
+    
+    return statusConfig[status] || statusConfig['not-processed'];
+}
+
+// Export/Import functions for syncing across devices
+function exportProgressData() {
+    try {
+        const progressData = localStorage.getItem('scholarshipProgressStatus') || '{}';
+        const blob = new Blob([progressData], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `scholarship_progress_${new Date().toISOString().split('T')[0]}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        
+        showNotification('Progress data exported successfully!', 'success');
+    } catch (error) {
+        console.error('Error exporting progress data:', error);
+        showNotification('Failed to export progress data', 'error');
+    }
+}
+
+function importProgressData() {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.json';
+    
+    input.onchange = function(event) {
+        const file = event.target.files[0];
+        if (!file) return;
+        
+        const reader = new FileReader();
+        reader.onload = function(e) {
+            try {
+                const progressData = JSON.parse(e.target.result);
+                localStorage.setItem('scholarshipProgressStatus', JSON.stringify(progressData));
+                
+                // Refresh the display
+                displayScholarships();
+                showNotification('Progress data imported successfully!', 'success');
+            } catch (error) {
+                console.error('Error importing progress data:', error);
+                showNotification('Failed to import progress data. Invalid file format.', 'error');
+            }
+        };
+        reader.readAsText(file);
+    };
+    
+    input.click();
+}
+
+function showNotification(message, type = 'info') {
+    // Create notification element
+    const notification = document.createElement('div');
+    notification.className = `alert alert-${type === 'error' ? 'danger' : type === 'success' ? 'success' : 'info'} alert-dismissible fade show position-fixed`;
+    notification.style.cssText = 'top: 20px; right: 20px; z-index: 9999; min-width: 300px;';
+    notification.innerHTML = `
+        ${message}
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    `;
+    
+    document.body.appendChild(notification);
+    
+    // Auto remove after 5 seconds
+    setTimeout(() => {
+        if (notification.parentNode) {
+            notification.parentNode.removeChild(notification);
+        }
+    }, 5000);
+}
+
+// Get progress status display information
+function getProgressStatusInfo(status) {
+    switch (status) {
+        case 'complete':
+            return {
+                label: 'Complete',
+                class: 'bg-success',
+                icon: 'fas fa-check'
+            };
+        case 'in-process':
+            return {
+                label: 'In Process',
+                class: 'bg-warning text-dark',
+                icon: 'fas fa-clock'
+            };
+        case 'not-processed':
+        default:
+            return {
+                label: 'Not Processed',
+                class: 'bg-secondary',
+                icon: 'fas fa-hourglass-start'
+            };
+    }
+}
+
 // Initialize the application
 document.addEventListener('DOMContentLoaded', function() {
     loadScholarships();
@@ -19,9 +207,12 @@ function setupEventListeners() {
     document.getElementById('searchInput').addEventListener('input', debounce(applyFilters, 300));
     
     // Filter dropdowns
-    ['committeeFilter', 'renewableFilter', 'minGPA', 'levelFilter', 'sortBy'].forEach(id => {
+    ['committeeFilter', 'renewableFilter', 'minGPA', 'levelFilter', 'progressFilter', 'sortBy'].forEach(id => {
         document.getElementById(id).addEventListener('change', applyFilters);
     });
+    
+    // Initialize status change modal
+    initializeStatusChangeModal();
     
     // Smooth scrolling for navigation links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -76,6 +267,15 @@ async function loadScholarships() {
             
             const results = await Promise.all(promises);
             const validResults = results.filter(scholarship => scholarship !== null);
+            
+            // Calculate complexity and progress status for each scholarship
+            validResults.forEach(scholarship => {
+                if (scholarship) {
+                    scholarship.complexityScore = calculateComplexityScore(scholarship);
+                    scholarship.progressStatus = determineProgressStatus(scholarship);
+                }
+            });
+            
             scholarships.push(...validResults);
             
             // Update progress
@@ -188,6 +388,7 @@ function applyFilters() {
     const renewableFilter = document.getElementById('renewableFilter').value;
     const minGPA = document.getElementById('minGPA').value;
     const levelFilter = document.getElementById('levelFilter').value;
+    const progressFilter = document.getElementById('progressFilter').value;
     const sortBy = document.getElementById('sortBy').value;
     
     filteredScholarships = scholarships.filter(scholarship => {
@@ -229,6 +430,11 @@ function applyFilters() {
             }
         }
         
+        // Progress status filter
+        if (progressFilter && scholarship.progressStatus !== progressFilter) {
+            return false;
+        }
+        
         return true;
     });
     
@@ -266,6 +472,16 @@ function sortScholarships(sortBy) {
         case 'candidates':
             filteredScholarships.sort((a, b) => 
                 b.basic_information.candidate_count - a.basic_information.candidate_count
+            );
+            break;
+        case 'complexity':
+            filteredScholarships.sort((a, b) => 
+                a.complexityScore - b.complexityScore
+            );
+            break;
+        case 'complexity-desc':
+            filteredScholarships.sort((a, b) => 
+                b.complexityScore - a.complexityScore
             );
             break;
     }
@@ -326,28 +542,43 @@ function createScholarshipCard(scholarship) {
     const conditionalCount = scholarship.conditional_criteria.criteria_count;
     const totalPoints = scholarship.general_criteria.total_possible_points;
     
+    // Get progress status info
+    const progressStatus = scholarship.progressStatus || 'not-processed';
+    const progressInfo = getProgressStatusInfo(progressStatus);
+    
     cardElement.innerHTML = `
         <div class="card scholarship-card h-100" onclick="showScholarshipDetails(${scholarship.basic_information.scholarship_id})">
             <div class="card-header">
                 <div class="d-flex justify-content-between align-items-start">
                     <h5 class="card-title mb-1">${scholarship.basic_information.scholarship_name}</h5>
-                    <span class="badge scholarship-code">${scholarship.basic_information.scholarship_code}</span>
+                    <div class="d-flex flex-column align-items-end">
+                        <span class="badge scholarship-code mb-1">${scholarship.basic_information.scholarship_code}</span>
+                        <span class="badge ${progressInfo.class} small progress-status-badge" 
+                              onclick="event.stopPropagation(); showStatusChangeModal(${scholarship.basic_information.scholarship_id})"
+                              title="Click to change status" style="cursor: pointer;">
+                            <i class="${progressInfo.icon} me-1"></i>${progressInfo.label}
+                        </span>
+                    </div>
                 </div>
                 <p class="mb-0 small">${scholarship.basic_information.committee_name}</p>
             </div>
             <div class="card-body">
                 <div class="row mb-3">
-                    <div class="col-6">
+                    <div class="col-4">
                         <small class="text-muted">Candidates</small>
                         <div class="fw-bold">${scholarship.basic_information.candidate_count}</div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-4">
                         <small class="text-muted">Renewable</small>
                         <div class="fw-bold">
                             ${scholarship.renewable_information.is_renewable ? 
                                 `<i class="fas fa-check text-success"></i> Yes` : 
                                 `<i class="fas fa-times text-danger"></i> No`}
                         </div>
+                    </div>
+                    <div class="col-4">
+                        <small class="text-muted">Complexity</small>
+                        <div class="fw-bold">${scholarship.complexityScore || 0}</div>
                     </div>
                 </div>
                 
@@ -554,6 +785,7 @@ function clearFilters() {
     document.getElementById('renewableFilter').value = '';
     document.getElementById('minGPA').value = '';
     document.getElementById('levelFilter').value = '';
+    document.getElementById('progressFilter').value = '';
     document.getElementById('sortBy').value = 'name';
     
     applyFilters();
@@ -656,4 +888,66 @@ function debounce(func, wait) {
 // Utility function: scroll to section
 function scrollToSection(sectionId) {
     document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+}
+
+// Show status change modal
+function showStatusChangeModal(scholarshipId) {
+    const scholarship = scholarships.find(s => s.basic_information.scholarship_id === scholarshipId);
+    if (!scholarship) return;
+    
+    // Store the scholarship ID for later use
+    document.getElementById('statusChangeModal').setAttribute('data-scholarship-id', scholarshipId);
+    
+    // Update modal title
+    document.getElementById('statusChangeModalLabel').textContent = 
+        `Change Status: ${scholarship.basic_information.scholarship_name}`;
+    
+    // Highlight current status
+    const currentStatus = scholarship.progressStatus || 'not-processed';
+    document.querySelectorAll('.status-option').forEach(btn => {
+        btn.classList.remove('btn-secondary', 'btn-warning', 'btn-success');
+        btn.classList.add('btn-outline-secondary', 'btn-outline-warning', 'btn-outline-success');
+        
+        if (btn.getAttribute('data-status') === currentStatus) {
+            const statusClass = currentStatus === 'complete' ? 'btn-success' : 
+                               currentStatus === 'in-process' ? 'btn-warning' : 'btn-secondary';
+            btn.classList.remove('btn-outline-secondary', 'btn-outline-warning', 'btn-outline-success');
+            btn.classList.add(statusClass);
+        }
+    });
+    
+    // Show modal
+    const modal = new bootstrap.Modal(document.getElementById('statusChangeModal'));
+    modal.show();
+}
+
+// Handle status change from modal
+function changeProgressStatus(newStatus) {
+    const scholarshipId = parseInt(document.getElementById('statusChangeModal').getAttribute('data-scholarship-id'));
+    
+    // Update the status using localStorage
+    const success = setLocalProgressStatus(scholarshipId, newStatus);
+    
+    if (success) {
+        // Refresh the display to show updated status
+        displayScholarships();
+        
+        // Close modal
+        const modal = bootstrap.Modal.getInstance(document.getElementById('statusChangeModal'));
+        modal.hide();
+        
+        showNotification(`Status updated to: ${newStatus.replace('-', ' ')}`, 'success');
+    } else {
+        showNotification('Failed to update status. Please try again.', 'error');
+    }
+}
+
+// Initialize status change modal event listeners
+function initializeStatusChangeModal() {
+    document.querySelectorAll('.status-option').forEach(button => {
+        button.addEventListener('click', function() {
+            const newStatus = this.getAttribute('data-status');
+            changeProgressStatus(newStatus);
+        });
+    });
 }

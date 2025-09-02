@@ -22,66 +22,98 @@
         "type": "unknown",
         "description": "SIS_Enrolled HRS >= 6.00",
         "raw_text": "SIS_Enrolled HRS >= 6.00",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "SIS_Enrolled HRS >= 9.00",
         "raw_text": "SIS_Enrolled HRS >= 9.00",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "gpa",
         "description": "SIS_MajorGPA >= 3.00",
         "raw_text": "SIS_MajorGPA >= 3.00",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
         "type": "unknown",
         "description": "SIS_Minor is Design-Illustration",
         "raw_text": "SIS_Minor is Design-Illustration",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [
+            "Design-Illustration"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Minor: Design-Illustration",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 5,
         "type": "application",
         "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample6\"",
         "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample6\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 6,
         "type": "application",
         "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample10\"",
         "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample10\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 7,
         "type": "application",
         "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample9\"",
         "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample9\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 8,
         "type": "application",
         "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample8\"",
         "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample8\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 9,
         "type": "application",
         "description": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample7\"",
         "raw_text": "Complete Attachment:  \"CFAD_Merit_Illustration_Attach_Sample7\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 9
+    "total_possible_points": 9,
+    "banner_summary": {
+      "total_criteria": 9,
+      "banner_accessible": 4,
+      "application_required": 5,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -208,7 +240,7 @@
         "type": "unknown",
         "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "application_required"
       },
       {
         "id": 15,
@@ -221,8 +253,9 @@
     "banner_summary": {
       "total_criteria": 15,
       "banner_accessible": 2,
-      "application_required": 8,
-      "manual_review": 5
+      "application_required": 9,
+      "manual_review": 4
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

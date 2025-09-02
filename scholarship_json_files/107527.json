@@ -22,17 +22,25 @@
         "type": "application",
         "description": "Complete Attachment:  \"GEN_STLR Snapshot\"",
         "raw_text": "Complete Attachment:  \"GEN_STLR Snapshot\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 2
+    "total_possible_points": 2,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 0,
+      "application_required": 2,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -85,14 +93,14 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 6,
         "type": "unknown",
         "description": "SIS_Enrolled HRS >= 12.00",
         "raw_text": "SIS_Enrolled HRS >= 12.00",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 7,
@@ -118,9 +126,10 @@
     ],
     "banner_summary": {
       "total_criteria": 9,
-      "banner_accessible": 1,
+      "banner_accessible": 3,
       "application_required": 3,
-      "manual_review": 5
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

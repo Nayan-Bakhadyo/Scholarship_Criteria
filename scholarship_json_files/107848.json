@@ -22,38 +22,59 @@
         "type": "unknown",
         "description": "1 letters of recommendation: \"CMS_LOR_Lovelace_Personal\"",
         "raw_text": "1 letters of recommendation: \"CMS_LOR_Lovelace_Personal\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 3,
         "type": "application",
         "description": "Complete Attachment:  \"CMS_Nursing_Essay\"",
         "raw_text": "Complete Attachment:  \"CMS_Nursing_Essay\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 4,
         "type": "application",
         "description": "Complete Essay \"CMS_Career_Goals\"",
         "raw_text": "Complete Essay \"CMS_Career_Goals\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 5,
         "type": "unknown",
         "description": "SIS_Classification is Junior",
         "raw_text": "SIS_Classification is Junior",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [],
+          "classifications": [
+            "Junior"
+          ],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Classification: Junior",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 5
+    "total_possible_points": 5,
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 1,
+      "application_required": 4,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -118,5 +139,6 @@
       "application_required": 1,
       "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

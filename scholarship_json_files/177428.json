@@ -22,17 +22,25 @@
         "type": "unknown",
         "description": "SIS_Gender is Female",
         "raw_text": "SIS_Gender is Female",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "COB_PGM_Internship = Yes",
         "raw_text": "COB_PGM_Internship = Yes",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 1
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -98,5 +106,6 @@
       "application_required": 0,
       "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

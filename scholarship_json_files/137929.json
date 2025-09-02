@@ -22,38 +22,99 @@
         "type": "major",
         "description": "SIS_Major_2 is Mrktg-Professional Selling   and SIS_Major_2 is Marketing-Professional Selling",
         "raw_text": "SIS_Major_2 is Mrktg-Professional Selling   and SIS_Major_2 is Marketing-Professional Selling",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Mrktg-Professional Selling   and SIS_Major_2 is Marketing-Professional Selling"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Mrktg-Professional Selling   and SIS_Major_2 is Marketing-Professional Selling",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "major",
         "description": "SIS_Major_1_2 is Finance-Real Estate",
         "raw_text": "SIS_Major_1_2 is Finance-Real Estate",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Finance-Real Estate"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Finance-Real Estate",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "major",
         "description": "SIS_Major_2 is Finance-Real Estate",
         "raw_text": "SIS_Major_2 is Finance-Real Estate",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Finance-Real Estate"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Finance-Real Estate",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
         "type": "major",
         "description": "SIS_Major_2_2 is Finance-Real Estate",
         "raw_text": "SIS_Major_2_2 is Finance-Real Estate",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Finance-Real Estate"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Finance-Real Estate",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 5,
         "type": "major",
         "description": "SIS_Major_2_2 is Mrktg-Professional Selling   and SIS_Major_2_2 is Marketing-Professional Selling",
         "raw_text": "SIS_Major_2_2 is Mrktg-Professional Selling   and SIS_Major_2_2 is Marketing-Professional Selling",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [
+            "Mrktg-Professional Selling   and SIS_Major_2_2 is Marketing-Professional Selling"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Mrktg-Professional Selling   and SIS_Major_2_2 is Marketing-Professional Selling",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 4
+    "total_possible_points": 4,
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 5,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -78,7 +139,7 @@
         "type": "unknown",
         "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "application_required"
       },
       {
         "id": 2,
@@ -106,14 +167,14 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 6,
         "type": "unknown",
         "description": "SIS_Enrolled_Status is Full Time   or SIS_Enrolled_Status is Part Time",
         "raw_text": "SIS_Enrolled_Status is Full Time   or SIS_Enrolled_Status is Part Time",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 7,
@@ -132,9 +193,10 @@
     ],
     "banner_summary": {
       "total_criteria": 8,
-      "banner_accessible": 2,
-      "application_required": 1,
-      "manual_review": 5
+      "banner_accessible": 4,
+      "application_required": 2,
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

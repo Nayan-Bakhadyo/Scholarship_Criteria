@@ -22,10 +22,27 @@
         "type": "major",
         "description": "SIS_Major is Arts Administration",
         "raw_text": "SIS_Major is Arts Administration",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [
+            "Arts Administration"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Arts Administration",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 1,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -133,5 +150,6 @@
       "application_required": 3,
       "manual_review": 4
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

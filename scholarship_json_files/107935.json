@@ -22,38 +22,89 @@
         "type": "gpa",
         "description": "SIS_CumGPA >= 3.00",
         "raw_text": "SIS_CumGPA >= 3.00",
-        "points": 0
+        "points": 0,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "major",
         "description": "SIS_Major is Business Analytics   and SIS_Major is Info & Op Mngt-MIS   and SIS_Major is Info&Op Mngt-MIS",
         "raw_text": "SIS_Major is Business Analytics   and SIS_Major is Info & Op Mngt-MIS   and SIS_Major is Info&Op Mngt-MIS",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [
+            "Business Analytics   and SIS_Major is Info & Op Mngt-MIS   and SIS_Major is Info&Op Mngt-MIS"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Business Analytics   and SIS_Major is Info & Op Mngt-MIS   and SIS_Major is Info&Op Mngt-MIS",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "major",
         "description": "SIS_Major_1_2 is Business Analytics   and SIS_Major_1_2 is Info & Op Mngt-MIS   and SIS_Major_1_2 is Info&Op Mngt-MIS",
         "raw_text": "SIS_Major_1_2 is Business Analytics   and SIS_Major_1_2 is Info & Op Mngt-MIS   and SIS_Major_1_2 is Info&Op Mngt-MIS",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [
+            "Business Analytics   and SIS_Major_1_2 is Info & Op Mngt-MIS   and SIS_Major_1_2 is Info&Op Mngt-MIS"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Business Analytics   and SIS_Major_1_2 is Info & Op Mngt-MIS   and SIS_Major_1_2 is Info&Op Mngt-MIS",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
         "type": "major",
         "description": "SIS_Major_2 is Business Analytics   and SIS_Major_2 is Info & Op Mngt-MIS   and SIS_Major_2 is Info&Op Mngt-MIS",
         "raw_text": "SIS_Major_2 is Business Analytics   and SIS_Major_2 is Info & Op Mngt-MIS   and SIS_Major_2 is Info&Op Mngt-MIS",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [
+            "Business Analytics   and SIS_Major_2 is Info & Op Mngt-MIS   and SIS_Major_2 is Info&Op Mngt-MIS"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Business Analytics   and SIS_Major_2 is Info & Op Mngt-MIS   and SIS_Major_2 is Info&Op Mngt-MIS",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 5,
         "type": "major",
         "description": "SIS_Major_2_2 is Business Analytics   and SIS_Major_2_2 is Info & Op Mngt-MIS   and SIS_Major_2_2 is Info&Op Mngt-MIS",
         "raw_text": "SIS_Major_2_2 is Business Analytics   and SIS_Major_2_2 is Info & Op Mngt-MIS   and SIS_Major_2_2 is Info&Op Mngt-MIS",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [
+            "Business Analytics   and SIS_Major_2_2 is Info & Op Mngt-MIS   and SIS_Major_2_2 is Info&Op Mngt-MIS"
+          ],
+          "minors": [],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Major: Business Analytics   and SIS_Major_2_2 is Info & Op Mngt-MIS   and SIS_Major_2_2 is Info&Op Mngt-MIS",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 5,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -85,7 +136,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
         "raw_text": "SIS_Level is Undergraduate   or SIS_Level is Graduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
@@ -111,9 +162,10 @@
     ],
     "banner_summary": {
       "total_criteria": 5,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 1,
-      "manual_review": 3
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -22,31 +22,41 @@
         "type": "citizenship",
         "description": "SIS_USCitizen = Yes",
         "raw_text": "SIS_USCitizen = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "COB_NAIC = Yes",
         "raw_text": "COB_NAIC = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "unknown",
         "description": "COB_NAIC Relocate = Yes",
         "raw_text": "COB_NAIC Relocate = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 4,
         "type": "unknown",
         "description": "COB_NAIC_Chandler = Yes",
         "raw_text": "COB_NAIC_Chandler = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 4
+    "total_possible_points": 4,
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 4
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -103,7 +113,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
@@ -152,9 +162,10 @@
     ],
     "banner_summary": {
       "total_criteria": 6,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 1,
-      "manual_review": 3
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

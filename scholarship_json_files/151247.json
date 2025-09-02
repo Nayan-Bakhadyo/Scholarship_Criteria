@@ -22,31 +22,81 @@
         "type": "unknown",
         "description": "SIS_Minor_1_2 is Finance-Insurance & Risk Mgmt",
         "raw_text": "SIS_Minor_1_2 is Finance-Insurance & Risk Mgmt",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [
+            "Finance-Insurance & Risk Mgmt"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Minor: Finance-Insurance & Risk Mgmt",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "SIS_Minor_2 is Finance-Insurance & Risk Mgmt",
         "raw_text": "SIS_Minor_2 is Finance-Insurance & Risk Mgmt",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [
+            "Finance-Insurance & Risk Mgmt"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Minor: Finance-Insurance & Risk Mgmt",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 3,
         "type": "unknown",
         "description": "SIS_Minor_2_2 is Finance-Insurance & Risk Mgmt",
         "raw_text": "SIS_Minor_2_2 is Finance-Insurance & Risk Mgmt",
-        "points": 1
+        "points": 1,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [
+            "Finance-Insurance & Risk Mgmt"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Minor: Finance-Insurance & Risk Mgmt",
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 4,
         "type": "unknown",
         "description": "SIS_Minor is Finance-Insurance & Risk Mgmt",
         "raw_text": "SIS_Minor is Finance-Insurance & Risk Mgmt",
-        "points": 0
+        "points": 0,
+        "parsed_sis": {
+          "majors": [],
+          "minors": [
+            "Finance-Insurance & Risk Mgmt"
+          ],
+          "classifications": [],
+          "gpa_requirements": [],
+          "other_sis": []
+        },
+        "clean_description": "Minor: Finance-Insurance & Risk Mgmt",
+        "banner_accessibility": "banner_accessible"
       }
     ],
-    "total_possible_points": 3
+    "total_possible_points": 3,
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 4,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -132,5 +182,6 @@
       "application_required": 1,
       "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

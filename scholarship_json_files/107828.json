@@ -22,38 +22,49 @@
         "type": "unknown",
         "description": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "2 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "CMS_PET_Emergency = Yes",
         "raw_text": "CMS_PET_Emergency = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "unknown",
         "description": "CMS_PET_Volunteer = Yes",
         "raw_text": "CMS_PET_Volunteer = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 4,
         "type": "application",
         "description": "Complete Essay \"CMS_Pet_OtherExp\"",
         "raw_text": "Complete Essay \"CMS_Pet_OtherExp\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       },
       {
         "id": 5,
         "type": "unknown",
         "description": "CMS_Record = No",
         "raw_text": "CMS_Record = No",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       }
     ],
-    "total_possible_points": 5
+    "total_possible_points": 5,
+    "banner_summary": {
+      "total_criteria": 5,
+      "banner_accessible": 0,
+      "application_required": 2,
+      "manual_review": 3
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -151,5 +162,6 @@
       "application_required": 1,
       "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

@@ -17,7 +17,13 @@
     "description": "Soft requirements that provide additional points/consideration",
     "criteria_count": 0,
     "criteria": [],
-    "total_possible_points": 0
+    "total_possible_points": 0,
+    "banner_summary": {
+      "total_criteria": 0,
+      "banner_accessible": 0,
+      "application_required": 0,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -42,7 +48,7 @@
         "type": "level",
         "description": "SIS_Level is Undergraduate",
         "raw_text": "SIS_Level is Undergraduate",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -75,9 +81,10 @@
     ],
     "banner_summary": {
       "total_criteria": 5,
-      "banner_accessible": 2,
+      "banner_accessible": 3,
       "application_required": 0,
-      "manual_review": 3
+      "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

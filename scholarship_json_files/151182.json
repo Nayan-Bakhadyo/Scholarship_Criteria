@@ -22,31 +22,41 @@
         "type": "unknown",
         "description": "CMS_JunororSenior = Yes",
         "raw_text": "CMS_JunororSenior = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "CMS_Returning_RN = Yes",
         "raw_text": "CMS_Returning_RN = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 3,
         "type": "unknown",
         "description": "CMS_LPN_BSNursing = Yes",
         "raw_text": "CMS_LPN_BSNursing = Yes",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "manual_review"
       },
       {
         "id": 4,
         "type": "application",
         "description": "Complete Essay \"GEN_Financial Need\"",
         "raw_text": "Complete Essay \"GEN_Financial Need\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 4
+    "total_possible_points": 4,
+    "banner_summary": {
+      "total_criteria": 4,
+      "banner_accessible": 0,
+      "application_required": 1,
+      "manual_review": 3
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -104,5 +114,6 @@
       "application_required": 0,
       "manual_review": 1
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

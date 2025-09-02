@@ -22,17 +22,25 @@
         "type": "unknown",
         "description": "SIS_College is Liberal Arts",
         "raw_text": "SIS_College is Liberal Arts",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
         "type": "unknown",
         "description": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
         "raw_text": "1 letters of recommendation: \"GEN_LOR_Faculty (2)\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 2
+    "total_possible_points": 2,
+    "banner_summary": {
+      "total_criteria": 2,
+      "banner_accessible": 1,
+      "application_required": 1,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -57,7 +65,7 @@
         "type": "unknown",
         "description": "SIS_Enrolled HRS >= 6.00",
         "raw_text": "SIS_Enrolled HRS >= 6.00",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -126,9 +134,10 @@
     ],
     "banner_summary": {
       "total_criteria": 7,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 2,
-      "manual_review": 4
+      "manual_review": 3
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

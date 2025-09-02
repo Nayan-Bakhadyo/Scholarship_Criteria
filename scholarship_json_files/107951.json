@@ -22,10 +22,17 @@
         "type": "application",
         "description": "Complete Essay \"COB_AdvisoryActivities\"",
         "raw_text": "Complete Essay \"COB_AdvisoryActivities\"",
-        "points": 1
+        "points": 1,
+        "banner_accessibility": "application_required"
       }
     ],
-    "total_possible_points": 1
+    "total_possible_points": 1,
+    "banner_summary": {
+      "total_criteria": 1,
+      "banner_accessible": 0,
+      "application_required": 1,
+      "manual_review": 0
+    }
   },
   "conditional_criteria": {
     "description": "Requirements for scholarship renewal",
@@ -90,5 +97,6 @@
       "application_required": 1,
       "manual_review": 2
     }
-  }
+  },
+  "progress_status": "not-processed"
 }

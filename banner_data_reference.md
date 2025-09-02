@@ -43,6 +43,8 @@
 - **Term Admitted**: Term when student was admitted
 - **Admission Type**: Type of admission (Freshman, Transfer, etc.)
 - **High School**: High school attended
+- **Term Hours Enrolled**: Current term enrolled hours (indicates Full-time/Part-time status)
+- **Term Hours Billed**: Current term billed hours
 
 ## Financial Aid
 - **2425 Unmet Need**: Unmet financial need for 2024-25
@@ -60,10 +62,11 @@
 - `SIS_Minor` → Minor 1, Minor 2, Minor 3
 - `SIS_Classification` → Classification
 - `SIS_College` → College 1, College 2, College Code 3
-- `SIS_Level` → Level
+- `SIS_Level` → Level (Undergraduate/Graduate)
 - `SIS_CumGPA` → Cumulative GPA
 - `SIS_Hours` → Cumulative Hours
 - `SIS_Term_Hours` → Term Hours Enrolled
+- `SIS_Enrolled_Status` / `SIS_Full_Time` → Term Hours Enrolled (12+ = Full Time)
 - `SIS_Gender` → Gender
 - `SIS_Hispanic` → Hispanic/Latino Flag
 - `SIS_Resident` / `SIS_Residency` → Residency
