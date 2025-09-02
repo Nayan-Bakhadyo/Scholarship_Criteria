@@ -23,15 +23,15 @@
         "description": "SIS_UCO_Completed_Hours = 60.00",
         "raw_text": "SIS_UCO_Completed_Hours = 60.00",
         "points": 0,
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       }
     ],
     "total_possible_points": 0,
     "banner_summary": {
       "total_criteria": 1,
-      "banner_accessible": 0,
+      "banner_accessible": 1,
       "application_required": 0,
-      "manual_review": 1
+      "manual_review": 0
     }
   },
   "conditional_criteria": {

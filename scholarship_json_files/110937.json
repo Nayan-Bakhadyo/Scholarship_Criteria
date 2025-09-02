@@ -23,7 +23,7 @@
         "description": "SIS_UCO_Completed_Hours >= 45.00",
         "raw_text": "SIS_UCO_Completed_Hours >= 45.00",
         "points": 1,
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -37,9 +37,9 @@
     "total_possible_points": 2,
     "banner_summary": {
       "total_criteria": 2,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 0,
-      "manual_review": 1
+      "manual_review": 0
     }
   },
   "conditional_criteria": {

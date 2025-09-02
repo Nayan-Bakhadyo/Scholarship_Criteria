@@ -73,7 +73,7 @@
         "type": "hours",
         "description": "SIS_UCO_Completed_Hours >= 12.00",
         "raw_text": "SIS_UCO_Completed_Hours >= 12.00",
-        "banner_accessibility": "manual_review"
+        "banner_accessibility": "banner_accessible"
       },
       {
         "id": 2,
@@ -106,9 +106,9 @@
     ],
     "banner_summary": {
       "total_criteria": 5,
-      "banner_accessible": 1,
+      "banner_accessible": 2,
       "application_required": 1,
-      "manual_review": 3
+      "manual_review": 2
     }
   },
   "progress_status": "not-processed"

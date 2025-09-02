@@ -91,7 +91,7 @@ def categorize_banner_accessibility(criteria_type: str, description: str) -> str
         # Academic information
         'SIS_Major', 'SIS_Minor', 'SIS_Classification', 'SIS_College', 'SIS_Level',
         'SIS_CumGPA', 'SIS_MajorGPA', 'SIS_Hours', 'SIS_Term_Hours', 'SIS_Cumulative_Hours',
-        'SIS_Enrolled HRS', 'SIS_Enrolled_HRS',
+        'SIS_Enrolled HRS', 'SIS_Enrolled_HRS', 'SIS_UCO_Completed_Hours',
         
         # Student demographics  
         'SIS_Gender', 'SIS_Hispanic', 'SIS_Resident', 'SIS_Residency',
@@ -101,7 +101,7 @@ def categorize_banner_accessibility(criteria_type: str, description: str) -> str
         
         # Academic history
         'SIS_Transfer_Hours', 'SIS_Admission_Type', 'SIS_Term_Admitted',
-        'SIS_High_School',
+        'SIS_High_School', 'SIS_High_School_Name',
         
         # Financial aid (from Banner FAFSA integration)
         'SIS_FAFSA', 'SIS_Unmet_Need', 'SIS_Financial_Need',
