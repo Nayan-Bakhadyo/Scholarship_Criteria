@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Analysis Summary - UCO Foundation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .summary-card {
+            transition: transform 0.2s ease-in-out;
+            height: 100%;
+        }
+        .summary-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .college-badge {
+            font-size: 0.9rem;
+            margin: 2px;
+        }
+        .essay-type-badge {
+            font-size: 0.8rem;
+            margin: 1px;
+        }
+        .progress-bar-custom {
+            height: 8px;
+        }
+        .analysis-section {
+            margin-bottom: 2rem;
+        }
+        .detail-panel {
+            background: #f8f9fa;
+            border-left: 4px solid #007bff;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        .json-viewer {
+            background: #2d3748;
+            color: #e2e8f0;
+            border-radius: 5px;
+            padding: 1rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="bi bi-mortarboard-fill me-2"></i>UCO Scholarship Portal
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">
+                    <i class="bi bi-house me-1"></i>Home
+                </a>
+                <a class="nav-link active" href="summary.html">
+                    <i class="bi bi-bar-chart me-1"></i>Analysis
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <!-- Header Section -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card border-0 bg-primary text-white">
+                    <div class="card-body text-center py-5">
+                        <h1 class="display-4 mb-3">
+                            <i class="bi bi-graph-up me-3"></i>Scholarship Analysis Summary
+                        </h1>
+                        <p class="lead">Comprehensive analysis of 671 UCO Foundation scholarships</p>
+                        <small class="text-light">Last updated: September 3, 2025</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Statistics -->
+        <div class="analysis-section">
+            <h2 class="mb-4"><i class="bi bi-clipboard-data me-2"></i>Key Statistics</h2>
+            <div class="row g-3">
+                <div class="col-md-3">
+                    <div class="card summary-card border-0 shadow">
+                        <div class="card-body text-center">
+                            <div class="stat-number">671</div>
+                            <h6 class="card-title text-muted">Total Scholarships</h6>
+                            <small class="text-secondary">Analyzed across all colleges</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card summary-card border-0 shadow">
+                        <div class="card-body text-center">
+                            <div class="stat-number text-warning">377</div>
+                            <h6 class="card-title text-muted">Essay Required</h6>
+                            <small class="text-secondary">56.3% require essays</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card summary-card border-0 shadow">
+                        <div class="card-body text-center">
+                            <div class="stat-number text-success">1,741</div>
+                            <h6 class="card-title text-muted">Banner Accessible</h6>
+                            <small class="text-secondary">46.3% automated criteria</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card summary-card border-0 shadow">
+                        <div class="card-body text-center">
+                            <div class="stat-number text-danger">81</div>
+                            <h6 class="card-title text-muted">Multiple Essays</h6>
+                            <small class="text-secondary">High-effort applications</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- College Distribution -->
+        <div class="analysis-section">
+            <h2 class="mb-4"><i class="bi bi-building me-2"></i>College Distribution</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Scholarships by College</h5>
+                            <div id="collegeChart" class="mb-3">
+                                <!-- College bars will be dynamically generated -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">College Strategies</h5>
+                            <div id="collegeStrategies">
+                                <!-- College strategies will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Essay Analysis -->
+        <div class="analysis-section">
+            <h2 class="mb-4"><i class="bi bi-pencil-square me-2"></i>Essay Requirements Analysis</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Most Common Essay Types</h5>
+                            <div id="essayTypes">
+                                <!-- Essay types will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title">Essay Workload by College</h5>
+                            <div id="essayWorkload">
+                                <!-- Essay workload will be loaded here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conditional Questions Preview -->
+        <div class="analysis-section">
+            <h2 class="mb-4"><i class="bi bi-question-circle me-2"></i>Smart Filtering Questions</h2>
+            <div class="card border-0 shadow">
+                <div class="card-body">
+                    <p class="text-muted mb-3">These questions help students find the most relevant scholarships:</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="text-primary">Core Questions (Maximum Impact)</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Which college is your major in?</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>What is your GPA?</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Are you willing to write essays?</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>What is your academic level?</li>
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Do you have financial need?</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-primary">Impact Statistics</h6>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><span class="badge bg-info">5 Colleges</span> Major pathway filtering</li>
+                                <li class="mb-2"><span class="badge bg-warning">414 Criteria</span> GPA-based filtering</li>
+                                <li class="mb-2"><span class="badge bg-danger">377 Scholarships</span> Essay requirement filtering</li>
+                                <li class="mb-2"><span class="badge bg-secondary">6 Levels</span> Classification filtering</li>
+                                <li class="mb-2"><span class="badge bg-success">113 Scholarships</span> Need-based filtering</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-primary" onclick="showDetailedJSON('conditional_questions')">
+                            <i class="bi bi-code me-2"></i>View Detailed JSON Structure
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner Accessibility Analysis -->
+        <div class="analysis-section">
+            <h2 class="mb-4"><i class="bi bi-gear me-2"></i>Banner Automation Analysis</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-success">Banner Accessible</h6>
+                            <div class="stat-number text-success">46.3%</div>
+                            <p class="text-muted small">1,741 criteria can be automated</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-warning">Manual Review</h6>
+                            <div class="stat-number text-warning">32.5%</div>
+                            <p class="text-muted small">1,223 criteria need review</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow h-100">
+                        <div class="card-body">
+                            <h6 class="card-title text-info">Application Required</h6>
+                            <div class="stat-number text-info">20.5%</div>
+                            <p class="text-muted small">771 criteria need applications</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JSON Data Viewer -->
+        <div class="analysis-section">
+            <h2 class="mb-4"><i class="bi bi-code-square me-2"></i>Detailed Data Access</h2>
+            <div class="card border-0 shadow">
+                <div class="card-body">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <h6>Available JSON Data Sets:</h6>
+                            <div class="btn-group-vertical w-100" role="group">
+                                <button class="btn btn-outline-primary text-start" onclick="loadJSONData('essay_analysis')">
+                                    <i class="bi bi-file-earmark-text me-2"></i>Essay Requirements Analysis
+                                </button>
+                                <button class="btn btn-outline-primary text-start" onclick="loadJSONData('criteria_summary')">
+                                    <i class="bi bi-list-check me-2"></i>Criteria Summary Data
+                                </button>
+                                <button class="btn btn-outline-primary text-start" onclick="loadJSONData('conditional_questions')">
+                                    <i class="bi bi-question-circle me-2"></i>Conditional Questions System
+                                </button>
+                                <button class="btn btn-outline-primary text-start" onclick="loadJSONData('banner_analysis')">
+                                    <i class="bi bi-gear me-2"></i>Banner Automation Analysis
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h6>Data Usage Examples:</h6>
+                            <ul class="list-unstyled small">
+                                <li class="mb-2"><i class="bi bi-arrow-right text-primary me-2"></i>Build dynamic scholarship filters</li>
+                                <li class="mb-2"><i class="bi bi-arrow-right text-primary me-2"></i>Create personalized recommendations</li>
+                                <li class="mb-2"><i class="bi bi-arrow-right text-primary me-2"></i>Generate application timelines</li>
+                                <li class="mb-2"><i class="bi bi-arrow-right text-primary me-2"></i>Analyze success patterns</li>
+                                <li class="mb-2"><i class="bi bi-arrow-right text-primary me-2"></i>Automate criteria matching</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="jsonDisplay" class="json-viewer" style="display: none;">
+                        <pre id="jsonContent"></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Implementation Guide -->
+        <div class="analysis-section mb-5">
+            <h2 class="mb-4"><i class="bi bi-tools me-2"></i>Implementation Guide</h2>
+            <div class="card border-0 shadow">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="text-primary">Immediate Actions</h6>
+                            <ol class="list-group list-group-numbered list-group-flush">
+                                <li class="list-group-item border-0 ps-0">Create smart application portal using conditional questions</li>
+                                <li class="list-group-item border-0 ps-0">Implement real-time filtering based on student responses</li>
+                                <li class="list-group-item border-0 ps-0">Provide personalized scholarship matches</li>
+                                <li class="list-group-item border-0 ps-0">Generate effort-based recommendations</li>
+                            </ol>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-primary">Technical Requirements</h6>
+                            <div class="detail-panel">
+                                <strong>Frontend:</strong> HTML5 forms, JavaScript conditional logic, responsive design<br>
+                                <strong>Backend:</strong> JSON processing, filtering algorithms, match scoring<br>
+                                <strong>Database:</strong> Criteria storage, response tracking, match history
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/summary-data.js"></script>
+    <script>
+        // Initialize the page
+        document.addEventListener('DOMContentLoaded', function() {
+            loadCollegeData();
+            loadEssayData();
+            loadCollegeStrategies();
+        });
+
+        // Load college distribution data
+        function loadCollegeData() {
+            const colleges = [
+                { name: 'CMS', count: 58, color: '#dc3545' },
+                { name: 'CLA', count: 102, color: '#28a745' },
+                { name: 'COB', count: 50, color: '#007bff' },
+                { name: 'CFAD', count: 58, color: '#ffc107' },
+                { name: 'CEPS', count: 92, color: '#6f42c1' }
+            ];
+
+            const chartContainer = document.getElementById('collegeChart');
+            colleges.forEach(college => {
+                const percentage = (college.count / 360 * 100).toFixed(1);
+                chartContainer.innerHTML += `
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between align-items-center mb-1">
+                            <span class="fw-bold">${college.name}</span>
+                            <span class="text-muted">${college.count} majors (${percentage}%)</span>
+                        </div>
+                        <div class="progress progress-bar-custom">
+                            <div class="progress-bar" style="width: ${percentage}%; background-color: ${college.color}"></div>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        // Load essay type data
+        function loadEssayData() {
+            const essayTypes = [
+                { name: 'Financial Need', count: 113, color: '#dc3545' },
+                { name: 'Personal Statement', count: 51, color: '#28a745' },
+                { name: 'Artist Statement', count: 37, color: '#ffc107' },
+                { name: 'Work History', count: 9, color: '#007bff' },
+                { name: 'Leadership', count: 8, color: '#6f42c1' },
+                { name: 'Career Goals', count: 7, color: '#20c997' }
+            ];
+
+            const essayContainer = document.getElementById('essayTypes');
+            essayTypes.forEach(essay => {
+                essayContainer.innerHTML += `
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <span class="fw-bold">${essay.name}</span>
+                        <span class="badge essay-type-badge" style="background-color: ${essay.color}">${essay.count} scholarships</span>
+                    </div>
+                `;
+            });
+
+            // Load essay workload by college
+            const workloadContainer = document.getElementById('essayWorkload');
+            const collegeWorkload = [
+                { college: 'CLA', essays: 32, total: 219 },
+                { college: 'CEPS', essays: 40, total: 164 },
+                { college: 'COB', essays: 19, total: 212 },
+                { college: 'CFAD', essays: 15, total: 213 },
+                { college: 'CMS', essays: 11, total: 125 }
+            ];
+
+            collegeWorkload.forEach(item => {
+                const avgEssays = (item.total / item.essays).toFixed(1);
+                workloadContainer.innerHTML += `
+                    <div class="mb-3">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="fw-bold">${item.college}</span>
+                            <small class="text-muted">${item.essays} unique essays</small>
+                        </div>
+                        <small class="text-secondary">${item.total} total essay requirements, avg ${avgEssays} per type</small>
+                    </div>
+                `;
+            });
+        }
+
+        // Load college strategies
+        function loadCollegeStrategies() {
+            const strategies = {
+                'CLA': 'Focus on writing skills, academic achievement, and cultural involvement',
+                'COB': 'Emphasize career goals, professional development, and leadership',
+                'CEPS': 'Highlight teaching philosophy and campus involvement',
+                'CFAD': 'Prepare artist statements and creative portfolios',
+                'CMS': 'Focus on research experience and STEM leadership'
+            };
+
+            const strategiesContainer = document.getElementById('collegeStrategies');
+            Object.entries(strategies).forEach(([college, strategy]) => {
+                strategiesContainer.innerHTML += `
+                    <div class="mb-3">
+                        <span class="badge college-badge bg-primary">${college}</span>
+                        <p class="small mt-1 mb-0">${strategy}</p>
+                    </div>
+                `;
+            });
+        }
+
+        // Load JSON data
+        async function loadJSONData(type) {
+            const jsonDisplay = document.getElementById('jsonDisplay');
+            const jsonContent = document.getElementById('jsonContent');
+            
+            try {
+                let data;
+                switch(type) {
+                    case 'essay_analysis':
+                        data = await loadEssayAnalysisData();
+                        break;
+                    case 'criteria_summary':
+                        data = await loadCriteriaSummaryData();
+                        break;
+                    case 'conditional_questions':
+                        data = await loadConditionalQuestionsData();
+                        break;
+                    case 'banner_analysis':
+                        data = await loadBannerAnalysisData();
+                        break;
+                    default:
+                        data = { error: 'Unknown data type' };
+                }
+                
+                jsonContent.textContent = JSON.stringify(data, null, 2);
+                jsonDisplay.style.display = 'block';
+                jsonDisplay.scrollIntoView({ behavior: 'smooth' });
+            } catch (error) {
+                jsonContent.textContent = 'Error loading data: ' + error.message;
+                jsonDisplay.style.display = 'block';
+            }
+        }
+
+        function showDetailedJSON(type) {
+            loadJSONData(type);
+        }
+
+        // Sample data functions (these would normally load from your actual JSON files)
+        async function loadEssayAnalysisData() {
+            return {
+                "total_scholarships_with_essays": 377,
+                "essay_types": {
+                    "GEN_Financial Need": 113,
+                    "GEN_Personal_Statement": 51,
+                    "CFAD_Personal_Artist_Statement": 37,
+                    "GEN_Work_History": 9,
+                    "GEN_Leadership": 8
+                },
+                "multiple_essay_scholarships": 81,
+                "college_breakdown": {
+                    "CLA": { "unique_essays": 32, "total_requirements": 219 },
+                    "CEPS": { "unique_essays": 40, "total_requirements": 164 },
+                    "COB": { "unique_essays": 19, "total_requirements": 212 },
+                    "CFAD": { "unique_essays": 15, "total_requirements": 213 },
+                    "CMS": { "unique_essays": 11, "total_requirements": 125 }
+                }
+            };
+        }
+
+        async function loadCriteriaSummaryData() {
+            return {
+                "total_scholarships": 671,
+                "total_criteria": 3758,
+                "criteria_types": {
+                    "application": 1226,
+                    "unknown": 1157,
+                    "major": 469,
+                    "gpa": 414,
+                    "level": 289,
+                    "hours": 156
+                },
+                "banner_accessibility": {
+                    "banner_accessible": 1741,
+                    "manual_review": 1223,
+                    "application_required": 771,
+                    "unknown": 23
+                }
+            };
+        }
+
+        async function loadConditionalQuestionsData() {
+            return {
+                "student_profile": {
+                    "questions": [
+                        {
+                            "id": "classification",
+                            "question": "What is your current academic level?",
+                            "type": "single_choice",
+                            "impact": "Filters scholarships by academic level"
+                        },
+                        {
+                            "id": "college",
+                            "question": "Which college is your major in?",
+                            "type": "single_choice",
+                            "impact": "Determines major options and college-specific scholarships"
+                        }
+                    ]
+                },
+                "filtering_impact": {
+                    "college_filter": "5 colleges with specific scholarship programs",
+                    "gpa_filter": "414 criteria with GPA requirements",
+                    "essay_filter": "377 scholarships requiring essays"
+                }
+            };
+        }
+
+        async function loadBannerAnalysisData() {
+            return {
+                "automation_potential": {
+                    "total_criteria": 3758,
+                    "banner_accessible": {
+                        "count": 1741,
+                        "percentage": 46.3,
+                        "description": "Can be automatically processed"
+                    },
+                    "manual_review": {
+                        "count": 1223,
+                        "percentage": 32.5,
+                        "description": "Requires human review"
+                    },
+                    "application_required": {
+                        "count": 771,
+                        "percentage": 20.5,
+                        "description": "Needs application submission"
+                    }
+                },
+                "sis_fields_usage": {
+                    "most_used": [
+                        "sis_major",
+                        "sis_cumgpa",
+                        "sis_level",
+                        "sis_classification",
+                        "sis_college"
+                    ]
+                }
+            };
+        }
+    </script>
+</body>
+</html>

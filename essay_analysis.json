@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "total_scholarships_analyzed": 671,
+    "scholarships_requiring_essays": 377,
+    "percentage_requiring_essays": 56.3,
+    "scholarships_with_multiple_essays": 81,
+    "total_unique_essay_types": 156,
+    "analysis_date": "2025-09-03"
+  },
+  "essay_types_frequency": {
+    "GEN_Financial Need": 113,
+    "GEN_Personal_Statement ": 51,
+    "CFAD_Personal_Artist_Statement": 37,
+    "GEN_Work_History": 9,
+    "GEN_Leadership": 8,
+    "COB_PersonalStatement/Career GOALS": 7,
+    "CLA_MCOMM_Activities": 5,
+    "COB_Financial_Need": 5,
+    "ADV_Personal_Statement": 4,
+    "GEN_UCO": 4,
+    "CEPS_Campus_Organizations": 4,
+    "CEPS_Bottger_Essay": 4,
+    "GEN_Financial_Awards": 3,
+    "CEPS_Ed_Leadership": 3,
+    "CLA_Roberson_Background": 2,
+    "CMS_Career_Goals": 2,
+    "CMS_ Beresford_Progress": 2,
+    "COB_PGM_Internship_Date": 2,
+    "CEPS_Essay_Why_you_want_to_teach": 2,
+    "CEPS_Personal_Statement": 2
+  },
+  "college_essay_breakdown": {
+    "CLA": {
+      "unique_essays": 32,
+      "total_essay_scholarships": 219,
+      "most_common_essay": "GEN_Financial Need",
+      "strategy": "Focus on personal statements and writing samples. Many scholarships value academic excellence and creative work.",
+      "typical_essays": ["GEN_Leadership", "CLA_Hoig_AmericanWest", "CLA_Cully_Statement"]
+    },
+    "CEPS": {
+      "unique_essays": 40,
+      "total_essay_scholarships": 164,
+      "most_common_essay": "GEN_Financial Need",
+      "strategy": "Highlight teaching philosophy and campus involvement. Leadership in education is key.",
+      "typical_essays": ["GEN_Professional_Activities Detail", "CEPS_KHS_AT", "CEPS_Ed_Leadership"]
+    },
+    "CMS": {
+      "unique_essays": 11,
+      "total_essay_scholarships": 125,
+      "most_common_essay": "GEN_Financial Need",
+      "strategy": "Focus on research experience and academic achievement. STEM leadership opportunities are important.",
+      "typical_essays": ["GEN_Financial Need", "CMS_ Beresford_Progress", "CMS_Martin_FinancialNeed"]
+    },
+    "COB": {
+      "unique_essays": 19,
+      "total_essay_scholarships": 212,
+      "most_common_essay": "GEN_Financial Need",
+      "strategy": "Emphasize career goals and professional development. Internship experience is highly valued.",
+      "typical_essays": ["COB_PersonalStatement/Career GOALS", "COB_APICS_Other_Activities", "COB_Personal_Work_Statement"]
+    },
+    "CFAD": {
+      "unique_essays": 15,
+      "total_essay_scholarships": 213,
+      "most_common_essay": "GEN_Financial Need",
+      "strategy": "Prepare artist statements and creative portfolios. Artistic excellence and community engagement matter.",
+      "typical_essays": ["GEN_Financial Need", "CFAD_Davis_Role_of_Dance", "CFAD_Reed_Essay"]
+    }
+  },
+  "essay_complexity_analysis": {
+    "simple_essays": {
+      "count": 164,
+      "description": "Basic essays like financial need statements",
+      "average_time": "1-2 hours",
+      "examples": ["GEN_Financial Need", "GEN_Personal_Statement"]
+    },
+    "moderate_essays": {
+      "count": 147,
+      "description": "Specialized essays requiring specific content",
+      "average_time": "3-4 hours", 
+      "examples": ["CFAD_Personal_Artist_Statement", "COB_PersonalStatement/Career GOALS"]
+    },
+    "complex_essays": {
+      "count": 66,
+      "description": "Highly specialized or multiple related essays",
+      "average_time": "5+ hours",
+      "examples": ["CLA_Scholarly_Creative", "CEPS_Essay_Why_you_want_to_teach"]
+    }
+  },
+  "application_strategy": {
+    "high_impact_essays": [
+      "Financial need essays are required for 113 scholarships",
+      "Personal statements are needed for 51 scholarships", 
+      "Artist statements are crucial for 37 CFAD scholarships",
+      "Career goals essays open 7 COB opportunities"
+    ],
+    "time_investment_tips": [
+      "Prepare standard essays (financial need, personal statement) that can be adapted",
+      "Focus on your college-specific scholarships first",
+      "Target scholarships with GPA requirements you comfortably meet",
+      "Consider the essay-to-award ratio for time management"
+    ],
+    "essay_reuse_opportunities": {
+      "financial_need": "Can be adapted for 113+ scholarships",
+      "personal_statement": "Base template for 51+ opportunities",
+      "career_goals": "Modify for business and professional programs",
+      "leadership": "Useful across multiple colleges and programs"
+    }
+  },
+  "scholarships_requiring_multiple_essays": {
+    "count": 81,
+    "examples": [
+      {
+        "name": "Dr. Jere Roberson Scholarship in Social Justice",
+        "essays": 3,
+        "types": ["CLA_Roberson_Background", "GEN_Financial Need", "CLA_Social_Justice"]
+      },
+      {
+        "name": "Danielle Lelene Barnes Endowed Scholarship", 
+        "essays": 3,
+        "types": ["CLA_Womens_Studies_Org", "CLA_Barnes_Writing Sample", "GEN_Personal_Statement"]
+      },
+      {
+        "name": "Foundation Continuing Student Scholarship",
+        "essays": 3,
+        "types": ["GEN_Financial Need", "ADV_Continuing_Student_Essay", "ADV_WhyUCO"]
+      }
+    ],
+    "strategy": "Target these only if you have strong qualifications and time for multiple essays"
+  }
+}

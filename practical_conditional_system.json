@@ -1,0 +1,419 @@
+{
+  "conditional_questions": {
+    "student_profile": {
+      "title": "Student Profile",
+      "questions": [
+        {
+          "id": "classification",
+          "question": "What is your current academic level?",
+          "type": "single_choice",
+          "options": [
+            {
+              "value": "freshman",
+              "label": "Freshman",
+              "filters": [
+                "Freshman"
+              ]
+            },
+            {
+              "value": "sophomore",
+              "label": "Sophomore",
+              "filters": [
+                "Sophomore"
+              ]
+            },
+            {
+              "value": "junior",
+              "label": "Junior",
+              "filters": [
+                "Junior"
+              ]
+            },
+            {
+              "value": "senior",
+              "label": "Senior",
+              "filters": [
+                "Senior"
+              ]
+            },
+            {
+              "value": "graduate",
+              "label": "Graduate Student",
+              "filters": [
+                "1st Year Graduate",
+                "2nd Year Graduate",
+                "Second Masters"
+              ]
+            },
+            {
+              "value": "second_bachelor",
+              "label": "Second Bachelor's",
+              "filters": [
+                "Second Bachelors"
+              ]
+            }
+          ],
+          "impact": "Filters scholarships by academic level - 671 total scholarships available"
+        },
+        {
+          "id": "college",
+          "question": "Which college is your major in?",
+          "type": "single_choice",
+          "options": [
+            {
+              "value": "CLA",
+              "label": "College of Liberal Arts",
+              "major_count": 2962
+            },
+            {
+              "value": "COB",
+              "label": "College of Business",
+              "major_count": 3883
+            },
+            {
+              "value": "CEPS",
+              "label": "College of Education and Professional Studies",
+              "major_count": 2808
+            },
+            {
+              "value": "CFAD",
+              "label": "College of Fine Arts and Design",
+              "major_count": 1346
+            },
+            {
+              "value": "CMS",
+              "label": "College of Math and Science",
+              "major_count": 3925
+            }
+          ],
+          "impact": "Determines which majors are available and college-specific scholarships"
+        },
+        {
+          "id": "gpa",
+          "question": "What is your cumulative GPA?",
+          "type": "number_input",
+          "min": 0.0,
+          "max": 4.0,
+          "step": 0.01,
+          "placeholder": "e.g., 3.25",
+          "impact": "GPA requirements range from 2.0 to 4.0"
+        },
+        {
+          "id": "enrollment_hours",
+          "question": "How many credit hours are you taking this semester?",
+          "type": "number_input",
+          "min": 1,
+          "max": 24,
+          "placeholder": "e.g., 15",
+          "impact": "Many scholarships require full-time enrollment (12+ hours undergraduate, 9+ hours graduate)"
+        }
+      ]
+    },
+    "eligibility": {
+      "title": "Basic Eligibility",
+      "questions": [
+        {
+          "id": "residency",
+          "question": "Are you an Oklahoma resident?",
+          "type": "yes_no",
+          "impact": "Some scholarships are restricted to Oklahoma residents"
+        },
+        {
+          "id": "citizenship",
+          "question": "Are you a US citizen?",
+          "type": "yes_no",
+          "impact": "Some scholarships require US citizenship"
+        },
+        {
+          "id": "financial_need",
+          "question": "Do you have demonstrated financial need?",
+          "type": "yes_no",
+          "impact": "Financial need is considered for 113 scholarships"
+        }
+      ]
+    },
+    "application_commitment": {
+      "title": "Application Commitment",
+      "questions": [
+        {
+          "id": "essay_willingness",
+          "question": "Are you willing to write essays for scholarship applications?",
+          "type": "yes_no",
+          "impact": "Essays are required for 156 different scholarship types"
+        },
+        {
+          "id": "essay_types",
+          "question": "Which types of essays are you willing to write?",
+          "type": "multi_choice",
+          "depends_on": {
+            "essay_willingness": "yes"
+          },
+          "options": [
+            {
+              "value": "financial_need",
+              "label": "Financial Need Statement",
+              "count": 113
+            },
+            {
+              "value": "personal_statement",
+              "label": "Personal Statement",
+              "count": 51
+            },
+            {
+              "value": "artist_statement",
+              "label": "Artist Statement (for arts majors)",
+              "count": 37
+            },
+            {
+              "value": "career_goals",
+              "label": "Career Goals Essay",
+              "count": 7
+            },
+            {
+              "value": "leadership",
+              "label": "Leadership Experience",
+              "count": 8
+            },
+            {
+              "value": "work_history",
+              "label": "Work History",
+              "count": 9
+            }
+          ],
+          "impact": "Filters scholarships based on essay requirements you're willing to fulfill"
+        },
+        {
+          "id": "time_commitment",
+          "question": "How much time can you dedicate to scholarship applications?",
+          "type": "single_choice",
+          "options": [
+            {
+              "value": "minimal",
+              "label": "Minimal (1-2 hours) - Basic applications only",
+              "description": "Quick applications with minimal essays"
+            },
+            {
+              "value": "moderate",
+              "label": "Moderate (3-5 hours) - Some essays and documents",
+              "description": "Applications requiring 1-2 essays"
+            },
+            {
+              "value": "substantial",
+              "label": "Substantial (6+ hours) - Multiple essays and detailed applications",
+              "description": "Comprehensive applications with multiple requirements"
+            }
+          ],
+          "impact": "Helps prioritize scholarships based on application complexity"
+        }
+      ]
+    }
+  },
+  "scholarship_summaries": {
+    "gpa_strategy": {
+      "title": "GPA-Based Scholarship Strategy",
+      "description": "Find scholarships that match your GPA range",
+      "data": {
+        "2.0-2.5": {
+          "count": 0,
+          "strategy": "Focus on need-based and community service scholarships"
+        },
+        "2.5-3.0": {
+          "count": 0,
+          "strategy": "Mix of merit and need-based opportunities"
+        },
+        "3.0-3.5": {
+          "count": 0,
+          "strategy": "Good merit scholarship opportunities"
+        },
+        "3.5-4.0": {
+          "count": 0,
+          "strategy": "Premium merit scholarships available"
+        }
+      }
+    },
+    "college_insights": {
+      "title": "College-Specific Insights",
+      "description": "Scholarship landscape by college",
+      "data": {
+        "CEPS": {
+          "major_count": 2808,
+          "common_essays": [
+            "{",
+            "'",
+            "G",
+            "E",
+            "N"
+          ],
+          "strategy": "Highlight teaching philosophy, educational leadership, and community service. Campus involvement is important."
+        },
+        "CFAD": {
+          "major_count": 1346,
+          "common_essays": [
+            "{",
+            "'",
+            "G",
+            "E",
+            "N"
+          ],
+          "strategy": "Prepare strong portfolios, artist statements, and demonstrate creative excellence. Community arts involvement helps."
+        },
+        "CLA": {
+          "major_count": 2962,
+          "common_essays": [
+            "{",
+            "'",
+            "G",
+            "E",
+            "N"
+          ],
+          "strategy": "Focus on writing skills, academic achievement, and cultural involvement. Personal statements and writing samples are crucial."
+        },
+        "CMS": {
+          "major_count": 3925,
+          "common_essays": [
+            "{",
+            "'",
+            "G",
+            "E",
+            "N"
+          ],
+          "strategy": "Focus on research experience, academic excellence, and STEM leadership. Lab experience and technical skills matter."
+        },
+        "COB": {
+          "major_count": 3883,
+          "common_essays": [
+            "{",
+            "'",
+            "C",
+            "O",
+            "B"
+          ],
+          "strategy": "Emphasize leadership, internships, and career goals. Professional development and business acumen are valued."
+        }
+      }
+    },
+    "essay_workload": {
+      "title": "Essay Workload Analysis",
+      "description": "Most common essay requirements by frequency",
+      "data": {
+        "most_common": [
+          [
+            "GEN_Financial Need",
+            113
+          ],
+          [
+            "GEN_Personal_Statement ",
+            51
+          ],
+          [
+            "CFAD_Personal_Artist_Statement",
+            37
+          ],
+          [
+            "GEN_Work_History",
+            9
+          ],
+          [
+            "GEN_Leadership",
+            8
+          ],
+          [
+            "COB_PersonalStatement/Career GOALS",
+            7
+          ],
+          [
+            "CLA_MCOMM_Activities",
+            5
+          ],
+          [
+            "COB_Financial_Need",
+            5
+          ],
+          [
+            "ADV_Personal_Statement",
+            4
+          ],
+          [
+            "GEN_UCO",
+            4
+          ]
+        ],
+        "by_college": {
+          "CLA": "{'GEN_Leadership', 'CLA_Hoig_AmericanWest', 'CLA_Cully_Statement', 'GEN_UCO', 'CLA_Worsham_Essay', 'CLA_BIPOC_Essay', 'GEN_Financial Need', 'CLA_work_life_balance', 'GEN_Personal_Statement ', 'CLA_Estes_Essay', 'CLA_Caster_Essay', 'CLA_Stanley_Case_Media_Career', 'CLA_OdomCraig_PoliSci', 'CLA_Burke_PesonallStatement ', 'GEN_Work_History', 'CLA_Womens_Studies_Org', 'CLA_Stanley_Case_Media', 'CLA_IOH_Emergency_Aid_Essay', 'CLA_Pi_Sigma_Alpha_Essay', 'CLA_Background_Employment_Goals_Essay', 'CLA_Scholarly_Creative', 'CLA_Roberson_Background', 'CLA_Price_Lang_Essay', 'CLA_Duke_Personal_Statement', 'GEN_Financial_Awards', 'CLA_Barnes_Writing Sample', 'CLA_Sorosis_Essay', 'CLA_Dept_Subs_Abuse_PersonalStatement', 'CLA_Creative_Writing', 'CLA_MCOMM_Activities', 'EFA_ActivityEssay', 'CLA_JoanGilmore'}",
+          "CEPS": "{'GEN_Professional_Activities Detail', 'CEPS_KHS_AT', 'CEPS_Ed_Leadership', 'Joe and Laverne Patterson  essay', 'CEPS_DianeMartin-GutelScholarship', 'CEPS_KHS_Essay', 'CEPS_Campus_Organizations', 'CEPS_Curto Dikes Scholarship Essay', 'CEPS_Monfort Essay', 'Warner Family Essay', 'CEPS_Delano', 'CEPS_Knight_Essay', 'Jeyaraj & Powell  Family Essay', 'CEPS_Academic_Achievement', 'CEPS_Turpin SLP Essay', 'GEN_Financial Need', 'CEPS_Haulman Cunliff TESOL', 'CEPS_Essay_Why_you_want_to_teach', 'GEN_Teaching Summary', 'CEPS_Pay_It_Forward_Essay', 'CEPS_Murrow Essay', 'CEPS_Harvey_Mankins', 'CEPS_Work/Life_Balance_Essay', 'CEPS_Honorary Scholarship for Professionalism Essay', 'CEPS_McBurney_Scholarship', 'CEPS_Arlene PSY Counseling Essay', 'CEPS_William C. Young Occ. Safety', 'CEPS_LME_Essay', 'Green-Moseley Essay', 'CEPS_CareerGoals', 'CEPS_Bottger_Essay', 'Betty VaAntwerp Essay', 'Dr. Cobb Essay', 'CEPS_Safety_Essay', 'GEN_Financial_Support Detail', 'CEPS_NonTraditional_Essay', 'CEPS_Personal_Statement', 'CEPS_Career_Goals_Essay', 'CEPS_Leadership_Essay', 'CEPS Austin Richardson Essay'}",
+          "CMS": "{'GEN_Financial Need', 'CMS_ Beresford_Progress', 'CMS_Martin_FinancialNeed', 'Whitesell_Essay', 'CMS_Steffen_essay', 'CMS_Lynn_Leadership', 'CMS_Pet_OtherExp', 'CMS_Deaconess_Leadership_Qualities', 'CMS_Hamilton_class', 'CMS_Career_Goals', 'CMS_Chem_Service'}",
+          "COB": "{'COB_PersonalStatement/Career GOALS', 'COB_APICS_Other_Activities', 'COB_Personal_Work_Statement', 'GEN_Leadership', 'GEN_UCO', 'GEN_Scholastic', 'COB_PGM_Internship_Date', 'GEN_Financial Need', 'GEN_Personal_Statement ', 'COB_Evans_PersonalStatement', 'COB_AdvisoryActivities', 'GEN_Work_History', 'COB_Fleming_Leaderschip_Activities', 'ADV_ROTCpersonalstatement', 'COB_PGA Improvement Essay', 'GEN_Research_Leadership', 'COB_ACCOUNTING_INTERNSHIP_DETAILS', 'COB_Financial_Need', 'COB_MSBA_ESSAY'}",
+          "CFAD": "{'GEN_Financial Need', 'CFAD_Davis_Role_of_Dance', 'CFAD_Reed_Essay', 'CFAD_Reynolds-Reed_Essay', 'CFAD_Piper_Essay', 'CFAD_Merit_Essay', 'GEN_Personal_Statement ', 'CFAD_Personal_Artist_Statement', 'CFAD_Rapp_Scholar_Essay ', 'CFAD_Rapp_UpperLevel_Essay ', 'CFAD_McCarty_Essay', 'CFAD_Betz_Leadership_Essay', 'CFAD_Cook_Theatre', 'CFAD_Lillian-Pruett_Essay', 'CFAD_Getzoff_Essay'}"
+        }
+      }
+    },
+    "application_timeline": {
+      "title": "Application Timeline Strategy",
+      "description": "Strategic approach to scholarship applications",
+      "data": {
+        "early_targets": "Start with scholarships requiring only basic information",
+        "mid_term": "Work on scholarships requiring 1-2 essays",
+        "comprehensive": "Tackle scholarships with multiple requirements",
+        "tips": [
+          "Prepare standard essays (financial need, personal statement) that can be adapted",
+          "Focus on your college-specific scholarships first",
+          "Target scholarships with GPA requirements you comfortably meet",
+          "Consider the essay-to-award ratio for time management"
+        ]
+      }
+    },
+    "competitive_analysis": {
+      "title": "Competitive Scholarship Analysis",
+      "description": "Understanding scholarship competition levels",
+      "data": {
+        "high_competition": "Popular majors with many qualified applicants",
+        "moderate_competition": "Specialized programs with specific requirements",
+        "low_competition": "Niche majors or specific criteria that limit applicant pool",
+        "strategy_tips": [
+          "Apply for scholarships that match your exact profile",
+          "Don't overlook smaller, specialized scholarships",
+          "Consider scholarships from your specific college",
+          "Look for scholarships with multiple requirements that others might skip"
+        ]
+      }
+    }
+  },
+  "implementation_guide": {
+    "setup_instructions": {
+      "title": "How to Implement Conditional Questions",
+      "steps": [
+        "1. Create a web form or application interface",
+        "2. Implement conditional logic based on question dependencies",
+        "3. Connect to scholarship database for real-time filtering",
+        "4. Provide immediate feedback on scholarship matches",
+        "5. Generate personalized application timeline"
+      ]
+    },
+    "technical_requirements": {
+      "frontend": [
+        "HTML5 form elements",
+        "JavaScript for conditional logic",
+        "CSS for responsive design"
+      ],
+      "backend": [
+        "JSON data processing",
+        "Scholarship filtering algorithms",
+        "Match scoring system"
+      ],
+      "database": [
+        "Scholarship criteria storage",
+        "Student response tracking",
+        "Match history"
+      ]
+    },
+    "sample_logic": {
+      "description": "Example conditional logic implementation",
+      "pseudocode": "\n            if (student.college == 'CFAD'):\n                show essay_types.artist_statement\n                require portfolio_submission\n            \n            if (student.gpa >= 3.5):\n                show merit_scholarships\n                highlight premium_opportunities\n                \n            if (student.essay_willingness == 'no'):\n                filter_out scholarships_requiring_essays\n                show application_only_scholarships\n            "
+    }
+  },
+  "metadata": {
+    "created_date": "2025-09-03",
+    "total_scholarships_analyzed": 671,
+    "purpose": "Practical scholarship filtering system"
+  }
+}

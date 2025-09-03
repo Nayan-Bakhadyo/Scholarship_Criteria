@@ -1,0 +1,618 @@
+{
+  "totals": {
+    "scholarships": 671,
+    "avg_criteria_per_scholarship": 5.600596125186289,
+    "multiple_essay_scholarships": 81
+  },
+  "criterion_type_counts": [
+    [
+      "application",
+      1226
+    ],
+    [
+      "unknown",
+      1157
+    ],
+    [
+      "major",
+      469
+    ],
+    [
+      "gpa",
+      414
+    ],
+    [
+      "level",
+      289
+    ],
+    [
+      "hours",
+      156
+    ],
+    [
+      "citizenship",
+      27
+    ],
+    [
+      "activities",
+      9
+    ],
+    [
+      "military",
+      8
+    ],
+    [
+      "financial_need",
+      3
+    ]
+  ],
+  "banner_accessibility_counts": {
+    "banner_accessible": 1741,
+    "manual_review": 1223,
+    "application_required": 771,
+    "unknown": 23
+  },
+  "sis_field_counts_top20": [
+    [
+      "sis_major",
+      5034
+    ],
+    [
+      "sis_major_1_2",
+      3642
+    ],
+    [
+      "sis_major_2",
+      3592
+    ],
+    [
+      "sis_major_2_2",
+      3464
+    ],
+    [
+      "sis_cumgpa",
+      816
+    ],
+    [
+      "sis_level",
+      686
+    ],
+    [
+      "sis_classification",
+      548
+    ],
+    [
+      "sis_college",
+      412
+    ],
+    [
+      "sis_enrolled_status",
+      320
+    ],
+    [
+      "sis_minor",
+      158
+    ],
+    [
+      "sis_enrolled",
+      148
+    ],
+    [
+      "sis_minor_1_2",
+      118
+    ],
+    [
+      "sis_minor_2_2",
+      118
+    ],
+    [
+      "sis_overall_hours",
+      116
+    ],
+    [
+      "sis_minor_2",
+      108
+    ],
+    [
+      "sis_uco_completed_hours",
+      68
+    ],
+    [
+      "sis_college_2",
+      58
+    ],
+    [
+      "sis_uscitizen",
+      54
+    ],
+    [
+      "sis_okresidency",
+      46
+    ],
+    [
+      "sis_gender",
+      36
+    ]
+  ],
+  "application_item_counts": {
+    "complete_application": 580,
+    "complete_essay": 412,
+    "complete_attachment": 235
+  },
+  "essay_tags_top50": [
+    [
+      "GEN_Financial Need",
+      113
+    ],
+    [
+      "GEN_Personal_Statement",
+      51
+    ],
+    [
+      "CFAD_Personal_Artist_Statement",
+      37
+    ],
+    [
+      "GEN_Work_History",
+      9
+    ],
+    [
+      "GEN_Leadership",
+      8
+    ],
+    [
+      "COB_PersonalStatement/Career GOALS",
+      7
+    ],
+    [
+      "CLA_MCOMM_Activities",
+      5
+    ],
+    [
+      "COB_Financial_Need",
+      5
+    ],
+    [
+      "ADV_Personal_Statement",
+      4
+    ],
+    [
+      "GEN_UCO",
+      4
+    ],
+    [
+      "CEPS_Campus_Organizations",
+      4
+    ],
+    [
+      "CEPS_Bottger_Essay",
+      4
+    ],
+    [
+      "GEN_Financial_Awards",
+      3
+    ],
+    [
+      "CEPS_Ed_Leadership",
+      3
+    ],
+    [
+      "CLA_Roberson_Background",
+      2
+    ],
+    [
+      "CMS_Career_Goals",
+      2
+    ],
+    [
+      "CMS_ Beresford_Progress",
+      2
+    ],
+    [
+      "COB_PGM_Internship_Date",
+      2
+    ],
+    [
+      "CEPS_Essay_Why_you_want_to_teach",
+      2
+    ],
+    [
+      "CEPS_Personal_Statement",
+      2
+    ],
+    [
+      "CEPS_KHS_Essay",
+      2
+    ],
+    [
+      "ADV_WhyUCO",
+      2
+    ],
+    [
+      "ADV_Maisch_PersonalStatement",
+      2
+    ],
+    [
+      "COB_APICS_Other_Activities",
+      2
+    ],
+    [
+      "COB_AdvisoryActivities",
+      2
+    ],
+    [
+      "COB_OCCAGA_GOVT_CAREER",
+      2
+    ],
+    [
+      "CEPS_Haulman Cunliff TESOL",
+      2
+    ],
+    [
+      "CLA_Pi_Sigma_Alpha_Essay",
+      1
+    ],
+    [
+      "CEPS_Turpin SLP Essay",
+      1
+    ],
+    [
+      "CEPS_Leadership_Essay",
+      1
+    ],
+    [
+      "Green-Moseley Essay",
+      1
+    ],
+    [
+      "ADV_Every_Career_Choice",
+      1
+    ],
+    [
+      "ADV_Gage_Financial_Details1",
+      1
+    ],
+    [
+      "CLA_Burke_PesonallStatement",
+      1
+    ],
+    [
+      "COB_SALES_CAREER_GOALS",
+      1
+    ],
+    [
+      "CLA_Background_Employment_Goals_Essay",
+      1
+    ],
+    [
+      "COB_OGA_Internship",
+      1
+    ],
+    [
+      "CLA_Dept_Subs_Abuse_PersonalStatement",
+      1
+    ],
+    [
+      "CEPS_Academic_Achievement",
+      1
+    ],
+    [
+      "CMS_Pet_OtherExp",
+      1
+    ],
+    [
+      "Betty VaAntwerp Essay",
+      1
+    ],
+    [
+      "CLA_BIPOC_Essay",
+      1
+    ],
+    [
+      "CLA_Cully_Statement",
+      1
+    ],
+    [
+      "CFAD_McCarty_Essay",
+      1
+    ],
+    [
+      "Jeyaraj & Powell  Family Essay",
+      1
+    ],
+    [
+      "CFAD_Rapp_UpperLevel_Essay",
+      1
+    ],
+    [
+      "ADV_Gage_Community",
+      1
+    ],
+    [
+      "ADV_AlphaGamma_Delta_Essay",
+      1
+    ],
+    [
+      "ADV_AlphaGamma_Delta-Honors2",
+      1
+    ],
+    [
+      "Joe and Laverne Patterson  essay",
+      1
+    ]
+  ],
+  "attachment_tags_top30": [
+    [
+      "GEN_Transcript",
+      169
+    ],
+    [
+      "CLA_Finney_Writing_Sample",
+      8
+    ],
+    [
+      "GEN_STLR Snapshot",
+      5
+    ],
+    [
+      "GEN_Resume",
+      4
+    ],
+    [
+      "ADV_Military_Documentation",
+      4
+    ],
+    [
+      "CLA_Writing_Sample",
+      2
+    ],
+    [
+      "CLA_Debate_Success",
+      2
+    ],
+    [
+      "CMS_Nursing_Essay",
+      1
+    ],
+    [
+      "ADV_Wilhite_CDIB",
+      1
+    ],
+    [
+      "CLA_Burke_WritingSample",
+      1
+    ],
+    [
+      "CLA-Burke-Qualification-Letter",
+      1
+    ],
+    [
+      "CLA_PublicAdmn_Essay",
+      1
+    ],
+    [
+      "CFAD_Merit_Illustration_Attach_Sample1",
+      1
+    ],
+    [
+      "CFAD_Merit_Illustration_Attach_Sample2",
+      1
+    ],
+    [
+      "CFAD_Merit_Illustration_Attach_Sample3",
+      1
+    ],
+    [
+      "CFAD_Merit_Illustration_Attach_Sample4",
+      1
+    ],
+    [
+      "CFAD_Merit_Illustration_Attach_Sample5",
+      1
+    ],
+    [
+      "CFAD_Merit_Illustration_Attach_Sample6",
+      1
+    ],
+    [
+      "CFAD_Merit_Illustration_Attach_Sample10",
+      1
+    ],
+    [
+      "CFAD_Merit_Illustration_Attach_Sample9",
+      1
+    ],
+    [
+      "CFAD_Merit_Illustration_Attach_Sample8",
+      1
+    ],
+    [
+      "CFAD_Merit_Illustration_Attach_Sample7",
+      1
+    ],
+    [
+      "CLA_Hamilton_CreativeWriting_Sample",
+      1
+    ],
+    [
+      "CLA_Hoig_Media_Sample",
+      1
+    ],
+    [
+      "CLA_Prof_Internship_Resume",
+      1
+    ],
+    [
+      "CFAD_Hicks_Indian_CERT",
+      1
+    ],
+    [
+      "CLA_Caffee_AmericanHistory",
+      1
+    ],
+    [
+      "ADV_Betz_Study_Abroad",
+      1
+    ],
+    [
+      "CLA_Sociology_Gerontology_SubsAbuseStudies",
+      1
+    ],
+    [
+      "CLA_Work_Example",
+      1
+    ]
+  ],
+  "category_coverage": {
+    "academic_level_classification": {
+      "scholarship_count": 100,
+      "coverage_pct": 14.903129657228018
+    },
+    "degree_program_major_minor": {
+      "scholarship_count": 430,
+      "coverage_pct": 64.08345752608048
+    },
+    "gpa_thresholds": {
+      "scholarship_count": 399,
+      "coverage_pct": 59.463487332339795
+    },
+    "enrollment_hours": {
+      "scholarship_count": 294,
+      "coverage_pct": 43.81520119225038
+    },
+    "residency_state": {
+      "scholarship_count": 35,
+      "coverage_pct": 5.216095380029806
+    },
+    "financial_need": {
+      "scholarship_count": 117,
+      "coverage_pct": 17.436661698956783
+    },
+    "leadership_involvement": {
+      "scholarship_count": 83,
+      "coverage_pct": 12.369597615499254
+    },
+    "employment_work_history": {
+      "scholarship_count": 11,
+      "coverage_pct": 1.639344262295082
+    },
+    "community_service_volunteer": {
+      "scholarship_count": 36,
+      "coverage_pct": 5.365126676602086
+    },
+    "artistic_discipline": {
+      "scholarship_count": 101,
+      "coverage_pct": 15.052160953800298
+    },
+    "education_teaching_program": {
+      "scholarship_count": 186,
+      "coverage_pct": 27.719821162444113
+    },
+    "diversity_social_justice": {
+      "scholarship_count": 1,
+      "coverage_pct": 0.14903129657228018
+    },
+    "high_school_specific": {
+      "scholarship_count": 8,
+      "coverage_pct": 1.1922503725782414
+    },
+    "study_abroad_international": {
+      "scholarship_count": 1,
+      "coverage_pct": 0.14903129657228018
+    },
+    "military_rotc_veteran": {
+      "scholarship_count": 9,
+      "coverage_pct": 1.3412816691505216
+    },
+    "legacy_alumni_relation": {
+      "scholarship_count": 3,
+      "coverage_pct": 0.44709388971684055
+    },
+    "research_scholarly_creative": {
+      "scholarship_count": 23,
+      "coverage_pct": 3.427719821162444
+    },
+    "professional_certification_internship": {
+      "scholarship_count": 12,
+      "coverage_pct": 1.7883755588673622
+    },
+    "athletics_sport": {
+      "scholarship_count": 11,
+      "coverage_pct": 1.639344262295082
+    },
+    "attachments_required": {
+      "scholarship_count": 207,
+      "coverage_pct": 30.849478390462
+    },
+    "essays_required": {
+      "scholarship_count": 324,
+      "coverage_pct": 48.28614008941878
+    },
+    "references_recommendations": {
+      "scholarship_count": 140,
+      "coverage_pct": 20.864381520119224
+    }
+  },
+  "proposed_core_sequence": [
+    {
+      "category": "degree_program_major_minor",
+      "adds": 430,
+      "new_coverage_pct": 64.08345752608048
+    },
+    {
+      "category": "gpa_thresholds",
+      "adds": 104,
+      "new_coverage_pct": 15.499254843517138
+    },
+    {
+      "category": "essays_required",
+      "adds": 14,
+      "new_coverage_pct": 2.086438152011923
+    },
+    {
+      "category": "enrollment_hours",
+      "adds": 6,
+      "new_coverage_pct": 0.8941877794336811
+    },
+    {
+      "category": "attachments_required",
+      "adds": 1,
+      "new_coverage_pct": 0.14903129657228018
+    },
+    {
+      "category": "education_teaching_program",
+      "adds": 2,
+      "new_coverage_pct": 0.29806259314456035
+    },
+    {
+      "category": "artistic_discipline",
+      "adds": 3,
+      "new_coverage_pct": 0.44709388971684055
+    },
+    {
+      "category": "community_service_volunteer",
+      "adds": 1,
+      "new_coverage_pct": 0.14903129657228018
+    },
+    {
+      "category": "residency_state",
+      "adds": 1,
+      "new_coverage_pct": 0.14903129657228018
+    },
+    {
+      "category": "athletics_sport",
+      "adds": 1,
+      "new_coverage_pct": 0.14903129657228018
+    },
+    {
+      "category": "high_school_specific",
+      "adds": 1,
+      "new_coverage_pct": 0.14903129657228018
+    },
+    {
+      "category": "legacy_alumni_relation",
+      "adds": 1,
+      "new_coverage_pct": 0.14903129657228018
+    }
+  ]
+}

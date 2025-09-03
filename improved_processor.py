@@ -132,6 +132,13 @@ def categorize_banner_accessibility(criteria_type: str, description: str) -> str
         if description.startswith(pattern):
             return 'banner_accessible'
     
+    # Additional check for SIS patterns with operators (>=, <=, =, is, etc.)
+    if description.startswith('SIS_'):
+        # Extract the field name (everything before the first space or operator)
+        field_name = description.split()[0].split('>=')[0].split('<=')[0].split('=')[0].split(' is')[0]
+        if field_name in banner_accessible_patterns:
+            return 'banner_accessible'
+    
     # Check for manual review patterns (these override application requirements)
     for pattern in manual_review_patterns:
         if pattern in description_lower:
@@ -302,3 +309,7 @@ def update_all_scholarships():
 
 if __name__ == "__main__":
     update_all_scholarships()
+
+
+
+
