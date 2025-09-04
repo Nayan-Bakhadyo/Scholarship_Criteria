@@ -6,7 +6,9 @@
     "scholarship_notes": "not awarded until fund grows",
     "donor_name": "",
     "committee_name": "CEPS PSY - Whipple Family",
-    "candidate_count": 77
+    "candidate_count": 77,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

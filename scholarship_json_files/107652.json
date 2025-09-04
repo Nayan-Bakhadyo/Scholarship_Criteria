@@ -6,7 +6,9 @@
     "scholarship_notes": "The recipient will be required to write a thank-you letter, provide a bio and fill out a certificate from the Presser Foundation. A copy of the press release is provided to the foundation as well. Awarded via paper submission, all in the current spring semester.",
     "donor_name": "UCO Foundation",
     "committee_name": "",
-    "candidate_count": 10
+    "candidate_count": 10,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

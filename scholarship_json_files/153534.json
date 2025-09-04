@@ -6,7 +6,9 @@
     "scholarship_notes": "Awarded out of Presidential Partners 2023",
     "donor_name": "UCO Foundation",
     "committee_name": "ADV- Presidential Partners",
-    "candidate_count": 175
+    "candidate_count": 175,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

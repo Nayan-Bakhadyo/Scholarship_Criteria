@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "ADV- Social Impact",
-    "candidate_count": 57
+    "candidate_count": 57,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

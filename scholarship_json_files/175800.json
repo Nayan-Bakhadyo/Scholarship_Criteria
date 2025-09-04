@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "",
     "committee_name": "CEPS - PSY - Kathryn Lanay Moyer",
-    "candidate_count": 114
+    "candidate_count": 114,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

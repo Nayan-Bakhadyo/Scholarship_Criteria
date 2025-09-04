@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "CEPS - PSY Lois and Phil Ball",
-    "candidate_count": 60
+    "candidate_count": 60,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

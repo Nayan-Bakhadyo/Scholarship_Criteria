@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "FSI- FSI Scholarships",
-    "candidate_count": 4
+    "candidate_count": 4,
+    "college_code": "CMS",
+    "college_name": "College of Mathematics and Science"
   },
   "renewable_information": {
     "is_renewable": false,

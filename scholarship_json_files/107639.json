@@ -6,7 +6,9 @@
     "scholarship_notes": "4 Scholarships: 2 male / 2 female",
     "donor_name": "UCO Foundation",
     "committee_name": "Dr. Joan E. Bottger Endowed Scholarship for Kines",
-    "candidate_count": 2
+    "candidate_count": 2,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

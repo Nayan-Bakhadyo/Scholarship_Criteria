@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "",
-    "candidate_count": 3
+    "candidate_count": 3,
+    "college_code": "CLA",
+    "college_name": "College of Liberal Arts"
   },
   "renewable_information": {
     "is_renewable": false,

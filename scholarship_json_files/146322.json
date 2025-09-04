@@ -6,7 +6,9 @@
     "scholarship_notes": "Scholarship cloned on Aug 1 2022 2:05PM",
     "donor_name": "",
     "committee_name": "ESS General Awards",
-    "candidate_count": 1
+    "candidate_count": 1,
+    "college_code": "GENERAL",
+    "college_name": "General/Cross-College"
   },
   "renewable_information": {
     "is_renewable": false,

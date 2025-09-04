@@ -6,7 +6,9 @@
     "scholarship_notes": "Awarding for the last time in Spring 2020 unless recipients don't use in academic year 2020-2021.",
     "donor_name": "UCO Foundation",
     "committee_name": "",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

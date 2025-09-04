@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "",
     "committee_name": "CEPS - Barbara and George Rigler Endowed Scholarsh",
-    "candidate_count": 130
+    "candidate_count": 130,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

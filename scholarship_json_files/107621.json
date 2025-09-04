@@ -6,7 +6,9 @@
     "scholarship_notes": "Seniors graduating in December are eligible to receive full scholarship in their last semester.",
     "donor_name": "UCO Foundation",
     "committee_name": "CEPS - Fashion Marketing Scholarships",
-    "candidate_count": 4
+    "candidate_count": 4,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

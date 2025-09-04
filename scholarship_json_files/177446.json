@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "CLA - History and Geography",
-    "candidate_count": 36
+    "candidate_count": 36,
+    "college_code": "CLA",
+    "college_name": "College of Liberal Arts"
   },
   "renewable_information": {
     "is_renewable": false,

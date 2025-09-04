@@ -6,7 +6,9 @@
     "scholarship_notes": "Committee members= representatives from the Alpha Gamma Delta Alumni Chapter",
     "donor_name": "UCO Foundation",
     "committee_name": "ADV- Alpha Gamma Delta",
-    "candidate_count": 4
+    "candidate_count": 4,
+    "college_code": "GENERAL",
+    "college_name": "General/Cross-College"
   },
   "renewable_information": {
     "is_renewable": false,

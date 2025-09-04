@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "ADV- STLR",
-    "candidate_count": 14
+    "candidate_count": 14,
+    "college_code": "CLA",
+    "college_name": "College of Liberal Arts"
   },
   "renewable_information": {
     "is_renewable": false,

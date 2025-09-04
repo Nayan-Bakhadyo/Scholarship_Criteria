@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "ADV- Veterans/Military Scholarships",
-    "candidate_count": 36
+    "candidate_count": 36,
+    "college_code": "GENERAL",
+    "college_name": "General/Cross-College"
   },
   "renewable_information": {
     "is_renewable": false,

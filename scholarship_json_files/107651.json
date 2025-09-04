@@ -6,7 +6,9 @@
     "scholarship_notes": "This scholarship rotates annually within the String, Piano, Winds/Perc Divisions. 2020 - Piano 2021 - Winds/Perc 2022- String",
     "donor_name": "UCO Foundation",
     "committee_name": "CFAD - Winds and Percussion Division",
-    "candidate_count": 11
+    "candidate_count": 11,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

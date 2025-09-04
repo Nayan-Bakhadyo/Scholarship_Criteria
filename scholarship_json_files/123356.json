@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "COB - Finance Department Scholarship Committee",
-    "candidate_count": 58
+    "candidate_count": 58,
+    "college_code": "COB",
+    "college_name": "College of Business"
   },
   "renewable_information": {
     "is_renewable": false,

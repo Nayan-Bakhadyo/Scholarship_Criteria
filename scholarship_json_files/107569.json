@@ -6,7 +6,9 @@
     "scholarship_notes": "Eligible for full disbursement if graduating in December",
     "donor_name": "UCO Foundation",
     "committee_name": "CEPS - Dr. Cobb Scholarship Committee",
-    "candidate_count": 5
+    "candidate_count": 5,
+    "college_code": "COB",
+    "college_name": "College of Business"
   },
   "renewable_information": {
     "is_renewable": false,

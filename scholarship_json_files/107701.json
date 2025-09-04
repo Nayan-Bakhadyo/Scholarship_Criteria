@@ -6,7 +6,9 @@
     "scholarship_notes": "Email or mail copies of the Hannah McCarty recipient's essay's to the Pam and Jack McCarty. Get current address from Development office.",
     "donor_name": "UCO Foundation",
     "committee_name": "CFAD - Dance / Theatre Arts",
-    "candidate_count": 11
+    "candidate_count": 11,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

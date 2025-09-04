@@ -6,7 +6,9 @@
     "scholarship_notes": "These awards are often to assist due to errors on accounts or communication errors for awards. Scholarship cloned on Aug 15 2022 2:04PM",
     "donor_name": "",
     "committee_name": "ESS Freshman Committee",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "college_code": "COB",
+    "college_name": "College of Business"
   },
   "renewable_information": {
     "is_renewable": false,

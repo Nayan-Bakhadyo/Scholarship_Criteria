@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "ADV- Presidential Partners",
-    "candidate_count": 5
+    "candidate_count": 5,
+    "college_code": "GENERAL",
+    "college_name": "General/Cross-College"
   },
   "renewable_information": {
     "is_renewable": false,

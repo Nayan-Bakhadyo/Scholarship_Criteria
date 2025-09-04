@@ -6,7 +6,9 @@
     "scholarship_notes": "can get full amount during student teaching semester",
     "donor_name": "UCO Foundation",
     "committee_name": "CEPS - Elementary Education Teacher Scholarship in",
-    "candidate_count": 82
+    "candidate_count": 82,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

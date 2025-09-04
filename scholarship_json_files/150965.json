@@ -6,7 +6,9 @@
     "scholarship_notes": "Eligible for full distribution in fall semester if graduating.",
     "donor_name": "UCO Foundation",
     "committee_name": "Joe and Barbara Phillips Endowed Memorial Scholar",
-    "candidate_count": 89
+    "candidate_count": 89,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

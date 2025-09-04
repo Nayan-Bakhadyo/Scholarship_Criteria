@@ -6,7 +6,9 @@
     "scholarship_notes": "Eligible for full disbursement if graduating in December",
     "donor_name": "UCO Foundation",
     "committee_name": "CEPS - Green Moseley",
-    "candidate_count": 23
+    "candidate_count": 23,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

@@ -6,7 +6,9 @@
     "scholarship_notes": "All funds to be awarded in student teaching semester.",
     "donor_name": "UCO Foundation",
     "committee_name": "Wilfred and Faye McCombs Scholarship",
-    "candidate_count": 17
+    "candidate_count": 17,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

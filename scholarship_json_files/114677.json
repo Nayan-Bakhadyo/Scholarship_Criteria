@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "ADV- LFSA",
-    "candidate_count": 53
+    "candidate_count": 53,
+    "college_code": "GENERAL",
+    "college_name": "General/Cross-College"
   },
   "renewable_information": {
     "is_renewable": false,

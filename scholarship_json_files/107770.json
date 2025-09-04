@@ -6,7 +6,9 @@
     "scholarship_notes": "This scholarship will be awarded out of the CLA Annual Fund this year (2024-2025 academic year).",
     "donor_name": "UCO Foundation",
     "committee_name": "CLA - History and Geography",
-    "candidate_count": 4
+    "candidate_count": 4,
+    "college_code": "CLA",
+    "college_name": "College of Liberal Arts"
   },
   "renewable_information": {
     "is_renewable": false,

@@ -6,7 +6,9 @@
     "scholarship_notes": "Accounting Dept. Advisory Board Endowed scholarship (renamed Charles Pursifull Scholarship for award purposes only)",
     "donor_name": "UCO Foundation",
     "committee_name": "COB - ACCT Department Scholarship Committee",
-    "candidate_count": 15
+    "candidate_count": 15,
+    "college_code": "COB",
+    "college_name": "College of Business"
   },
   "renewable_information": {
     "is_renewable": false,

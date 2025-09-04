@@ -6,7 +6,9 @@
     "scholarship_notes": "Leadership Office Awarded",
     "donor_name": "UCO Institutional Waivers - ESS",
     "committee_name": "ESS Leadership",
-    "candidate_count": 0
+    "candidate_count": 0,
+    "college_code": "GENERAL",
+    "college_name": "General/Cross-College"
   },
   "renewable_information": {
     "is_renewable": true,

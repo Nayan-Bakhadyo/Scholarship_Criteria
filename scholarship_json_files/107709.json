@@ -6,7 +6,9 @@
     "scholarship_notes": "The CFAD Dean chooses two top picks from each department and the Arts Administration program. The Donor Panel then chooses the Dean's Award recipient from those top choices. The remaining #1 choices from each dept and Arts Administration program receive a Dean's Recognition award of lesser value.",
     "donor_name": "UCO Foundation",
     "committee_name": "CFAD",
-    "candidate_count": 41
+    "candidate_count": 41,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

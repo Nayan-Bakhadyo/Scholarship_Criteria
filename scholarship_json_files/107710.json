@@ -6,7 +6,9 @@
     "scholarship_notes": "Will rotate spendable between CLA and CFAD each year.",
     "donor_name": "UCO Foundation",
     "committee_name": "CFAD - Department of Art",
-    "candidate_count": 11
+    "candidate_count": 11,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

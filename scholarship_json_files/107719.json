@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "CLA - Criminal Justice",
-    "candidate_count": 32
+    "candidate_count": 32,
+    "college_code": "CLA",
+    "college_name": "College of Liberal Arts"
   },
   "renewable_information": {
     "is_renewable": false,

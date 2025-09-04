@@ -6,7 +6,9 @@
     "scholarship_notes": "Committee members= someone from the Foundation, Alumni Association and Leadership Central",
     "donor_name": "UCO Foundation",
     "committee_name": "ADV- Allison Martin Pumphrey",
-    "candidate_count": 117
+    "candidate_count": 117,
+    "college_code": "GENERAL",
+    "college_name": "General/Cross-College"
   },
   "renewable_information": {
     "is_renewable": false,

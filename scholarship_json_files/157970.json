@@ -6,7 +6,9 @@
     "scholarship_notes": "Donor plans to replenish scholarship fund each year and would like to give close to $1000/year if possible.",
     "donor_name": "UCO Foundation",
     "committee_name": "CFAD - School of Music",
-    "candidate_count": 557
+    "candidate_count": 557,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "",
     "committee_name": "CEPS - Bill and Ann Cather Endowed Scholarship in",
-    "candidate_count": 17
+    "candidate_count": 17,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

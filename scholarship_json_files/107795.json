@@ -6,7 +6,9 @@
     "scholarship_notes": "Madeline Balsiger awarded in Spring 2020. KR",
     "donor_name": "UCO Foundation",
     "committee_name": "CLA - Mass Comm Barbara Norman Scholarship",
-    "candidate_count": 24
+    "candidate_count": 24,
+    "college_code": "CLA",
+    "college_name": "College of Liberal Arts"
   },
   "renewable_information": {
     "is_renewable": false,

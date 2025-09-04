@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "UCO Foundation",
     "committee_name": "CEPS - The Jo Bazhaw Future Teacher Endowed Schola",
-    "candidate_count": 185
+    "candidate_count": 185,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

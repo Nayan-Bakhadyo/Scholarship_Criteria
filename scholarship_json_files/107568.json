@@ -6,7 +6,9 @@
     "scholarship_notes": "*Two or more scholarships preferred*",
     "donor_name": "UCO Foundation",
     "committee_name": "CEPS - Dr. Charles McBurney Scholarship Committee",
-    "candidate_count": 18
+    "candidate_count": 18,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

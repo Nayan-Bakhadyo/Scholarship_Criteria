@@ -6,7 +6,9 @@
     "scholarship_notes": "Can receive full scholarship if they are graduating that semester.",
     "donor_name": "UCO Foundation",
     "committee_name": "Tiffany Wise MPH Endowed Scholarship",
-    "candidate_count": 3
+    "candidate_count": 3,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

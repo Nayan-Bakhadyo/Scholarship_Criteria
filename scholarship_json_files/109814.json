@@ -6,7 +6,9 @@
     "scholarship_notes": "Eligible for full disbursement during student teaching semester fall or spring.",
     "donor_name": "UCO Foundation",
     "committee_name": "CEPS - Dr. Pam Kuzminski Student Teacher Award",
-    "candidate_count": 16
+    "candidate_count": 16,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

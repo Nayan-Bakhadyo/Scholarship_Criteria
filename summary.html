@@ -78,8 +78,8 @@
                         <h1 class="display-4 mb-3">
                             <i class="bi bi-graph-up me-3"></i>Scholarship Analysis Summary
                         </h1>
-                        <p class="lead">Comprehensive analysis of 671 UCO Foundation scholarships</p>
-                        <small class="text-light">Last updated: September 3, 2025</small>
+                        <p class="lead">Comprehensive analysis of 670 UCO Foundation scholarships</p>
+                        <small class="text-light">Last updated: September 4, 2025</small>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,7 @@
                 <div class="col-md-3">
                     <div class="card summary-card border-0 shadow">
                         <div class="card-body text-center">
-                            <div class="stat-number">671</div>
+                            <div class="stat-number">670</div>
                             <h6 class="card-title text-muted">Total Scholarships</h6>
                             <small class="text-secondary">Analyzed across all colleges</small>
                         </div>
@@ -101,16 +101,16 @@
                 <div class="col-md-3">
                     <div class="card summary-card border-0 shadow">
                         <div class="card-body text-center">
-                            <div class="stat-number text-warning">377</div>
+                            <div class="stat-number text-warning">324</div>
                             <h6 class="card-title text-muted">Essay Required</h6>
-                            <small class="text-secondary">56.3% require essays</small>
+                            <small class="text-secondary">48.4% require essays</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card summary-card border-0 shadow">
                         <div class="card-body text-center">
-                            <div class="stat-number text-success">1,741</div>
+                            <div class="stat-number text-success">1741</div>
                             <h6 class="card-title text-muted">Banner Accessible</h6>
                             <small class="text-secondary">46.3% automated criteria</small>
                         </div>
@@ -204,7 +204,7 @@
                             <ul class="list-unstyled">
                                 <li class="mb-2"><span class="badge bg-info">5 Colleges</span> Major pathway filtering</li>
                                 <li class="mb-2"><span class="badge bg-warning">414 Criteria</span> GPA-based filtering</li>
-                                <li class="mb-2"><span class="badge bg-danger">377 Scholarships</span> Essay requirement filtering</li>
+                                <li class="mb-2"><span class="badge bg-danger">324 Scholarships</span> Essay requirement filtering</li>
                                 <li class="mb-2"><span class="badge bg-secondary">6 Levels</span> Classification filtering</li>
                                 <li class="mb-2"><span class="badge bg-success">113 Scholarships</span> Need-based filtering</li>
                             </ul>
@@ -309,16 +309,16 @@
         // Load college distribution data
         function loadCollegeData() {
             const colleges = [
-                { name: 'CMS', count: 58, color: '#dc3545' },
-                { name: 'CLA', count: 102, color: '#28a745' },
-                { name: 'COB', count: 50, color: '#007bff' },
-                { name: 'CFAD', count: 58, color: '#ffc107' },
-                { name: 'CEPS', count: 92, color: '#6f42c1' }
+                { name: 'CLA', count: 131, color: '#dc3545' },
+                { name: 'CEPS', count: 126, color: '#28a745' },
+                { name: 'COB', count: 116, color: '#007bff' },
+                { name: 'CFAD', count: 105, color: '#ffc107' },
+                { name: 'CMS', count: 104, color: '#6f42c1' }
             ];
 
             const chartContainer = document.getElementById('collegeChart');
             colleges.forEach(college => {
-                const percentage = (college.count / 360 * 100).toFixed(1);
+                const percentage = (college.count / 582 * 100).toFixed(1);
                 chartContainer.innerHTML += `
                     <div class="mb-3">
                         <div class="d-flex justify-content-between align-items-center mb-1">
@@ -357,11 +357,11 @@
             // Load essay workload by college
             const workloadContainer = document.getElementById('essayWorkload');
             const collegeWorkload = [
-                { college: 'CLA', essays: 32, total: 219 },
-                { college: 'CEPS', essays: 40, total: 164 },
-                { college: 'COB', essays: 19, total: 212 },
-                { college: 'CFAD', essays: 15, total: 213 },
-                { college: 'CMS', essays: 11, total: 125 }
+                { college: 'CEPS', essays: 50, total: 103 },
+                { college: 'CLA', essays: 45, total: 115 },
+                { college: 'CMS', essays: 16, total: 34 },
+                { college: 'CFAD', essays: 25, total: 72 },
+                { college: 'COB', essays: 24, total: 58 }
             ];
 
             collegeWorkload.forEach(item => {
@@ -439,7 +439,7 @@
         // Sample data functions (these would normally load from your actual JSON files)
         async function loadEssayAnalysisData() {
             return {
-                "total_scholarships_with_essays": 377,
+                "total_scholarships_with_essays": 324,
                 "essay_types": {
                     "GEN_Financial Need": 113,
                     "GEN_Personal_Statement": 51,
@@ -460,7 +460,7 @@
 
         async function loadCriteriaSummaryData() {
             return {
-                "total_scholarships": 671,
+                "total_scholarships": 670,
                 "total_criteria": 3758,
                 "criteria_types": {
                     "application": 1226,
@@ -500,7 +500,7 @@
                 "filtering_impact": {
                     "college_filter": "5 colleges with specific scholarship programs",
                     "gpa_filter": "414 criteria with GPA requirements",
-                    "essay_filter": "377 scholarships requiring essays"
+                    "essay_filter": "324 scholarships requiring essays"
                 }
             };
         }

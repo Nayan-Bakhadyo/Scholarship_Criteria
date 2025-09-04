@@ -6,7 +6,9 @@
     "scholarship_notes": "This has two fund numbers.",
     "donor_name": "UCO Foundation",
     "committee_name": "",
-    "candidate_count": 51
+    "candidate_count": 51,
+    "college_code": "COB",
+    "college_name": "College of Business"
   },
   "renewable_information": {
     "is_renewable": false,

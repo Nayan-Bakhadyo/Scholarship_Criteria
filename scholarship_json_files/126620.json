@@ -6,7 +6,9 @@
     "scholarship_notes": "The initial gift will be $100,000. Equal portions will be distributed annually until the completion of the gift, awarding up to 5 individuals annually.",
     "donor_name": "UCO Foundation",
     "committee_name": "CFAD - Department of Dance",
-    "candidate_count": 17
+    "candidate_count": 17,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,

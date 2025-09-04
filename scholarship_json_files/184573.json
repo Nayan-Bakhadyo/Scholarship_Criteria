@@ -6,7 +6,9 @@
     "scholarship_notes": "",
     "donor_name": "",
     "committee_name": "Gregory/ Shearer Endowed Education Scholarship",
-    "candidate_count": 14
+    "candidate_count": 14,
+    "college_code": "CEPS",
+    "college_name": "College of Education and Professional Studies"
   },
   "renewable_information": {
     "is_renewable": false,

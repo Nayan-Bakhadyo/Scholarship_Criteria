@@ -6,7 +6,9 @@
     "scholarship_notes": "Parman incoming student money",
     "donor_name": "UCO Foundation",
     "committee_name": "ADV- Incoming Student",
-    "candidate_count": 732
+    "candidate_count": 732,
+    "college_code": "GENERAL",
+    "college_name": "General/Cross-College"
   },
   "renewable_information": {
     "is_renewable": false,

@@ -6,7 +6,9 @@
     "scholarship_notes": "Cycles through the departments in the following order: Theatre, ACM, SOM, SOD, Dance, Art 2021/2022 - Design",
     "donor_name": "UCO Foundation",
     "committee_name": "CFAD - Department of Dance",
-    "candidate_count": 8
+    "candidate_count": 8,
+    "college_code": "CFAD",
+    "college_name": "College of Fine Arts and Design"
   },
   "renewable_information": {
     "is_renewable": false,
